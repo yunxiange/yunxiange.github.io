@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="project," />
 
 
 
@@ -86,15 +86,19 @@
 
 
 
-<meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="YXX技术人生">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="背景静态网站顾名思义是由静态页面构成的网站，不涉及到后端数据库系统，页面中的内容在制作的时候就已经写好了。若需要去改某个页面的内容则需要找到该页面的模板文件修改。
+最近收到了一个大学老师的消息，问我是否有空能帮她做个课题申报项目网站。我按照了项目开发的流程先打听了老师的项目需求，老师说该项目需求与在大学期间帮她做的那个课题申报项目类似，具体需求内容在此不多介绍了，主要是课题的一些相关内容需要采用网">
+<meta property="og:type" content="article">
+<meta property="og:title" content="重构静态网站建设之我见">
+<meta property="og:url" content="http://yoursite.com/2017/07/29/refactor-static-website/index.html">
 <meta property="og:site_name" content="YXX技术人生">
-<meta property="og:description">
+<meta property="og:description" content="背景静态网站顾名思义是由静态页面构成的网站，不涉及到后端数据库系统，页面中的内容在制作的时候就已经写好了。若需要去改某个页面的内容则需要找到该页面的模板文件修改。
+最近收到了一个大学老师的消息，问我是否有空能帮她做个课题申报项目网站。我按照了项目开发的流程先打听了老师的项目需求，老师说该项目需求与在大学期间帮她做的那个课题申报项目类似，具体需求内容在此不多介绍了，主要是课题的一些相关内容需要采用网">
+<meta property="og:updated_time" content="2017-07-29T16:47:53.462Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="YXX技术人生">
-<meta name="twitter:description">
+<meta name="twitter:title" content="重构静态网站建设之我见">
+<meta name="twitter:description" content="背景静态网站顾名思义是由静态页面构成的网站，不涉及到后端数据库系统，页面中的内容在制作的时候就已经写好了。若需要去改某个页面的内容则需要找到该页面的模板文件修改。
+最近收到了一个大学老师的消息，问我是否有空能帮她做个课题申报项目网站。我按照了项目开发的流程先打听了老师的项目需求，老师说该项目需求与在大学期间帮她做的那个课题申报项目类似，具体需求内容在此不多介绍了，主要是课题的一些相关内容需要采用网">
 
 
 
@@ -112,7 +116,7 @@
   };
 </script>
 
-  <title> YXX技术人生 </title>
+  <title> 重构静态网站建设之我见 | YXX技术人生 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -133,9 +137,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -235,9 +237,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -257,10 +259,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2017/07/29/refactor-static-website/" itemprop="url">
-                  重构静态网站建设之我见
-                </a>
+                重构静态网站建设之我见
               
             
           </h1>
@@ -300,145 +299,67 @@
       
 
       
-        
-          
-          背景静态网站顾名思义是由静态页面构成的网站，不涉及到后端数据库系统，页面中的内容在制作的时候就已经写好了。若需要去改某个页面的内容则需要找到该页面的模板文件修改。
-最近收到了一个大学老师的消息，问我是否有空能帮她做个课题申报项目网站。我按照了项目开发的流程先打听了老师的项目需求，老师说该项目需求与在
-          ...
+        <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>静态网站顾名思义是由静态页面构成的网站，不涉及到后端数据库系统，页面中的内容在制作的时候就已经写好了。若需要去改某个页面的内容则需要找到该页面的模板文件修改。</p>
+<p>最近收到了一个大学老师的消息，问我是否有空能帮她做个课题申报项目网站。我按照了项目开发的流程先打听了老师的项目需求，老师说该项目需求与在大学期间帮她做的那个课题申报项目类似，具体需求内容在此不多介绍了，主要是课题的一些相关内容需要采用网站的形式展示出来。</p>
+<p>通过收藏夹打开了大学期间做的那个网站，网站挂靠在校园的服务器上，还能完好的访问。整个网站内容大致有7大板块，每个板块由侧边栏目录导航内容和右侧内容显示区块组成，整个网站大概有30个静态页面。我习惯性的会打开浏览器的控制台看页面结构和源码，发现页面中的资源引入和跳转链接全都采用了相对路径，出现了很多以.和..构成的链接，对我这种有整洁癖好的人引起了强迫症。</p>
+<p>老师把四年前的源代码发给了我，我细看源码网站的内容由一个一个静态html页面组成，没有公共的模块内容，页面中的顶部图、导航条、版权栏都分散在各个页面中，没有独立出来。新的需求同样有这三块的内容，修改一处意味着每个页面都得改一次，严重影响了开发效率。基于此寻思着新的解决方案搭建这个静态网站。</p>
+<h2 id="技术调研"><a href="#技术调研" class="headerlink" title="技术调研"></a>技术调研</h2><p>首先想到的是做这个静态网站能否像写博客那样，利用markdown语法书写各个页面的内容。但考虑到页面中的内容除了纯文本内容外，还包含了pdf文档、视频内容。对整个网站内容大致细分了各个组成模块，发现可以抽出一个基础的模板布局文件，将网站的顶部图片、导航条、版权栏内容单独抽出来，再分别引入到各个页面中，浏览pdf文档与观看视频功能可以制作成组件，在页面中通过使用组件就能方便快捷搭建内容。</p>
+<p>基于上述的需求诉求，我采用了模板引擎来完成这些内容。模板引擎是个什么东西呢？模板引擎（这里特指用于Web开发的模板引擎）是为了使用户界面与业务数据（内容）分离而产生的，它可以生成特定格式的文档，用于网站的模板引擎就会生成一个标准的HTML文档。</p>
+<p>模板引擎的实现方式有很多，最简单的是“置换型”模板引擎，这类模板引擎只是将指定模板内容（字符串）中的特定标记（子字符串）替换一下便生成了最终需要的业务数据（比如网页）。置换型模板引擎实现简单，但其效率低下，无法满足高负载的应用需求（比如有海量访问的网站），因此还出现了“解释型”模板引擎和“编译型”模板引擎等。模板引擎又分为前端模板引擎和后端模板引擎。后端模板引擎针对各种语言分别有相对应的模板引擎，像PHP语言比较知名的smarty，Java语言Velocity，Python语言Django等等。常见流行的前端模板引擎有artTemplate、Mustache、HandlebarsJS、EJS、Jade（新名pug）、Swig等等。</p>
+<p>静态网站不涉及到后端内容，选用前端模板即可解决问题。那这么多前端模板引擎如何选择才能找到一个合适的模板引擎呢？在开发中有良好的运行调试能力，支持模板继承和文件引入，支持作用域变量和判断循环条件语句，拥有简洁的语法在一定条件下能减少代码书写量，拥有上述这些特点的模板引擎都能支撑起业务开发，于是我选择了pug模板引擎。</p>
+<h2 id="实践思路"><a href="#实践思路" class="headerlink" title="实践思路"></a>实践思路</h2><h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2>
+      
+    </div>
 
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/07/29/refactor-static-website/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+    <div>
+      
         
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/05/09/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-09T13:12:51+08:00" content="2016-05-09">
-              2016-05-09
-            </time>
-          </span>
-
+        <div class="post-tags">
           
-
-          
-            
-          
-
-          
-
-          
-          
-
+            <a href="/tags/project/" rel="tag">#project</a>
           
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
-          ...
-
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/05/09/hello-world/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/05/09/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
           </div>
-        
-      
-    </div>
 
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -446,6 +367,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -465,8 +390,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -516,6 +450,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#背景"><span class="nav-number">1.</span> <span class="nav-text">背景</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#技术调研"><span class="nav-number">2.</span> <span class="nav-text">技术调研</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#实践思路"><span class="nav-number">3.</span> <span class="nav-text">实践思路</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小结"><span class="nav-number">4.</span> <span class="nav-text">小结</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -612,6 +557,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 

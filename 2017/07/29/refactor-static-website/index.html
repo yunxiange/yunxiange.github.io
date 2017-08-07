@@ -96,7 +96,7 @@
 最近收到了一个大学老师的消息，问我是否有空能帮她做个课题申报项目网站。我按照了项目开发的流程先打听了老师的项目需求，老师说该项目需求与在大学期间帮她做的那个课题申报项目类似，具体需求内容在此不多介绍了，主要是课题的一些相关内容需要采用网">
 <meta property="og:image" content="http://yoursite.com/assets/2017-07-project-directory.png">
 <meta property="og:image" content="http://yoursite.com/assets/2017-07-29-work-stream.png">
-<meta property="og:updated_time" content="2017-08-07T14:08:26.277Z">
+<meta property="og:updated_time" content="2017-08-07T14:12:34.246Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="重构静态网站建设之我见">
 <meta name="twitter:description" content="背景静态网站顾名思义是由静态页面构成的网站，不涉及到后端数据库系统，页面中的内容在制作的时候就已经写好了。若需要去改某个页面的内容则需要找到该页面的模板文件修改。
@@ -315,7 +315,7 @@
 <p><img src="/assets/2017-07-project-directory.png" alt="目录结构图"></p>
 <h3 id="开发细节"><a href="#开发细节" class="headerlink" title="开发细节"></a>开发细节</h3><p>得益于pug简洁的模板语法和强大的模板功能，pug在这个项目中发挥了很大作用。每个页面都是继承自base layout，其中base layout包括页面banner、nav、footer公用的组件，nav的状态可以通过在具体页面中传入变量实现。每个页面根据实际情况可以划分为侧边导航栏组件和内容区域，从而组成一个个具体的页面。</p>
 <p>pdf文件浏览采用开源的pdf.js库，能够实现跨平台在线浏览pdf文件内容。视频文件考虑到文件格式兼容性和在线存储，使用了传统的flash流式播放。封装了这两个组件，在使用的时候采用参数传入的方式来调动功能，从而达到复用。</p>
-<p>采用这种继承layout和组件形式开发，节省了很多开发工作量，并且开发效率得到很大提升，维护性大大提高。</p>
+<p>采用这种继承layout和组件形式开发，节省了很多开发工作量，开发效率得到很大提升，并且易于维护。</p>
 <h3 id="构建部署"><a href="#构建部署" class="headerlink" title="构建部署"></a>构建部署</h3><p>现在每个网站的开发、测试、上线离不开一个构建部署脚本。node.js的不断发展，生态系统日益壮大，有很多方便快捷的工具可以用于开发构建。本项目用到了将pug模板编译成html内容，css和js文件压缩，浏览器同步自动更新构建工具，基于文件流和任务式自动化构建工具gulp.js，能够简单高效的完成网站的构建与部署。</p>
 <p><img src="/assets/2017-07-29-work-stream.png" alt="构建流程图"></p>
 <h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>完成整个网站开发涉及到了方方面面，一点一滴的积累和实践，得到了成长，收获了快乐。</p>

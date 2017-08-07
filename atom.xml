@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-07-29T16:47:53.462Z</updated>
+  <updated>2017-08-07T13:55:59.975Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/07/29/refactor-static-website/"/>
     <id>http://yoursite.com/2017/07/29/refactor-static-website/</id>
     <published>2017-07-29T15:03:29.000Z</published>
-    <updated>2017-07-29T16:47:53.462Z</updated>
+    <updated>2017-08-07T13:55:59.975Z</updated>
     
     <content type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;静态网站顾名思义是由静态页面构成的网站，不涉及到后端数据库系统，页面中的内容在制作的时候就已经写好了。若需要去改某个页面的内容则需要找到该页面的模板文件修改。&lt;/p&gt;
 &lt;p&gt;最近收到了一个大学老师的消息，问我是否有空能帮她做个课题申报项目网站。我按照了项目开发的流程先打听了老师的项目需求，老师说该项目需求与在大学期间帮她做的那个课题申报项目类似，具体需求内容在此不多介绍了，主要是课题的一些相关内容需要采用网站的形式展示出来。&lt;/p&gt;
@@ -30,7 +30,14 @@
 &lt;p&gt;基于上述的需求诉求，我采用了模板引擎来完成这些内容。模板引擎是个什么东西呢？模板引擎（这里特指用于Web开发的模板引擎）是为了使用户界面与业务数据（内容）分离而产生的，它可以生成特定格式的文档，用于网站的模板引擎就会生成一个标准的HTML文档。&lt;/p&gt;
 &lt;p&gt;模板引擎的实现方式有很多，最简单的是“置换型”模板引擎，这类模板引擎只是将指定模板内容（字符串）中的特定标记（子字符串）替换一下便生成了最终需要的业务数据（比如网页）。置换型模板引擎实现简单，但其效率低下，无法满足高负载的应用需求（比如有海量访问的网站），因此还出现了“解释型”模板引擎和“编译型”模板引擎等。模板引擎又分为前端模板引擎和后端模板引擎。后端模板引擎针对各种语言分别有相对应的模板引擎，像PHP语言比较知名的smarty，Java语言Velocity，Python语言Django等等。常见流行的前端模板引擎有artTemplate、Mustache、HandlebarsJS、EJS、Jade（新名pug）、Swig等等。&lt;/p&gt;
 &lt;p&gt;静态网站不涉及到后端内容，选用前端模板即可解决问题。那这么多前端模板引擎如何选择才能找到一个合适的模板引擎呢？在开发中有良好的运行调试能力，支持模板继承和文件引入，支持作用域变量和判断循环条件语句，拥有简洁的语法在一定条件下能减少代码书写量，拥有上述这些特点的模板引擎都能支撑起业务开发，于是我选择了pug模板引擎。&lt;/p&gt;
-&lt;h2 id=&quot;实践思路&quot;&gt;&lt;a href=&quot;#实践思路&quot; class=&quot;headerlink&quot; title=&quot;实践思路&quot;&gt;&lt;/a&gt;实践思路&lt;/h2&gt;&lt;h2 id=&quot;小结&quot;&gt;&lt;a href=&quot;#小结&quot; class=&quot;headerlink&quot; title=&quot;小结&quot;&gt;&lt;/a&gt;小结&lt;/h2&gt;</content>
+&lt;h2 id=&quot;实践思路&quot;&gt;&lt;a href=&quot;#实践思路&quot; class=&quot;headerlink&quot; title=&quot;实践思路&quot;&gt;&lt;/a&gt;实践思路&lt;/h2&gt;&lt;h3 id=&quot;目录规划&quot;&gt;&lt;a href=&quot;#目录规划&quot; class=&quot;headerlink&quot; title=&quot;目录规划&quot;&gt;&lt;/a&gt;目录规划&lt;/h3&gt;&lt;p&gt;对一个静态网站来说，资源包含静态模板页面、样式文件、静态资源（如图片、视频、文档等等）。如何设计整个网站的目录结构对开发效率来说有很大的影响。目前大体上网站的目录结构有两种分类方式，一种是根据功能来划分目录结构，比如某个页面实现所需要的业务组件、样式都放在同一个目录里，这种对于业务功能比较复杂类应用来说尤为方便，资源查找和引用一目了然；另一种是根据文件类型来划分目录结构，这种对于网站文件管理比较方便。&lt;/p&gt;
+&lt;p&gt;根据这个静态网站的需求来开发，网站内容偏展示，不涉及复杂的页面交互逻辑，以文件类型为目录结构规划网站内容。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/2017-07-project-directory.png&quot; alt=&quot;目录结构图&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;开发细节&quot;&gt;&lt;a href=&quot;#开发细节&quot; class=&quot;headerlink&quot; title=&quot;开发细节&quot;&gt;&lt;/a&gt;开发细节&lt;/h3&gt;&lt;p&gt;得益于pug简洁的模板语法和强大的模板功能，pug在这个项目中发挥了很大作用。每个页面都是继承自base layout，其中base layout包括页面banner、nav、footer公用的组件，nav的状态可以通过在具体页面中传入变量实现。每个页面根据实际情况可以划分为侧边导航栏组件和内容区域，从而组成一个个具体的页面。采用这种继承layout和组件形式开发，节省了很多开发工作量，但是维护性大大提高，开发效率得到很大提升。&lt;/p&gt;
+&lt;h3 id=&quot;构建部署&quot;&gt;&lt;a href=&quot;#构建部署&quot; class=&quot;headerlink&quot; title=&quot;构建部署&quot;&gt;&lt;/a&gt;构建部署&lt;/h3&gt;&lt;p&gt;现在每个网站的开发、测试、上线离不开一个构建部署脚本。node.js的不断发展，生态系统日益壮大，有很多方便快捷的工具可以用于构建。本项目用到了将pug模板编译成html内容，css和js文件压缩，浏览器同步自动更新构建工具，基于文件流和任务式自动化构建工具gulp.js，能够简单高效的完成网站的构建与部署。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/2017-07-29-work-stream.png&quot; alt=&quot;构建流程图&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;小结&quot;&gt;&lt;a href=&quot;#小结&quot; class=&quot;headerlink&quot; title=&quot;小结&quot;&gt;&lt;/a&gt;小结&lt;/h2&gt;&lt;p&gt;完成整个网站开发涉及到了方方面面，一点一滴的积累和实践，得到了成长，收获了快乐。&lt;/p&gt;
+</content>
     
     <summary type="html">
     

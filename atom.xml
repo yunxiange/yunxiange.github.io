@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-08-07T13:55:59.975Z</updated>
+  <updated>2017-08-07T13:59:10.177Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/07/29/refactor-static-website/"/>
     <id>http://yoursite.com/2017/07/29/refactor-static-website/</id>
     <published>2017-07-29T15:03:29.000Z</published>
-    <updated>2017-08-07T13:55:59.975Z</updated>
+    <updated>2017-08-07T13:59:10.177Z</updated>
     
     <content type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;静态网站顾名思义是由静态页面构成的网站，不涉及到后端数据库系统，页面中的内容在制作的时候就已经写好了。若需要去改某个页面的内容则需要找到该页面的模板文件修改。&lt;/p&gt;
 &lt;p&gt;最近收到了一个大学老师的消息，问我是否有空能帮她做个课题申报项目网站。我按照了项目开发的流程先打听了老师的项目需求，老师说该项目需求与在大学期间帮她做的那个课题申报项目类似，具体需求内容在此不多介绍了，主要是课题的一些相关内容需要采用网站的形式展示出来。&lt;/p&gt;
@@ -34,7 +34,7 @@
 &lt;p&gt;根据这个静态网站的需求来开发，网站内容偏展示，不涉及复杂的页面交互逻辑，以文件类型为目录结构规划网站内容。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/2017-07-project-directory.png&quot; alt=&quot;目录结构图&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;开发细节&quot;&gt;&lt;a href=&quot;#开发细节&quot; class=&quot;headerlink&quot; title=&quot;开发细节&quot;&gt;&lt;/a&gt;开发细节&lt;/h3&gt;&lt;p&gt;得益于pug简洁的模板语法和强大的模板功能，pug在这个项目中发挥了很大作用。每个页面都是继承自base layout，其中base layout包括页面banner、nav、footer公用的组件，nav的状态可以通过在具体页面中传入变量实现。每个页面根据实际情况可以划分为侧边导航栏组件和内容区域，从而组成一个个具体的页面。采用这种继承layout和组件形式开发，节省了很多开发工作量，但是维护性大大提高，开发效率得到很大提升。&lt;/p&gt;
-&lt;h3 id=&quot;构建部署&quot;&gt;&lt;a href=&quot;#构建部署&quot; class=&quot;headerlink&quot; title=&quot;构建部署&quot;&gt;&lt;/a&gt;构建部署&lt;/h3&gt;&lt;p&gt;现在每个网站的开发、测试、上线离不开一个构建部署脚本。node.js的不断发展，生态系统日益壮大，有很多方便快捷的工具可以用于构建。本项目用到了将pug模板编译成html内容，css和js文件压缩，浏览器同步自动更新构建工具，基于文件流和任务式自动化构建工具gulp.js，能够简单高效的完成网站的构建与部署。&lt;/p&gt;
+&lt;h3 id=&quot;构建部署&quot;&gt;&lt;a href=&quot;#构建部署&quot; class=&quot;headerlink&quot; title=&quot;构建部署&quot;&gt;&lt;/a&gt;构建部署&lt;/h3&gt;&lt;p&gt;现在每个网站的开发、测试、上线离不开一个构建部署脚本。node.js的不断发展，生态系统日益壮大，有很多方便快捷的工具可以用于开发构建。本项目用到了将pug模板编译成html内容，css和js文件压缩，浏览器同步自动更新构建工具，基于文件流和任务式自动化构建工具gulp.js，能够简单高效的完成网站的构建与部署。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/2017-07-29-work-stream.png&quot; alt=&quot;构建流程图&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;小结&quot;&gt;&lt;a href=&quot;#小结&quot; class=&quot;headerlink&quot; title=&quot;小结&quot;&gt;&lt;/a&gt;小结&lt;/h2&gt;&lt;p&gt;完成整个网站开发涉及到了方方面面，一点一滴的积累和实践，得到了成长，收获了快乐。&lt;/p&gt;
 </content>

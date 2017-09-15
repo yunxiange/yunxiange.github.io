@@ -1,12 +1,308 @@
-<?xml version="1.0" encoding="utf-8"?>
-<search>
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="JavaScript," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="YXX技术人生" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="文件组织· [强制]同一目录下不得拥有同名的.js和.jsx文件。  在使用模块导入时，倾向于不添加后缀，如果存在同名但不同后缀的文件，构建工具将无法决定哪一个是需要引入的模块。
+· [强制]组件文件使用一致的.js或.jsx后缀。  所有组件文件的后缀从.js或.jsx中任选其一。  不应在项目中出现部分组件为.js文件，部分为.jsx情况。
+· [强制]每一个文件以export default">
+<meta property="og:type" content="article">
+<meta property="og:title" content="React编码规范">
+<meta property="og:url" content="http://yoursite.com/2017/08/30/react-code-style/index.html">
+<meta property="og:site_name" content="YXX技术人生">
+<meta property="og:description" content="文件组织· [强制]同一目录下不得拥有同名的.js和.jsx文件。  在使用模块导入时，倾向于不添加后缀，如果存在同名但不同后缀的文件，构建工具将无法决定哪一个是需要引入的模块。
+· [强制]组件文件使用一致的.js或.jsx后缀。  所有组件文件的后缀从.js或.jsx中任选其一。  不应在项目中出现部分组件为.js文件，部分为.jsx情况。
+· [强制]每一个文件以export default">
+<meta property="og:updated_time" content="2017-09-01T11:55:08.513Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="React编码规范">
+<meta name="twitter:description" content="文件组织· [强制]同一目录下不得拥有同名的.js和.jsx文件。  在使用模块导入时，倾向于不添加后缀，如果存在同名但不同后缀的文件，构建工具将无法决定哪一个是需要引入的模块。
+· [强制]组件文件使用一致的.js或.jsx后缀。  所有组件文件的后缀从.js或.jsx中任选其一。  不应在项目中出现部分组件为.js文件，部分为.jsx情况。
+· [强制]每一个文件以export default">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> React编码规范 | YXX技术人生 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
   
   
     
-    <entry>
-      <title><![CDATA[React编码规范]]></title>
-      <url>http://yoursite.com/2017/08/30/react-code-style/</url>
-      <content type="html"><![CDATA[<h2 id="文件组织"><a href="#文件组织" class="headerlink" title="文件组织"></a>文件组织</h2><p>· [强制]同一目录下不得拥有同名的.js和.jsx文件。<br>  在使用模块导入时，倾向于不添加后缀，如果存在同名但不同后缀的文件，构建工具将无法决定哪一个是需要引入的模块。</p>
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">YXX技术人生</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="#" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                React编码规范
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-08-30T10:03:56+08:00" content="2017-08-30">
+              2017-08-30
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="文件组织"><a href="#文件组织" class="headerlink" title="文件组织"></a>文件组织</h2><p>· [强制]同一目录下不得拥有同名的.js和.jsx文件。<br>  在使用模块导入时，倾向于不添加后缀，如果存在同名但不同后缀的文件，构建工具将无法决定哪一个是需要引入的模块。</p>
 <p>· [强制]组件文件使用一致的.js或.jsx后缀。<br>  所有组件文件的后缀从.js或.jsx中任选其一。<br>  不应在项目中出现部分组件为.js文件，部分为.jsx情况。</p>
 <p>· [强制]每一个文件以export default的形式暴露一个组件。<br>  允许一个文件中存在多个不同的组件，但仅允许通过export default暴露一个组件，其他组件均定义为内部组件。</p>
 <p>· [强制]每个存在组建的目录使用一个index.js以命名导出的形式暴露所有组件。<br>  同目录内的组件相互引用使用<code>import Foo from &#39;./Foo&#39;;</code>进行。<br>  引用其他目录的组件使用<code>import {Foo} from &#39;../component&#39;;</code>进行。<br>  建议使用VSCode的export-index插件自动生成index.js内容。</p>
@@ -43,104 +339,412 @@
 <p>· [强制]对于需要使用key的场合，提供一个唯一标识作为key属性的值，禁止使用可能会变化的属性（如索引）。<br>  key属性是React在进行列表更新时的重要属性，如该属性会发生变化，渲染的性能和正确性都无法得到保证。<br>  <figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Bad</span></span><br><span class="line">&#123;list.map((item, index) =&gt; &lt;Foo key=&#123;index&#125; &#123;...item&#125; /&gt;)&#125;</span><br><span class="line"></span><br><span class="line">// Good</span><br><span class="line">&#123;list.map(item =&gt; &lt;Foo key=&#123;item.id&#125; &#123;...item&#125; /&gt;)&#125;</span><br></pre></td></tr></table></figure></p>
 <p>· [建议]避免在JSX的属性值中直接使用对象和函数表达式。<br>  PureComponent使用<a href="https://github.com/facebook/fbjs/blob/master/packages/fbjs/src/core/shallowEqual.js" target="_blank" rel="external">shallowEqual</a>对props和state进行比较来决定是否需要渲染，而在JSX的属性值中使用对象、函数表达式会造成每一次的对象引用不同，从而shallowEqual会返回false，导致不必要的渲染。<br>  <figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Bad</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">WarnButton</span> </span>&#123;</span><br><span class="line">    alertMessage(message) &#123;</span><br><span class="line">        alert(message);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    render() &#123;</span><br><span class="line">        <span class="keyword">return</span> &lt;button type="button" onClick=&#123;() =&gt; this.alertMessage(this.props.message)&#125;&gt;提示&lt;/button&gt;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Good</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">WarnButton</span> </span>&#123;</span><br><span class="line">    @autobind</span><br><span class="line">    alertMessage() &#123;</span><br><span class="line">        alert(<span class="keyword">this</span>.props.message);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    render() &#123;</span><br><span class="line">        <span class="keyword">return</span> &lt;button type="button" onClick=&#123;this.alertMessage&#125;&gt;提示&lt;/button&gt;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <p>· [建议]将JSX的层级控制在3层以内。<br>  JSX提供了基于组件的便携的复用形式，因此可以通过将结构中的一部分封装为一个函数组件来很好地拆分大型复杂的结构。层次过深的结构会带来过多缩进、可读性下降等缺点。如同控制函数内代码行数和分支层级一样，对JSX的层级进行控制可以有效提升代码的可维护性。<br>  <figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Bad</span></span><br><span class="line"><span class="keyword">let</span> list = (&#123;items&#125;) = (</span><br><span class="line">    &lt;ul&gt;</span><br><span class="line">        &#123;</span><br><span class="line">             items.map(item =&gt; &#123;</span><br><span class="line">                 &lt;li&gt;</span><br><span class="line">                     &lt;header&gt;</span><br><span class="line">                         &lt;h3&gt;&#123;item.title&#125;&lt;/h3&gt;</span><br><span class="line">                         &lt;span&gt;&#123;item.subtitle&#125;&lt;/span&gt;</span><br><span class="line">                     &lt;/header&gt;</span><br><span class="line">                     &lt;section&gt;&#123;item.content&#125;&lt;/section&gt;</span><br><span class="line">                     &lt;footer&gt;</span><br><span class="line">                         &lt;span&gt;&#123;item.author&#125;&lt;/span&gt;@&lt;time&gt;&#123;time.postTime&#125;&lt;/time&gt;</span><br><span class="line">                     &lt;/footer&gt;</span><br><span class="line">                 &lt;/li&gt;</span><br><span class="line">             &#125;)</span><br><span class="line">        &#125;</span><br><span class="line">    &lt;/ul&gt;</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Good</span></span><br><span class="line"><span class="keyword">let</span> Header = (&#123;title, subtitle&#125;) =&gt; (</span><br><span class="line">    &lt;header&gt;</span><br><span class="line">        &lt;h3&gt;&#123;title&lt;/h3&gt;</span><br><span class="line">        &lt;span&gt;&#123;subtitle&lt;/span&gt;</span><br><span class="line">    &lt;/header&gt;</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> Content = (&#123;content&#125;) =&gt; &lt;section&gt;&#123;content&#125;&lt;/section&gt;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> Footer = (&#123;author, postTime&#125;) =&gt; (</span><br><span class="line">    &lt;footer&gt;</span><br><span class="line">        &lt;span&gt;&#123;author&#125;&lt;/span&gt;@&lt;time&gt;&#123;postTime&#125;&lt;/time&gt;</span><br><span class="line">    &lt;/footer&gt;</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> Item = (&#123;item&#125;) =&gt; (</span><br><span class="line">    &lt;div&gt;</span><br><span class="line">        &lt;Header &#123;...item&#125; /&gt;</span><br><span class="line">        &lt;Content &#123;...item&#125; /&gt;</span><br><span class="line">        &lt;Footer &#123;...item&#125; /&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">let List = (&#123;items&#125;) =&gt; (</span><br><span class="line">    &lt;ul&gt;</span><br><span class="line">        &#123;items.map(Item)&#125;</span><br><span class="line">    &lt;/ul&gt;</span><br><span class="line">);</span><br></pre></td></tr></table></figure></p>
-]]></content>
-    </entry>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/JavaScript/" rel="tag">#JavaScript</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/08/08/chrome-common-plugin/" rel="next" title="常用Chrome插件有哪些？">
+                <i class="fa fa-chevron-left"></i> 常用Chrome插件有哪些？
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
     
-    <entry>
-      <title><![CDATA[常用Chrome插件有哪些？]]></title>
-      <url>http://yoursite.com/2017/08/08/chrome-common-plugin/</url>
-      <content type="html"><![CDATA[<p>作为一名web开发者，会接触到很多开发工具，今天就来说说常用的chrome插件，利用这些插件给平时的工作、开发带来很大的便利。</p>
-<h2 id="浏览器相关"><a href="#浏览器相关" class="headerlink" title="浏览器相关"></a>浏览器相关</h2><p>首选介绍这几个插件在浏览器使用过程中会有一些优化，它会给你带来什么样的体验呢？赶快去体验吧~</p>
-<h3 id="Momentum"><a href="#Momentum" class="headerlink" title="Momentum"></a>Momentum</h3><p>Momentum插件用来替换Chrome新标签页内容，每天能看到不同优美的风景图片和精彩的格言。打开浏览器就能看到这么激励人心的内容，有木有给你的工作和生活带来动力？除此之外，该插件还提供了其他重要的功能，可以设置天气信息，待办事件记录，日常事务等等。</p>
-<p><img src="/assets/2017-08-08-momentum.png" alt="momentum"></p>
-<h3 id="OneTab"><a href="#OneTab" class="headerlink" title="OneTab"></a>OneTab</h3><p>Chrome浏览器虽然访问页面很流畅，但是消耗内存也很大。OneTab字面意思即一个tab页面，当你用浏览器打开多个标签页，也许很多重要的内容没来得及看但又不想把它立即关掉，这时候你可以用OneTab插件来管理打开的tab标签页内容了。单击OneTab图标会将所有标签页转换成一个列表，在某个标签页可以选择左侧或右侧标签页放到OneTab列表页中。当再次访问这些标签页时可以从从这里恢复它们。将标签页放置到OneTab中，浏览器打开的标签页减少了，占用系统内存相应减少。</p>
-<p><img src="/assets/2017-08-08-onetab.png" alt="onetab"></p>
-<h3 id="Proxy-SwitchySharp"><a href="#Proxy-SwitchySharp" class="headerlink" title="Proxy SwitchySharp"></a>Proxy SwitchySharp</h3><p>由于国内某些原因（你懂得），常常不能访问国外一些网站，这时候要访问这些内容时需要借助一些工具才能达到。这些工具就是代理，采用了代理浏览器则会通过代理去请求资源，从而绕开一些壁垒，请求到相应资源。Proxy SwitchSharp就是用来管理浏览器代理，可以将代理信息在这里设置从而达到“科学上网”。</p>
-<p><img src="/assets/2017-08-08-proxy-switchysharp.png" alt="proxy switchysharp"></p>
-<h3 id="一键管理"><a href="#一键管理" class="headerlink" title="一键管理"></a>一键管理</h3><p>也许你的浏览器安装了不止一个插件，当你想把某个插件禁用或开启，没有安装此插件则需要到浏览器扩展程序页面中操作。一键管理插件会将浏览器安装过的所有插件放在一个控制面板中展示，所有插件一键开启或禁止，也可以针对某个插件开启或禁止。</p>
-<p><img src="/assets/2017-08-08-onekeyplugin.png" alt="onekeyplugin"></p>
-<h3 id="二维码"><a href="#二维码" class="headerlink" title="二维码"></a>二维码</h3><p>我们常常会在电脑上访问的页面用手机去浏览，比如开发测试无线页面效果，一般做法是将浏览器上访问的地址用手机浏览器打开，这样难以避免输入一串网址的烦恼，而且容易出错。有了这个插件，可以直接用手机扫描插件生成的二维码，从而快速访问到页面内容。</p>
-<p><img src="/assets/2017-08-08-qrcode.png" alt="qrcode"></p>
-<h2 id="Github相关"><a href="#Github相关" class="headerlink" title="Github相关"></a>Github相关</h2><p>github对于一个开发者来说并不陌生，github作为一个代码托管的在线服务，许多优秀的开发资源在这里涌现。Github最丰富的资源就是代码和文档，开发者可以从这里学习和利用到很多资源。下面介绍这几款与github相关的插件。</p>
-<h3 id="Avatars-for-Github"><a href="#Avatars-for-Github" class="headerlink" title="Avatars for Github"></a>Avatars for Github</h3><p>登录用户访问github网站首页，呈现的是许多关注用户的一些动态信息，比如创建代码仓库、关注代码仓库、提及到代码、留言评论，网站默认不显示用户头像，只显示出用户名。人通常对图片比文字敏感，看到图片能更快获取到信息。使用了这个插件就能让页面中涉及的用户头像展示出来，浏览信息更加引起用户的注意力。</p>
-<p><img src="/assets/2017-08-08-avatars-for-github.png" alt="avatars for github"></p>
-<h3 id="Insight-io-for-Github"><a href="#Insight-io-for-Github" class="headerlink" title="Insight.io for Github"></a>Insight.io for Github</h3><p>用户在访问一个仓库的源代码时通常是在各个目录和文件中来回切换，需要在页面中点击相应链接跳转才能实现。现在把这款强大的代码组织管理插件装上，你会越来越爱上这款插件。开启这个插件，在当前页面会展现代码的目录结构，单页面访问任何文件内容，展示文件的具体内容结构以及跨代码仓库查看文件内容引用。</p>
-<p><img src="/assets/2017-08-08-insight.io-for-github.png" alt="insight.io for github"></p>
-<h3 id="Sourcegraph-for-Github"><a href="#Sourcegraph-for-Github" class="headerlink" title="Sourcegraph for Github"></a>Sourcegraph for Github</h3><p>装上这个插件当你在浏览代码、提交信息、diff信息时github像一个IDE一样，代码语法高亮显示，可以进行代码高级查找、跳转到代码定义所在行、发现代码相关引用。无论功能和效果都比上一个插件强大，不过使用这个插件会先打开一个新页面，然后加载内容展示。</p>
-<p><img src="/assets/2017-08-08-sourcegraph-for-github.png" alt="sourcegraph for github"></p>
-<h3 id="octotree"><a href="#octotree" class="headerlink" title="octotree"></a>octotree</h3><p>启动这个插件，访问代码仓库时会展现代码结构树，便于代码浏览。</p>
-<p><img src="/assets/2017-08-08-octotree.png" alt="octotree"></p>
-<h3 id="Github-Markdown-Menu"><a href="#Github-Markdown-Menu" class="headerlink" title="Github Markdown Menu"></a>Github Markdown Menu</h3><p>Github Markdown Menu会给readme或者Markdown文件生成一个导航目录。</p>
-<p><img src="/assets/2017-08-08-github-markdown-menu.png" alt="github markdown menu"></p>
-<h2 id="前端框架相关"><a href="#前端框架相关" class="headerlink" title="前端框架相关"></a>前端框架相关</h2><p>Angular、React、Vue号称当前前端主流的三大框架，下面这几款插件就与它们息息相关，运用这些插件在程序调试过程中得心应手。</p>
-<h3 id="AngularJS-Batarang"><a href="#AngularJS-Batarang" class="headerlink" title="AngularJS Batarang"></a>AngularJS Batarang</h3><p>这个插件为AngularJS框架扩展浏览器开发者工具功能，用来调试angularjs应用、性能测试。</p>
-<p><img src="/assets/2017-08-08-angularjs-batarang.png" alt="angularjs batarang"></p>
-<h3 id="React-Developer-Tools"><a href="#React-Developer-Tools" class="headerlink" title="React Developer Tools"></a>React Developer Tools</h3><p>该插件为开源React.js JavaScript库扩展浏览器开发者工具功能，方便用户查看页面组件树结构关系。你可以在控制面板下选中组件展示其组件属性，也可以改变组件的pros和state内容。</p>
-<p><img src="/assets/2017-08-08-react-developer-tools.png" alt="react developer tools"></p>
-<h3 id="Vue-js-devtools"><a href="#Vue-js-devtools" class="headerlink" title="Vue.js devtools"></a>Vue.js devtools</h3><p>这个插件为Vue.js框架扩展浏览器开发者工具功能，用来调试Vue.js应用程序，展示组件结构，跟踪组件数据流。</p>
-<p><img src="/assets/2017-08-08-vue.js-devtools.png" alt="vue.js devtools"></p>
-<h2 id="开发工具相关"><a href="#开发工具相关" class="headerlink" title="开发工具相关"></a>开发工具相关</h2><p>除了上面这几款实用的插件，还有很多优秀的开发工具插件，下面列举我平时使用过的一些用于开发的插件。</p>
-<h3 id="Postman"><a href="#Postman" class="headerlink" title="Postman"></a>Postman</h3><p>Postman并不是Chrome扩展程序，而是一个Chrome应用，这里把它列出来在于其在网络请求方面功能很强大。该插件可用来做API开发调试，支持多种请求方式。</p>
-<p><img src="/assets/2017-08-08-postman.png" alt="postman"></p>
-<h3 id="LiveReload"><a href="#LiveReload" class="headerlink" title="LiveReload"></a>LiveReload</h3><p>在开发网络应用程序时，开启这个插件文件内容更新其展示页面会同步更新。</p>
-<p><img src="/assets/2017-08-08-livereload.png" alt="livereload"></p>
-<h3 id="JSONView"><a href="#JSONView" class="headerlink" title="JSONView"></a>JSONView</h3><p>可用于校验json文件内容，格式化高亮展现json文件内容。</p>
-<p><img src="/assets/2017-08-08-jsonview.png" alt="jsonview"></p>
-<h3 id="FeHelper"><a href="#FeHelper" class="headerlink" title="FeHelper"></a>FeHelper</h3><p>FE助手：包括字符串编解码、代码压缩、美化、JSON格式化、正则表达式、时间转换工具、二维码生成器、编码规范检测、页面性能检测、页面取色、Ajax接口调试。</p>
-<p><img src="/assets/2017-08-08-fehelper.png" alt="fehelper"></p>
-<h3 id="Sizzy"><a href="#Sizzy" class="headerlink" title="Sizzy"></a>Sizzy</h3><p>响应式网站调试工具，支持多种机型和尺寸。</p>
-<p><img src="/assets/2017-08-08-sizzy.png" alt="sizzy"></p>
-<h3 id="Distill-Web-Monitor"><a href="#Distill-Web-Monitor" class="headerlink" title="Distill Web Monitor"></a>Distill Web Monitor</h3><p>Distill在您的浏览器上运行，检查监控的页面有无变更。在侦测到变更时立即发出通知。</p>
-<p><img src="/assets/2017-08-08-distill-web-monitor.png" alt="disll web monitor"></p>
-<h3 id="Web-Developer"><a href="#Web-Developer" class="headerlink" title="Web Developer"></a>Web Developer</h3><p>一个拥有丰富功能的网页开发工具。</p>
-<p><img src="/assets/2017-08-08-web-developer.png" alt="web developer"></p>
-<h3 id="HTML5-Outliner"><a href="#HTML5-Outliner" class="headerlink" title="HTML5 Outliner"></a>HTML5 Outliner</h3><p>生成一个带有标题和区域元素的html5页面轮廓结构。</p>
-<p><img src="/assets/2017-08-08-html5-outliner.png" alt="html5 outliner"></p>
-<h3 id="Open-SEO-Stats"><a href="#Open-SEO-Stats" class="headerlink" title="Open SEO Stats"></a>Open SEO Stats</h3><p>显示当前网页的排名和 SEO 统计数据，主要包括 Alexa、Compete、Quantcast 排名，以及外链、索引数、IP 位置、Whois、SNS、缓存等。</p>
-<p><img src="/assets/2017-08-08-open-seo-stats.png" alt="open seo stats"></p>
-<h3 id="Humans-txt"><a href="#Humans-txt" class="headerlink" title="Humans.txt"></a>Humans.txt</h3><p>如果网站存在humans.txt内容，可用来展现其具体内容。</p>
-<p><img src="/assets/2017-08-08-humans.png" alt="humans"></p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[一次重构静态网站浅谈]]></title>
-      <url>http://yoursite.com/2017/07/29/refactor-static-website/</url>
-      <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>静态网站顾名思义是由静态页面构成的网站，不涉及到后端数据库系统，页面中的内容在制作的时候就已经写好了。若需要去改某个页面的内容则需要找到该页面的模板文件修改。</p>
-<p>最近收到了一个大学老师的消息，问我是否有空能帮她做个课题申报项目网站。我按照了项目开发的流程先打听了老师的项目需求，老师说该项目需求与在大学期间帮她做的那个课题申报项目类似，具体需求内容在此不多介绍了，主要是课题的一些相关内容需要采用网站的形式展示出来。</p>
-<p>通过收藏夹打开了大学期间做的那个网站，网站挂靠在校园的服务器上，还能完好的访问。整个网站内容大致有7大板块，每个板块由侧边栏目录导航内容和右侧内容显示区块组成，整个网站大概有30个静态页面。我习惯性的会打开浏览器的控制台看页面结构和源码，发现页面中的资源引入和跳转链接全都采用了相对路径，出现了很多以.和..构成的链接，对我这种有整洁癖好的人引起了强迫症。</p>
-<p>老师把四年前的源代码发给了我，我细看源码网站的内容由一个一个静态html页面组成，没有公共的模块内容，页面中的顶部图、导航条、版权栏都分散在各个页面中，没有独立出来。新的需求同样有这三块的内容，修改一处意味着每个页面都得改一次，严重影响了开发效率。基于此寻思着新的解决方案搭建这个静态网站。</p>
-<h2 id="技术调研"><a href="#技术调研" class="headerlink" title="技术调研"></a>技术调研</h2><p>首先想到的是做这个静态网站能否像写博客那样，利用markdown语法书写各个页面的内容。但考虑到页面中的内容除了纯文本内容外，还包含了pdf文档、视频内容。对整个网站内容大致细分了各个组成模块，发现可以抽出一个基础的模板布局文件，将网站的顶部图片、导航条、版权栏内容单独抽出来，再分别引入到各个页面中，浏览pdf文档与观看视频功能可以制作成组件，在页面中通过使用组件就能方便快捷搭建内容。</p>
-<p>基于上述的需求诉求，我采用了模板引擎来完成这些内容。模板引擎是个什么东西呢？模板引擎（这里特指用于Web开发的模板引擎）是为了使用户界面与业务数据（内容）分离而产生的，它可以生成特定格式的文档，用于网站的模板引擎就会生成一个标准的HTML文档。</p>
-<p>模板引擎的实现方式有很多，最简单的是“置换型”模板引擎，这类模板引擎只是将指定模板内容（字符串）中的特定标记（子字符串）替换一下便生成了最终需要的业务数据（比如网页）。置换型模板引擎实现简单，但其效率低下，无法满足高负载的应用需求（比如有海量访问的网站），因此还出现了“解释型”模板引擎和“编译型”模板引擎等。模板引擎又分为前端模板引擎和后端模板引擎。后端模板引擎针对各种语言分别有相对应的模板引擎，像PHP语言比较知名的smarty，Java语言Velocity，Python语言Django等等。常见流行的前端模板引擎有artTemplate、Mustache、HandlebarsJS、EJS、Jade（新名pug）、Swig等等。</p>
-<p>静态网站不涉及到后端内容，选用前端模板即可解决问题。那这么多前端模板引擎如何选择才能找到一个合适的模板引擎呢？在开发中有良好的运行调试能力，支持模板继承和文件引入，支持作用域变量和判断循环条件语句，拥有简洁的语法在一定条件下能减少代码书写量，拥有上述这些特点的模板引擎都能支撑起业务开发，于是我选择了pug模板引擎。</p>
-<h2 id="实践思路"><a href="#实践思路" class="headerlink" title="实践思路"></a>实践思路</h2><h3 id="目录规划"><a href="#目录规划" class="headerlink" title="目录规划"></a>目录规划</h3><p>对一个静态网站来说，资源包含静态模板页面、样式文件、静态资源（如图片、视频、文档等等）。如何设计整个网站的目录结构对开发效率来说有很大的影响。目前大体上网站的目录结构有两种分类方式，一种是根据功能来划分目录结构，比如某个页面实现所需要的业务组件、样式都放在同一个目录里，这种对于业务功能比较复杂类应用来说尤为方便，资源查找和引用一目了然；另一种是根据文件类型来划分目录结构，这种对于网站文件管理比较方便。</p>
-<p>根据这个静态网站的需求来开发，网站内容偏展示，不涉及复杂的页面交互逻辑，以文件类型为目录结构规划网站内容。</p>
-<p><img src="/assets/2017-07-project-directory.png" alt="目录结构图"></p>
-<h3 id="开发细节"><a href="#开发细节" class="headerlink" title="开发细节"></a>开发细节</h3><p>得益于pug简洁的模板语法和强大的模板功能，pug在这个项目中发挥了很大作用。每个页面都是继承自base layout，其中base layout包括页面banner、nav、footer公用的组件，nav的状态可以通过在具体页面中传入变量实现。每个页面根据实际情况可以划分为侧边导航栏组件和内容区域，从而组成一个个具体的页面。</p>
-<p>pdf文件浏览采用开源的pdf.js库，能够实现跨平台在线浏览pdf文件内容。视频文件考虑到文件格式兼容性和在线存储，使用了传统的flash流式播放。封装了这两个组件，在使用的时候采用参数传入的方式来调动功能，从而达到复用。</p>
-<p>采用这种继承layout和组件形式开发，节省了很多开发工作量，开发效率得到很大提升，并且易于维护。</p>
-<h3 id="构建部署"><a href="#构建部署" class="headerlink" title="构建部署"></a>构建部署</h3><p>现在每个网站的开发、测试、上线离不开一个构建部署脚本。node.js的不断发展，生态系统日益壮大，有很多方便快捷的工具可以用于开发构建。本项目用到了将pug模板编译成html内容，css和js文件压缩，浏览器同步自动更新构建工具，基于文件流和任务式自动化构建工具gulp.js，能够简单高效的完成网站的构建与部署。</p>
-<p><img src="/assets/2017-07-29-work-stream.png" alt="构建流程图"></p>
-<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>完成整个网站开发涉及到了方方面面，一点一滴的积累和实践，得到了成长，收获了快乐。</p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>http://yoursite.com/2017/07/20/hello-world/</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    </entry>
-    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="yunxiange" />
+          <p class="site-author-name" itemprop="name">yunxiange</p>
+          <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#文件组织"><span class="nav-number">1.</span> <span class="nav-text">文件组织</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#命名规则"><span class="nav-number">2.</span> <span class="nav-text">命名规则</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#组件声明"><span class="nav-number">3.</span> <span class="nav-text">组件声明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#组件实现"><span class="nav-number">4.</span> <span class="nav-text">组件实现</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JSX"><span class="nav-number">5.</span> <span class="nav-text">JSX</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">yunxiange</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
   
   
-</search>
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+       search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+    'use strict';
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+            // get the contents from search data
+            isfetched = true;
+            $('.popup').detach().appendTo('.header-inner');
+            var datas = $( "entry", xmlResponse ).map(function() {
+                return {
+                    title: $( "title", this ).text(),
+                    content: $("content",this).text(),
+                    url: $( "url" , this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function(){
+                var matchcounts = 0;
+                var str='<ul class=\"search-result-list\">';                
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length > 1) {
+                // perform local searching
+                datas.forEach(function(data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if(data_title != '' && data_content != '') {
+                        keywords.forEach(function(keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if( index_title < 0 && index_content < 0 ){
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        matchcounts += 1;
+                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g,"");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if(start < 0){
+                                start = 0;
+                            }
+                            if(start == 0){
+                                end = 50;
+                            }
+                            if(end > content.length){
+                                end = content.length;
+                            }
+                            var match_content = content.substring(start, end);
+                            // highlight all keywords
+                            keywords.forEach(function(keyword){
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                            });
+                            
+                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                        }
+                        str += "</li>";
+                    }
+                })};
+                str += "</ul>";
+                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+                $resultContent.innerHTML = str;
+            });
+            proceedsearch();
+        }
+    });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').mousedown(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+  
+
+  
+
+  
+
+</body>
+</html>

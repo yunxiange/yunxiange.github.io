@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-11T09:44:05.407Z</updated>
+  <updated>2017-10-12T13:06:42.135Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,396 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Web开发演化</title>
+    <link href="http://yoursite.com/2017/10/11/the-revolution-of-web-development-2016/"/>
+    <id>http://yoursite.com/2017/10/11/the-revolution-of-web-development-2016/</id>
+    <published>2017-10-11T12:40:53.000Z</published>
+    <updated>2017-10-12T13:06:42.135Z</updated>
+    
+    <content type="html">&lt;p&gt;随着时间推移，web开发带来了戏剧性变化，现代化web开发包含了一系列的工具、方法和概念。这些工具可能很复杂，但可以创建以前不可能实现的具有更快的开发速度和更好的可维护性的强大的应用程序。&lt;/p&gt;
+&lt;h2 id=&quot;Web开发简史&quot;&gt;&lt;a href=&quot;#Web开发简史&quot; class=&quot;headerlink&quot; title=&quot;Web开发简史&quot;&gt;&lt;/a&gt;Web开发简史&lt;/h2&gt;&lt;h3 id=&quot;Web-1-0（1991-2001）&quot;&gt;&lt;a href=&quot;#Web-1-0（1991-2001）&quot; class=&quot;headerlink&quot; title=&quot;Web 1.0（1991-2001）&quot;&gt;&lt;/a&gt;Web 1.0（1991-2001）&lt;/h3&gt;&lt;p&gt;这段时期典型的站点是由静态的html页面构成，在全球的城市或大学页面上托管，采用FrontPage、DreamWeaver或Notepad写成。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-web1.0.png&quot; alt=&quot;2017-10-11-web1.0&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;Web-1-0：技术&quot;&gt;&lt;a href=&quot;#Web-1-0：技术&quot; class=&quot;headerlink&quot; title=&quot;Web 1.0：技术&quot;&gt;&lt;/a&gt;Web 1.0：技术&lt;/h4&gt;&lt;p&gt;CGI-BIN和Perl&lt;br&gt;PHP和ASP&lt;/p&gt;
+&lt;h4 id=&quot;Web-1-0：交互&quot;&gt;&lt;a href=&quot;#Web-1-0：交互&quot; class=&quot;headerlink&quot; title=&quot;Web 1.0：交互&quot;&gt;&lt;/a&gt;Web 1.0：交互&lt;/h4&gt;&lt;p&gt;HTML表单&lt;br&gt;Java applets&lt;br&gt;ActiveX controls&lt;br&gt;动态HTML（DHTML）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-web1.0-interactivity.png&quot; alt=&quot;2017-10-11-web1.0-interactivity&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;Web-1-0：浏览器&quot;&gt;&lt;a href=&quot;#Web-1-0：浏览器&quot; class=&quot;headerlink&quot; title=&quot;Web 1.0：浏览器&quot;&gt;&lt;/a&gt;Web 1.0：浏览器&lt;/h4&gt;&lt;p&gt;Mosaic&lt;br&gt;Netscape&lt;br&gt;Internet Explorer&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-web1.0-browsers.png&quot; alt=&quot;2017-10-11-web1.0-browsers&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;Web-1-0：代码共享&quot;&gt;&lt;a href=&quot;#Web-1-0：代码共享&quot; class=&quot;headerlink&quot; title=&quot;Web 1.0：代码共享&quot;&gt;&lt;/a&gt;Web 1.0：代码共享&lt;/h4&gt;&lt;p&gt;脚本网站&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-web1.0-code-sharing.png&quot; alt=&quot;2017-10-11-web1.0-code-sharing&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;Web-1-0：里程碑&quot;&gt;&lt;a href=&quot;#Web-1-0：里程碑&quot; class=&quot;headerlink&quot; title=&quot;Web 1.0：里程碑&quot;&gt;&lt;/a&gt;Web 1.0：里程碑&lt;/h4&gt;&lt;p&gt;HTML、CSS和JavaScript发明&lt;br&gt;Java和Flash发明&lt;br&gt;采用img和iframe标签实现的多媒体&lt;br&gt;blink和marquee标签&lt;/p&gt;
+&lt;h3 id=&quot;Web-2-0（2001-2010）&quot;&gt;&lt;a href=&quot;#Web-2-0（2001-2010）&quot; class=&quot;headerlink&quot; title=&quot;Web 2.0（2001-2010）&quot;&gt;&lt;/a&gt;Web 2.0（2001-2010）&lt;/h3&gt;&lt;p&gt;这个阶段的网站采用服务端渲染页面，MySQL数据库，运行在J2EE、Rails或者PHP上。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-web2.0.png&quot; alt=&quot;2017-10-11-web2.0&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;Web-2-0：服务端技术&quot;&gt;&lt;a href=&quot;#Web-2-0：服务端技术&quot; class=&quot;headerlink&quot; title=&quot;Web 2.0：服务端技术&quot;&gt;&lt;/a&gt;Web 2.0：服务端技术&lt;/h4&gt;&lt;p&gt;J2EE、ASP.NET、Rails、Django、LAMP&lt;br&gt;单独架构&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-web2.0-server-technologies.png&quot; alt=&quot;2017-10-11-web2.0-server-technologies&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;Web-2-0：客户端技术&quot;&gt;&lt;a href=&quot;#Web-2-0：客户端技术&quot; class=&quot;headerlink&quot; title=&quot;Web 2.0：客户端技术&quot;&gt;&lt;/a&gt;Web 2.0：客户端技术&lt;/h4&gt;&lt;p&gt;Ajax（Asynchronous JavaScript And XML）&lt;br&gt;MOOTOOLS（A COMPACT JAVASCRIPT FRAMEWORK）&lt;br&gt;prototype&lt;br&gt;jQuery&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-web2.0-client-technologies.png&quot; alt=&quot;2017-10-11-web2.0-client-technologies&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;Web-2-0：浏览器&quot;&gt;&lt;a href=&quot;#Web-2-0：浏览器&quot; class=&quot;headerlink&quot; title=&quot;Web 2.0：浏览器&quot;&gt;&lt;/a&gt;Web 2.0：浏览器&lt;/h4&gt;&lt;p&gt;IE6&lt;br&gt;Mozilla（Firefox）&lt;br&gt;IE6 → IE8&lt;br&gt;ACID测试&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-web2.0-browsers.png&quot; alt=&quot;2017-10-11-web2.0-browsers&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;Web-2-0：富应用&quot;&gt;&lt;a href=&quot;#Web-2-0：富应用&quot; class=&quot;headerlink&quot; title=&quot;Web 2.0：富应用&quot;&gt;&lt;/a&gt;Web 2.0：富应用&lt;/h4&gt;&lt;p&gt;插件：Flash、Silverlight&lt;br&gt;Web组件框架：GWT、EXT、YUI&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-web2.0-rich-interactive-applications.png&quot; alt=&quot;2017-10-11-web2.0-rich-interactive-applications&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;Web-2-0：代码共享&quot;&gt;&lt;a href=&quot;#Web-2-0：代码共享&quot; class=&quot;headerlink&quot; title=&quot;Web 2.0：代码共享&quot;&gt;&lt;/a&gt;Web 2.0：代码共享&lt;/h4&gt;&lt;p&gt;Sourceforge&lt;br&gt;Google Code&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-web2.0-code-sharing.png&quot; alt=&quot;2017-10-11-web2.0-code-sharing&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;Web-2-0：数据传输&quot;&gt;&lt;a href=&quot;#Web-2-0：数据传输&quot; class=&quot;headerlink&quot; title=&quot;Web 2.0：数据传输&quot;&gt;&lt;/a&gt;Web 2.0：数据传输&lt;/h4&gt;&lt;p&gt;XML&lt;br&gt;SOAP/WS-*&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-web2.0-data-transfer.gif&quot; alt=&quot;2017-10-11-web2.0-data-transfer&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;Web-2-0：里程碑&quot;&gt;&lt;a href=&quot;#Web-2-0：里程碑&quot; class=&quot;headerlink&quot; title=&quot;Web 2.0：里程碑&quot;&gt;&lt;/a&gt;Web 2.0：里程碑&lt;/h4&gt;&lt;p&gt;AJAX, JSON&lt;br&gt;Mobile&lt;br&gt;Stack Overflow!&lt;/p&gt;
+&lt;h3 id=&quot;现代时期（2010-至今）&quot;&gt;&lt;a href=&quot;#现代时期（2010-至今）&quot; class=&quot;headerlink&quot; title=&quot;现代时期（2010-至今）&quot;&gt;&lt;/a&gt;现代时期（2010-至今）&lt;/h3&gt;&lt;p&gt;这个时期网站典型的特点是客户端JS、JSON API、跑在云服务上基于Node构建的微服务、NoSQL数据库。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-modern-era.png&quot; alt=&quot;2017-10-11-modern-era&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;现代时期：服务端技术&quot;&gt;&lt;a href=&quot;#现代时期：服务端技术&quot; class=&quot;headerlink&quot; title=&quot;现代时期：服务端技术&quot;&gt;&lt;/a&gt;现代时期：服务端技术&lt;/h4&gt;&lt;p&gt;express+node+mongodb&lt;br&gt;Play Framework（build web applications with Java &amp;amp; Scala）&lt;/p&gt;
+&lt;p&gt;amazon web services&lt;br&gt;HEROKU&lt;br&gt;Microsoft Azure&lt;/p&gt;
+&lt;p&gt;Flask&lt;br&gt;Dropwizard&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-modern-era-server-technologies.png&quot; alt=&quot;2017-10-11-modern-era-server-technologies&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;现代时期：客户端技术&quot;&gt;&lt;a href=&quot;#现代时期：客户端技术&quot; class=&quot;headerlink&quot; title=&quot;现代时期：客户端技术&quot;&gt;&lt;/a&gt;现代时期：客户端技术&lt;/h4&gt;&lt;p&gt;BACKBONE.JS、ANGULARJS&lt;br&gt;ember.js、React&lt;br&gt;Bootstrap、Foundation、Semantic UI&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-modern-era-client-technologies.png&quot; alt=&quot;2017-10-11-modern-era-client-technologies&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;现代时期：浏览器&quot;&gt;&lt;a href=&quot;#现代时期：浏览器&quot; class=&quot;headerlink&quot; title=&quot;现代时期：浏览器&quot;&gt;&lt;/a&gt;现代时期：浏览器&lt;/h4&gt;&lt;p&gt;Chrome、IE → Edge、Firefox、Safari&lt;br&gt;长青版本（Can I use）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-modern-era-browsers.png&quot; alt=&quot;2017-10-11-modern-era-browsers&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;现代时期：HTML5&quot;&gt;&lt;a href=&quot;#现代时期：HTML5&quot; class=&quot;headerlink&quot; title=&quot;现代时期：HTML5&quot;&gt;&lt;/a&gt;现代时期：HTML5&lt;/h4&gt;&lt;p&gt;Web Workers&lt;br&gt;HTML(5)、CSS(3)、Websockets、WebGL、FLEX&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-modern-era-html5.png&quot; alt=&quot;2017-10-11-modern-era-html5&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;现代时期：代码共享&quot;&gt;&lt;a href=&quot;#现代时期：代码共享&quot; class=&quot;headerlink&quot; title=&quot;现代时期：代码共享&quot;&gt;&lt;/a&gt;现代时期：代码共享&lt;/h4&gt;&lt;p&gt;github&lt;br&gt;npm&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-modern-era-code-sharing.png&quot; alt=&quot;2017-10-11-modern-era-code-sharing&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;现代时期：数据传输&quot;&gt;&lt;a href=&quot;#现代时期：数据传输&quot; class=&quot;headerlink&quot; title=&quot;现代时期：数据传输&quot;&gt;&lt;/a&gt;现代时期：数据传输&lt;/h4&gt;&lt;p&gt;JSON over HTTP&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-modern-era-data-transfer.png&quot; alt=&quot;2017-10-11-modern-era-data-transfer&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;现代时期：里程碑&quot;&gt;&lt;a href=&quot;#现代时期：里程碑&quot; class=&quot;headerlink&quot; title=&quot;现代时期：里程碑&quot;&gt;&lt;/a&gt;现代时期：里程碑&lt;/h4&gt;&lt;p&gt;Node.js&lt;br&gt;插件之死（Flash）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-modern-era-milestones.png&quot; alt=&quot;2017-10-11-modern-era-milestones&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Web技术时间线&quot;&gt;&lt;a href=&quot;#Web技术时间线&quot; class=&quot;headerlink&quot; title=&quot;Web技术时间线&quot;&gt;&lt;/a&gt;Web技术时间线&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-timeline-of-web-technologies.png&quot; alt=&quot;Timeline of Web Technologies&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;JavaScript简史&quot;&gt;&lt;a href=&quot;#JavaScript简史&quot; class=&quot;headerlink&quot; title=&quot;JavaScript简史&quot;&gt;&lt;/a&gt;JavaScript简史&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;1995：网景公司Brendan Eich发明JavaScript语言&lt;/li&gt;
+&lt;li&gt;1999：ES3规范敲定；微软发明XMLHttpRequest&lt;/li&gt;
+&lt;li&gt;2001：Douglas Crockford推广JSON格式&lt;/li&gt;
+&lt;li&gt;2005：推广“AJAX”术语&lt;/li&gt;
+&lt;li&gt;2006：John Resig发明jQuery&lt;/li&gt;
+&lt;li&gt;2008：Douglas Crockford出版《JavaScript：the Good Parts》&lt;/li&gt;
+&lt;li&gt;2009：ES5规范敲定；Ryan Dahl发明Node.js&lt;/li&gt;
+&lt;li&gt;2010：Underscore.js、Backbone.js、由Jeremy Ashkenas发明CoffeeScript&lt;/li&gt;
+&lt;li&gt;2015：ES6规范敲定&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-ecmascript-releases.png&quot; alt=&quot;2017-10-11-ecmascript-releases&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;现代Web开发景观&quot;&gt;&lt;a href=&quot;#现代Web开发景观&quot; class=&quot;headerlink&quot; title=&quot;现代Web开发景观&quot;&gt;&lt;/a&gt;现代Web开发景观&lt;/h2&gt;&lt;h3 id=&quot;现代Web开发：这是什么？&quot;&gt;&lt;a href=&quot;#现代Web开发：这是什么？&quot; class=&quot;headerlink&quot; title=&quot;现代Web开发：这是什么？&quot;&gt;&lt;/a&gt;现代Web开发：这是什么？&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-modern-web-devlopment-wat-is-this.png&quot; alt=&quot;2017-10-11-modern-web-devlopment-wat-is-this&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;JavaScript-Client挑战&quot;&gt;&lt;a href=&quot;#JavaScript-Client挑战&quot; class=&quot;headerlink&quot; title=&quot;JavaScript/Client挑战&quot;&gt;&lt;/a&gt;JavaScript/Client挑战&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;JavaScript设计的目的是当你放在页面上能让它跳动起来。脚本通常是一行。我们认为10行脚本是非常正常的，100行脚本是巨大的，1000行脚本闻所未闻。这门语言最初绝不是用来搞大型的编程，我们的实现方案、性能指标都是未知的。&lt;br&gt;前微软IE/JS开发者Eric Lippert&lt;br&gt;&lt;a href=&quot;http://programmers.stackexchange.com/a/221658/214387&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://programmers.stackexchange.com/a/221658/214387&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;无内置的模块定义系统&lt;/li&gt;
+&lt;li&gt;无封装&lt;/li&gt;
+&lt;li&gt;与大多数语言不同的采用原型继承系统&lt;/li&gt;
+&lt;li&gt;无静态类型的声明或编译&lt;/li&gt;
+&lt;li&gt;动态修改的对象和数据&lt;/li&gt;
+&lt;li&gt;最小标准库&lt;/li&gt;
+&lt;li&gt;浏览器功能变化&lt;/li&gt;
+&lt;li&gt;文档布局模型应用在应用程序布局&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;JavaScript-Client开发目标&quot;&gt;&lt;a href=&quot;#JavaScript-Client开发目标&quot; class=&quot;headerlink&quot; title=&quot;JavaScript/Client开发目标&quot;&gt;&lt;/a&gt;JavaScript/Client开发目标&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;网络字节最小化&lt;/li&gt;
+&lt;li&gt;处理浏览器兼容性问题&lt;/li&gt;
+&lt;li&gt;填补JS标准库与语言规范间的空白&lt;/li&gt;
+&lt;li&gt;在应用程序之间重用和共享代码&lt;/li&gt;
+&lt;li&gt;构建越来越复杂的大型浏览器端应用程序&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人们认为写客户端应用程序很容易，这就是人们出现混乱、没有组合、成千上万条意大利面条式丑陋代码境况的原因。在浏览器中编写应用程序应该与建立数据或者创建一个服务层一样受尊重。对前端代码缺乏尊重是前端项目出现糟糕代码的最大原因。&lt;br&gt;是的，你将需要使用工具webpack、jspm、browserify配合babel、typescript以及postcss、less、scss来开发。就像你为桌面应用程序编写代码一样，你可能至少需要安装一个IDE并且可能需要几个库。···得到一个Java应用程序需要些什么呢？Maven，一些构建工具，一些其他的工具，理解组件/类的层级？使用任何新的工具都不容易。&lt;br&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=11782234&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://news.ycombinator.com/item?id=11782234&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;现代工具：语言-编译器&quot;&gt;&lt;a href=&quot;#现代工具：语言-编译器&quot; class=&quot;headerlink&quot; title=&quot;现代工具：语言/编译器&quot;&gt;&lt;/a&gt;现代工具：语言/编译器&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;ES6/ES2015(+)&lt;ul&gt;
+&lt;li&gt;当前版本语言规范&lt;/li&gt;
+&lt;li&gt;浏览器和JS引擎跟进实现&lt;/li&gt;
+&lt;li&gt;分阶段发展未来提议的语言特性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Babel&lt;ul&gt;
+&lt;li&gt;基于插件的JavaScript混合编译器&lt;/li&gt;
+&lt;li&gt;广泛用于编译ES6等语言功能成向后兼容的ES5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;TypeScript&lt;ul&gt;
+&lt;li&gt;来自微软的静态类型ES6超集&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;SASS/LESS&lt;ul&gt;
+&lt;li&gt;具有变量、控制流程、选择器嵌套能编译成css的语言&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;现代工具：代码共享&quot;&gt;&lt;a href=&quot;#现代工具：代码共享&quot; class=&quot;headerlink&quot; title=&quot;现代工具：代码共享&quot;&gt;&lt;/a&gt;现代工具：代码共享&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;模块格式&lt;ul&gt;
+&lt;li&gt;AMD（异步模块定义）：用于异步浏览器加载&lt;/li&gt;
+&lt;li&gt;CommonJS：用于Node从文件系统中加载内容&lt;/li&gt;
+&lt;li&gt;ES6：用于静态分析用于构建优化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;包装和执行&lt;ul&gt;
+&lt;li&gt;Node.js&lt;ul&gt;
+&lt;li&gt;浏览器外的JavaScript运行环境&lt;/li&gt;
+&lt;li&gt;V8引擎，来自Chrome，添加了一些额外的系统交互交口（文件系统、套接字…）&lt;/li&gt;
+&lt;li&gt;所有的服务端/构建工具都用JavaScript编写&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;NPM&lt;ul&gt;
+&lt;li&gt;采用Node的包管理器&lt;/li&gt;
+&lt;li&gt;创建、安装、管理JavaScript包和依赖&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;现代工具：构建工具&quot;&gt;&lt;a href=&quot;#现代工具：构建工具&quot; class=&quot;headerlink&quot; title=&quot;现代工具：构建工具&quot;&gt;&lt;/a&gt;现代工具：构建工具&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;构建步骤&lt;ul&gt;
+&lt;li&gt;编译：将ES6/TypeScript转成兼容性好的ES5&lt;/li&gt;
+&lt;li&gt;合并：把多个文件合成一个输出文件&lt;/li&gt;
+&lt;li&gt;压缩：移除空白/注释，重命名变量长度&lt;/li&gt;
+&lt;li&gt;代码分块：将功能块分成单独的包以便按需加载&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;任务运行器&lt;ul&gt;
+&lt;li&gt;Grunt：通过插件配置分开独立的任务&lt;/li&gt;
+&lt;li&gt;Gulp：通过一系列转换步骤得到的管道数据&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;模块构建器&lt;ul&gt;
+&lt;li&gt;Browserify：将CommonJS格式模块转成浏览器可用的代码&lt;/li&gt;
+&lt;li&gt;Webpack：将任何内容转成模块，主要用于浏览器（AMD/CJS/ES6 modules, CSS, images, …）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;现代工具：开发体验&quot;&gt;&lt;a href=&quot;#现代工具：开发体验&quot; class=&quot;headerlink&quot; title=&quot;现代工具：开发体验&quot;&gt;&lt;/a&gt;现代工具：开发体验&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;File watching / live reloading&lt;ul&gt;
+&lt;li&gt;监听源文件的改变，重新编译，可能重新加载页面内容&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Sourcemaps&lt;ul&gt;
+&lt;li&gt;调试信息将源文件的行与构建输出文件的行相关联。允许在浏览器中调试“原始”代码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Browser dev tools&lt;ul&gt;
+&lt;li&gt;元素检查，样式检查，脚本调试，网络流量监控&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Hot reloading&lt;ul&gt;
+&lt;li&gt;快速交换重新编译的代码模块&lt;/li&gt;
+&lt;li&gt;实时编辑/所见即所得的开发体验&lt;/li&gt;
+&lt;li&gt;适合函数式编程技术&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;现代工具：测试&quot;&gt;&lt;a href=&quot;#现代工具：测试&quot; class=&quot;headerlink&quot; title=&quot;现代工具：测试&quot;&gt;&lt;/a&gt;现代工具：测试&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Test runners&lt;ul&gt;
+&lt;li&gt;Mocha, Jasmine, Tape, Jest（主要用于浏览器以外环境）&lt;/li&gt;
+&lt;li&gt;Karma（在真实的浏览器环境里）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Mocking and test behavior&lt;ul&gt;
+&lt;li&gt;Chai, Expect（测试断言）&lt;/li&gt;
+&lt;li&gt;Sinon, JSDOM（网络/功能/DOM模拟）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Integration testing&lt;ul&gt;
+&lt;li&gt;Selenium（通过驱动浏览器进行集成测试）&lt;/li&gt;
+&lt;li&gt;PhantomJS（采用虚拟浏览器进行浏览器环境自动单元测试）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Linting: ESLint&lt;/li&gt;
+&lt;li&gt;Static typing: Flow&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;现代工具：核心类库&quot;&gt;&lt;a href=&quot;#现代工具：核心类库&quot; class=&quot;headerlink&quot; title=&quot;现代工具：核心类库&quot;&gt;&lt;/a&gt;现代工具：核心类库&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Express&lt;ul&gt;
+&lt;li&gt;node环境HTTP服务端框架&lt;/li&gt;
+&lt;li&gt;中间件管道允许灵活处理请求/响应生命周期&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;jQuery&lt;ul&gt;
+&lt;li&gt;DOM处理和AJAX请求；抽象各浏览间的差异&lt;/li&gt;
+&lt;li&gt;单一广泛使用的JS类库&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$(&amp;#39;#someId&amp;#39;).toogleClass(&amp;#39;active&amp;#39;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Underscore/Lodash&lt;ul&gt;
+&lt;li&gt;非常有用的功能函数类库&lt;/li&gt;
+&lt;li&gt;Loadsh是Underscore的一个优化分支，额外添加了许多函数&lt;/li&gt;
+&lt;li&gt;数组（_.first），集合（_.forEach），对象（_.pick），字符串（_.camelCase），函数（_.debounce）等功能函数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;JavaScript框架&quot;&gt;&lt;a href=&quot;#JavaScript框架&quot; class=&quot;headerlink&quot; title=&quot;JavaScript框架&quot;&gt;&lt;/a&gt;JavaScript框架&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;每个框架都可以被看作是试图说“编写webapp的最困难的部分是$X，所以这里有一些代码让它更容易”。&lt;br&gt;当一个开发者“编写webapp最难的部分是实现双向数据绑定”，你可以使用knonchout.js，这个框架基本上能做90%的工作。···同样，Backbone感觉就是用来实现从一个REST API中获取并且持久化数据模型、客户端路由的产物，它基本上能做所有事。知道怎么将你获取的数据编程html内容（显然）容易，但是数据模型模型很难，所以这个工具能够帮助你。&lt;br&gt;如果您认为编写webapps的最大问题是Javascript不是Java、Ember不是Ruby，那么Angular就是你所需要的。（开玩笑了，我对这些框架并不熟悉）。等等，每个人都对最难处理的问题有自己的看法。&lt;br&gt;写webapp最难的是非确定的表现和不清晰的数据流动，React+Flux就是用来解决这些问题的。如果你已经在一个大型的Knockout或者Backbone项目上工作，你可能会倾向于同意。&lt;br&gt;&lt;a href=&quot;https://www.reddit.com/r/reactjs/comments/39wsfi/what_are_pros_and_cons_of_using_reactjsflux/cs7msvp&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Reddit /u/Cody_Chaos&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201710/2017-10-11-javascript-frameworks.jpg&quot; alt=&quot;2017-10-11-javascript-frameworks&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;JavaScript框架？！？&quot;&gt;&lt;a href=&quot;#JavaScript框架？！？&quot; class=&quot;headerlink&quot; title=&quot;JavaScript框架？！？&quot;&gt;&lt;/a&gt;JavaScript框架？！？&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;为什么会存在框架&lt;ul&gt;
+&lt;li&gt;将状态移出DOM结构&lt;/li&gt;
+&lt;li&gt;高度抽象&lt;/li&gt;
+&lt;li&gt;代码组织&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;优点&lt;ul&gt;
+&lt;li&gt;可以在应用程序和开发人员之间共用常见概念&lt;/li&gt;
+&lt;li&gt;大型社区，共享知识，文档，错误修复&lt;/li&gt;
+&lt;li&gt;通过工具和指南达成更好的应用程序结构&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;缺点&lt;ul&gt;
+&lt;li&gt;学习曲线&lt;/li&gt;
+&lt;li&gt;项目大小最低要求&lt;/li&gt;
+&lt;li&gt;体系和基础设施&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;JavaScript框架-1&quot;&gt;&lt;a href=&quot;#JavaScript框架-1&quot; class=&quot;headerlink&quot; title=&quot;JavaScript框架&quot;&gt;&lt;/a&gt;JavaScript框架&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;BACKBONE.JS&lt;/li&gt;
+&lt;li&gt;ember&lt;/li&gt;
+&lt;li&gt;ANGULARJS&lt;/li&gt;
+&lt;li&gt;React&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;客户端路由（Client-Side-Routing）&quot;&gt;&lt;a href=&quot;#客户端路由（Client-Side-Routing）&quot; class=&quot;headerlink&quot; title=&quot;客户端路由（Client-Side Routing）&quot;&gt;&lt;/a&gt;客户端路由（Client-Side Routing）&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;“路由”：将URL映射到页面行为，包括从URL提取数据参数&lt;/li&gt;
+&lt;li&gt;最初是一个服务端概念&lt;/li&gt;
+&lt;li&gt;现代Web应用程序使用客户端上的路由能够快速更新和“深度链接”&lt;ul&gt;
+&lt;li&gt;UI渲染&lt;/li&gt;
+&lt;li&gt;数据获取&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;所有主流框架生态系统都包含路由器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;状态-数据管理（State-Data-Management）&quot;&gt;&lt;a href=&quot;#状态-数据管理（State-Data-Management）&quot; class=&quot;headerlink&quot; title=&quot;状态/数据管理（State/Data Management）&quot;&gt;&lt;/a&gt;状态/数据管理（State/Data Management）&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;内置&lt;ul&gt;
+&lt;li&gt;Backbone：Models/Collections&lt;/li&gt;
+&lt;li&gt;Ember：Ember Data&lt;/li&gt;
+&lt;li&gt;Angular 1: Services/Controllers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;React&lt;ul&gt;
+&lt;li&gt;局部组件状态&lt;/li&gt;
+&lt;li&gt;“Flux”模式（单向数据流）&lt;/li&gt;
+&lt;li&gt;Redux（单状态树，不可变更新；采用Flux的逻辑理论）&lt;/li&gt;
+&lt;li&gt;MobX（依赖可观察进行跟踪）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Angular 2&lt;ul&gt;
+&lt;li&gt;Services/Controllers&lt;/li&gt;
+&lt;li&gt;Redux; Observables&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;开发趋势：后端&quot;&gt;&lt;a href=&quot;#开发趋势：后端&quot; class=&quot;headerlink&quot; title=&quot;开发趋势：后端&quot;&gt;&lt;/a&gt;开发趋势：后端&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;“X即服务”&lt;/li&gt;
+&lt;li&gt;“无服务器”后端&lt;/li&gt;
+&lt;li&gt;微服务（Microservices）&lt;/li&gt;
+&lt;li&gt;容器（Containers）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;开发趋势：客户端-服务端&quot;&gt;&lt;a href=&quot;#开发趋势：客户端-服务端&quot; class=&quot;headerlink&quot; title=&quot;开发趋势：客户端/服务端&quot;&gt;&lt;/a&gt;开发趋势：客户端/服务端&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;大规模的数据传输模式/工具&lt;ul&gt;
+&lt;li&gt;GraphQL，Falcor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;“同构”/“通用”Javascript应用程序&lt;ul&gt;
+&lt;li&gt;服务端渲染&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;随处可见JavaScript&lt;ul&gt;
+&lt;li&gt;跨平台工具包（Cordova，Ionic）&lt;/li&gt;
+&lt;li&gt;桌面应用（Electron）&lt;/li&gt;
+&lt;li&gt;移动应用（React Native）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;开发趋势：客户端&quot;&gt;&lt;a href=&quot;#开发趋势：客户端&quot; class=&quot;headerlink&quot; title=&quot;开发趋势：客户端&quot;&gt;&lt;/a&gt;开发趋势：客户端&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;基于组件的架构&lt;/li&gt;
+&lt;li&gt;“虚拟DOM”&lt;/li&gt;
+&lt;li&gt;CSS-in-JS&lt;/li&gt;
+&lt;li&gt;WebGL，Web Workers，Service Workers&lt;/li&gt;
+&lt;li&gt;替代语言（Elm，Clojurescript）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;开发趋势：概念&quot;&gt;&lt;a href=&quot;#开发趋势：概念&quot; class=&quot;headerlink&quot; title=&quot;开发趋势：概念&quot;&gt;&lt;/a&gt;开发趋势：概念&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;函数式编程（Functional Programming）&lt;/li&gt;
+&lt;li&gt;不变数据(Immutable Data)&lt;/li&gt;
+&lt;li&gt;响应式编程/观测（Reactive Programming / Observables）&lt;/li&gt;
+&lt;li&gt;静态类型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;打造一款现代Web-App&quot;&gt;&lt;a href=&quot;#打造一款现代Web-App&quot; class=&quot;headerlink&quot; title=&quot;打造一款现代Web App&quot;&gt;&lt;/a&gt;打造一款现代Web App&lt;/h2&gt;&lt;h3 id=&quot;当前App&quot;&gt;&lt;a href=&quot;#当前App&quot; class=&quot;headerlink&quot; title=&quot;当前App&quot;&gt;&lt;/a&gt;当前App&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;用于内部使用的地理空间可视化工具&lt;/li&gt;
+&lt;li&gt;Version 1&lt;ul&gt;
+&lt;li&gt;GWT+SmartGWT&lt;/li&gt;
+&lt;li&gt;Google Earth Plugin&lt;/li&gt;
+&lt;li&gt;Play Framework&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;重写计划&quot;&gt;&lt;a href=&quot;#重写计划&quot; class=&quot;headerlink&quot; title=&quot;重写计划&quot;&gt;&lt;/a&gt;重写计划&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;GWT关注&lt;ul&gt;
+&lt;li&gt;升级问题和框架的未来（可能即将到来的不兼容版本）&lt;/li&gt;
+&lt;li&gt;低能的开发工具&lt;/li&gt;
+&lt;li&gt;GWT特定的客户端-服务器通信与耦合&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;v2原型/分析目标&lt;ul&gt;
+&lt;li&gt;不被弃用的现代化工具技术栈&lt;/li&gt;
+&lt;li&gt;改进的开发体验（快速重建，热重新加载，易于测试）&lt;/li&gt;
+&lt;li&gt;更好的可维护性（代码结构，调试，数据流/跟踪）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;v2原型技术栈&lt;ul&gt;
+&lt;li&gt;语言：ES6&lt;/li&gt;
+&lt;li&gt;UI框架：React&lt;/li&gt;
+&lt;li&gt;数据管理：Redux&lt;/li&gt;
+&lt;li&gt;构建工具：Webpack+Babel&lt;/li&gt;
+&lt;li&gt;测试：Mocha&lt;/li&gt;
+&lt;li&gt;3D地球：Cesium&lt;/li&gt;
+&lt;li&gt;风格：Semantic-UI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;为什么使用React和Redux？&lt;ul&gt;
+&lt;li&gt;函数式编程原则，而且带有可靠的用法&lt;/li&gt;
+&lt;li&gt;状态/数据/更新的显式跟踪；单向数据流使得跟踪更容易&lt;/li&gt;
+&lt;li&gt;高度推荐使用的UI和逻辑&lt;/li&gt;
+&lt;li&gt;开发能力，如time-travel调试和热重载加快开发&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;原型进展&quot;&gt;&lt;a href=&quot;#原型进展&quot; class=&quot;headerlink&quot; title=&quot;原型进展&quot;&gt;&lt;/a&gt;原型进展&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;v2原型demo&lt;ul&gt;
+&lt;li&gt;File watching and recompiling&lt;/li&gt;
+&lt;li&gt;UI hot reloading&lt;/li&gt;
+&lt;li&gt;Data editing&lt;/li&gt;
+&lt;li&gt;Redux DevTools and time travel debugging&lt;/li&gt;
+&lt;li&gt;Test running&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;进一步阅读&quot;&gt;&lt;a href=&quot;#进一步阅读&quot; class=&quot;headerlink&quot; title=&quot;进一步阅读&quot;&gt;&lt;/a&gt;进一步阅读&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Web历史&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://segment.com/blog/the-deep-roots-of-js-fatigue/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;The Deep Roots of Javascript Fatigue&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.keepsite.com/a-brief-history-of-the-web/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;A Brief History of the Web&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://mgadams.com/modern-javascript-development-part-1-d271f3790c1c&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;The Golden Age of Javascript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;现代Web技术&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.infoq.com/articles/state-of-javascript-2016&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;State of the Javascript Landscape: A Map for Newcomers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://marcobotto.com/the-hitchhikers-guide-to-the-modern-front-end-development-workflow/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;The Hitchhiker’s Guide to the Modern Front End Development Workflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jargon.js.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Simplified Javascript Jargon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/javascript-and-opinions/state-of-the-art-javascript-in-2016-ab67fc68eb0b&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;State of the Art Javascript in 2016&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://wesbos.com/overwhelmed-with-web-development/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;On Being Overwhelmed With Our Fast-Paced Industry&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://stateofjs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;The State of Javascript in 2016: Survey Results&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这篇文章整理翻译自一篇讲稿，出处链接地址：&lt;a href=&quot;http://blog.isquaredsoftware.com/presentations/2016-10-revolution-of-web-dev/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.isquaredsoftware.com/presentations/2016-10-revolution-of-web-dev/&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;随着时间推移，web开发带来了戏剧性变化，现代化web开发包含了一系列的工具、方法和概念。这些工具可能很复杂，但可以创建以前不可能实现的具有更快的开发速度和更好的可维护性的强大的应用程序。&lt;/p&gt;
+&lt;h2 id=&quot;Web开发简史&quot;&gt;&lt;a href=&quot;#Web开发简史&quot; cl
+    
+    </summary>
+    
+    
+      <category term="project" scheme="http://yoursite.com/tags/project/"/>
+    
+  </entry>
+  
+  <entry>
     <title>ECMAScript语言对象扩展小结</title>
-    <link href="http://yoursite.com/2017/10/11/ecmascript-language-object-extensions-2017/"/>
-    <id>http://yoursite.com/2017/10/11/ecmascript-language-object-extensions-2017/</id>
-    <published>2017-10-11T12:06:44.000Z</published>
-    <updated>2017-10-11T09:44:05.407Z</updated>
+    <link href="http://yoursite.com/2017/09/16/ecmascript-language-object-extensions-2017/"/>
+    <id>http://yoursite.com/2017/09/16/ecmascript-language-object-extensions-2017/</id>
+    <published>2017-09-16T12:06:44.000Z</published>
+    <updated>2017-10-12T12:50:19.237Z</updated>
     
     <content type="html">&lt;p&gt;ECMAScript语言发展越来越迅速，ES5之前好几年才发布一次新的标准规范，从ES6 (ECMAScript 2015)开始，每年发布一次标准规范，基于向后兼容的原则对语言进行功能扩展使得开发效率越来越高。&lt;/p&gt;
 &lt;p&gt;下面将ECMAScript在数值、字符串、数组、对象、函数、正则表达式上的扩展做一个小结。&lt;/p&gt;
@@ -36,22 +421,77 @@
 &lt;h3 id=&quot;字符串&quot;&gt;&lt;a href=&quot;#字符串&quot; class=&quot;headerlink&quot; title=&quot;字符串&quot;&gt;&lt;/a&gt;字符串&lt;/h3&gt;&lt;p&gt;JavaScript是一组由16位组成的不可变的有序序列，每个字符通常来自于采用UTF-16编码的Unicode字符集。采用&lt;code&gt;\uxxxx&lt;/code&gt;形式表示一个字符，其中&lt;code&gt;xxxx&lt;/code&gt;表示字符的Unicode码点，这种表示法只限于码点在&lt;code&gt;\u0000&lt;/code&gt;~&lt;code&gt;\uFFFF&lt;/code&gt;之间的字符。超出这个范围的字符必须使用两个双字节的形式表示。&lt;/p&gt;
 &lt;p&gt;ES6中对直接跟在&lt;code&gt;\u&lt;/code&gt;后面超过&lt;code&gt;0xFFFF&lt;/code&gt;的数值做了一点改进，只要将码点放入大括号就能正确解读该字符。&lt;/p&gt;
 &lt;p&gt;在ES5中对字符串对象扩展了一个实例方法trim()，此方法用来移除字符串两侧的空白。&lt;br&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; org = &lt;span class=&quot;string&quot;&gt;&#39; example &#39;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;org.trim(); &lt;span class=&quot;comment&quot;&gt;// &#39;example&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;ES6中字符串扩展了一些方法，用来更便捷地处理字符串。字符串对象方法新增了：&lt;br&gt;· 能够识别Unicode编号大于&lt;code&gt;0xFFFF&lt;/code&gt;的码点返回对应字符 String.fromCodePoint()&lt;br&gt;· 模板字符串转义处理 String.raw()&lt;br&gt;· 实例方法新增了正确处理4个字节储存的字符返回其码点 codePointAt()&lt;br&gt;· 能够识别Unicode编号大于&lt;code&gt;0xFFFF&lt;/code&gt;字符指定位置的字符 at()&lt;br&gt;· 字符不同表示方法统一同样形式（Unicode正规化）normalize()&lt;br&gt;· 确定一个字符串是否包含在另一个字符串中 includes()&lt;br&gt;· 参数字符串是否在原字符串的头部 startsWith()&lt;br&gt;· 参数字符串是否在原字符串的尾部 endsWith()&lt;br&gt;· 将原字符串重复&lt;code&gt;n&lt;/code&gt;次返回的新字符串 repeat()&lt;/p&gt;
-&lt;p&gt;ECAMScript 2017添加了两个字符串对象方法：&lt;br&gt;· 字符串在头部补全长度返回新字符串 padStart()&lt;br&gt;· 字符串在尾部补全长度返回新字符串 padEnd()&lt;br&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;String&lt;/span&gt;.fromCharCode(&lt;span class=&quot;number&quot;&gt;0x20BB7&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// &quot;ஷ&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;String&lt;/span&gt;.raw&lt;span class=&quot;string&quot;&gt;`Hello\n&lt;span class=&quot;subst&quot;&gt;$&amp;#123;2*4&amp;#125;&lt;/span&gt;!`&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// &quot;Hello\n8!&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; str = &lt;span class=&quot;string&quot;&gt;&#39;𠮷a&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;str.codePointAt(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 134071&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;str.codePointAt(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 57271&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;𠮷&#39;&lt;/span&gt;.at(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// &#39;𠮷&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;hello&#39;&lt;/span&gt;.at(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// &#39;h&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;\u01D1&#39;&lt;/span&gt;.normalize() === &lt;span class=&quot;string&quot;&gt;&#39;\u004F\u030C&#39;&lt;/span&gt;.normalize()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; compareStr = &lt;span class=&quot;string&quot;&gt;&#39;Hello world!&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;compareStr.includes(&lt;span class=&quot;string&quot;&gt;&#39;o&#39;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;compareStr.startsWith(&lt;span class=&quot;string&quot;&gt;&#39;world&#39;&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;6&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;compareStr.endsWith(&lt;span class=&quot;string&quot;&gt;&#39;!&#39;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;man&#39;&lt;/span&gt;.repeat(&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// &#39;manmanmanman&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;x&#39;&lt;/span&gt;.padStart(&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;&#39;abc&#39;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// &#39;abcx&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;x&#39;&lt;/span&gt;.padEnd(&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;&#39;abc&#39;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// &#39;xabc&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;ES6中字符串扩展了一些方法，用来更便捷地处理字符串。字符串对象方法新增了：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;能够识别Unicode编号大于&lt;code&gt;0xFFFF&lt;/code&gt;的码点返回对应字符 String.fromCodePoint()&lt;/li&gt;
+&lt;li&gt;模板字符串转义处理 String.raw()&lt;/li&gt;
+&lt;li&gt;实例方法新增了正确处理4个字节储存的字符返回其码点 codePointAt()&lt;/li&gt;
+&lt;li&gt;能够识别Unicode编号大于&lt;code&gt;0xFFFF&lt;/code&gt;字符指定位置的字符 at()&lt;/li&gt;
+&lt;li&gt;字符不同表示方法统一同样形式（Unicode正规化）normalize()&lt;/li&gt;
+&lt;li&gt;确定一个字符串是否包含在另一个字符串中 includes()&lt;/li&gt;
+&lt;li&gt;参数字符串是否在原字符串的头部 startsWith()&lt;/li&gt;
+&lt;li&gt;参数字符串是否在原字符串的尾部 endsWith()&lt;/li&gt;
+&lt;li&gt;将原字符串重复&lt;code&gt;n&lt;/code&gt;次返回的新字符串 repeat()&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ECAMScript 2017添加了两个字符串对象方法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;字符串在头部补全长度返回新字符串 padStart()&lt;/li&gt;
+&lt;li&gt;字符串在尾部补全长度返回新字符串 padEnd()&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;String&lt;/span&gt;.fromCharCode(&lt;span class=&quot;number&quot;&gt;0x20BB7&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// &quot;ஷ&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;String&lt;/span&gt;.raw&lt;span class=&quot;string&quot;&gt;`Hello\n&lt;span class=&quot;subst&quot;&gt;$&amp;#123;2*4&amp;#125;&lt;/span&gt;!`&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// &quot;Hello\n8!&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; str = &lt;span class=&quot;string&quot;&gt;&#39;𠮷a&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;str.codePointAt(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 134071&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;str.codePointAt(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 57271&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;𠮷&#39;&lt;/span&gt;.at(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// &#39;𠮷&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;hello&#39;&lt;/span&gt;.at(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// &#39;h&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;\u01D1&#39;&lt;/span&gt;.normalize() === &lt;span class=&quot;string&quot;&gt;&#39;\u004F\u030C&#39;&lt;/span&gt;.normalize()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; compareStr = &lt;span class=&quot;string&quot;&gt;&#39;Hello world!&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;compareStr.includes(&lt;span class=&quot;string&quot;&gt;&#39;o&#39;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;compareStr.startsWith(&lt;span class=&quot;string&quot;&gt;&#39;world&#39;&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;6&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;compareStr.endsWith(&lt;span class=&quot;string&quot;&gt;&#39;!&#39;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;man&#39;&lt;/span&gt;.repeat(&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// &#39;manmanmanman&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;x&#39;&lt;/span&gt;.padStart(&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;&#39;abc&#39;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// &#39;abcx&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;x&#39;&lt;/span&gt;.padEnd(&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;&#39;abc&#39;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// &#39;xabc&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;数组&quot;&gt;&lt;a href=&quot;#数组&quot; class=&quot;headerlink&quot; title=&quot;数组&quot;&gt;&lt;/a&gt;数组&lt;/h3&gt;&lt;p&gt;ES5定义了9个新的数组方法来遍历forEach()、映射map()、过滤filter()、检测every()及some()、简化reduce()及reduceRight()和搜索数组indexOf()及lastIndexOf()。这些方法大多数第一次参数是一个函数，并且对数组每个元素调用一次该函数。如果是稀疏数组，对不存在的元素不调用传递的函数。大多数情况下，调用提供的函数使用三个参数：数组元素、元素的索引和数组本身。这些大多数数组方法第二个参数可选，若有第二个参数调用函数可看作是第二参数的方法。&lt;br&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; data = [&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;6&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; sum = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;data.forEach(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;v&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    sum += v;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// sum = 21&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;data.forEach(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;v, i, arr&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    arr[i] = v * &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// data = [2, 4, 6, 8, 10, 12]&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;需要注意的是forEach()不支持循环break终止语句，需要提前跳出循环只能用try…catch语句。&lt;/p&gt;
 &lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; all = [&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; allNew = all.map(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;v&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; v*v;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// allNew = [1, 4, 9]&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; allPart = allNew.filter(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;v&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; v &amp;lt; &lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// allPart = [1, 4]&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;allPart.every(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;v&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; v &amp;lt; &lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;allPart.some(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;v&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; v &amp;gt; &lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// false&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; sum = all.reduce(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;x, y&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; x +y;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;, &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// sum = 6&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; big = [&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;].reduceRight(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;accumulator, value&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// (2, 3) (9, 2)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;Math&lt;/span&gt;.pow(value, accumulator);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// big = 512&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;].indexOf(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;].lastIndexOf(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 3&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;].indexOf(&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// -1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;ES6中新增了扩展运算符（spread），三个点（…），作用是将一个数组转为用逗号分隔的参数序列。可用来复制数组、合并数组、与ES6解构赋值结合起来生成新数组、字符串转真正的数组。&lt;br&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; a1 = [&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; a2 = [...a1]; &lt;span class=&quot;comment&quot;&gt;// const [...a2] = a1;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// a2 = [1, 2, 3]&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; a3 = [...a1, &lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;6&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// a3 = [1, 2, 3, 4, 5, 6]&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; [first, ...rest] = [&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// first = 1, rest = [2, 3, 4, 5]&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; a4 = [...&lt;span class=&quot;string&quot;&gt;&#39;hello&#39;&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// a4 = [&#39;h&#39;, &#39;e&#39;, &#39;l&#39;, &#39;l&#39;, &#39;o&#39;]&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;此外ES6也新增了一些数组方法：&lt;br&gt;· 用于将类对象转为真正的数组 Array.from()&lt;br&gt;· 将一组值转为数组 Array.of()&lt;br&gt;· 在当前数组内部将指定位置的成员复制到其他位置返回新数组 copyWithin()&lt;br&gt;· 找出第一个符合条件的数组成员 find()&lt;br&gt;· 返回第一个符合条件的数组成员的位置 findIndex()&lt;br&gt;· 使用给定值填充数组返回新数组 fill()&lt;br&gt;· 遍历数组键名 keys()&lt;br&gt;· 遍历数组键值 values()&lt;br&gt;· 遍历数组键值对 entries()&lt;/p&gt;
-&lt;p&gt;ECMAScript 2016新增了一个数组方法：&lt;br&gt;· 数组是否包含某个值 includes()&lt;/p&gt;
+&lt;p&gt;此外ES6也新增了一些数组方法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用于将类对象转为真正的数组 Array.from()&lt;/li&gt;
+&lt;li&gt;将一组值转为数组 Array.of()&lt;/li&gt;
+&lt;li&gt;在当前数组内部将指定位置的成员复制到其他位置返回新数组 copyWithin()&lt;/li&gt;
+&lt;li&gt;找出第一个符合条件的数组成员 find()&lt;/li&gt;
+&lt;li&gt;返回第一个符合条件的数组成员的位置 findIndex()&lt;/li&gt;
+&lt;li&gt;使用给定值填充数组返回新数组 fill()&lt;/li&gt;
+&lt;li&gt;遍历数组键名 keys()&lt;/li&gt;
+&lt;li&gt;遍历数组键值 values()&lt;/li&gt;
+&lt;li&gt;遍历数组键值对 entries()&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ECMAScript 2016新增了一个数组方法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;数组是否包含某个值 includes()&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;稀疏数组就是包含从0开始的不连续索引的数组，比起稠密数组实现上更慢、内存利用率更高、查找元素时间更长。可通过Array()构造函数或简单指定数组的索引值大于当前的数组长度创建稀疏数组，也可以通过delete操作符生产稀疏数组。数组空位是指数组的某一个位置没有任何值。&lt;/p&gt;
 &lt;p&gt;ES5对稀疏数组和数组空位处理大多数情况下会忽略空位。ES6则会将其转为undefined。&lt;/p&gt;
 &lt;h3 id=&quot;对象&quot;&gt;&lt;a href=&quot;#对象&quot; class=&quot;headerlink&quot; title=&quot;对象&quot;&gt;&lt;/a&gt;对象&lt;/h3&gt;&lt;p&gt;在ES5中属性的值可以是一个getter或setter函数（或两者都有），可以对对象创建的属性特性（property attribute）（可写writable、可枚举enumerable、可配置configurable）进行配置。有getter和setter定义的属性称作“存取器属性”（accessor property），它不同于由一个简单的值构成的数据属性。存取器属性不具有值特性和可写性。&lt;/p&gt;
-&lt;p&gt;ES5针对Object扩展了以下方法：&lt;br&gt;· 使用指定的原型对象及其属性去创建一个新的对象 Object.create(proto[, propertiesObject])&lt;br&gt;· 直接在一个对象上定义一个新属性或者修改现有属性并返回这个对象 Object.defineProperty(obj, prop, descriptor) （descriptor描述符可选键值value, get, set, enumerable, writable, configurable）&lt;br&gt;· 直接在一个对象上定义新的属性或修改现有属性 Object.defineProperties(obj, props)&lt;br&gt;· 返回指定对象上一个自由属性对应的属性描述符 Object.getOwnPropertyDescriptor(obj, prop)&lt;br&gt;· 返回指定对象的所有自身属性（包括不可枚举属性但不包括Symbol值为名称的属性）组成的数组 Object.getOwnPropertyNames(obj)&lt;br&gt;· 返回指定对象的原型（即内部[[Prototype]]属性的值）Object.getPrototypeOf(object)&lt;br&gt;· 返回给定对象自身可枚举属性（不包含原型链上的属性）组成的数组 Object.keys(obj)&lt;br&gt;· 冻结一个对象（即对象永远不可变）Object.freeze(obj)&lt;br&gt;· 判断一个对象是否被冻结 Object.isFrozen(obj)&lt;br&gt;· 使一个对象变的不可扩展（即不能添加新的属性）Object.preventExtensions(obj)&lt;br&gt;· 判断一个对象是否是可扩展（能否在它上面添加新的属性）Object.isExtensible(obj)&lt;br&gt;· 将一个对象密封并返回被密封后的对象（只有可写属性不受影响）Object.seal(obj)&lt;br&gt;· 判断一个对象是否被密封 Object.isSealed(obj)&lt;/p&gt;
+&lt;p&gt;ES5针对Object扩展了以下方法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用指定的原型对象及其属性去创建一个新的对象 Object.create(proto[, propertiesObject])&lt;/li&gt;
+&lt;li&gt;直接在一个对象上定义一个新属性或者修改现有属性并返回这个对象 Object.defineProperty(obj, prop, descriptor) （descriptor描述符可选键值value, get, set, enumerable, writable, configurable）&lt;/li&gt;
+&lt;li&gt;直接在一个对象上定义新的属性或修改现有属性 Object.defineProperties(obj, props)&lt;/li&gt;
+&lt;li&gt;返回指定对象上一个自由属性对应的属性描述符 Object.getOwnPropertyDescriptor(obj, prop)&lt;/li&gt;
+&lt;li&gt;返回指定对象的所有自身属性（包括不可枚举属性但不包括Symbol值为名称的属性）组成的数组 Object.getOwnPropertyNames(obj)&lt;/li&gt;
+&lt;li&gt;返回指定对象的原型（即内部[[Prototype]]属性的值）Object.getPrototypeOf(object)&lt;/li&gt;
+&lt;li&gt;返回给定对象自身可枚举属性（不包含原型链上的属性）组成的数组 Object.keys(obj)&lt;/li&gt;
+&lt;li&gt;冻结一个对象（即对象永远不可变）Object.freeze(obj)&lt;/li&gt;
+&lt;li&gt;判断一个对象是否被冻结 Object.isFrozen(obj)&lt;/li&gt;
+&lt;li&gt;使一个对象变的不可扩展（即不能添加新的属性）Object.preventExtensions(obj)&lt;/li&gt;
+&lt;li&gt;判断一个对象是否是可扩展（能否在它上面添加新的属性）Object.isExtensible(obj)&lt;/li&gt;
+&lt;li&gt;将一个对象密封并返回被密封后的对象（只有可写属性不受影响）Object.seal(obj)&lt;/li&gt;
+&lt;li&gt;判断一个对象是否被密封 Object.isSealed(obj)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;ES6允许直接写入变量和函数作为对象的属性和方法，可在字面量定义对象时使用表达式作为对象的属性名，表达式放在方括号内。&lt;/p&gt;
-&lt;p&gt;ES6针对Object扩展了以下方法：&lt;br&gt;· 比较两个值是否严格相等 Object.is(value1, value2)&lt;br&gt;· 将所有可枚举属性的值从一个或多个源对象复制到目标对象 Object.assign(target, …source)&lt;br&gt;· 设置一个指定对象原型到另一个对象或null Object.setPrototypeOf(obj, prototype)&lt;/p&gt;
+&lt;p&gt;ES6针对Object扩展了以下方法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;比较两个值是否严格相等 Object.is(value1, value2)&lt;/li&gt;
+&lt;li&gt;将所有可枚举属性的值从一个或多个源对象复制到目标对象 Object.assign(target, …source)&lt;/li&gt;
+&lt;li&gt;设置一个指定对象原型到另一个对象或null Object.setPrototypeOf(obj, prototype)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;JavaScript语言中生成实例对象的传统方法是通过构造函数。ES6提供了更接近传统语言的写法，引入了Class（类）这个概念作为对象的模板，可通过&lt;code&gt;class&lt;/code&gt;关键字定义类。&lt;/p&gt;
-&lt;p&gt;ECMAScript 2017在Object上新增了三个方法：&lt;br&gt;· 返回一个给定对象自己的所有可枚举属性值的数组 Object.values(obj)&lt;br&gt;· 返回一个给定对象自身可枚举属性的键值对数组 Object.entries(obj)&lt;br&gt;· 获取一个对象的所有自身属性描述符 Object.getOwnPropertyDescriptors(obj)&lt;/p&gt;
+&lt;p&gt;ECMAScript 2017在Object上新增了三个方法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;返回一个给定对象自己的所有可枚举属性值的数组 Object.values(obj)&lt;/li&gt;
+&lt;li&gt;返回一个给定对象自身可枚举属性的键值对数组 Object.entries(obj)&lt;/li&gt;
+&lt;li&gt;获取一个对象的所有自身属性描述符 Object.getOwnPropertyDescriptors(obj)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&quot;函数&quot;&gt;&lt;a href=&quot;#函数&quot; class=&quot;headerlink&quot; title=&quot;函数&quot;&gt;&lt;/a&gt;函数&lt;/h3&gt;&lt;p&gt;在ES5中新增了一个方法，用来改变函数调用时的this指向：fun.bind(thisArg[, arg1, [, arg2[, …]]])。&lt;/p&gt;
 &lt;p&gt;在ES6中可以指定函数参数的默认值，指定参数默认值后函数的length属性将返回没有指定默认值的参数个数。引入rest参数（形式为…变量名），用于获取函数多余的参数，rest参数能够将多余的参数放入一个数组中。ES6优化了尾调用性能。&lt;/p&gt;
 &lt;p&gt;ES6定义了一种新的函数定义方式，使用“箭头”（=&amp;gt;）定义函数，简化了函数的定义，函数体内的this对象是定义时所在的对象而不是使用时所在的对象。针对异步编程提出了一个解决方案为Generator函数。&lt;/p&gt;
@@ -136,59 +576,59 @@
     <link href="http://yoursite.com/2017/08/08/chrome-common-plugin/"/>
     <id>http://yoursite.com/2017/08/08/chrome-common-plugin/</id>
     <published>2017-08-08T06:45:55.000Z</published>
-    <updated>2017-08-08T14:41:49.957Z</updated>
+    <updated>2017-10-12T12:48:19.359Z</updated>
     
     <content type="html">&lt;p&gt;作为一名web开发者，会接触到很多开发工具，今天就来说说常用的chrome插件，利用这些插件给平时的工作、开发带来很大的便利。&lt;/p&gt;
 &lt;h2 id=&quot;浏览器相关&quot;&gt;&lt;a href=&quot;#浏览器相关&quot; class=&quot;headerlink&quot; title=&quot;浏览器相关&quot;&gt;&lt;/a&gt;浏览器相关&lt;/h2&gt;&lt;p&gt;首选介绍这几个插件在浏览器使用过程中会有一些优化，它会给你带来什么样的体验呢？赶快去体验吧~&lt;/p&gt;
 &lt;h3 id=&quot;Momentum&quot;&gt;&lt;a href=&quot;#Momentum&quot; class=&quot;headerlink&quot; title=&quot;Momentum&quot;&gt;&lt;/a&gt;Momentum&lt;/h3&gt;&lt;p&gt;Momentum插件用来替换Chrome新标签页内容，每天能看到不同优美的风景图片和精彩的格言。打开浏览器就能看到这么激励人心的内容，有木有给你的工作和生活带来动力？除此之外，该插件还提供了其他重要的功能，可以设置天气信息，待办事件记录，日常事务等等。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-momentum.png&quot; alt=&quot;momentum&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-momentum.png&quot; alt=&quot;momentum&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;OneTab&quot;&gt;&lt;a href=&quot;#OneTab&quot; class=&quot;headerlink&quot; title=&quot;OneTab&quot;&gt;&lt;/a&gt;OneTab&lt;/h3&gt;&lt;p&gt;Chrome浏览器虽然访问页面很流畅，但是消耗内存也很大。OneTab字面意思即一个tab页面，当你用浏览器打开多个标签页，也许很多重要的内容没来得及看但又不想把它立即关掉，这时候你可以用OneTab插件来管理打开的tab标签页内容了。单击OneTab图标会将所有标签页转换成一个列表，在某个标签页可以选择左侧或右侧标签页放到OneTab列表页中。当再次访问这些标签页时可以从从这里恢复它们。将标签页放置到OneTab中，浏览器打开的标签页减少了，占用系统内存相应减少。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-onetab.png&quot; alt=&quot;onetab&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-onetab.png&quot; alt=&quot;onetab&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Proxy-SwitchySharp&quot;&gt;&lt;a href=&quot;#Proxy-SwitchySharp&quot; class=&quot;headerlink&quot; title=&quot;Proxy SwitchySharp&quot;&gt;&lt;/a&gt;Proxy SwitchySharp&lt;/h3&gt;&lt;p&gt;由于国内某些原因（你懂得），常常不能访问国外一些网站，这时候要访问这些内容时需要借助一些工具才能达到。这些工具就是代理，采用了代理浏览器则会通过代理去请求资源，从而绕开一些壁垒，请求到相应资源。Proxy SwitchSharp就是用来管理浏览器代理，可以将代理信息在这里设置从而达到“科学上网”。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-proxy-switchysharp.png&quot; alt=&quot;proxy switchysharp&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-proxy-switchysharp.png&quot; alt=&quot;proxy switchysharp&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;一键管理&quot;&gt;&lt;a href=&quot;#一键管理&quot; class=&quot;headerlink&quot; title=&quot;一键管理&quot;&gt;&lt;/a&gt;一键管理&lt;/h3&gt;&lt;p&gt;也许你的浏览器安装了不止一个插件，当你想把某个插件禁用或开启，没有安装此插件则需要到浏览器扩展程序页面中操作。一键管理插件会将浏览器安装过的所有插件放在一个控制面板中展示，所有插件一键开启或禁止，也可以针对某个插件开启或禁止。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-onekeyplugin.png&quot; alt=&quot;onekeyplugin&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-onekeyplugin.png&quot; alt=&quot;onekeyplugin&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;二维码&quot;&gt;&lt;a href=&quot;#二维码&quot; class=&quot;headerlink&quot; title=&quot;二维码&quot;&gt;&lt;/a&gt;二维码&lt;/h3&gt;&lt;p&gt;我们常常会在电脑上访问的页面用手机去浏览，比如开发测试无线页面效果，一般做法是将浏览器上访问的地址用手机浏览器打开，这样难以避免输入一串网址的烦恼，而且容易出错。有了这个插件，可以直接用手机扫描插件生成的二维码，从而快速访问到页面内容。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-qrcode.png&quot; alt=&quot;qrcode&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-qrcode.png&quot; alt=&quot;qrcode&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Github相关&quot;&gt;&lt;a href=&quot;#Github相关&quot; class=&quot;headerlink&quot; title=&quot;Github相关&quot;&gt;&lt;/a&gt;Github相关&lt;/h2&gt;&lt;p&gt;github对于一个开发者来说并不陌生，github作为一个代码托管的在线服务，许多优秀的开发资源在这里涌现。Github最丰富的资源就是代码和文档，开发者可以从这里学习和利用到很多资源。下面介绍这几款与github相关的插件。&lt;/p&gt;
 &lt;h3 id=&quot;Avatars-for-Github&quot;&gt;&lt;a href=&quot;#Avatars-for-Github&quot; class=&quot;headerlink&quot; title=&quot;Avatars for Github&quot;&gt;&lt;/a&gt;Avatars for Github&lt;/h3&gt;&lt;p&gt;登录用户访问github网站首页，呈现的是许多关注用户的一些动态信息，比如创建代码仓库、关注代码仓库、提及到代码、留言评论，网站默认不显示用户头像，只显示出用户名。人通常对图片比文字敏感，看到图片能更快获取到信息。使用了这个插件就能让页面中涉及的用户头像展示出来，浏览信息更加引起用户的注意力。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-avatars-for-github.png&quot; alt=&quot;avatars for github&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-avatars-for-github.png&quot; alt=&quot;avatars for github&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Insight-io-for-Github&quot;&gt;&lt;a href=&quot;#Insight-io-for-Github&quot; class=&quot;headerlink&quot; title=&quot;Insight.io for Github&quot;&gt;&lt;/a&gt;Insight.io for Github&lt;/h3&gt;&lt;p&gt;用户在访问一个仓库的源代码时通常是在各个目录和文件中来回切换，需要在页面中点击相应链接跳转才能实现。现在把这款强大的代码组织管理插件装上，你会越来越爱上这款插件。开启这个插件，在当前页面会展现代码的目录结构，单页面访问任何文件内容，展示文件的具体内容结构以及跨代码仓库查看文件内容引用。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-insight.io-for-github.png&quot; alt=&quot;insight.io for github&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-insight.io-for-github.png&quot; alt=&quot;insight.io for github&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Sourcegraph-for-Github&quot;&gt;&lt;a href=&quot;#Sourcegraph-for-Github&quot; class=&quot;headerlink&quot; title=&quot;Sourcegraph for Github&quot;&gt;&lt;/a&gt;Sourcegraph for Github&lt;/h3&gt;&lt;p&gt;装上这个插件当你在浏览代码、提交信息、diff信息时github像一个IDE一样，代码语法高亮显示，可以进行代码高级查找、跳转到代码定义所在行、发现代码相关引用。无论功能和效果都比上一个插件强大，不过使用这个插件会先打开一个新页面，然后加载内容展示。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-sourcegraph-for-github.png&quot; alt=&quot;sourcegraph for github&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-sourcegraph-for-github.png&quot; alt=&quot;sourcegraph for github&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;octotree&quot;&gt;&lt;a href=&quot;#octotree&quot; class=&quot;headerlink&quot; title=&quot;octotree&quot;&gt;&lt;/a&gt;octotree&lt;/h3&gt;&lt;p&gt;启动这个插件，访问代码仓库时会展现代码结构树，便于代码浏览。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-octotree.png&quot; alt=&quot;octotree&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-octotree.png&quot; alt=&quot;octotree&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Github-Markdown-Menu&quot;&gt;&lt;a href=&quot;#Github-Markdown-Menu&quot; class=&quot;headerlink&quot; title=&quot;Github Markdown Menu&quot;&gt;&lt;/a&gt;Github Markdown Menu&lt;/h3&gt;&lt;p&gt;Github Markdown Menu会给readme或者Markdown文件生成一个导航目录。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-github-markdown-menu.png&quot; alt=&quot;github markdown menu&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-github-markdown-menu.png&quot; alt=&quot;github markdown menu&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;前端框架相关&quot;&gt;&lt;a href=&quot;#前端框架相关&quot; class=&quot;headerlink&quot; title=&quot;前端框架相关&quot;&gt;&lt;/a&gt;前端框架相关&lt;/h2&gt;&lt;p&gt;Angular、React、Vue号称当前前端主流的三大框架，下面这几款插件就与它们息息相关，运用这些插件在程序调试过程中得心应手。&lt;/p&gt;
 &lt;h3 id=&quot;AngularJS-Batarang&quot;&gt;&lt;a href=&quot;#AngularJS-Batarang&quot; class=&quot;headerlink&quot; title=&quot;AngularJS Batarang&quot;&gt;&lt;/a&gt;AngularJS Batarang&lt;/h3&gt;&lt;p&gt;这个插件为AngularJS框架扩展浏览器开发者工具功能，用来调试angularjs应用、性能测试。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-angularjs-batarang.png&quot; alt=&quot;angularjs batarang&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-angularjs-batarang.png&quot; alt=&quot;angularjs batarang&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;React-Developer-Tools&quot;&gt;&lt;a href=&quot;#React-Developer-Tools&quot; class=&quot;headerlink&quot; title=&quot;React Developer Tools&quot;&gt;&lt;/a&gt;React Developer Tools&lt;/h3&gt;&lt;p&gt;该插件为开源React.js JavaScript库扩展浏览器开发者工具功能，方便用户查看页面组件树结构关系。你可以在控制面板下选中组件展示其组件属性，也可以改变组件的pros和state内容。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-react-developer-tools.png&quot; alt=&quot;react developer tools&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-react-developer-tools.png&quot; alt=&quot;react developer tools&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Vue-js-devtools&quot;&gt;&lt;a href=&quot;#Vue-js-devtools&quot; class=&quot;headerlink&quot; title=&quot;Vue.js devtools&quot;&gt;&lt;/a&gt;Vue.js devtools&lt;/h3&gt;&lt;p&gt;这个插件为Vue.js框架扩展浏览器开发者工具功能，用来调试Vue.js应用程序，展示组件结构，跟踪组件数据流。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-vue.js-devtools.png&quot; alt=&quot;vue.js devtools&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-vue.js-devtools.png&quot; alt=&quot;vue.js devtools&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;开发工具相关&quot;&gt;&lt;a href=&quot;#开发工具相关&quot; class=&quot;headerlink&quot; title=&quot;开发工具相关&quot;&gt;&lt;/a&gt;开发工具相关&lt;/h2&gt;&lt;p&gt;除了上面这几款实用的插件，还有很多优秀的开发工具插件，下面列举我平时使用过的一些用于开发的插件。&lt;/p&gt;
 &lt;h3 id=&quot;Postman&quot;&gt;&lt;a href=&quot;#Postman&quot; class=&quot;headerlink&quot; title=&quot;Postman&quot;&gt;&lt;/a&gt;Postman&lt;/h3&gt;&lt;p&gt;Postman并不是Chrome扩展程序，而是一个Chrome应用，这里把它列出来在于其在网络请求方面功能很强大。该插件可用来做API开发调试，支持多种请求方式。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-postman.png&quot; alt=&quot;postman&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-postman.png&quot; alt=&quot;postman&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;LiveReload&quot;&gt;&lt;a href=&quot;#LiveReload&quot; class=&quot;headerlink&quot; title=&quot;LiveReload&quot;&gt;&lt;/a&gt;LiveReload&lt;/h3&gt;&lt;p&gt;在开发网络应用程序时，开启这个插件文件内容更新其展示页面会同步更新。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-livereload.png&quot; alt=&quot;livereload&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-livereload.png&quot; alt=&quot;livereload&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;JSONView&quot;&gt;&lt;a href=&quot;#JSONView&quot; class=&quot;headerlink&quot; title=&quot;JSONView&quot;&gt;&lt;/a&gt;JSONView&lt;/h3&gt;&lt;p&gt;可用于校验json文件内容，格式化高亮展现json文件内容。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-jsonview.png&quot; alt=&quot;jsonview&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-jsonview.png&quot; alt=&quot;jsonview&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;FeHelper&quot;&gt;&lt;a href=&quot;#FeHelper&quot; class=&quot;headerlink&quot; title=&quot;FeHelper&quot;&gt;&lt;/a&gt;FeHelper&lt;/h3&gt;&lt;p&gt;FE助手：包括字符串编解码、代码压缩、美化、JSON格式化、正则表达式、时间转换工具、二维码生成器、编码规范检测、页面性能检测、页面取色、Ajax接口调试。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-fehelper.png&quot; alt=&quot;fehelper&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-fehelper.png&quot; alt=&quot;fehelper&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Sizzy&quot;&gt;&lt;a href=&quot;#Sizzy&quot; class=&quot;headerlink&quot; title=&quot;Sizzy&quot;&gt;&lt;/a&gt;Sizzy&lt;/h3&gt;&lt;p&gt;响应式网站调试工具，支持多种机型和尺寸。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-sizzy.png&quot; alt=&quot;sizzy&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-sizzy.png&quot; alt=&quot;sizzy&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Distill-Web-Monitor&quot;&gt;&lt;a href=&quot;#Distill-Web-Monitor&quot; class=&quot;headerlink&quot; title=&quot;Distill Web Monitor&quot;&gt;&lt;/a&gt;Distill Web Monitor&lt;/h3&gt;&lt;p&gt;Distill在您的浏览器上运行，检查监控的页面有无变更。在侦测到变更时立即发出通知。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-distill-web-monitor.png&quot; alt=&quot;disll web monitor&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-distill-web-monitor.png&quot; alt=&quot;disll web monitor&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Web-Developer&quot;&gt;&lt;a href=&quot;#Web-Developer&quot; class=&quot;headerlink&quot; title=&quot;Web Developer&quot;&gt;&lt;/a&gt;Web Developer&lt;/h3&gt;&lt;p&gt;一个拥有丰富功能的网页开发工具。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-web-developer.png&quot; alt=&quot;web developer&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-web-developer.png&quot; alt=&quot;web developer&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;HTML5-Outliner&quot;&gt;&lt;a href=&quot;#HTML5-Outliner&quot; class=&quot;headerlink&quot; title=&quot;HTML5 Outliner&quot;&gt;&lt;/a&gt;HTML5 Outliner&lt;/h3&gt;&lt;p&gt;生成一个带有标题和区域元素的html5页面轮廓结构。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-html5-outliner.png&quot; alt=&quot;html5 outliner&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-html5-outliner.png&quot; alt=&quot;html5 outliner&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Open-SEO-Stats&quot;&gt;&lt;a href=&quot;#Open-SEO-Stats&quot; class=&quot;headerlink&quot; title=&quot;Open SEO Stats&quot;&gt;&lt;/a&gt;Open SEO Stats&lt;/h3&gt;&lt;p&gt;显示当前网页的排名和 SEO 统计数据，主要包括 Alexa、Compete、Quantcast 排名，以及外链、索引数、IP 位置、Whois、SNS、缓存等。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-open-seo-stats.png&quot; alt=&quot;open seo stats&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-open-seo-stats.png&quot; alt=&quot;open seo stats&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Humans-txt&quot;&gt;&lt;a href=&quot;#Humans-txt&quot; class=&quot;headerlink&quot; title=&quot;Humans.txt&quot;&gt;&lt;/a&gt;Humans.txt&lt;/h3&gt;&lt;p&gt;如果网站存在humans.txt内容，可用来展现其具体内容。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-08-08-humans.png&quot; alt=&quot;humans&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-humans.png&quot; alt=&quot;humans&quot;&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -208,7 +648,7 @@
     <link href="http://yoursite.com/2017/07/29/refactor-static-website/"/>
     <id>http://yoursite.com/2017/07/29/refactor-static-website/</id>
     <published>2017-07-29T15:03:29.000Z</published>
-    <updated>2017-08-30T02:05:59.371Z</updated>
+    <updated>2017-10-12T12:46:46.102Z</updated>
     
     <content type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;静态网站顾名思义是由静态页面构成的网站，不涉及到后端数据库系统，页面中的内容在制作的时候就已经写好了。若需要去改某个页面的内容则需要找到该页面的模板文件修改。&lt;/p&gt;
 &lt;p&gt;最近收到了一个大学老师的消息，问我是否有空能帮她做个课题申报项目网站。我按照了项目开发的流程先打听了老师的项目需求，老师说该项目需求与在大学期间帮她做的那个课题申报项目类似，具体需求内容在此不多介绍了，主要是课题的一些相关内容需要采用网站的形式展示出来。&lt;/p&gt;
@@ -220,12 +660,12 @@
 &lt;p&gt;静态网站不涉及到后端内容，选用前端模板即可解决问题。那这么多前端模板引擎如何选择才能找到一个合适的模板引擎呢？在开发中有良好的运行调试能力，支持模板继承和文件引入，支持作用域变量和判断循环条件语句，拥有简洁的语法在一定条件下能减少代码书写量，拥有上述这些特点的模板引擎都能支撑起业务开发，于是我选择了pug模板引擎。&lt;/p&gt;
 &lt;h2 id=&quot;实践思路&quot;&gt;&lt;a href=&quot;#实践思路&quot; class=&quot;headerlink&quot; title=&quot;实践思路&quot;&gt;&lt;/a&gt;实践思路&lt;/h2&gt;&lt;h3 id=&quot;目录规划&quot;&gt;&lt;a href=&quot;#目录规划&quot; class=&quot;headerlink&quot; title=&quot;目录规划&quot;&gt;&lt;/a&gt;目录规划&lt;/h3&gt;&lt;p&gt;对一个静态网站来说，资源包含静态模板页面、样式文件、静态资源（如图片、视频、文档等等）。如何设计整个网站的目录结构对开发效率来说有很大的影响。目前大体上网站的目录结构有两种分类方式，一种是根据功能来划分目录结构，比如某个页面实现所需要的业务组件、样式都放在同一个目录里，这种对于业务功能比较复杂类应用来说尤为方便，资源查找和引用一目了然；另一种是根据文件类型来划分目录结构，这种对于网站文件管理比较方便。&lt;/p&gt;
 &lt;p&gt;根据这个静态网站的需求来开发，网站内容偏展示，不涉及复杂的页面交互逻辑，以文件类型为目录结构规划网站内容。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-07-project-directory.png&quot; alt=&quot;目录结构图&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201707/2017-07-project-directory.png&quot; alt=&quot;目录结构图&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;开发细节&quot;&gt;&lt;a href=&quot;#开发细节&quot; class=&quot;headerlink&quot; title=&quot;开发细节&quot;&gt;&lt;/a&gt;开发细节&lt;/h3&gt;&lt;p&gt;得益于pug简洁的模板语法和强大的模板功能，pug在这个项目中发挥了很大作用。每个页面都是继承自base layout，其中base layout包括页面banner、nav、footer公用的组件，nav的状态可以通过在具体页面中传入变量实现。每个页面根据实际情况可以划分为侧边导航栏组件和内容区域，从而组成一个个具体的页面。&lt;/p&gt;
 &lt;p&gt;pdf文件浏览采用开源的pdf.js库，能够实现跨平台在线浏览pdf文件内容。视频文件考虑到文件格式兼容性和在线存储，使用了传统的flash流式播放。封装了这两个组件，在使用的时候采用参数传入的方式来调动功能，从而达到复用。&lt;/p&gt;
 &lt;p&gt;采用这种继承layout和组件形式开发，节省了很多开发工作量，开发效率得到很大提升，并且易于维护。&lt;/p&gt;
 &lt;h3 id=&quot;构建部署&quot;&gt;&lt;a href=&quot;#构建部署&quot; class=&quot;headerlink&quot; title=&quot;构建部署&quot;&gt;&lt;/a&gt;构建部署&lt;/h3&gt;&lt;p&gt;现在每个网站的开发、测试、上线离不开一个构建部署脚本。node.js的不断发展，生态系统日益壮大，有很多方便快捷的工具可以用于开发构建。本项目用到了将pug模板编译成html内容，css和js文件压缩，浏览器同步自动更新构建工具，基于文件流和任务式自动化构建工具gulp.js，能够简单高效的完成网站的构建与部署。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/2017-07-29-work-stream.png&quot; alt=&quot;构建流程图&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201707/2017-07-29-work-stream.png&quot; alt=&quot;构建流程图&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;小结&quot;&gt;&lt;a href=&quot;#小结&quot; class=&quot;headerlink&quot; title=&quot;小结&quot;&gt;&lt;/a&gt;小结&lt;/h2&gt;&lt;p&gt;完成整个网站开发涉及到了方方面面，一点一滴的积累和实践，得到了成长，收获了快乐。&lt;/p&gt;
 </content>
     

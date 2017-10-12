@@ -4,8 +4,378 @@
   
     
     <entry>
+      <title><![CDATA[Web开发演化]]></title>
+      <url>http://yoursite.com/2017/10/11/the-revolution-of-web-development-2016/</url>
+      <content type="html"><![CDATA[<p>随着时间推移，web开发带来了戏剧性变化，现代化web开发包含了一系列的工具、方法和概念。这些工具可能很复杂，但可以创建以前不可能实现的具有更快的开发速度和更好的可维护性的强大的应用程序。</p>
+<h2 id="Web开发简史"><a href="#Web开发简史" class="headerlink" title="Web开发简史"></a>Web开发简史</h2><h3 id="Web-1-0（1991-2001）"><a href="#Web-1-0（1991-2001）" class="headerlink" title="Web 1.0（1991-2001）"></a>Web 1.0（1991-2001）</h3><p>这段时期典型的站点是由静态的html页面构成，在全球的城市或大学页面上托管，采用FrontPage、DreamWeaver或Notepad写成。</p>
+<p><img src="/assets/201710/2017-10-11-web1.0.png" alt="2017-10-11-web1.0"></p>
+<h4 id="Web-1-0：技术"><a href="#Web-1-0：技术" class="headerlink" title="Web 1.0：技术"></a>Web 1.0：技术</h4><p>CGI-BIN和Perl<br>PHP和ASP</p>
+<h4 id="Web-1-0：交互"><a href="#Web-1-0：交互" class="headerlink" title="Web 1.0：交互"></a>Web 1.0：交互</h4><p>HTML表单<br>Java applets<br>ActiveX controls<br>动态HTML（DHTML）</p>
+<p><img src="/assets/201710/2017-10-11-web1.0-interactivity.png" alt="2017-10-11-web1.0-interactivity"></p>
+<h4 id="Web-1-0：浏览器"><a href="#Web-1-0：浏览器" class="headerlink" title="Web 1.0：浏览器"></a>Web 1.0：浏览器</h4><p>Mosaic<br>Netscape<br>Internet Explorer</p>
+<p><img src="/assets/201710/2017-10-11-web1.0-browsers.png" alt="2017-10-11-web1.0-browsers"></p>
+<h4 id="Web-1-0：代码共享"><a href="#Web-1-0：代码共享" class="headerlink" title="Web 1.0：代码共享"></a>Web 1.0：代码共享</h4><p>脚本网站</p>
+<p><img src="/assets/201710/2017-10-11-web1.0-code-sharing.png" alt="2017-10-11-web1.0-code-sharing"></p>
+<h4 id="Web-1-0：里程碑"><a href="#Web-1-0：里程碑" class="headerlink" title="Web 1.0：里程碑"></a>Web 1.0：里程碑</h4><p>HTML、CSS和JavaScript发明<br>Java和Flash发明<br>采用img和iframe标签实现的多媒体<br>blink和marquee标签</p>
+<h3 id="Web-2-0（2001-2010）"><a href="#Web-2-0（2001-2010）" class="headerlink" title="Web 2.0（2001-2010）"></a>Web 2.0（2001-2010）</h3><p>这个阶段的网站采用服务端渲染页面，MySQL数据库，运行在J2EE、Rails或者PHP上。</p>
+<p><img src="/assets/201710/2017-10-11-web2.0.png" alt="2017-10-11-web2.0"></p>
+<h4 id="Web-2-0：服务端技术"><a href="#Web-2-0：服务端技术" class="headerlink" title="Web 2.0：服务端技术"></a>Web 2.0：服务端技术</h4><p>J2EE、ASP.NET、Rails、Django、LAMP<br>单独架构</p>
+<p><img src="/assets/201710/2017-10-11-web2.0-server-technologies.png" alt="2017-10-11-web2.0-server-technologies"></p>
+<h4 id="Web-2-0：客户端技术"><a href="#Web-2-0：客户端技术" class="headerlink" title="Web 2.0：客户端技术"></a>Web 2.0：客户端技术</h4><p>Ajax（Asynchronous JavaScript And XML）<br>MOOTOOLS（A COMPACT JAVASCRIPT FRAMEWORK）<br>prototype<br>jQuery</p>
+<p><img src="/assets/201710/2017-10-11-web2.0-client-technologies.png" alt="2017-10-11-web2.0-client-technologies"></p>
+<h4 id="Web-2-0：浏览器"><a href="#Web-2-0：浏览器" class="headerlink" title="Web 2.0：浏览器"></a>Web 2.0：浏览器</h4><p>IE6<br>Mozilla（Firefox）<br>IE6 → IE8<br>ACID测试</p>
+<p><img src="/assets/201710/2017-10-11-web2.0-browsers.png" alt="2017-10-11-web2.0-browsers"></p>
+<h4 id="Web-2-0：富应用"><a href="#Web-2-0：富应用" class="headerlink" title="Web 2.0：富应用"></a>Web 2.0：富应用</h4><p>插件：Flash、Silverlight<br>Web组件框架：GWT、EXT、YUI</p>
+<p><img src="/assets/201710/2017-10-11-web2.0-rich-interactive-applications.png" alt="2017-10-11-web2.0-rich-interactive-applications"></p>
+<h4 id="Web-2-0：代码共享"><a href="#Web-2-0：代码共享" class="headerlink" title="Web 2.0：代码共享"></a>Web 2.0：代码共享</h4><p>Sourceforge<br>Google Code</p>
+<p><img src="/assets/201710/2017-10-11-web2.0-code-sharing.png" alt="2017-10-11-web2.0-code-sharing"></p>
+<h4 id="Web-2-0：数据传输"><a href="#Web-2-0：数据传输" class="headerlink" title="Web 2.0：数据传输"></a>Web 2.0：数据传输</h4><p>XML<br>SOAP/WS-*</p>
+<p><img src="/assets/201710/2017-10-11-web2.0-data-transfer.gif" alt="2017-10-11-web2.0-data-transfer"></p>
+<h4 id="Web-2-0：里程碑"><a href="#Web-2-0：里程碑" class="headerlink" title="Web 2.0：里程碑"></a>Web 2.0：里程碑</h4><p>AJAX, JSON<br>Mobile<br>Stack Overflow!</p>
+<h3 id="现代时期（2010-至今）"><a href="#现代时期（2010-至今）" class="headerlink" title="现代时期（2010-至今）"></a>现代时期（2010-至今）</h3><p>这个时期网站典型的特点是客户端JS、JSON API、跑在云服务上基于Node构建的微服务、NoSQL数据库。</p>
+<p><img src="/assets/201710/2017-10-11-modern-era.png" alt="2017-10-11-modern-era"></p>
+<h4 id="现代时期：服务端技术"><a href="#现代时期：服务端技术" class="headerlink" title="现代时期：服务端技术"></a>现代时期：服务端技术</h4><p>express+node+mongodb<br>Play Framework（build web applications with Java &amp; Scala）</p>
+<p>amazon web services<br>HEROKU<br>Microsoft Azure</p>
+<p>Flask<br>Dropwizard</p>
+<p><img src="/assets/201710/2017-10-11-modern-era-server-technologies.png" alt="2017-10-11-modern-era-server-technologies"></p>
+<h4 id="现代时期：客户端技术"><a href="#现代时期：客户端技术" class="headerlink" title="现代时期：客户端技术"></a>现代时期：客户端技术</h4><p>BACKBONE.JS、ANGULARJS<br>ember.js、React<br>Bootstrap、Foundation、Semantic UI</p>
+<p><img src="/assets/201710/2017-10-11-modern-era-client-technologies.png" alt="2017-10-11-modern-era-client-technologies"></p>
+<h4 id="现代时期：浏览器"><a href="#现代时期：浏览器" class="headerlink" title="现代时期：浏览器"></a>现代时期：浏览器</h4><p>Chrome、IE → Edge、Firefox、Safari<br>长青版本（Can I use）</p>
+<p><img src="/assets/201710/2017-10-11-modern-era-browsers.png" alt="2017-10-11-modern-era-browsers"></p>
+<h4 id="现代时期：HTML5"><a href="#现代时期：HTML5" class="headerlink" title="现代时期：HTML5"></a>现代时期：HTML5</h4><p>Web Workers<br>HTML(5)、CSS(3)、Websockets、WebGL、FLEX</p>
+<p><img src="/assets/201710/2017-10-11-modern-era-html5.png" alt="2017-10-11-modern-era-html5"></p>
+<h4 id="现代时期：代码共享"><a href="#现代时期：代码共享" class="headerlink" title="现代时期：代码共享"></a>现代时期：代码共享</h4><p>github<br>npm</p>
+<p><img src="/assets/201710/2017-10-11-modern-era-code-sharing.png" alt="2017-10-11-modern-era-code-sharing"></p>
+<h4 id="现代时期：数据传输"><a href="#现代时期：数据传输" class="headerlink" title="现代时期：数据传输"></a>现代时期：数据传输</h4><p>JSON over HTTP</p>
+<p><img src="/assets/201710/2017-10-11-modern-era-data-transfer.png" alt="2017-10-11-modern-era-data-transfer"></p>
+<h4 id="现代时期：里程碑"><a href="#现代时期：里程碑" class="headerlink" title="现代时期：里程碑"></a>现代时期：里程碑</h4><p>Node.js<br>插件之死（Flash）</p>
+<p><img src="/assets/201710/2017-10-11-modern-era-milestones.png" alt="2017-10-11-modern-era-milestones"></p>
+<h2 id="Web技术时间线"><a href="#Web技术时间线" class="headerlink" title="Web技术时间线"></a>Web技术时间线</h2><p><img src="/assets/201710/2017-10-11-timeline-of-web-technologies.png" alt="Timeline of Web Technologies"></p>
+<h2 id="JavaScript简史"><a href="#JavaScript简史" class="headerlink" title="JavaScript简史"></a>JavaScript简史</h2><ul>
+<li>1995：网景公司Brendan Eich发明JavaScript语言</li>
+<li>1999：ES3规范敲定；微软发明XMLHttpRequest</li>
+<li>2001：Douglas Crockford推广JSON格式</li>
+<li>2005：推广“AJAX”术语</li>
+<li>2006：John Resig发明jQuery</li>
+<li>2008：Douglas Crockford出版《JavaScript：the Good Parts》</li>
+<li>2009：ES5规范敲定；Ryan Dahl发明Node.js</li>
+<li>2010：Underscore.js、Backbone.js、由Jeremy Ashkenas发明CoffeeScript</li>
+<li>2015：ES6规范敲定</li>
+</ul>
+<p><img src="/assets/201710/2017-10-11-ecmascript-releases.png" alt="2017-10-11-ecmascript-releases"></p>
+<h2 id="现代Web开发景观"><a href="#现代Web开发景观" class="headerlink" title="现代Web开发景观"></a>现代Web开发景观</h2><h3 id="现代Web开发：这是什么？"><a href="#现代Web开发：这是什么？" class="headerlink" title="现代Web开发：这是什么？"></a>现代Web开发：这是什么？</h3><p><img src="/assets/201710/2017-10-11-modern-web-devlopment-wat-is-this.png" alt="2017-10-11-modern-web-devlopment-wat-is-this"></p>
+<h3 id="JavaScript-Client挑战"><a href="#JavaScript-Client挑战" class="headerlink" title="JavaScript/Client挑战"></a>JavaScript/Client挑战</h3><blockquote>
+<p>JavaScript设计的目的是当你放在页面上能让它跳动起来。脚本通常是一行。我们认为10行脚本是非常正常的，100行脚本是巨大的，1000行脚本闻所未闻。这门语言最初绝不是用来搞大型的编程，我们的实现方案、性能指标都是未知的。<br>前微软IE/JS开发者Eric Lippert<br><a href="http://programmers.stackexchange.com/a/221658/214387" target="_blank" rel="external">http://programmers.stackexchange.com/a/221658/214387</a></p>
+</blockquote>
+<ul>
+<li>无内置的模块定义系统</li>
+<li>无封装</li>
+<li>与大多数语言不同的采用原型继承系统</li>
+<li>无静态类型的声明或编译</li>
+<li>动态修改的对象和数据</li>
+<li>最小标准库</li>
+<li>浏览器功能变化</li>
+<li>文档布局模型应用在应用程序布局</li>
+</ul>
+<h3 id="JavaScript-Client开发目标"><a href="#JavaScript-Client开发目标" class="headerlink" title="JavaScript/Client开发目标"></a>JavaScript/Client开发目标</h3><ul>
+<li>网络字节最小化</li>
+<li>处理浏览器兼容性问题</li>
+<li>填补JS标准库与语言规范间的空白</li>
+<li>在应用程序之间重用和共享代码</li>
+<li>构建越来越复杂的大型浏览器端应用程序</li>
+</ul>
+<blockquote>
+<p>人们认为写客户端应用程序很容易，这就是人们出现混乱、没有组合、成千上万条意大利面条式丑陋代码境况的原因。在浏览器中编写应用程序应该与建立数据或者创建一个服务层一样受尊重。对前端代码缺乏尊重是前端项目出现糟糕代码的最大原因。<br>是的，你将需要使用工具webpack、jspm、browserify配合babel、typescript以及postcss、less、scss来开发。就像你为桌面应用程序编写代码一样，你可能至少需要安装一个IDE并且可能需要几个库。···得到一个Java应用程序需要些什么呢？Maven，一些构建工具，一些其他的工具，理解组件/类的层级？使用任何新的工具都不容易。<br><a href="https://news.ycombinator.com/item?id=11782234" target="_blank" rel="external">https://news.ycombinator.com/item?id=11782234</a></p>
+</blockquote>
+<h3 id="现代工具：语言-编译器"><a href="#现代工具：语言-编译器" class="headerlink" title="现代工具：语言/编译器"></a>现代工具：语言/编译器</h3><ul>
+<li>ES6/ES2015(+)<ul>
+<li>当前版本语言规范</li>
+<li>浏览器和JS引擎跟进实现</li>
+<li>分阶段发展未来提议的语言特性</li>
+</ul>
+</li>
+<li>Babel<ul>
+<li>基于插件的JavaScript混合编译器</li>
+<li>广泛用于编译ES6等语言功能成向后兼容的ES5</li>
+</ul>
+</li>
+<li>TypeScript<ul>
+<li>来自微软的静态类型ES6超集</li>
+</ul>
+</li>
+<li>SASS/LESS<ul>
+<li>具有变量、控制流程、选择器嵌套能编译成css的语言</li>
+</ul>
+</li>
+</ul>
+<h3 id="现代工具：代码共享"><a href="#现代工具：代码共享" class="headerlink" title="现代工具：代码共享"></a>现代工具：代码共享</h3><ul>
+<li>模块格式<ul>
+<li>AMD（异步模块定义）：用于异步浏览器加载</li>
+<li>CommonJS：用于Node从文件系统中加载内容</li>
+<li>ES6：用于静态分析用于构建优化</li>
+</ul>
+</li>
+<li>包装和执行<ul>
+<li>Node.js<ul>
+<li>浏览器外的JavaScript运行环境</li>
+<li>V8引擎，来自Chrome，添加了一些额外的系统交互交口（文件系统、套接字…）</li>
+<li>所有的服务端/构建工具都用JavaScript编写</li>
+</ul>
+</li>
+<li>NPM<ul>
+<li>采用Node的包管理器</li>
+<li>创建、安装、管理JavaScript包和依赖</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="现代工具：构建工具"><a href="#现代工具：构建工具" class="headerlink" title="现代工具：构建工具"></a>现代工具：构建工具</h3><ul>
+<li>构建步骤<ul>
+<li>编译：将ES6/TypeScript转成兼容性好的ES5</li>
+<li>合并：把多个文件合成一个输出文件</li>
+<li>压缩：移除空白/注释，重命名变量长度</li>
+<li>代码分块：将功能块分成单独的包以便按需加载</li>
+</ul>
+</li>
+<li>任务运行器<ul>
+<li>Grunt：通过插件配置分开独立的任务</li>
+<li>Gulp：通过一系列转换步骤得到的管道数据</li>
+</ul>
+</li>
+<li>模块构建器<ul>
+<li>Browserify：将CommonJS格式模块转成浏览器可用的代码</li>
+<li>Webpack：将任何内容转成模块，主要用于浏览器（AMD/CJS/ES6 modules, CSS, images, …）</li>
+</ul>
+</li>
+</ul>
+<h3 id="现代工具：开发体验"><a href="#现代工具：开发体验" class="headerlink" title="现代工具：开发体验"></a>现代工具：开发体验</h3><ul>
+<li>File watching / live reloading<ul>
+<li>监听源文件的改变，重新编译，可能重新加载页面内容</li>
+</ul>
+</li>
+<li>Sourcemaps<ul>
+<li>调试信息将源文件的行与构建输出文件的行相关联。允许在浏览器中调试“原始”代码</li>
+</ul>
+</li>
+<li>Browser dev tools<ul>
+<li>元素检查，样式检查，脚本调试，网络流量监控</li>
+</ul>
+</li>
+<li>Hot reloading<ul>
+<li>快速交换重新编译的代码模块</li>
+<li>实时编辑/所见即所得的开发体验</li>
+<li>适合函数式编程技术</li>
+</ul>
+</li>
+</ul>
+<h3 id="现代工具：测试"><a href="#现代工具：测试" class="headerlink" title="现代工具：测试"></a>现代工具：测试</h3><ul>
+<li>Test runners<ul>
+<li>Mocha, Jasmine, Tape, Jest（主要用于浏览器以外环境）</li>
+<li>Karma（在真实的浏览器环境里）</li>
+</ul>
+</li>
+<li>Mocking and test behavior<ul>
+<li>Chai, Expect（测试断言）</li>
+<li>Sinon, JSDOM（网络/功能/DOM模拟）</li>
+</ul>
+</li>
+<li>Integration testing<ul>
+<li>Selenium（通过驱动浏览器进行集成测试）</li>
+<li>PhantomJS（采用虚拟浏览器进行浏览器环境自动单元测试）</li>
+</ul>
+</li>
+<li>Linting: ESLint</li>
+<li>Static typing: Flow</li>
+</ul>
+<h3 id="现代工具：核心类库"><a href="#现代工具：核心类库" class="headerlink" title="现代工具：核心类库"></a>现代工具：核心类库</h3><ul>
+<li>Express<ul>
+<li>node环境HTTP服务端框架</li>
+<li>中间件管道允许灵活处理请求/响应生命周期</li>
+</ul>
+</li>
+<li>jQuery<ul>
+<li>DOM处理和AJAX请求；抽象各浏览间的差异</li>
+<li>单一广泛使用的JS类库</li>
+<li><code>$(&#39;#someId&#39;).toogleClass(&#39;active&#39;)</code></li>
+</ul>
+</li>
+<li>Underscore/Lodash<ul>
+<li>非常有用的功能函数类库</li>
+<li>Loadsh是Underscore的一个优化分支，额外添加了许多函数</li>
+<li>数组（_.first），集合（_.forEach），对象（_.pick），字符串（_.camelCase），函数（_.debounce）等功能函数</li>
+</ul>
+</li>
+</ul>
+<h3 id="JavaScript框架"><a href="#JavaScript框架" class="headerlink" title="JavaScript框架"></a>JavaScript框架</h3><blockquote>
+<p>每个框架都可以被看作是试图说“编写webapp的最困难的部分是$X，所以这里有一些代码让它更容易”。<br>当一个开发者“编写webapp最难的部分是实现双向数据绑定”，你可以使用knonchout.js，这个框架基本上能做90%的工作。···同样，Backbone感觉就是用来实现从一个REST API中获取并且持久化数据模型、客户端路由的产物，它基本上能做所有事。知道怎么将你获取的数据编程html内容（显然）容易，但是数据模型模型很难，所以这个工具能够帮助你。<br>如果您认为编写webapps的最大问题是Javascript不是Java、Ember不是Ruby，那么Angular就是你所需要的。（开玩笑了，我对这些框架并不熟悉）。等等，每个人都对最难处理的问题有自己的看法。<br>写webapp最难的是非确定的表现和不清晰的数据流动，React+Flux就是用来解决这些问题的。如果你已经在一个大型的Knockout或者Backbone项目上工作，你可能会倾向于同意。<br><a href="https://www.reddit.com/r/reactjs/comments/39wsfi/what_are_pros_and_cons_of_using_reactjsflux/cs7msvp" target="_blank" rel="external">Reddit /u/Cody_Chaos</a></p>
+</blockquote>
+<p><img src="/assets/201710/2017-10-11-javascript-frameworks.jpg" alt="2017-10-11-javascript-frameworks"></p>
+<h4 id="JavaScript框架？！？"><a href="#JavaScript框架？！？" class="headerlink" title="JavaScript框架？！？"></a>JavaScript框架？！？</h4><ul>
+<li>为什么会存在框架<ul>
+<li>将状态移出DOM结构</li>
+<li>高度抽象</li>
+<li>代码组织</li>
+</ul>
+</li>
+<li>优点<ul>
+<li>可以在应用程序和开发人员之间共用常见概念</li>
+<li>大型社区，共享知识，文档，错误修复</li>
+<li>通过工具和指南达成更好的应用程序结构</li>
+</ul>
+</li>
+<li>缺点<ul>
+<li>学习曲线</li>
+<li>项目大小最低要求</li>
+<li>体系和基础设施</li>
+</ul>
+</li>
+</ul>
+<h4 id="JavaScript框架-1"><a href="#JavaScript框架-1" class="headerlink" title="JavaScript框架"></a>JavaScript框架</h4><ul>
+<li>BACKBONE.JS</li>
+<li>ember</li>
+<li>ANGULARJS</li>
+<li>React</li>
+</ul>
+<h3 id="客户端路由（Client-Side-Routing）"><a href="#客户端路由（Client-Side-Routing）" class="headerlink" title="客户端路由（Client-Side Routing）"></a>客户端路由（Client-Side Routing）</h3><ul>
+<li>“路由”：将URL映射到页面行为，包括从URL提取数据参数</li>
+<li>最初是一个服务端概念</li>
+<li>现代Web应用程序使用客户端上的路由能够快速更新和“深度链接”<ul>
+<li>UI渲染</li>
+<li>数据获取</li>
+</ul>
+</li>
+<li>所有主流框架生态系统都包含路由器</li>
+</ul>
+<h3 id="状态-数据管理（State-Data-Management）"><a href="#状态-数据管理（State-Data-Management）" class="headerlink" title="状态/数据管理（State/Data Management）"></a>状态/数据管理（State/Data Management）</h3><ul>
+<li>内置<ul>
+<li>Backbone：Models/Collections</li>
+<li>Ember：Ember Data</li>
+<li>Angular 1: Services/Controllers</li>
+</ul>
+</li>
+<li>React<ul>
+<li>局部组件状态</li>
+<li>“Flux”模式（单向数据流）</li>
+<li>Redux（单状态树，不可变更新；采用Flux的逻辑理论）</li>
+<li>MobX（依赖可观察进行跟踪）</li>
+</ul>
+</li>
+<li>Angular 2<ul>
+<li>Services/Controllers</li>
+<li>Redux; Observables</li>
+</ul>
+</li>
+</ul>
+<h3 id="开发趋势：后端"><a href="#开发趋势：后端" class="headerlink" title="开发趋势：后端"></a>开发趋势：后端</h3><ul>
+<li>“X即服务”</li>
+<li>“无服务器”后端</li>
+<li>微服务（Microservices）</li>
+<li>容器（Containers）</li>
+</ul>
+<h3 id="开发趋势：客户端-服务端"><a href="#开发趋势：客户端-服务端" class="headerlink" title="开发趋势：客户端/服务端"></a>开发趋势：客户端/服务端</h3><ul>
+<li>大规模的数据传输模式/工具<ul>
+<li>GraphQL，Falcor</li>
+</ul>
+</li>
+<li>“同构”/“通用”Javascript应用程序<ul>
+<li>服务端渲染</li>
+</ul>
+</li>
+<li>随处可见JavaScript<ul>
+<li>跨平台工具包（Cordova，Ionic）</li>
+<li>桌面应用（Electron）</li>
+<li>移动应用（React Native）</li>
+</ul>
+</li>
+</ul>
+<h3 id="开发趋势：客户端"><a href="#开发趋势：客户端" class="headerlink" title="开发趋势：客户端"></a>开发趋势：客户端</h3><ul>
+<li>基于组件的架构</li>
+<li>“虚拟DOM”</li>
+<li>CSS-in-JS</li>
+<li>WebGL，Web Workers，Service Workers</li>
+<li>替代语言（Elm，Clojurescript）</li>
+</ul>
+<h3 id="开发趋势：概念"><a href="#开发趋势：概念" class="headerlink" title="开发趋势：概念"></a>开发趋势：概念</h3><ul>
+<li>函数式编程（Functional Programming）</li>
+<li>不变数据(Immutable Data)</li>
+<li>响应式编程/观测（Reactive Programming / Observables）</li>
+<li>静态类型</li>
+</ul>
+<h2 id="打造一款现代Web-App"><a href="#打造一款现代Web-App" class="headerlink" title="打造一款现代Web App"></a>打造一款现代Web App</h2><h3 id="当前App"><a href="#当前App" class="headerlink" title="当前App"></a>当前App</h3><ul>
+<li>用于内部使用的地理空间可视化工具</li>
+<li>Version 1<ul>
+<li>GWT+SmartGWT</li>
+<li>Google Earth Plugin</li>
+<li>Play Framework</li>
+</ul>
+</li>
+</ul>
+<h3 id="重写计划"><a href="#重写计划" class="headerlink" title="重写计划"></a>重写计划</h3><ul>
+<li>GWT关注<ul>
+<li>升级问题和框架的未来（可能即将到来的不兼容版本）</li>
+<li>低能的开发工具</li>
+<li>GWT特定的客户端-服务器通信与耦合</li>
+</ul>
+</li>
+<li>v2原型/分析目标<ul>
+<li>不被弃用的现代化工具技术栈</li>
+<li>改进的开发体验（快速重建，热重新加载，易于测试）</li>
+<li>更好的可维护性（代码结构，调试，数据流/跟踪）</li>
+</ul>
+</li>
+<li>v2原型技术栈<ul>
+<li>语言：ES6</li>
+<li>UI框架：React</li>
+<li>数据管理：Redux</li>
+<li>构建工具：Webpack+Babel</li>
+<li>测试：Mocha</li>
+<li>3D地球：Cesium</li>
+<li>风格：Semantic-UI</li>
+</ul>
+</li>
+<li>为什么使用React和Redux？<ul>
+<li>函数式编程原则，而且带有可靠的用法</li>
+<li>状态/数据/更新的显式跟踪；单向数据流使得跟踪更容易</li>
+<li>高度推荐使用的UI和逻辑</li>
+<li>开发能力，如time-travel调试和热重载加快开发</li>
+</ul>
+</li>
+</ul>
+<h3 id="原型进展"><a href="#原型进展" class="headerlink" title="原型进展"></a>原型进展</h3><ul>
+<li>v2原型demo<ul>
+<li>File watching and recompiling</li>
+<li>UI hot reloading</li>
+<li>Data editing</li>
+<li>Redux DevTools and time travel debugging</li>
+<li>Test running</li>
+</ul>
+</li>
+</ul>
+<h2 id="进一步阅读"><a href="#进一步阅读" class="headerlink" title="进一步阅读"></a>进一步阅读</h2><ul>
+<li>Web历史<ul>
+<li><a href="https://segment.com/blog/the-deep-roots-of-js-fatigue/" target="_blank" rel="external">The Deep Roots of Javascript Fatigue</a></li>
+<li><a href="http://www.keepsite.com/a-brief-history-of-the-web/" target="_blank" rel="external">A Brief History of the Web</a></li>
+<li><a href="https://mgadams.com/modern-javascript-development-part-1-d271f3790c1c" target="_blank" rel="external">The Golden Age of Javascript</a></li>
+</ul>
+</li>
+<li>现代Web技术<ul>
+<li><a href="https://www.infoq.com/articles/state-of-javascript-2016" target="_blank" rel="external">State of the Javascript Landscape: A Map for Newcomers</a></li>
+<li><a href="http://marcobotto.com/the-hitchhikers-guide-to-the-modern-front-end-development-workflow/" target="_blank" rel="external">The Hitchhiker’s Guide to the Modern Front End Development Workflow</a></li>
+<li><a href="http://jargon.js.org/" target="_blank" rel="external">Simplified Javascript Jargon</a></li>
+<li><a href="https://medium.com/javascript-and-opinions/state-of-the-art-javascript-in-2016-ab67fc68eb0b" target="_blank" rel="external">State of the Art Javascript in 2016</a></li>
+<li><a href="http://wesbos.com/overwhelmed-with-web-development/" target="_blank" rel="external">On Being Overwhelmed With Our Fast-Paced Industry</a></li>
+<li><a href="http://stateofjs.com/" target="_blank" rel="external">The State of Javascript in 2016: Survey Results</a></li>
+</ul>
+</li>
+</ul>
+<p>这篇文章整理翻译自一篇讲稿，出处链接地址：<a href="http://blog.isquaredsoftware.com/presentations/2016-10-revolution-of-web-dev/" target="_blank" rel="external">http://blog.isquaredsoftware.com/presentations/2016-10-revolution-of-web-dev/</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[ECMAScript语言对象扩展小结]]></title>
-      <url>http://yoursite.com/2017/10/11/ecmascript-language-object-extensions-2017/</url>
+      <url>http://yoursite.com/2017/09/16/ecmascript-language-object-extensions-2017/</url>
       <content type="html"><![CDATA[<p>ECMAScript语言发展越来越迅速，ES5之前好几年才发布一次新的标准规范，从ES6 (ECMAScript 2015)开始，每年发布一次标准规范，基于向后兼容的原则对语言进行功能扩展使得开发效率越来越高。</p>
 <p>下面将ECMAScript在数值、字符串、数组、对象、函数、正则表达式上的扩展做一个小结。</p>
 <h3 id="数值"><a href="#数值" class="headerlink" title="数值"></a>数值</h3><p>从ES5开始，在严格模式之中，八进制不在允许使用前缀<code>0</code>表示。ES6提供了二进制和八进制数值新的写法，分别用前缀<code>0b</code>（或<code>0B</code>）和<code>0o</code>（或<code>0O</code>）表示。</p>
@@ -20,22 +390,77 @@
 <h3 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h3><p>JavaScript是一组由16位组成的不可变的有序序列，每个字符通常来自于采用UTF-16编码的Unicode字符集。采用<code>\uxxxx</code>形式表示一个字符，其中<code>xxxx</code>表示字符的Unicode码点，这种表示法只限于码点在<code>\u0000</code>~<code>\uFFFF</code>之间的字符。超出这个范围的字符必须使用两个双字节的形式表示。</p>
 <p>ES6中对直接跟在<code>\u</code>后面超过<code>0xFFFF</code>的数值做了一点改进，只要将码点放入大括号就能正确解读该字符。</p>
 <p>在ES5中对字符串对象扩展了一个实例方法trim()，此方法用来移除字符串两侧的空白。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> org = <span class="string">' example '</span>;</span><br><span class="line">org.trim(); <span class="comment">// 'example'</span></span><br></pre></td></tr></table></figure></p>
-<p>ES6中字符串扩展了一些方法，用来更便捷地处理字符串。字符串对象方法新增了：<br>· 能够识别Unicode编号大于<code>0xFFFF</code>的码点返回对应字符 String.fromCodePoint()<br>· 模板字符串转义处理 String.raw()<br>· 实例方法新增了正确处理4个字节储存的字符返回其码点 codePointAt()<br>· 能够识别Unicode编号大于<code>0xFFFF</code>字符指定位置的字符 at()<br>· 字符不同表示方法统一同样形式（Unicode正规化）normalize()<br>· 确定一个字符串是否包含在另一个字符串中 includes()<br>· 参数字符串是否在原字符串的头部 startsWith()<br>· 参数字符串是否在原字符串的尾部 endsWith()<br>· 将原字符串重复<code>n</code>次返回的新字符串 repeat()</p>
-<p>ECAMScript 2017添加了两个字符串对象方法：<br>· 字符串在头部补全长度返回新字符串 padStart()<br>· 字符串在尾部补全长度返回新字符串 padEnd()<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">String</span>.fromCharCode(<span class="number">0x20BB7</span>)</span><br><span class="line"><span class="comment">// "ஷ"</span></span><br><span class="line"><span class="built_in">String</span>.raw<span class="string">`Hello\n<span class="subst">$&#123;2*4&#125;</span>!`</span></span><br><span class="line"><span class="comment">// "Hello\n8!"</span></span><br><span class="line"><span class="keyword">let</span> str = <span class="string">'𠮷a'</span></span><br><span class="line">str.codePointAt(<span class="number">0</span>)</span><br><span class="line"><span class="comment">// 134071</span></span><br><span class="line">str.codePointAt(<span class="number">1</span>)</span><br><span class="line"><span class="comment">// 57271</span></span><br><span class="line"><span class="string">'𠮷'</span>.at(<span class="number">0</span>)</span><br><span class="line"><span class="comment">// '𠮷'</span></span><br><span class="line"><span class="string">'hello'</span>.at(<span class="number">0</span>)</span><br><span class="line"><span class="comment">// 'h'</span></span><br><span class="line"><span class="string">'\u01D1'</span>.normalize() === <span class="string">'\u004F\u030C'</span>.normalize()</span><br><span class="line"><span class="comment">// true</span></span><br><span class="line"><span class="keyword">let</span> compareStr = <span class="string">'Hello world!'</span></span><br><span class="line">compareStr.includes(<span class="string">'o'</span>)</span><br><span class="line"><span class="comment">// true</span></span><br><span class="line">compareStr.startsWith(<span class="string">'world'</span>, <span class="number">6</span>)</span><br><span class="line"><span class="comment">// true</span></span><br><span class="line">compareStr.endsWith(<span class="string">'!'</span>)</span><br><span class="line"><span class="comment">// true</span></span><br><span class="line"><span class="string">'man'</span>.repeat(<span class="number">4</span>)</span><br><span class="line"><span class="comment">// 'manmanmanman'</span></span><br><span class="line"><span class="string">'x'</span>.padStart(<span class="number">4</span>, <span class="string">'abc'</span>)</span><br><span class="line"><span class="comment">// 'abcx'</span></span><br><span class="line"><span class="string">'x'</span>.padEnd(<span class="number">4</span>, <span class="string">'abc'</span>)</span><br><span class="line"><span class="comment">// 'xabc'</span></span><br></pre></td></tr></table></figure></p>
+<p>ES6中字符串扩展了一些方法，用来更便捷地处理字符串。字符串对象方法新增了：</p>
+<ul>
+<li>能够识别Unicode编号大于<code>0xFFFF</code>的码点返回对应字符 String.fromCodePoint()</li>
+<li>模板字符串转义处理 String.raw()</li>
+<li>实例方法新增了正确处理4个字节储存的字符返回其码点 codePointAt()</li>
+<li>能够识别Unicode编号大于<code>0xFFFF</code>字符指定位置的字符 at()</li>
+<li>字符不同表示方法统一同样形式（Unicode正规化）normalize()</li>
+<li>确定一个字符串是否包含在另一个字符串中 includes()</li>
+<li>参数字符串是否在原字符串的头部 startsWith()</li>
+<li>参数字符串是否在原字符串的尾部 endsWith()</li>
+<li>将原字符串重复<code>n</code>次返回的新字符串 repeat()</li>
+</ul>
+<p>ECAMScript 2017添加了两个字符串对象方法：</p>
+<ul>
+<li>字符串在头部补全长度返回新字符串 padStart()</li>
+<li>字符串在尾部补全长度返回新字符串 padEnd()</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">String</span>.fromCharCode(<span class="number">0x20BB7</span>)</span><br><span class="line"><span class="comment">// "ஷ"</span></span><br><span class="line"><span class="built_in">String</span>.raw<span class="string">`Hello\n<span class="subst">$&#123;2*4&#125;</span>!`</span></span><br><span class="line"><span class="comment">// "Hello\n8!"</span></span><br><span class="line"><span class="keyword">let</span> str = <span class="string">'𠮷a'</span></span><br><span class="line">str.codePointAt(<span class="number">0</span>)</span><br><span class="line"><span class="comment">// 134071</span></span><br><span class="line">str.codePointAt(<span class="number">1</span>)</span><br><span class="line"><span class="comment">// 57271</span></span><br><span class="line"><span class="string">'𠮷'</span>.at(<span class="number">0</span>)</span><br><span class="line"><span class="comment">// '𠮷'</span></span><br><span class="line"><span class="string">'hello'</span>.at(<span class="number">0</span>)</span><br><span class="line"><span class="comment">// 'h'</span></span><br><span class="line"><span class="string">'\u01D1'</span>.normalize() === <span class="string">'\u004F\u030C'</span>.normalize()</span><br><span class="line"><span class="comment">// true</span></span><br><span class="line"><span class="keyword">let</span> compareStr = <span class="string">'Hello world!'</span></span><br><span class="line">compareStr.includes(<span class="string">'o'</span>)</span><br><span class="line"><span class="comment">// true</span></span><br><span class="line">compareStr.startsWith(<span class="string">'world'</span>, <span class="number">6</span>)</span><br><span class="line"><span class="comment">// true</span></span><br><span class="line">compareStr.endsWith(<span class="string">'!'</span>)</span><br><span class="line"><span class="comment">// true</span></span><br><span class="line"><span class="string">'man'</span>.repeat(<span class="number">4</span>)</span><br><span class="line"><span class="comment">// 'manmanmanman'</span></span><br><span class="line"><span class="string">'x'</span>.padStart(<span class="number">4</span>, <span class="string">'abc'</span>)</span><br><span class="line"><span class="comment">// 'abcx'</span></span><br><span class="line"><span class="string">'x'</span>.padEnd(<span class="number">4</span>, <span class="string">'abc'</span>)</span><br><span class="line"><span class="comment">// 'xabc'</span></span><br></pre></td></tr></table></figure>
 <h3 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h3><p>ES5定义了9个新的数组方法来遍历forEach()、映射map()、过滤filter()、检测every()及some()、简化reduce()及reduceRight()和搜索数组indexOf()及lastIndexOf()。这些方法大多数第一次参数是一个函数，并且对数组每个元素调用一次该函数。如果是稀疏数组，对不存在的元素不调用传递的函数。大多数情况下，调用提供的函数使用三个参数：数组元素、元素的索引和数组本身。这些大多数数组方法第二个参数可选，若有第二个参数调用函数可看作是第二参数的方法。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> data = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>];</span><br><span class="line"><span class="keyword">var</span> sum = <span class="number">0</span>;</span><br><span class="line">data.forEach(<span class="function"><span class="keyword">function</span>(<span class="params">v</span>) </span>&#123;</span><br><span class="line">    sum += v;</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">// sum = 21</span></span><br><span class="line">data.forEach(<span class="function"><span class="keyword">function</span>(<span class="params">v, i, arr</span>) </span>&#123;</span><br><span class="line">    arr[i] = v * <span class="number">2</span>;</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">// data = [2, 4, 6, 8, 10, 12]</span></span><br></pre></td></tr></table></figure></p>
 <p>需要注意的是forEach()不支持循环break终止语句，需要提前跳出循环只能用try…catch语句。</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> all = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>];</span><br><span class="line"><span class="keyword">var</span> allNew = all.map(<span class="function"><span class="keyword">function</span>(<span class="params">v</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> v*v;</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">// allNew = [1, 4, 9]</span></span><br><span class="line"><span class="keyword">var</span> allPart = allNew.filter(<span class="function"><span class="keyword">function</span>(<span class="params">v</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> v &lt; <span class="number">5</span>;</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">// allPart = [1, 4]</span></span><br><span class="line">allPart.every(<span class="function"><span class="keyword">function</span>(<span class="params">v</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> v &lt; <span class="number">5</span>;</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">// true</span></span><br><span class="line">allPart.some(<span class="function"><span class="keyword">function</span>(<span class="params">v</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> v &gt; <span class="number">5</span>;</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">// false</span></span><br><span class="line"><span class="keyword">var</span> sum = all.reduce(<span class="function"><span class="keyword">function</span>(<span class="params">x, y</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> x +y;</span><br><span class="line">&#125;, <span class="number">0</span>);</span><br><span class="line"><span class="comment">// sum = 6</span></span><br><span class="line"><span class="keyword">var</span> big = [<span class="number">2</span>, <span class="number">3</span>, <span class="number">2</span>].reduceRight(<span class="function"><span class="keyword">function</span>(<span class="params">accumulator, value</span>) </span>&#123;</span><br><span class="line">    <span class="comment">// (2, 3) (9, 2)</span></span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">Math</span>.pow(value, accumulator);</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">// big = 512</span></span><br><span class="line">[<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">1</span>, <span class="number">0</span>].indexOf(<span class="number">1</span>);</span><br><span class="line"><span class="comment">// 1</span></span><br><span class="line">[<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">1</span>, <span class="number">0</span>].lastIndexOf(<span class="number">1</span>);</span><br><span class="line"><span class="comment">// 3</span></span><br><span class="line">[<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">1</span>, <span class="number">0</span>].indexOf(<span class="number">3</span>);</span><br><span class="line"><span class="comment">// -1</span></span><br></pre></td></tr></table></figure>
 <p>ES6中新增了扩展运算符（spread），三个点（…），作用是将一个数组转为用逗号分隔的参数序列。可用来复制数组、合并数组、与ES6解构赋值结合起来生成新数组、字符串转真正的数组。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> a1 = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>];</span><br><span class="line"><span class="keyword">const</span> a2 = [...a1]; <span class="comment">// const [...a2] = a1;</span></span><br><span class="line"><span class="comment">// a2 = [1, 2, 3]</span></span><br><span class="line"><span class="keyword">const</span> a3 = [...a1, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>];</span><br><span class="line"><span class="comment">// a3 = [1, 2, 3, 4, 5, 6]</span></span><br><span class="line"><span class="keyword">const</span> [first, ...rest] = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>];</span><br><span class="line"><span class="comment">// first = 1, rest = [2, 3, 4, 5]</span></span><br><span class="line"><span class="keyword">const</span> a4 = [...<span class="string">'hello'</span>];</span><br><span class="line"><span class="comment">// a4 = ['h', 'e', 'l', 'l', 'o']</span></span><br></pre></td></tr></table></figure></p>
-<p>此外ES6也新增了一些数组方法：<br>· 用于将类对象转为真正的数组 Array.from()<br>· 将一组值转为数组 Array.of()<br>· 在当前数组内部将指定位置的成员复制到其他位置返回新数组 copyWithin()<br>· 找出第一个符合条件的数组成员 find()<br>· 返回第一个符合条件的数组成员的位置 findIndex()<br>· 使用给定值填充数组返回新数组 fill()<br>· 遍历数组键名 keys()<br>· 遍历数组键值 values()<br>· 遍历数组键值对 entries()</p>
-<p>ECMAScript 2016新增了一个数组方法：<br>· 数组是否包含某个值 includes()</p>
+<p>此外ES6也新增了一些数组方法：</p>
+<ul>
+<li>用于将类对象转为真正的数组 Array.from()</li>
+<li>将一组值转为数组 Array.of()</li>
+<li>在当前数组内部将指定位置的成员复制到其他位置返回新数组 copyWithin()</li>
+<li>找出第一个符合条件的数组成员 find()</li>
+<li>返回第一个符合条件的数组成员的位置 findIndex()</li>
+<li>使用给定值填充数组返回新数组 fill()</li>
+<li>遍历数组键名 keys()</li>
+<li>遍历数组键值 values()</li>
+<li>遍历数组键值对 entries()</li>
+</ul>
+<p>ECMAScript 2016新增了一个数组方法：</p>
+<ul>
+<li>数组是否包含某个值 includes()</li>
+</ul>
 <p>稀疏数组就是包含从0开始的不连续索引的数组，比起稠密数组实现上更慢、内存利用率更高、查找元素时间更长。可通过Array()构造函数或简单指定数组的索引值大于当前的数组长度创建稀疏数组，也可以通过delete操作符生产稀疏数组。数组空位是指数组的某一个位置没有任何值。</p>
 <p>ES5对稀疏数组和数组空位处理大多数情况下会忽略空位。ES6则会将其转为undefined。</p>
 <h3 id="对象"><a href="#对象" class="headerlink" title="对象"></a>对象</h3><p>在ES5中属性的值可以是一个getter或setter函数（或两者都有），可以对对象创建的属性特性（property attribute）（可写writable、可枚举enumerable、可配置configurable）进行配置。有getter和setter定义的属性称作“存取器属性”（accessor property），它不同于由一个简单的值构成的数据属性。存取器属性不具有值特性和可写性。</p>
-<p>ES5针对Object扩展了以下方法：<br>· 使用指定的原型对象及其属性去创建一个新的对象 Object.create(proto[, propertiesObject])<br>· 直接在一个对象上定义一个新属性或者修改现有属性并返回这个对象 Object.defineProperty(obj, prop, descriptor) （descriptor描述符可选键值value, get, set, enumerable, writable, configurable）<br>· 直接在一个对象上定义新的属性或修改现有属性 Object.defineProperties(obj, props)<br>· 返回指定对象上一个自由属性对应的属性描述符 Object.getOwnPropertyDescriptor(obj, prop)<br>· 返回指定对象的所有自身属性（包括不可枚举属性但不包括Symbol值为名称的属性）组成的数组 Object.getOwnPropertyNames(obj)<br>· 返回指定对象的原型（即内部[[Prototype]]属性的值）Object.getPrototypeOf(object)<br>· 返回给定对象自身可枚举属性（不包含原型链上的属性）组成的数组 Object.keys(obj)<br>· 冻结一个对象（即对象永远不可变）Object.freeze(obj)<br>· 判断一个对象是否被冻结 Object.isFrozen(obj)<br>· 使一个对象变的不可扩展（即不能添加新的属性）Object.preventExtensions(obj)<br>· 判断一个对象是否是可扩展（能否在它上面添加新的属性）Object.isExtensible(obj)<br>· 将一个对象密封并返回被密封后的对象（只有可写属性不受影响）Object.seal(obj)<br>· 判断一个对象是否被密封 Object.isSealed(obj)</p>
+<p>ES5针对Object扩展了以下方法：</p>
+<ul>
+<li>使用指定的原型对象及其属性去创建一个新的对象 Object.create(proto[, propertiesObject])</li>
+<li>直接在一个对象上定义一个新属性或者修改现有属性并返回这个对象 Object.defineProperty(obj, prop, descriptor) （descriptor描述符可选键值value, get, set, enumerable, writable, configurable）</li>
+<li>直接在一个对象上定义新的属性或修改现有属性 Object.defineProperties(obj, props)</li>
+<li>返回指定对象上一个自由属性对应的属性描述符 Object.getOwnPropertyDescriptor(obj, prop)</li>
+<li>返回指定对象的所有自身属性（包括不可枚举属性但不包括Symbol值为名称的属性）组成的数组 Object.getOwnPropertyNames(obj)</li>
+<li>返回指定对象的原型（即内部[[Prototype]]属性的值）Object.getPrototypeOf(object)</li>
+<li>返回给定对象自身可枚举属性（不包含原型链上的属性）组成的数组 Object.keys(obj)</li>
+<li>冻结一个对象（即对象永远不可变）Object.freeze(obj)</li>
+<li>判断一个对象是否被冻结 Object.isFrozen(obj)</li>
+<li>使一个对象变的不可扩展（即不能添加新的属性）Object.preventExtensions(obj)</li>
+<li>判断一个对象是否是可扩展（能否在它上面添加新的属性）Object.isExtensible(obj)</li>
+<li>将一个对象密封并返回被密封后的对象（只有可写属性不受影响）Object.seal(obj)</li>
+<li>判断一个对象是否被密封 Object.isSealed(obj)</li>
+</ul>
 <p>ES6允许直接写入变量和函数作为对象的属性和方法，可在字面量定义对象时使用表达式作为对象的属性名，表达式放在方括号内。</p>
-<p>ES6针对Object扩展了以下方法：<br>· 比较两个值是否严格相等 Object.is(value1, value2)<br>· 将所有可枚举属性的值从一个或多个源对象复制到目标对象 Object.assign(target, …source)<br>· 设置一个指定对象原型到另一个对象或null Object.setPrototypeOf(obj, prototype)</p>
+<p>ES6针对Object扩展了以下方法：</p>
+<ul>
+<li>比较两个值是否严格相等 Object.is(value1, value2)</li>
+<li>将所有可枚举属性的值从一个或多个源对象复制到目标对象 Object.assign(target, …source)</li>
+<li>设置一个指定对象原型到另一个对象或null Object.setPrototypeOf(obj, prototype)</li>
+</ul>
 <p>JavaScript语言中生成实例对象的传统方法是通过构造函数。ES6提供了更接近传统语言的写法，引入了Class（类）这个概念作为对象的模板，可通过<code>class</code>关键字定义类。</p>
-<p>ECMAScript 2017在Object上新增了三个方法：<br>· 返回一个给定对象自己的所有可枚举属性值的数组 Object.values(obj)<br>· 返回一个给定对象自身可枚举属性的键值对数组 Object.entries(obj)<br>· 获取一个对象的所有自身属性描述符 Object.getOwnPropertyDescriptors(obj)</p>
+<p>ECMAScript 2017在Object上新增了三个方法：</p>
+<ul>
+<li>返回一个给定对象自己的所有可枚举属性值的数组 Object.values(obj)</li>
+<li>返回一个给定对象自身可枚举属性的键值对数组 Object.entries(obj)</li>
+<li>获取一个对象的所有自身属性描述符 Object.getOwnPropertyDescriptors(obj)</li>
+</ul>
 <h3 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h3><p>在ES5中新增了一个方法，用来改变函数调用时的this指向：fun.bind(thisArg[, arg1, [, arg2[, …]]])。</p>
 <p>在ES6中可以指定函数参数的默认值，指定参数默认值后函数的length属性将返回没有指定默认值的参数个数。引入rest参数（形式为…变量名），用于获取函数多余的参数，rest参数能够将多余的参数放入一个数组中。ES6优化了尾调用性能。</p>
 <p>ES6定义了一种新的函数定义方式，使用“箭头”（=&gt;）定义函数，简化了函数的定义，函数体内的this对象是定义时所在的对象而不是使用时所在的对象。针对异步编程提出了一个解决方案为Generator函数。</p>
@@ -96,54 +521,54 @@
       <content type="html"><![CDATA[<p>作为一名web开发者，会接触到很多开发工具，今天就来说说常用的chrome插件，利用这些插件给平时的工作、开发带来很大的便利。</p>
 <h2 id="浏览器相关"><a href="#浏览器相关" class="headerlink" title="浏览器相关"></a>浏览器相关</h2><p>首选介绍这几个插件在浏览器使用过程中会有一些优化，它会给你带来什么样的体验呢？赶快去体验吧~</p>
 <h3 id="Momentum"><a href="#Momentum" class="headerlink" title="Momentum"></a>Momentum</h3><p>Momentum插件用来替换Chrome新标签页内容，每天能看到不同优美的风景图片和精彩的格言。打开浏览器就能看到这么激励人心的内容，有木有给你的工作和生活带来动力？除此之外，该插件还提供了其他重要的功能，可以设置天气信息，待办事件记录，日常事务等等。</p>
-<p><img src="/assets/2017-08-08-momentum.png" alt="momentum"></p>
+<p><img src="/assets/201708/2017-08-08-momentum.png" alt="momentum"></p>
 <h3 id="OneTab"><a href="#OneTab" class="headerlink" title="OneTab"></a>OneTab</h3><p>Chrome浏览器虽然访问页面很流畅，但是消耗内存也很大。OneTab字面意思即一个tab页面，当你用浏览器打开多个标签页，也许很多重要的内容没来得及看但又不想把它立即关掉，这时候你可以用OneTab插件来管理打开的tab标签页内容了。单击OneTab图标会将所有标签页转换成一个列表，在某个标签页可以选择左侧或右侧标签页放到OneTab列表页中。当再次访问这些标签页时可以从从这里恢复它们。将标签页放置到OneTab中，浏览器打开的标签页减少了，占用系统内存相应减少。</p>
-<p><img src="/assets/2017-08-08-onetab.png" alt="onetab"></p>
+<p><img src="/assets/201708/2017-08-08-onetab.png" alt="onetab"></p>
 <h3 id="Proxy-SwitchySharp"><a href="#Proxy-SwitchySharp" class="headerlink" title="Proxy SwitchySharp"></a>Proxy SwitchySharp</h3><p>由于国内某些原因（你懂得），常常不能访问国外一些网站，这时候要访问这些内容时需要借助一些工具才能达到。这些工具就是代理，采用了代理浏览器则会通过代理去请求资源，从而绕开一些壁垒，请求到相应资源。Proxy SwitchSharp就是用来管理浏览器代理，可以将代理信息在这里设置从而达到“科学上网”。</p>
-<p><img src="/assets/2017-08-08-proxy-switchysharp.png" alt="proxy switchysharp"></p>
+<p><img src="/assets/201708/2017-08-08-proxy-switchysharp.png" alt="proxy switchysharp"></p>
 <h3 id="一键管理"><a href="#一键管理" class="headerlink" title="一键管理"></a>一键管理</h3><p>也许你的浏览器安装了不止一个插件，当你想把某个插件禁用或开启，没有安装此插件则需要到浏览器扩展程序页面中操作。一键管理插件会将浏览器安装过的所有插件放在一个控制面板中展示，所有插件一键开启或禁止，也可以针对某个插件开启或禁止。</p>
-<p><img src="/assets/2017-08-08-onekeyplugin.png" alt="onekeyplugin"></p>
+<p><img src="/assets/201708/2017-08-08-onekeyplugin.png" alt="onekeyplugin"></p>
 <h3 id="二维码"><a href="#二维码" class="headerlink" title="二维码"></a>二维码</h3><p>我们常常会在电脑上访问的页面用手机去浏览，比如开发测试无线页面效果，一般做法是将浏览器上访问的地址用手机浏览器打开，这样难以避免输入一串网址的烦恼，而且容易出错。有了这个插件，可以直接用手机扫描插件生成的二维码，从而快速访问到页面内容。</p>
-<p><img src="/assets/2017-08-08-qrcode.png" alt="qrcode"></p>
+<p><img src="/assets/201708/2017-08-08-qrcode.png" alt="qrcode"></p>
 <h2 id="Github相关"><a href="#Github相关" class="headerlink" title="Github相关"></a>Github相关</h2><p>github对于一个开发者来说并不陌生，github作为一个代码托管的在线服务，许多优秀的开发资源在这里涌现。Github最丰富的资源就是代码和文档，开发者可以从这里学习和利用到很多资源。下面介绍这几款与github相关的插件。</p>
 <h3 id="Avatars-for-Github"><a href="#Avatars-for-Github" class="headerlink" title="Avatars for Github"></a>Avatars for Github</h3><p>登录用户访问github网站首页，呈现的是许多关注用户的一些动态信息，比如创建代码仓库、关注代码仓库、提及到代码、留言评论，网站默认不显示用户头像，只显示出用户名。人通常对图片比文字敏感，看到图片能更快获取到信息。使用了这个插件就能让页面中涉及的用户头像展示出来，浏览信息更加引起用户的注意力。</p>
-<p><img src="/assets/2017-08-08-avatars-for-github.png" alt="avatars for github"></p>
+<p><img src="/assets/201708/2017-08-08-avatars-for-github.png" alt="avatars for github"></p>
 <h3 id="Insight-io-for-Github"><a href="#Insight-io-for-Github" class="headerlink" title="Insight.io for Github"></a>Insight.io for Github</h3><p>用户在访问一个仓库的源代码时通常是在各个目录和文件中来回切换，需要在页面中点击相应链接跳转才能实现。现在把这款强大的代码组织管理插件装上，你会越来越爱上这款插件。开启这个插件，在当前页面会展现代码的目录结构，单页面访问任何文件内容，展示文件的具体内容结构以及跨代码仓库查看文件内容引用。</p>
-<p><img src="/assets/2017-08-08-insight.io-for-github.png" alt="insight.io for github"></p>
+<p><img src="/assets/201708/2017-08-08-insight.io-for-github.png" alt="insight.io for github"></p>
 <h3 id="Sourcegraph-for-Github"><a href="#Sourcegraph-for-Github" class="headerlink" title="Sourcegraph for Github"></a>Sourcegraph for Github</h3><p>装上这个插件当你在浏览代码、提交信息、diff信息时github像一个IDE一样，代码语法高亮显示，可以进行代码高级查找、跳转到代码定义所在行、发现代码相关引用。无论功能和效果都比上一个插件强大，不过使用这个插件会先打开一个新页面，然后加载内容展示。</p>
-<p><img src="/assets/2017-08-08-sourcegraph-for-github.png" alt="sourcegraph for github"></p>
+<p><img src="/assets/201708/2017-08-08-sourcegraph-for-github.png" alt="sourcegraph for github"></p>
 <h3 id="octotree"><a href="#octotree" class="headerlink" title="octotree"></a>octotree</h3><p>启动这个插件，访问代码仓库时会展现代码结构树，便于代码浏览。</p>
-<p><img src="/assets/2017-08-08-octotree.png" alt="octotree"></p>
+<p><img src="/assets/201708/2017-08-08-octotree.png" alt="octotree"></p>
 <h3 id="Github-Markdown-Menu"><a href="#Github-Markdown-Menu" class="headerlink" title="Github Markdown Menu"></a>Github Markdown Menu</h3><p>Github Markdown Menu会给readme或者Markdown文件生成一个导航目录。</p>
-<p><img src="/assets/2017-08-08-github-markdown-menu.png" alt="github markdown menu"></p>
+<p><img src="/assets/201708/2017-08-08-github-markdown-menu.png" alt="github markdown menu"></p>
 <h2 id="前端框架相关"><a href="#前端框架相关" class="headerlink" title="前端框架相关"></a>前端框架相关</h2><p>Angular、React、Vue号称当前前端主流的三大框架，下面这几款插件就与它们息息相关，运用这些插件在程序调试过程中得心应手。</p>
 <h3 id="AngularJS-Batarang"><a href="#AngularJS-Batarang" class="headerlink" title="AngularJS Batarang"></a>AngularJS Batarang</h3><p>这个插件为AngularJS框架扩展浏览器开发者工具功能，用来调试angularjs应用、性能测试。</p>
-<p><img src="/assets/2017-08-08-angularjs-batarang.png" alt="angularjs batarang"></p>
+<p><img src="/assets/201708/2017-08-08-angularjs-batarang.png" alt="angularjs batarang"></p>
 <h3 id="React-Developer-Tools"><a href="#React-Developer-Tools" class="headerlink" title="React Developer Tools"></a>React Developer Tools</h3><p>该插件为开源React.js JavaScript库扩展浏览器开发者工具功能，方便用户查看页面组件树结构关系。你可以在控制面板下选中组件展示其组件属性，也可以改变组件的pros和state内容。</p>
-<p><img src="/assets/2017-08-08-react-developer-tools.png" alt="react developer tools"></p>
+<p><img src="/assets/201708/2017-08-08-react-developer-tools.png" alt="react developer tools"></p>
 <h3 id="Vue-js-devtools"><a href="#Vue-js-devtools" class="headerlink" title="Vue.js devtools"></a>Vue.js devtools</h3><p>这个插件为Vue.js框架扩展浏览器开发者工具功能，用来调试Vue.js应用程序，展示组件结构，跟踪组件数据流。</p>
-<p><img src="/assets/2017-08-08-vue.js-devtools.png" alt="vue.js devtools"></p>
+<p><img src="/assets/201708/2017-08-08-vue.js-devtools.png" alt="vue.js devtools"></p>
 <h2 id="开发工具相关"><a href="#开发工具相关" class="headerlink" title="开发工具相关"></a>开发工具相关</h2><p>除了上面这几款实用的插件，还有很多优秀的开发工具插件，下面列举我平时使用过的一些用于开发的插件。</p>
 <h3 id="Postman"><a href="#Postman" class="headerlink" title="Postman"></a>Postman</h3><p>Postman并不是Chrome扩展程序，而是一个Chrome应用，这里把它列出来在于其在网络请求方面功能很强大。该插件可用来做API开发调试，支持多种请求方式。</p>
-<p><img src="/assets/2017-08-08-postman.png" alt="postman"></p>
+<p><img src="/assets/201708/2017-08-08-postman.png" alt="postman"></p>
 <h3 id="LiveReload"><a href="#LiveReload" class="headerlink" title="LiveReload"></a>LiveReload</h3><p>在开发网络应用程序时，开启这个插件文件内容更新其展示页面会同步更新。</p>
-<p><img src="/assets/2017-08-08-livereload.png" alt="livereload"></p>
+<p><img src="/assets/201708/2017-08-08-livereload.png" alt="livereload"></p>
 <h3 id="JSONView"><a href="#JSONView" class="headerlink" title="JSONView"></a>JSONView</h3><p>可用于校验json文件内容，格式化高亮展现json文件内容。</p>
-<p><img src="/assets/2017-08-08-jsonview.png" alt="jsonview"></p>
+<p><img src="/assets/201708/2017-08-08-jsonview.png" alt="jsonview"></p>
 <h3 id="FeHelper"><a href="#FeHelper" class="headerlink" title="FeHelper"></a>FeHelper</h3><p>FE助手：包括字符串编解码、代码压缩、美化、JSON格式化、正则表达式、时间转换工具、二维码生成器、编码规范检测、页面性能检测、页面取色、Ajax接口调试。</p>
-<p><img src="/assets/2017-08-08-fehelper.png" alt="fehelper"></p>
+<p><img src="/assets/201708/2017-08-08-fehelper.png" alt="fehelper"></p>
 <h3 id="Sizzy"><a href="#Sizzy" class="headerlink" title="Sizzy"></a>Sizzy</h3><p>响应式网站调试工具，支持多种机型和尺寸。</p>
-<p><img src="/assets/2017-08-08-sizzy.png" alt="sizzy"></p>
+<p><img src="/assets/201708/2017-08-08-sizzy.png" alt="sizzy"></p>
 <h3 id="Distill-Web-Monitor"><a href="#Distill-Web-Monitor" class="headerlink" title="Distill Web Monitor"></a>Distill Web Monitor</h3><p>Distill在您的浏览器上运行，检查监控的页面有无变更。在侦测到变更时立即发出通知。</p>
-<p><img src="/assets/2017-08-08-distill-web-monitor.png" alt="disll web monitor"></p>
+<p><img src="/assets/201708/2017-08-08-distill-web-monitor.png" alt="disll web monitor"></p>
 <h3 id="Web-Developer"><a href="#Web-Developer" class="headerlink" title="Web Developer"></a>Web Developer</h3><p>一个拥有丰富功能的网页开发工具。</p>
-<p><img src="/assets/2017-08-08-web-developer.png" alt="web developer"></p>
+<p><img src="/assets/201708/2017-08-08-web-developer.png" alt="web developer"></p>
 <h3 id="HTML5-Outliner"><a href="#HTML5-Outliner" class="headerlink" title="HTML5 Outliner"></a>HTML5 Outliner</h3><p>生成一个带有标题和区域元素的html5页面轮廓结构。</p>
-<p><img src="/assets/2017-08-08-html5-outliner.png" alt="html5 outliner"></p>
+<p><img src="/assets/201708/2017-08-08-html5-outliner.png" alt="html5 outliner"></p>
 <h3 id="Open-SEO-Stats"><a href="#Open-SEO-Stats" class="headerlink" title="Open SEO Stats"></a>Open SEO Stats</h3><p>显示当前网页的排名和 SEO 统计数据，主要包括 Alexa、Compete、Quantcast 排名，以及外链、索引数、IP 位置、Whois、SNS、缓存等。</p>
-<p><img src="/assets/2017-08-08-open-seo-stats.png" alt="open seo stats"></p>
+<p><img src="/assets/201708/2017-08-08-open-seo-stats.png" alt="open seo stats"></p>
 <h3 id="Humans-txt"><a href="#Humans-txt" class="headerlink" title="Humans.txt"></a>Humans.txt</h3><p>如果网站存在humans.txt内容，可用来展现其具体内容。</p>
-<p><img src="/assets/2017-08-08-humans.png" alt="humans"></p>
+<p><img src="/assets/201708/2017-08-08-humans.png" alt="humans"></p>
 ]]></content>
     </entry>
     
@@ -160,12 +585,12 @@
 <p>静态网站不涉及到后端内容，选用前端模板即可解决问题。那这么多前端模板引擎如何选择才能找到一个合适的模板引擎呢？在开发中有良好的运行调试能力，支持模板继承和文件引入，支持作用域变量和判断循环条件语句，拥有简洁的语法在一定条件下能减少代码书写量，拥有上述这些特点的模板引擎都能支撑起业务开发，于是我选择了pug模板引擎。</p>
 <h2 id="实践思路"><a href="#实践思路" class="headerlink" title="实践思路"></a>实践思路</h2><h3 id="目录规划"><a href="#目录规划" class="headerlink" title="目录规划"></a>目录规划</h3><p>对一个静态网站来说，资源包含静态模板页面、样式文件、静态资源（如图片、视频、文档等等）。如何设计整个网站的目录结构对开发效率来说有很大的影响。目前大体上网站的目录结构有两种分类方式，一种是根据功能来划分目录结构，比如某个页面实现所需要的业务组件、样式都放在同一个目录里，这种对于业务功能比较复杂类应用来说尤为方便，资源查找和引用一目了然；另一种是根据文件类型来划分目录结构，这种对于网站文件管理比较方便。</p>
 <p>根据这个静态网站的需求来开发，网站内容偏展示，不涉及复杂的页面交互逻辑，以文件类型为目录结构规划网站内容。</p>
-<p><img src="/assets/2017-07-project-directory.png" alt="目录结构图"></p>
+<p><img src="/assets/201707/2017-07-project-directory.png" alt="目录结构图"></p>
 <h3 id="开发细节"><a href="#开发细节" class="headerlink" title="开发细节"></a>开发细节</h3><p>得益于pug简洁的模板语法和强大的模板功能，pug在这个项目中发挥了很大作用。每个页面都是继承自base layout，其中base layout包括页面banner、nav、footer公用的组件，nav的状态可以通过在具体页面中传入变量实现。每个页面根据实际情况可以划分为侧边导航栏组件和内容区域，从而组成一个个具体的页面。</p>
 <p>pdf文件浏览采用开源的pdf.js库，能够实现跨平台在线浏览pdf文件内容。视频文件考虑到文件格式兼容性和在线存储，使用了传统的flash流式播放。封装了这两个组件，在使用的时候采用参数传入的方式来调动功能，从而达到复用。</p>
 <p>采用这种继承layout和组件形式开发，节省了很多开发工作量，开发效率得到很大提升，并且易于维护。</p>
 <h3 id="构建部署"><a href="#构建部署" class="headerlink" title="构建部署"></a>构建部署</h3><p>现在每个网站的开发、测试、上线离不开一个构建部署脚本。node.js的不断发展，生态系统日益壮大，有很多方便快捷的工具可以用于开发构建。本项目用到了将pug模板编译成html内容，css和js文件压缩，浏览器同步自动更新构建工具，基于文件流和任务式自动化构建工具gulp.js，能够简单高效的完成网站的构建与部署。</p>
-<p><img src="/assets/2017-07-29-work-stream.png" alt="构建流程图"></p>
+<p><img src="/assets/201707/2017-07-29-work-stream.png" alt="构建流程图"></p>
 <h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>完成整个网站开发涉及到了方方面面，一点一滴的积累和实践，得到了成长，收获了快乐。</p>
 ]]></content>
     </entry>

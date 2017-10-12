@@ -94,14 +94,14 @@
 <meta property="og:site_name" content="YXX博客">
 <meta property="og:description" content="背景静态网站顾名思义是由静态页面构成的网站，不涉及到后端数据库系统，页面中的内容在制作的时候就已经写好了。若需要去改某个页面的内容则需要找到该页面的模板文件修改。
 最近收到了一个大学老师的消息，问我是否有空能帮她做个课题申报项目网站。我按照了项目开发的流程先打听了老师的项目需求，老师说该项目需求与在大学期间帮她做的那个课题申报项目类似，具体需求内容在此不多介绍了，主要是课题的一些相关内容需要采用网">
-<meta property="og:image" content="http://yoursite.com/assets/2017-07-project-directory.png">
-<meta property="og:image" content="http://yoursite.com/assets/2017-07-29-work-stream.png">
-<meta property="og:updated_time" content="2017-08-30T02:05:59.371Z">
+<meta property="og:image" content="http://yoursite.com/assets/201707/2017-07-project-directory.png">
+<meta property="og:image" content="http://yoursite.com/assets/201707/2017-07-29-work-stream.png">
+<meta property="og:updated_time" content="2017-10-12T12:46:46.102Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="一次重构静态网站浅谈">
 <meta name="twitter:description" content="背景静态网站顾名思义是由静态页面构成的网站，不涉及到后端数据库系统，页面中的内容在制作的时候就已经写好了。若需要去改某个页面的内容则需要找到该页面的模板文件修改。
 最近收到了一个大学老师的消息，问我是否有空能帮她做个课题申报项目网站。我按照了项目开发的流程先打听了老师的项目需求，老师说该项目需求与在大学期间帮她做的那个课题申报项目类似，具体需求内容在此不多介绍了，主要是课题的一些相关内容需要采用网">
-<meta name="twitter:image" content="http://yoursite.com/assets/2017-07-project-directory.png">
+<meta name="twitter:image" content="http://yoursite.com/assets/201707/2017-07-project-directory.png">
 
 
 
@@ -312,12 +312,12 @@
 <p>静态网站不涉及到后端内容，选用前端模板即可解决问题。那这么多前端模板引擎如何选择才能找到一个合适的模板引擎呢？在开发中有良好的运行调试能力，支持模板继承和文件引入，支持作用域变量和判断循环条件语句，拥有简洁的语法在一定条件下能减少代码书写量，拥有上述这些特点的模板引擎都能支撑起业务开发，于是我选择了pug模板引擎。</p>
 <h2 id="实践思路"><a href="#实践思路" class="headerlink" title="实践思路"></a>实践思路</h2><h3 id="目录规划"><a href="#目录规划" class="headerlink" title="目录规划"></a>目录规划</h3><p>对一个静态网站来说，资源包含静态模板页面、样式文件、静态资源（如图片、视频、文档等等）。如何设计整个网站的目录结构对开发效率来说有很大的影响。目前大体上网站的目录结构有两种分类方式，一种是根据功能来划分目录结构，比如某个页面实现所需要的业务组件、样式都放在同一个目录里，这种对于业务功能比较复杂类应用来说尤为方便，资源查找和引用一目了然；另一种是根据文件类型来划分目录结构，这种对于网站文件管理比较方便。</p>
 <p>根据这个静态网站的需求来开发，网站内容偏展示，不涉及复杂的页面交互逻辑，以文件类型为目录结构规划网站内容。</p>
-<p><img src="/assets/2017-07-project-directory.png" alt="目录结构图"></p>
+<p><img src="/assets/201707/2017-07-project-directory.png" alt="目录结构图"></p>
 <h3 id="开发细节"><a href="#开发细节" class="headerlink" title="开发细节"></a>开发细节</h3><p>得益于pug简洁的模板语法和强大的模板功能，pug在这个项目中发挥了很大作用。每个页面都是继承自base layout，其中base layout包括页面banner、nav、footer公用的组件，nav的状态可以通过在具体页面中传入变量实现。每个页面根据实际情况可以划分为侧边导航栏组件和内容区域，从而组成一个个具体的页面。</p>
 <p>pdf文件浏览采用开源的pdf.js库，能够实现跨平台在线浏览pdf文件内容。视频文件考虑到文件格式兼容性和在线存储，使用了传统的flash流式播放。封装了这两个组件，在使用的时候采用参数传入的方式来调动功能，从而达到复用。</p>
 <p>采用这种继承layout和组件形式开发，节省了很多开发工作量，开发效率得到很大提升，并且易于维护。</p>
 <h3 id="构建部署"><a href="#构建部署" class="headerlink" title="构建部署"></a>构建部署</h3><p>现在每个网站的开发、测试、上线离不开一个构建部署脚本。node.js的不断发展，生态系统日益壮大，有很多方便快捷的工具可以用于开发构建。本项目用到了将pug模板编译成html内容，css和js文件压缩，浏览器同步自动更新构建工具，基于文件流和任务式自动化构建工具gulp.js，能够简单高效的完成网站的构建与部署。</p>
-<p><img src="/assets/2017-07-29-work-stream.png" alt="构建流程图"></p>
+<p><img src="/assets/201707/2017-07-29-work-stream.png" alt="构建流程图"></p>
 <h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>完成整个网站开发涉及到了方方面面，一点一滴的积累和实践，得到了成长，收获了快乐。</p>
 
       
@@ -423,7 +423,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-count">5</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>

@@ -102,7 +102,7 @@
 我们当中许多人在使用promise没有真正明白它。
 如果你很难相信，想想我最近在twitter上发的内容：
 问题：这四个p">
-<meta property="og:updated_time" content="2017-10-29T11:50:18.024Z">
+<meta property="og:updated_time" content="2017-10-30T02:58:52.951Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="你真的搞懂Promise了吗？">
 <meta name="twitter:description" content="JavaScript开发者们，现在得承认：我们有一个关于promise的问题。
@@ -354,7 +354,7 @@
 </blockquote>
 <h4 id="新手错误5：不使用return的副作用"><a href="#新手错误5：不使用return的副作用" class="headerlink" title="新手错误5：不使用return的副作用"></a>新手错误5：不使用<code>return</code>的副作用</h4><p>这段代码出现什么错误呢？<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">somePromise().then(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    someOtherPromise();</span><br><span class="line">&#125;).then(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="comment">// 哎，我希望someOtherPromise（）已经解决了！</span></span><br><span class="line">    <span class="comment">// Spoiler警报：没有。</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
 <p>好的，这是一个很好的一点，谈论你需要了解promise的一切。真的，这是一个奇怪的伎俩，一旦你明白了，就会阻止我所说的所有错误。你准备好了吗？</p>
-<p>正如我之前所说，promise的魔力是他们给我们带回了我们宝贵的return和thrown。但这实际上是什么样的呢？</p>
+<p>正如我之前所说，promise的魔力是他们给我们带回了我们宝贵的return和throw。但这实际上是什么样的呢？</p>
 <p>每个promise给你一个then()方法（或者catch()，这只是then(null, …)的语法糖）。这里我们在一个then()函数里面：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">somePromise().then(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="comment">// 我在一个then函数里面</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
 <p>这儿我们该怎么办？有三件事情：</p>
 <p>1、return另一个promise<br>2、return一个同步值（或者undefined）<br>3、throw一个同步错误</p>

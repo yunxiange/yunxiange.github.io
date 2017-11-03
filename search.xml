@@ -4,6 +4,55 @@
   
     
     <entry>
+      <title><![CDATA[最好的前端手册 - 都在一个地方]]></title>
+      <url>http://yoursite.com/2017/11/02/modern-frontend-hacking-cheatsheets/</url>
+      <content type="html"><![CDATA[<p>几乎不可能用心记住所有的API。这就是什么时候需要用到手册！这里有我收集的最好的前端手册。</p>
+<h3 id="JavaScript-ES2015特性"><a href="#JavaScript-ES2015特性" class="headerlink" title="JavaScript ES2015特性"></a><a href="https://devhints.io/es6" target="_blank" rel="external">JavaScript ES2015特性</a></h3><p><img src="/assets/201711/2017-11-02-es6.png" alt="JavaScript ES2015 Features"><br><a href="https://devhints.io/es6" target="_blank" rel="external">https://devhints.io/es6</a></p>
+<h3 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a><a href="http://overapi.com/javascript" target="_blank" rel="external">JavaScript</a></h3><p><img src="/assets/201711/2017-11-02-javascript.png" alt="JavaScript"><br><a href="http://overapi.com/javascript" target="_blank" rel="external">http://overapi.com/javascript</a></p>
+<h3 id="JavaScript正则表达式"><a href="#JavaScript正则表达式" class="headerlink" title="JavaScript正则表达式"></a><a href="https://www.debuggex.com/cheatsheet/regex/javascript" target="_blank" rel="external">JavaScript正则表达式</a></h3><p><img src="/assets/201711/2017-11-02-javascript-exp.png" alt="JavaScript Regular expression"><br><a href="https://www.debuggex.com/cheatsheet/regex/javascript" target="_blank" rel="external">https://www.debuggex.com/cheatsheet/regex/javascript</a></p>
+<h3 id="React"><a href="#React" class="headerlink" title="React"></a><a href="https://devhints.io/react" target="_blank" rel="external">React</a></h3><p><img src="/assets/201711/2017-11-02-react.png" alt="React"><br><a href="https://devhints.io/react" target="_blank" rel="external">https://devhints.io/react</a></p>
+<h3 id="Redux"><a href="#Redux" class="headerlink" title="Redux"></a><a href="https://github.com/linkmesrl/react-journey-2016/blob/master/resources/egghead-redux-cheat-sheet-3-2-1.pdf" target="_blank" rel="external">Redux</a></h3><p><img src="/assets/201711/2017-11-02-redux.png" alt="Redux"><br><a href="https://github.com/linkmesrl/react-journey-2016/blob/master/resources/egghead-redux-cheat-sheet-3-2-1.pdf" target="_blank" rel="external">https://github.com/linkmesrl/react-journey-2016/blob/master/resources/egghead-redux-cheat-sheet-3-2-1.pdf</a></p>
+<h3 id="Vue-js"><a href="#Vue-js" class="headerlink" title="Vue.js"></a><a href="https://vuejs-tips.github.io/cheatsheet/" target="_blank" rel="external">Vue.js</a></h3><p><img src="/assets/201711/2017-11-02-vuejs.png" alt="Vue.js"><br><a href="https://vuejs-tips.github.io/cheatsheet/" target="_blank" rel="external">https://vuejs-tips.github.io/cheatsheet/</a></p>
+<h3 id="Vuex"><a href="#Vuex" class="headerlink" title="Vuex"></a><a href="https://vuejs-tips.github.io/vuex-cheatsheet/" target="_blank" rel="external">Vuex</a></h3><p><img src="/assets/201711/2017-11-02-vuex.png" alt="Vuex"><br><a href="https://vuejs-tips.github.io/vuex-cheatsheet/" target="_blank" rel="external">https://vuejs-tips.github.io/vuex-cheatsheet/</a></p>
+<h3 id="Angular-5"><a href="#Angular-5" class="headerlink" title="Angular 5"></a><a href="https://angular.io/guide/cheatsheet" target="_blank" rel="external">Angular 5</a></h3><p><img src="/assets/201711/2017-11-02-angular5.png" alt="Angular 5"><br><a href="https://angular.io/guide/cheatsheet" target="_blank" rel="external">https://angular.io/guide/cheatsheet</a></p>
+<h3 id="Flexbox"><a href="#Flexbox" class="headerlink" title="Flexbox"></a><a href="https://yoksel.github.io/flex-cheatsheet/" target="_blank" rel="external">Flexbox</a></h3><p><img src="/assets/201711/2017-11-02-flexbox.png" alt="Flexbox"><br><a href="https://yoksel.github.io/flex-cheatsheet/" target="_blank" rel="external">https://yoksel.github.io/flex-cheatsheet/</a></p>
+<h3 id="Sass"><a href="#Sass" class="headerlink" title="Sass"></a><a href="https://devhints.io/sass" target="_blank" rel="external">Sass</a></h3><p><img src="/assets/201711/2017-11-02-sass.png" alt="Sass"><br><a href="https://devhints.io/sass" target="_blank" rel="external">https://devhints.io/sass</a></p>
+<h3 id="Stylus"><a href="#Stylus" class="headerlink" title="Stylus"></a><a href="https://devhints.io/stylus" target="_blank" rel="external">Stylus</a></h3><p><img src="/assets/201711/2017-11-02-stylus.png" alt="Stylus"><br><a href="https://devhints.io/stylus" target="_blank" rel="external">https://devhints.io/stylus</a></p>
+<h3 id="GraphQL"><a href="#GraphQL" class="headerlink" title="GraphQL"></a><a href="https://raw.githubusercontent.com/sogko/graphql-shorthand-notation-cheat-sheet/master/graphql-shorthand-notation-cheat-sheet.png" target="_blank" rel="external">GraphQL</a></h3><p><img src="/assets/201711/2017-11-02-graphql.png" alt="GraphQL"><br><a href="https://raw.githubusercontent.com/sogko/graphql-shorthand-notation-cheat-sheet/master/graphql-shorthand-notation-cheat-sheet.png" target="_blank" rel="external">https://raw.githubusercontent.com/sogko/graphql-shorthand-notation-cheat-sheet/master/graphql-shorthand-notation-cheat-sheet.png</a></p>
+<p>遗漏了你最喜爱的手册？请在留言区让我知道！</p>
+<p>如果你发现这篇文章有用，请给我一些掌声让更多的人看到。谢谢！</p>
+<p><a href="https://medium.com/@wesharehoodies/easy-guide-for-webpack-2-0-from-scratch-fe508a3ce44e" target="_blank" rel="external">怎样从头开始搭建Webpack 2.0</a></p>
+<p><a href="https://medium.com/@wesharehoodies/best-courses-to-learn-javascript-in-2017-fc3a254638cc" target="_blank" rel="external">2017学习JavaScript最好的课程</a></p>
+<p><a href="https://medium.com/@wesharehoodies/bitcoin-ripple-ethereum-price-checker-with-react-native-redux-e9d076037092" target="_blank" rel="external">学习如何使用RN和Redux构建一个加密货币原生移动应用</a></p>
+<p>当然，不要忘记更多地关注我！♥</p>
+<p>文章翻译整理自 <a href="https://medium.freecodecamp.org/modern-frontend-hacking-cheatsheets-df9c2566c72a" target="_blank" rel="external">https://medium.freecodecamp.org/modern-frontend-hacking-cheatsheets-df9c2566c72a</a> 。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Node.js 8和Node.js 9的新功能]]></title>
+      <url>http://yoursite.com/2017/11/01/what-is-new-in-node-js-8-and-node-js-9/</url>
+      <content type="html"><![CDATA[<p>Node.js 8现在处于<a href="https://www.infoworld.com/article/3001675/javascript/nodejss-release-cycle-hits-the-fast-lane.html" target="_blank" rel="external">长期支持（LTS）</a>发布状态，LTS旨在表示在企业部署中使用的稳定性水平。随着Node.js 8的这个版本处于稳定状态，Node.js 9的首次登场是异步资源跟踪，作为“当前”发行版。</p>
+<h3 id="Node-js-8特性"><a href="#Node-js-8特性" class="headerlink" title="Node.js 8特性"></a>Node.js 8特性</h3><p><a href="https://www.infoworld.com/article/3233190/node-js/nodejs-tutorial-get-started-with-nodejs.html" target="_blank" rel="external">流行的服务器端JavaScript运行环境</a>的LTS发布，这个关注的是安全和稳定性。LTS发布版本活跃维护在18个月。<a href="https://www.infoworld.com/article/3199186/node-js/nodejs-8-brings-sanity-to-native-module-dependencies.html" target="_blank" rel="external">由Node.js基金会于5月下旬首次推出</a>的Node.js 8.x功能特点：</p>
+<ul>
+<li>Google V8 6.1 JavaScript引擎。</li>
+<li>NPM 5.0.0客户端。</li>
+<li>更好的性能——在典型的web应用程序上相比之前Node 6 LTS版本性能提升20%。</li>
+</ul>
+<p>两个其他功能——作为本地扩展（native-add-ons）的N-API和保持在实验阶段仍然受到代码变动的HTTP/2。Node.js基金会建议Node.js 6用户开始测试Node.js 8，Node.js 4用户升级到Node.js 8。</p>
+<p>【了解Node？不过错过<a href="https://www.infoworld.com/article/3196070/node-js/10-javascript-concepts-nodejs-programmers-must-master.html#tk.ifw-infsb" target="_blank" rel="external">每个Node开发者必须掌握的10个JavaScript对象</a>. | <a href="https://www.infoworld.com/article/3204205/node-js/7-keys-to-structuring-your-nodejs-app.html#tk.ifw-infsb" target="_blank" rel="external">构建您的Node应用程序的7个关键点</a>. | 跟上程序热门话题使用Infowold的<a href="https://www.infoworld.com/newsletters/signup.html#tk.ifw-infsb" target="_blank" rel="external">应用开发报告通讯</a>.】</p>
+<h3 id="Node-js-9新特性"><a href="#Node-js-9新特性" class="headerlink" title="Node.js 9新特性"></a>Node.js 9新特性</h3><p>对于Node.js 9，大多数改变主要在API的弃用或删除，并将代码库迁移到新的错误系统。迁移的目标是将唯一的代码与系统抛出的错误相关联，允许更改错误消息，而不会被视为破坏更改。Node.js 9其他特性包括：</p>
+<ul>
+<li>一个异步钩子模块，提供一个用于注册回调以跟踪应用程序中异步资源的API。此功能也出现在Node.js 8.x行中，在此阶段是实验性的。</li>
+<li>Google V8 6.2 JavaScript引擎。</li>
+<li>支持HTTP/2和N-API，它们可以在没有命令行标志的情况下使用，但仍然是实验性的。</li>
+</ul>
+<h3 id="哪里可以下载Node-js"><a href="#哪里可以下载Node-js" class="headerlink" title="哪里可以下载Node.js"></a>哪里可以下载Node.js</h3><p><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js网站</a>上提供了最新的Node.js 8版本和9.x的下载URL。</p>
+<p>文章整理翻译自<a href="https://www.infoworld.com/article/3235610/node-js/whats-new-in-nodejs-8-and-nodejs-9.html" target="_blank" rel="external">https://www.infoworld.com/article/3235610/node-js/whats-new-in-nodejs-8-and-nodejs-9.html</a>。</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[你真的搞懂Promise了吗？]]></title>
       <url>http://yoursite.com/2017/10/14/are-you-rellay-understand-promise/</url>
       <content type="html"><![CDATA[<p>JavaScript开发者们，现在得承认：我们有一个关于promise的问题。</p>
@@ -116,7 +165,7 @@
 <p>顺便说一下，写那个讨厌的回调代码的人是…我！所以这是作为我的promise的原始力量的第一课，我感谢其他PouchDB贡献者一路上教导我。</p>
 <p>话虽如此，promise并不完美。这是真的，他们比回调更好，但这是一个很好的说，一个打在肠道比一个踢在牙齿更好。当然，一个比另一个更好，但是如果你有一个选择，你可能会避免它们。</p>
 <p>虽然优于回调，promise仍然难以理解和容易出错，这表现在我觉得不得不写这篇博文。新手和专家都会经常混淆这些东西，真的，这不是他们的错。问题在于promise虽然与我们在同步代码中使用的模式类似，但却是一个合适的替代品，但不完全相同。</p>
-<p>实际上，你不应该学习一堆神秘的规则和新的API来做这些事情，在同步的世界里，你可以很好地完成熟悉的模式，如return，catch，throw和for-loop。不应该有两个平行并行的系统，你必须始终保持串行。</p>
+<p>实际上，你不应该学习一堆神秘的规则和新的API来做这些事情，在同步的世界里，你可以很好地完成熟悉的模式，如return，catch，throw和for-loop。不应该有两个并行的系统，你必须始终保持串行。</p>
 <h3 id="期待async-await"><a href="#期待async-await" class="headerlink" title="期待async/await"></a>期待async/await</h3><p>这就是我在<a href="http://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html" target="_blank" rel="external">“用ES7驯服异步野兽”</a>中所做的一点，我在那里探索了ES7 async/await关键字，以及如何将承诺更深入地融入到语言中。 ES7可以让我们使用真正的try / catch / return关键字，就像我们在CS 101中学到一样，而不必编写伪同步代码（使用一种类似于catch的假捕获()方法，但不是真的）。</p>
 <p>这是JavaScript作为一种语言的巨大福音。因为最后，只要在我们犯了错误时我们的工具不会告诉我们，这些承诺的反模式仍然会继续发生。</p>
 <p>以JavaScript的历史为例，我认为说<a href="http://jslint.com/" target="_blank" rel="external">JSLint</a>和<a href="http://jshint.com/" target="_blank" rel="external">JSHint</a>比<a href="http://amzn.com/0596517742" target="_blank" rel="external">《JavaScript: The Good Parts》</a>更好的服务于社区，即使它们有效地包含了相同的信息。被告知你刚刚在你的代码中所犯的错误，而不是阅读一本你试图了解别人的错误的书。</p>

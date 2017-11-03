@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-30T02:58:52.951Z</updated>
+  <updated>2017-11-02T11:38:55.555Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,89 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>最好的前端手册 - 都在一个地方</title>
+    <link href="http://yoursite.com/2017/11/02/modern-frontend-hacking-cheatsheets/"/>
+    <id>http://yoursite.com/2017/11/02/modern-frontend-hacking-cheatsheets/</id>
+    <published>2017-11-02T06:01:39.000Z</published>
+    <updated>2017-11-02T11:38:55.555Z</updated>
+    
+    <content type="html">&lt;p&gt;几乎不可能用心记住所有的API。这就是什么时候需要用到手册！这里有我收集的最好的前端手册。&lt;/p&gt;
+&lt;h3 id=&quot;JavaScript-ES2015特性&quot;&gt;&lt;a href=&quot;#JavaScript-ES2015特性&quot; class=&quot;headerlink&quot; title=&quot;JavaScript ES2015特性&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://devhints.io/es6&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaScript ES2015特性&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/assets/201711/2017-11-02-es6.png&quot; alt=&quot;JavaScript ES2015 Features&quot;&gt;&lt;br&gt;&lt;a href=&quot;https://devhints.io/es6&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://devhints.io/es6&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;JavaScript&quot;&gt;&lt;a href=&quot;#JavaScript&quot; class=&quot;headerlink&quot; title=&quot;JavaScript&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://overapi.com/javascript&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaScript&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/assets/201711/2017-11-02-javascript.png&quot; alt=&quot;JavaScript&quot;&gt;&lt;br&gt;&lt;a href=&quot;http://overapi.com/javascript&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://overapi.com/javascript&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;JavaScript正则表达式&quot;&gt;&lt;a href=&quot;#JavaScript正则表达式&quot; class=&quot;headerlink&quot; title=&quot;JavaScript正则表达式&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://www.debuggex.com/cheatsheet/regex/javascript&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaScript正则表达式&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/assets/201711/2017-11-02-javascript-exp.png&quot; alt=&quot;JavaScript Regular expression&quot;&gt;&lt;br&gt;&lt;a href=&quot;https://www.debuggex.com/cheatsheet/regex/javascript&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.debuggex.com/cheatsheet/regex/javascript&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;React&quot;&gt;&lt;a href=&quot;#React&quot; class=&quot;headerlink&quot; title=&quot;React&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://devhints.io/react&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;React&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/assets/201711/2017-11-02-react.png&quot; alt=&quot;React&quot;&gt;&lt;br&gt;&lt;a href=&quot;https://devhints.io/react&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://devhints.io/react&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Redux&quot;&gt;&lt;a href=&quot;#Redux&quot; class=&quot;headerlink&quot; title=&quot;Redux&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/linkmesrl/react-journey-2016/blob/master/resources/egghead-redux-cheat-sheet-3-2-1.pdf&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Redux&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/assets/201711/2017-11-02-redux.png&quot; alt=&quot;Redux&quot;&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/linkmesrl/react-journey-2016/blob/master/resources/egghead-redux-cheat-sheet-3-2-1.pdf&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/linkmesrl/react-journey-2016/blob/master/resources/egghead-redux-cheat-sheet-3-2-1.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Vue-js&quot;&gt;&lt;a href=&quot;#Vue-js&quot; class=&quot;headerlink&quot; title=&quot;Vue.js&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://vuejs-tips.github.io/cheatsheet/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Vue.js&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/assets/201711/2017-11-02-vuejs.png&quot; alt=&quot;Vue.js&quot;&gt;&lt;br&gt;&lt;a href=&quot;https://vuejs-tips.github.io/cheatsheet/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://vuejs-tips.github.io/cheatsheet/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Vuex&quot;&gt;&lt;a href=&quot;#Vuex&quot; class=&quot;headerlink&quot; title=&quot;Vuex&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://vuejs-tips.github.io/vuex-cheatsheet/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Vuex&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/assets/201711/2017-11-02-vuex.png&quot; alt=&quot;Vuex&quot;&gt;&lt;br&gt;&lt;a href=&quot;https://vuejs-tips.github.io/vuex-cheatsheet/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://vuejs-tips.github.io/vuex-cheatsheet/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Angular-5&quot;&gt;&lt;a href=&quot;#Angular-5&quot; class=&quot;headerlink&quot; title=&quot;Angular 5&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://angular.io/guide/cheatsheet&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Angular 5&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/assets/201711/2017-11-02-angular5.png&quot; alt=&quot;Angular 5&quot;&gt;&lt;br&gt;&lt;a href=&quot;https://angular.io/guide/cheatsheet&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://angular.io/guide/cheatsheet&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Flexbox&quot;&gt;&lt;a href=&quot;#Flexbox&quot; class=&quot;headerlink&quot; title=&quot;Flexbox&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://yoksel.github.io/flex-cheatsheet/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Flexbox&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/assets/201711/2017-11-02-flexbox.png&quot; alt=&quot;Flexbox&quot;&gt;&lt;br&gt;&lt;a href=&quot;https://yoksel.github.io/flex-cheatsheet/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://yoksel.github.io/flex-cheatsheet/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Sass&quot;&gt;&lt;a href=&quot;#Sass&quot; class=&quot;headerlink&quot; title=&quot;Sass&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://devhints.io/sass&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sass&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/assets/201711/2017-11-02-sass.png&quot; alt=&quot;Sass&quot;&gt;&lt;br&gt;&lt;a href=&quot;https://devhints.io/sass&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://devhints.io/sass&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Stylus&quot;&gt;&lt;a href=&quot;#Stylus&quot; class=&quot;headerlink&quot; title=&quot;Stylus&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://devhints.io/stylus&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Stylus&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/assets/201711/2017-11-02-stylus.png&quot; alt=&quot;Stylus&quot;&gt;&lt;br&gt;&lt;a href=&quot;https://devhints.io/stylus&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://devhints.io/stylus&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;GraphQL&quot;&gt;&lt;a href=&quot;#GraphQL&quot; class=&quot;headerlink&quot; title=&quot;GraphQL&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://raw.githubusercontent.com/sogko/graphql-shorthand-notation-cheat-sheet/master/graphql-shorthand-notation-cheat-sheet.png&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GraphQL&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/assets/201711/2017-11-02-graphql.png&quot; alt=&quot;GraphQL&quot;&gt;&lt;br&gt;&lt;a href=&quot;https://raw.githubusercontent.com/sogko/graphql-shorthand-notation-cheat-sheet/master/graphql-shorthand-notation-cheat-sheet.png&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://raw.githubusercontent.com/sogko/graphql-shorthand-notation-cheat-sheet/master/graphql-shorthand-notation-cheat-sheet.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;遗漏了你最喜爱的手册？请在留言区让我知道！&lt;/p&gt;
+&lt;p&gt;如果你发现这篇文章有用，请给我一些掌声让更多的人看到。谢谢！&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@wesharehoodies/easy-guide-for-webpack-2-0-from-scratch-fe508a3ce44e&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;怎样从头开始搭建Webpack 2.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@wesharehoodies/best-courses-to-learn-javascript-in-2017-fc3a254638cc&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;2017学习JavaScript最好的课程&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@wesharehoodies/bitcoin-ripple-ethereum-price-checker-with-react-native-redux-e9d076037092&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;学习如何使用RN和Redux构建一个加密货币原生移动应用&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;当然，不要忘记更多地关注我！♥&lt;/p&gt;
+&lt;p&gt;文章翻译整理自 &lt;a href=&quot;https://medium.freecodecamp.org/modern-frontend-hacking-cheatsheets-df9c2566c72a&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://medium.freecodecamp.org/modern-frontend-hacking-cheatsheets-df9c2566c72a&lt;/a&gt; 。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;几乎不可能用心记住所有的API。这就是什么时候需要用到手册！这里有我收集的最好的前端手册。&lt;/p&gt;
+&lt;h3 id=&quot;JavaScript-ES2015特性&quot;&gt;&lt;a href=&quot;#JavaScript-ES2015特性&quot; class=&quot;headerlink&quot; title=&quot;J
+    
+    </summary>
+    
+    
+      <category term="tool" scheme="http://yoursite.com/tags/tool/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Node.js 8和Node.js 9的新功能</title>
+    <link href="http://yoursite.com/2017/11/01/what-is-new-in-node-js-8-and-node-js-9/"/>
+    <id>http://yoursite.com/2017/11/01/what-is-new-in-node-js-8-and-node-js-9/</id>
+    <published>2017-11-01T05:45:48.000Z</published>
+    <updated>2017-11-01T08:04:03.364Z</updated>
+    
+    <content type="html">&lt;p&gt;Node.js 8现在处于&lt;a href=&quot;https://www.infoworld.com/article/3001675/javascript/nodejss-release-cycle-hits-the-fast-lane.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;长期支持（LTS）&lt;/a&gt;发布状态，LTS旨在表示在企业部署中使用的稳定性水平。随着Node.js 8的这个版本处于稳定状态，Node.js 9的首次登场是异步资源跟踪，作为“当前”发行版。&lt;/p&gt;
+&lt;h3 id=&quot;Node-js-8特性&quot;&gt;&lt;a href=&quot;#Node-js-8特性&quot; class=&quot;headerlink&quot; title=&quot;Node.js 8特性&quot;&gt;&lt;/a&gt;Node.js 8特性&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://www.infoworld.com/article/3233190/node-js/nodejs-tutorial-get-started-with-nodejs.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;流行的服务器端JavaScript运行环境&lt;/a&gt;的LTS发布，这个关注的是安全和稳定性。LTS发布版本活跃维护在18个月。&lt;a href=&quot;https://www.infoworld.com/article/3199186/node-js/nodejs-8-brings-sanity-to-native-module-dependencies.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;由Node.js基金会于5月下旬首次推出&lt;/a&gt;的Node.js 8.x功能特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google V8 6.1 JavaScript引擎。&lt;/li&gt;
+&lt;li&gt;NPM 5.0.0客户端。&lt;/li&gt;
+&lt;li&gt;更好的性能——在典型的web应用程序上相比之前Node 6 LTS版本性能提升20%。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;两个其他功能——作为本地扩展（native-add-ons）的N-API和保持在实验阶段仍然受到代码变动的HTTP/2。Node.js基金会建议Node.js 6用户开始测试Node.js 8，Node.js 4用户升级到Node.js 8。&lt;/p&gt;
+&lt;p&gt;【了解Node？不过错过&lt;a href=&quot;https://www.infoworld.com/article/3196070/node-js/10-javascript-concepts-nodejs-programmers-must-master.html#tk.ifw-infsb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;每个Node开发者必须掌握的10个JavaScript对象&lt;/a&gt;. | &lt;a href=&quot;https://www.infoworld.com/article/3204205/node-js/7-keys-to-structuring-your-nodejs-app.html#tk.ifw-infsb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;构建您的Node应用程序的7个关键点&lt;/a&gt;. | 跟上程序热门话题使用Infowold的&lt;a href=&quot;https://www.infoworld.com/newsletters/signup.html#tk.ifw-infsb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;应用开发报告通讯&lt;/a&gt;.】&lt;/p&gt;
+&lt;h3 id=&quot;Node-js-9新特性&quot;&gt;&lt;a href=&quot;#Node-js-9新特性&quot; class=&quot;headerlink&quot; title=&quot;Node.js 9新特性&quot;&gt;&lt;/a&gt;Node.js 9新特性&lt;/h3&gt;&lt;p&gt;对于Node.js 9，大多数改变主要在API的弃用或删除，并将代码库迁移到新的错误系统。迁移的目标是将唯一的代码与系统抛出的错误相关联，允许更改错误消息，而不会被视为破坏更改。Node.js 9其他特性包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一个异步钩子模块，提供一个用于注册回调以跟踪应用程序中异步资源的API。此功能也出现在Node.js 8.x行中，在此阶段是实验性的。&lt;/li&gt;
+&lt;li&gt;Google V8 6.2 JavaScript引擎。&lt;/li&gt;
+&lt;li&gt;支持HTTP/2和N-API，它们可以在没有命令行标志的情况下使用，但仍然是实验性的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;哪里可以下载Node-js&quot;&gt;&lt;a href=&quot;#哪里可以下载Node-js&quot; class=&quot;headerlink&quot; title=&quot;哪里可以下载Node.js&quot;&gt;&lt;/a&gt;哪里可以下载Node.js&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://nodejs.org/en/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Node.js网站&lt;/a&gt;上提供了最新的Node.js 8版本和9.x的下载URL。&lt;/p&gt;
+&lt;p&gt;文章整理翻译自&lt;a href=&quot;https://www.infoworld.com/article/3235610/node-js/whats-new-in-nodejs-8-and-nodejs-9.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.infoworld.com/article/3235610/node-js/whats-new-in-nodejs-8-and-nodejs-9.html&lt;/a&gt;。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Node.js 8现在处于&lt;a href=&quot;https://www.infoworld.com/article/3001675/javascript/nodejss-release-cycle-hits-the-fast-lane.html&quot; target=&quot;_blank&quot;
+    
+    </summary>
+    
+    
+      <category term="Node.js" scheme="http://yoursite.com/tags/Node-js/"/>
+    
+  </entry>
+  
+  <entry>
     <title>你真的搞懂Promise了吗？</title>
     <link href="http://yoursite.com/2017/10/14/are-you-rellay-understand-promise/"/>
     <id>http://yoursite.com/2017/10/14/are-you-rellay-understand-promise/</id>
     <published>2017-10-14T06:10:01.000Z</published>
-    <updated>2017-10-30T02:58:52.951Z</updated>
+    <updated>2017-10-31T09:04:43.524Z</updated>
     
     <content type="html">&lt;p&gt;JavaScript开发者们，现在得承认：我们有一个关于promise的问题。&lt;/p&gt;
 &lt;p&gt;不，这不是promise自身问题。采用&lt;a href=&quot;https://promisesaplus.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;A+ 规范&lt;/a&gt;定义的Promise是非常酷的。&lt;/p&gt;
@@ -132,7 +210,7 @@
 &lt;p&gt;顺便说一下，写那个讨厌的回调代码的人是…我！所以这是作为我的promise的原始力量的第一课，我感谢其他PouchDB贡献者一路上教导我。&lt;/p&gt;
 &lt;p&gt;话虽如此，promise并不完美。这是真的，他们比回调更好，但这是一个很好的说，一个打在肠道比一个踢在牙齿更好。当然，一个比另一个更好，但是如果你有一个选择，你可能会避免它们。&lt;/p&gt;
 &lt;p&gt;虽然优于回调，promise仍然难以理解和容易出错，这表现在我觉得不得不写这篇博文。新手和专家都会经常混淆这些东西，真的，这不是他们的错。问题在于promise虽然与我们在同步代码中使用的模式类似，但却是一个合适的替代品，但不完全相同。&lt;/p&gt;
-&lt;p&gt;实际上，你不应该学习一堆神秘的规则和新的API来做这些事情，在同步的世界里，你可以很好地完成熟悉的模式，如return，catch，throw和for-loop。不应该有两个平行并行的系统，你必须始终保持串行。&lt;/p&gt;
+&lt;p&gt;实际上，你不应该学习一堆神秘的规则和新的API来做这些事情，在同步的世界里，你可以很好地完成熟悉的模式，如return，catch，throw和for-loop。不应该有两个并行的系统，你必须始终保持串行。&lt;/p&gt;
 &lt;h3 id=&quot;期待async-await&quot;&gt;&lt;a href=&quot;#期待async-await&quot; class=&quot;headerlink&quot; title=&quot;期待async/await&quot;&gt;&lt;/a&gt;期待async/await&lt;/h3&gt;&lt;p&gt;这就是我在&lt;a href=&quot;http://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;“用ES7驯服异步野兽”&lt;/a&gt;中所做的一点，我在那里探索了ES7 async/await关键字，以及如何将承诺更深入地融入到语言中。 ES7可以让我们使用真正的try / catch / return关键字，就像我们在CS 101中学到一样，而不必编写伪同步代码（使用一种类似于catch的假捕获()方法，但不是真的）。&lt;/p&gt;
 &lt;p&gt;这是JavaScript作为一种语言的巨大福音。因为最后，只要在我们犯了错误时我们的工具不会告诉我们，这些承诺的反模式仍然会继续发生。&lt;/p&gt;
 &lt;p&gt;以JavaScript的历史为例，我认为说&lt;a href=&quot;http://jslint.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JSLint&lt;/a&gt;和&lt;a href=&quot;http://jshint.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JSHint&lt;/a&gt;比&lt;a href=&quot;http://amzn.com/0596517742&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《JavaScript: The Good Parts》&lt;/a&gt;更好的服务于社区，即使它们有效地包含了相同的信息。被告知你刚刚在你的代码中所犯的错误，而不是阅读一本你试图了解别人的错误的书。&lt;/p&gt;

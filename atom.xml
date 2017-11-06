@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-11-02T11:38:55.555Z</updated>
+  <updated>2017-11-06T02:50:03.916Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>最好的前端手册 - 都在一个地方</title>
+    <title>最好的前端手册 - 都在这里</title>
     <link href="http://yoursite.com/2017/11/02/modern-frontend-hacking-cheatsheets/"/>
     <id>http://yoursite.com/2017/11/02/modern-frontend-hacking-cheatsheets/</id>
     <published>2017-11-02T06:01:39.000Z</published>
-    <updated>2017-11-02T11:38:55.555Z</updated>
+    <updated>2017-11-06T02:50:03.916Z</updated>
     
     <content type="html">&lt;p&gt;几乎不可能用心记住所有的API。这就是什么时候需要用到手册！这里有我收集的最好的前端手册。&lt;/p&gt;
 &lt;h3 id=&quot;JavaScript-ES2015特性&quot;&gt;&lt;a href=&quot;#JavaScript-ES2015特性&quot; class=&quot;headerlink&quot; title=&quot;JavaScript ES2015特性&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://devhints.io/es6&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaScript ES2015特性&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/assets/201711/2017-11-02-es6.png&quot; alt=&quot;JavaScript ES2015 Features&quot;&gt;&lt;br&gt;&lt;a href=&quot;https://devhints.io/es6&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://devhints.io/es6&lt;/a&gt;&lt;/p&gt;

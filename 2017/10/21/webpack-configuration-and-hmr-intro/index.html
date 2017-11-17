@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Node.js," />
+  <meta name="keywords" content="tool," />
 
 
 
@@ -86,19 +86,28 @@
 
 
 
-<meta name="description" content="Node.js 8现在处于长期支持（LTS）发布状态，LTS旨在表示在企业部署中使用的稳定性水平。随着Node.js 8的这个版本处于稳定状态，Node.js 9的首次登场是异步资源跟踪，作为“当前”发行版。
-Node.js 8特性流行的服务器端JavaScript运行环境的LTS发布，这个关注的是安全和稳定性。LTS发布版本活跃维护在18个月。由Node.js基金会于5月下旬首次推出的Node.">
+<meta name="description" content="webpack介绍webpack官网是这么介绍的：
+
+webpack是用于现代JavaScript应用程序的模块打包器。当Webpack处理您的应用程序时，它递归地构建一个包含应用程序所需的每个模块的依赖关系图，然后将所有这些模块打包到少量的捆绑（通常只有一个），由浏览器加载。
+
+webpack打包是基于由一系列规则构成的配置文件生成模块文件，四个核心的配置项分别是入口文件（Entry）、输出文件">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Node.js 8和Node.js 9的新功能">
-<meta property="og:url" content="http://yoursite.com/2017/11/01/what-is-new-in-node-js-8-and-node-js-9/index.html">
+<meta property="og:title" content="webpack配置及热更新介绍">
+<meta property="og:url" content="http://yoursite.com/2017/10/21/webpack-configuration-and-hmr-intro/index.html">
 <meta property="og:site_name" content="YXX博客">
-<meta property="og:description" content="Node.js 8现在处于长期支持（LTS）发布状态，LTS旨在表示在企业部署中使用的稳定性水平。随着Node.js 8的这个版本处于稳定状态，Node.js 9的首次登场是异步资源跟踪，作为“当前”发行版。
-Node.js 8特性流行的服务器端JavaScript运行环境的LTS发布，这个关注的是安全和稳定性。LTS发布版本活跃维护在18个月。由Node.js基金会于5月下旬首次推出的Node.">
-<meta property="og:updated_time" content="2017-11-01T08:04:03.000Z">
+<meta property="og:description" content="webpack介绍webpack官网是这么介绍的：
+
+webpack是用于现代JavaScript应用程序的模块打包器。当Webpack处理您的应用程序时，它递归地构建一个包含应用程序所需的每个模块的依赖关系图，然后将所有这些模块打包到少量的捆绑（通常只有一个），由浏览器加载。
+
+webpack打包是基于由一系列规则构成的配置文件生成模块文件，四个核心的配置项分别是入口文件（Entry）、输出文件">
+<meta property="og:updated_time" content="2017-11-17T17:37:24.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Node.js 8和Node.js 9的新功能">
-<meta name="twitter:description" content="Node.js 8现在处于长期支持（LTS）发布状态，LTS旨在表示在企业部署中使用的稳定性水平。随着Node.js 8的这个版本处于稳定状态，Node.js 9的首次登场是异步资源跟踪，作为“当前”发行版。
-Node.js 8特性流行的服务器端JavaScript运行环境的LTS发布，这个关注的是安全和稳定性。LTS发布版本活跃维护在18个月。由Node.js基金会于5月下旬首次推出的Node.">
+<meta name="twitter:title" content="webpack配置及热更新介绍">
+<meta name="twitter:description" content="webpack介绍webpack官网是这么介绍的：
+
+webpack是用于现代JavaScript应用程序的模块打包器。当Webpack处理您的应用程序时，它递归地构建一个包含应用程序所需的每个模块的依赖关系图，然后将所有这些模块打包到少量的捆绑（通常只有一个），由浏览器加载。
+
+webpack打包是基于由一系列规则构成的配置文件生成模块文件，四个核心的配置项分别是入口文件（Entry）、输出文件">
 
 
 
@@ -116,7 +125,7 @@ Node.js 8特性流行的服务器端JavaScript运行环境的LTS发布，这个�
   };
 </script>
 
-  <title> Node.js 8和Node.js 9的新功能 | YXX博客 </title>
+  <title> webpack配置及热更新介绍 | YXX博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -259,7 +268,7 @@ Node.js 8特性流行的服务器端JavaScript运行环境的LTS发布，这个�
             
             
               
-                Node.js 8和Node.js 9的新功能
+                webpack配置及热更新介绍
               
             
           </h1>
@@ -271,8 +280,8 @@ Node.js 8特性流行的服务器端JavaScript运行环境的LTS发布，这个�
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-11-01T13:45:48+08:00" content="2017-11-01">
-              2017-11-01
+            <time itemprop="dateCreated" datetime="2017-10-21T17:55:53+08:00" content="2017-10-21">
+              2017-10-21
             </time>
           </span>
 
@@ -299,23 +308,23 @@ Node.js 8特性流行的服务器端JavaScript运行环境的LTS发布，这个�
       
 
       
-        <p>Node.js 8现在处于<a href="https://www.infoworld.com/article/3001675/javascript/nodejss-release-cycle-hits-the-fast-lane.html" target="_blank" rel="external">长期支持（LTS）</a>发布状态，LTS旨在表示在企业部署中使用的稳定性水平。随着Node.js 8的这个版本处于稳定状态，Node.js 9的首次登场是异步资源跟踪，作为“当前”发行版。</p>
-<h3 id="Node-js-8特性"><a href="#Node-js-8特性" class="headerlink" title="Node.js 8特性"></a>Node.js 8特性</h3><p><a href="https://www.infoworld.com/article/3233190/node-js/nodejs-tutorial-get-started-with-nodejs.html" target="_blank" rel="external">流行的服务器端JavaScript运行环境</a>的LTS发布，这个关注的是安全和稳定性。LTS发布版本活跃维护在18个月。<a href="https://www.infoworld.com/article/3199186/node-js/nodejs-8-brings-sanity-to-native-module-dependencies.html" target="_blank" rel="external">由Node.js基金会于5月下旬首次推出</a>的Node.js 8.x功能特点：</p>
-<ul>
-<li>Google V8 6.1 JavaScript引擎。</li>
-<li>NPM 5.0.0客户端。</li>
-<li>更好的性能——在典型的web应用程序上相比之前Node 6 LTS版本性能提升20%。</li>
-</ul>
-<p>两个其他功能——作为本地扩展（native-add-ons）的N-API和保持在实验阶段仍然受到代码变动的HTTP/2。Node.js基金会建议Node.js 6用户开始测试Node.js 8，Node.js 4用户升级到Node.js 8。</p>
-<p>【了解Node？不过错过<a href="https://www.infoworld.com/article/3196070/node-js/10-javascript-concepts-nodejs-programmers-must-master.html#tk.ifw-infsb" target="_blank" rel="external">每个Node开发者必须掌握的10个JavaScript对象</a>. | <a href="https://www.infoworld.com/article/3204205/node-js/7-keys-to-structuring-your-nodejs-app.html#tk.ifw-infsb" target="_blank" rel="external">构建您的Node应用程序的7个关键点</a>. | 跟上程序热门话题使用Infowold的<a href="https://www.infoworld.com/newsletters/signup.html#tk.ifw-infsb" target="_blank" rel="external">应用开发报告通讯</a>.】</p>
-<h3 id="Node-js-9新特性"><a href="#Node-js-9新特性" class="headerlink" title="Node.js 9新特性"></a>Node.js 9新特性</h3><p>对于Node.js 9，大多数改变主要在API的弃用或删除，并将代码库迁移到新的错误系统。迁移的目标是将唯一的代码与系统抛出的错误相关联，允许更改错误消息，而不会被视为破坏更改。Node.js 9其他特性包括：</p>
-<ul>
-<li>一个异步钩子模块，提供一个用于注册回调以跟踪应用程序中异步资源的API。此功能也出现在Node.js 8.x行中，在此阶段是实验性的。</li>
-<li>Google V8 6.2 JavaScript引擎。</li>
-<li>支持HTTP/2和N-API，它们可以在没有命令行标志的情况下使用，但仍然是实验性的。</li>
-</ul>
-<h3 id="哪里可以下载Node-js"><a href="#哪里可以下载Node-js" class="headerlink" title="哪里可以下载Node.js"></a>哪里可以下载Node.js</h3><p><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js网站</a>上提供了最新的Node.js 8版本和9.x的下载URL。</p>
-<p>文章整理翻译自<a href="https://www.infoworld.com/article/3235610/node-js/whats-new-in-nodejs-8-and-nodejs-9.html" target="_blank" rel="external">https://www.infoworld.com/article/3235610/node-js/whats-new-in-nodejs-8-and-nodejs-9.html</a>。</p>
+        <h3 id="webpack介绍"><a href="#webpack介绍" class="headerlink" title="webpack介绍"></a>webpack介绍</h3><p><a href="https://webpack.js.org/concepts/" target="_blank" rel="external">webpack官网</a>是这么介绍的：</p>
+<blockquote>
+<p>webpack是用于现代JavaScript应用程序的模块打包器。当Webpack处理您的应用程序时，它递归地构建一个包含应用程序所需的每个模块的依赖关系图，然后将所有这些模块打包到少量的捆绑（通常只有一个），由浏览器加载。</p>
+</blockquote>
+<p>webpack打包是基于由一系列规则构成的配置文件生成模块文件，四个核心的配置项分别是入口文件（<a href="https://webpack.js.org/concepts/entry-points/" target="_blank" rel="external">Entry</a>）、输出文件（<a href="https://webpack.js.org/concepts/output/" target="_blank" rel="external">Output</a>）、加载器（<a href="https://webpack.js.org/concepts/loaders/" target="_blank" rel="external">Loaders</a>）、插件（<a href="https://webpack.js.org/concepts/plugins/" target="_blank" rel="external">Plugins</a>）。</p>
+<h3 id="webpack基本配置"><a href="#webpack基本配置" class="headerlink" title="webpack基本配置"></a>webpack基本配置</h3><p>webpack目前最新版本是3.8.1，分别有三个大版本1.x、2.x、3.x，从1.x升级到2.x有一些相关<a href="https://webpack.js.org/guides/migrating/" target="_blank" rel="external">配置规则变动</a>。下面以3.x版本展现一份基本的webpack配置文件内容：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// webpack.config.js</span></span><br><span class="line"><span class="keyword">let</span> path = <span class="built_in">require</span>(<span class="string">'path'</span>);</span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">    entry: <span class="string">'./app/index'</span>,</span><br><span class="line">    output: &#123;</span><br><span class="line">        path: path.resolve(__dirname, <span class="string">'dist'</span>),</span><br><span class="line">        filename: <span class="string">'bundle.js'</span>,</span><br><span class="line">        publicPath: <span class="string">'/assets/'</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="built_in">module</span>: &#123;</span><br><span class="line">        rules: [&#123;</span><br><span class="line">            test: <span class="regexp">/\.js$/</span>,</span><br><span class="line">            loader: <span class="string">'babel-loader'</span>,</span><br><span class="line">            options: &#123;</span><br><span class="line">                presets: [<span class="string">'env'</span>]</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;]</span><br><span class="line">    &#125;,</span><br><span class="line">    resolve: &#123;</span><br><span class="line">        extensions: [<span class="string">'.js'</span>]</span><br><span class="line">    &#125;,</span><br><span class="line">    plugins: [</span><br><span class="line">        <span class="keyword">new</span> webpack.optimize.UglifyJsPlugin(&#123;</span><br><span class="line">            compress: &#123;</span><br><span class="line">                warnings: <span class="literal">false</span>,</span><br><span class="line">                drop_console: <span class="literal">false</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;)</span><br><span class="line">    ]</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
+<h3 id="webpack热更新介绍"><a href="#webpack热更新介绍" class="headerlink" title="webpack热更新介绍"></a>webpack热更新介绍</h3><p>什么是热更新呢？热更新（<a href="https://webpack.js.org/concepts/hot-module-replacement/" target="_blank" rel="external">HMR</a>）在应用程序运行时交换，添加或删除模块，而不需要完全重新加载。采用热更新调试程序能够在页面模块更新后保留应用的状态、节省开发时间、更快地调整样式。</p>
+<p>热更新可以用来替代LiveReload开发。它们之间的区别是热更新局部刷新，LiveReload页面整体刷新。</p>
+<p>热更新是webpack重要的功能特性之一，它允许在运行时更新各种模块，而无需进行全面刷新。用于开发调试应用程序非常便利。</p>
+<h3 id="webpack热更新配置"><a href="#webpack热更新配置" class="headerlink" title="webpack热更新配置"></a>webpack热更新配置</h3><p>这里有3种方式用来配置HMR项目，逐个地进行介绍。</p>
+<h4 id="1、webpack-dev-server-CLI"><a href="#1、webpack-dev-server-CLI" class="headerlink" title="1、webpack-dev-server CLI"></a>1、webpack-dev-server CLI</h4><p>在命令行中运行webpack-dev-server命令，这种方式不需要改变webpack.config.js文件内容，它是最简单的。</p>
+<p>可以访问这个<a href="https://github.com/yunxiange/wepack-hmr-demo/tree/master/webpack-dev-server-cli" target="_blank" rel="external">例子</a>，看看具体的配置内容和效果。</p>
+<h4 id="2、webpack-dev-server-API"><a href="#2、webpack-dev-server-API" class="headerlink" title="2、webpack-dev-server API"></a>2、webpack-dev-server API</h4><p>从一个node.js脚本中运行WebpackDevServer。要求添加一些内容到你的webpack.config.js文件中。这个适合于采用grunt或者gulp任务流或者从你的node脚本中运行webpack。</p>
+<p>具体的配置内容可查看<a href="https://github.com/yunxiange/wepack-hmr-demo/tree/master/webpack-dev-server-api" target="_blank" rel="external">这里</a>，有相应的示例效果。</p>
+<h4 id="3、webpack-hot-middleware-w-express"><a href="#3、webpack-hot-middleware-w-express" class="headerlink" title="3、webpack-hot-middleware w/express"></a>3、webpack-hot-middleware w/express</h4><p><a href="https://github.com/glenjamin/webpack-hot-middleware" target="_blank" rel="external">webpack-hot-middleware</a>被用来运行一个webpack开发服务内置在express服务的HMR。这个用来集成到你的express服务。</p>
+<p>详细的细节配置和运行效果，可以参照<a href="https://github.com/yunxiange/wepack-hmr-demo/tree/master/webpack-hot-middleware-express" target="_blank" rel="external">这里</a>。</p>
+<h3 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h3><p>接下来会针对webpack打包原理、热更新、性能优化进行深入的探讨。</p>
 
       
     </div>
@@ -337,7 +346,7 @@ Node.js 8特性流行的服务器端JavaScript运行环境的LTS发布，这个�
       
         <div class="post-tags">
           
-            <a href="/tags/Node-js/" rel="tag">#Node.js</a>
+            <a href="/tags/tool/" rel="tag">#tool</a>
           
         </div>
       
@@ -346,16 +355,16 @@ Node.js 8特性流行的服务器端JavaScript运行环境的LTS发布，这个�
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/10/21/webpack-configuration-and-hmr-intro/" rel="next" title="webpack配置及热更新介绍">
-                <i class="fa fa-chevron-left"></i> webpack配置及热更新介绍
+              <a href="/2017/10/14/are-you-rellay-understand-promise/" rel="next" title="你真的搞懂Promise了吗？">
+                <i class="fa fa-chevron-left"></i> 你真的搞懂Promise了吗？
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/11/02/modern-frontend-hacking-cheatsheets/" rel="prev" title="最好的前端手册 - 都在这里">
-                最好的前端手册 - 都在这里 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/11/01/what-is-new-in-node-js-8-and-node-js-9/" rel="prev" title="Node.js 8和Node.js 9的新功能">
+                Node.js 8和Node.js 9的新功能 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -470,7 +479,7 @@ Node.js 8特性流行的服务器端JavaScript运行环境的LTS发布，这个�
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Node-js-8特性"><span class="nav-number">1.</span> <span class="nav-text">Node.js 8特性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Node-js-9新特性"><span class="nav-number">2.</span> <span class="nav-text">Node.js 9新特性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#哪里可以下载Node-js"><span class="nav-number">3.</span> <span class="nav-text">哪里可以下载Node.js</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#webpack介绍"><span class="nav-number">1.</span> <span class="nav-text">webpack介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#webpack基本配置"><span class="nav-number">2.</span> <span class="nav-text">webpack基本配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#webpack热更新介绍"><span class="nav-number">3.</span> <span class="nav-text">webpack热更新介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#webpack热更新配置"><span class="nav-number">4.</span> <span class="nav-text">webpack热更新配置</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、webpack-dev-server-CLI"><span class="nav-number">4.1.</span> <span class="nav-text">1、webpack-dev-server CLI</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、webpack-dev-server-API"><span class="nav-number">4.2.</span> <span class="nav-text">2、webpack-dev-server API</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3、webpack-hot-middleware-w-express"><span class="nav-number">4.3.</span> <span class="nav-text">3、webpack-hot-middleware w/express</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#后续"><span class="nav-number">5.</span> <span class="nav-text">后续</span></a></li></ol></div>
             
           </div>
         </section>

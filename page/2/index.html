@@ -73,8 +73,6 @@
 
 
 
-  
-
 
   <link rel="alternate" href="/atom.xml" title="YXX博客" type="application/atom+xml" />
 
@@ -90,13 +88,12 @@
 
 <meta name="description">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Tagcloud">
-<meta property="og:url" content="http://yoursite.com/tags/index.html">
+<meta property="og:title" content="YXX博客">
+<meta property="og:url" content="http://yoursite.com/page/2/index.html">
 <meta property="og:site_name" content="YXX博客">
 <meta property="og:description">
-<meta property="og:updated_time" content="2017-07-31T15:14:10.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Tagcloud">
+<meta name="twitter:title" content="YXX博客">
 <meta name="twitter:description">
 
 
@@ -115,13 +112,7 @@
   };
 </script>
 
-  <title>
-  
-
-  
-    标签 | YXX博客
-  
-</title>
+  <title> YXX博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -142,7 +133,9 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  ">
+  <div class="container one-collumn sidebar-position-left 
+   page-home 
+ ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -242,20 +235,115 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
+  <section id="posts" class="posts-expand">
+    
+      
 
-  <div id="posts" class="posts-expand">
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
     
-    
-      <div class="tag-cloud">
-        <div class="tag-cloud-title">
-            目前共计 4 个标签
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/07/29/refactor-static-website/" itemprop="url">
+                  一次重构静态网站浅谈
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-07-29T23:03:29+08:00" content="2017-07-29">
+              2017-07-29
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
         </div>
-        <div class="tag-cloud-tags">
-          <a href="/tags/JavaScript/" style="font-size: 30px; color: #111">JavaScript</a> <a href="/tags/Node-js/" style="font-size: 12px; color: #ccc">Node.js</a> <a href="/tags/project/" style="font-size: 21px; color: #6f6f6f">project</a> <a href="/tags/tool/" style="font-size: 21px; color: #6f6f6f">tool</a>
-        </div>
-      </div>
+      </header>
     
-  </div>
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          背景静态网站顾名思义是由静态页面构成的网站，不涉及到后端数据库系统，页面中的内容在制作的时候就已经写好了。若需要去改某个页面的内容则需要找到该页面的模板文件修改。
+最近收到了一个大学老师的消息，问我是否有空能帮她做个课题申报项目网站。我按照了项目开发的流程先打听了老师的项目需求，老师说该项目需求与在
+          ...
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2017/07/29/refactor-static-website/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+  </nav>
+
 
 
           </div>
@@ -263,10 +351,6 @@
 
 
           
-  <div class="comments" id="comments">
-    
-  </div>
-
 
         </div>
         
@@ -298,7 +382,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">10</span>
+              <span class="site-state-item-count">11</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>

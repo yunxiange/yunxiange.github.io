@@ -849,6 +849,8 @@
 <p><img src="/assets/201708/2017-08-08-onekeyplugin.png" alt="onekeyplugin"></p>
 <h3 id="二维码"><a href="#二维码" class="headerlink" title="二维码"></a>二维码</h3><p>我们常常会在电脑上访问的页面用手机去浏览，比如开发测试无线页面效果，一般做法是将浏览器上访问的地址用手机浏览器打开，这样难以避免输入一串网址的烦恼，而且容易出错。有了这个插件，可以直接用手机扫描插件生成的二维码，从而快速访问到页面内容。</p>
 <p><img src="/assets/201708/2017-08-08-qrcode.png" alt="qrcode"></p>
+<h3 id="划词翻译"><a href="#划词翻译" class="headerlink" title="划词翻译"></a>划词翻译</h3><p>阅读外文资料时常常会遇到陌生的单词，这个时候鼠标轻轻一划其汉语意义就出来了，方便快捷，提升阅读理解效率。</p>
+<p><img src="/assets/201708/2017-08-08-translate.png" alt="translate"></p>
 <h2 id="Github相关"><a href="#Github相关" class="headerlink" title="Github相关"></a>Github相关</h2><p>github对于一个开发者来说并不陌生，github作为一个代码托管的在线服务，许多优秀的开发资源在这里涌现。Github最丰富的资源就是代码和文档，开发者可以从这里学习和利用到很多资源。下面介绍这几款与github相关的插件。</p>
 <h3 id="Avatars-for-Github"><a href="#Avatars-for-Github" class="headerlink" title="Avatars for Github"></a>Avatars for Github</h3><p>登录用户访问github网站首页，呈现的是许多关注用户的一些动态信息，比如创建代码仓库、关注代码仓库、提及到代码、留言评论，网站默认不显示用户头像，只显示出用户名。人通常对图片比文字敏感，看到图片能更快获取到信息。使用了这个插件就能让页面中涉及的用户头像展示出来，浏览信息更加引起用户的注意力。</p>
 <p><img src="/assets/201708/2017-08-08-avatars-for-github.png" alt="avatars for github"></p>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-11-06T02:50:03.916Z</updated>
+  <updated>2017-11-06T02:50:03.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/11/02/modern-frontend-hacking-cheatsheets/"/>
     <id>http://yoursite.com/2017/11/02/modern-frontend-hacking-cheatsheets/</id>
     <published>2017-11-02T06:01:39.000Z</published>
-    <updated>2017-11-06T02:50:03.916Z</updated>
+    <updated>2017-11-06T02:50:03.000Z</updated>
     
     <content type="html">&lt;p&gt;几乎不可能用心记住所有的API。这就是什么时候需要用到手册！这里有我收集的最好的前端手册。&lt;/p&gt;
 &lt;h3 id=&quot;JavaScript-ES2015特性&quot;&gt;&lt;a href=&quot;#JavaScript-ES2015特性&quot; class=&quot;headerlink&quot; title=&quot;JavaScript ES2015特性&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://devhints.io/es6&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaScript ES2015特性&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/assets/201711/2017-11-02-es6.png&quot; alt=&quot;JavaScript ES2015 Features&quot;&gt;&lt;br&gt;&lt;a href=&quot;https://devhints.io/es6&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://devhints.io/es6&lt;/a&gt;&lt;/p&gt;
@@ -61,7 +61,7 @@
     <link href="http://yoursite.com/2017/11/01/what-is-new-in-node-js-8-and-node-js-9/"/>
     <id>http://yoursite.com/2017/11/01/what-is-new-in-node-js-8-and-node-js-9/</id>
     <published>2017-11-01T05:45:48.000Z</published>
-    <updated>2017-11-01T08:04:03.364Z</updated>
+    <updated>2017-11-01T08:04:03.000Z</updated>
     
     <content type="html">&lt;p&gt;Node.js 8现在处于&lt;a href=&quot;https://www.infoworld.com/article/3001675/javascript/nodejss-release-cycle-hits-the-fast-lane.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;长期支持（LTS）&lt;/a&gt;发布状态，LTS旨在表示在企业部署中使用的稳定性水平。随着Node.js 8的这个版本处于稳定状态，Node.js 9的首次登场是异步资源跟踪，作为“当前”发行版。&lt;/p&gt;
 &lt;h3 id=&quot;Node-js-8特性&quot;&gt;&lt;a href=&quot;#Node-js-8特性&quot; class=&quot;headerlink&quot; title=&quot;Node.js 8特性&quot;&gt;&lt;/a&gt;Node.js 8特性&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://www.infoworld.com/article/3233190/node-js/nodejs-tutorial-get-started-with-nodejs.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;流行的服务器端JavaScript运行环境&lt;/a&gt;的LTS发布，这个关注的是安全和稳定性。LTS发布版本活跃维护在18个月。&lt;a href=&quot;https://www.infoworld.com/article/3199186/node-js/nodejs-8-brings-sanity-to-native-module-dependencies.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;由Node.js基金会于5月下旬首次推出&lt;/a&gt;的Node.js 8.x功能特点：&lt;/p&gt;
@@ -98,7 +98,7 @@
     <link href="http://yoursite.com/2017/10/14/are-you-rellay-understand-promise/"/>
     <id>http://yoursite.com/2017/10/14/are-you-rellay-understand-promise/</id>
     <published>2017-10-14T06:10:01.000Z</published>
-    <updated>2017-10-31T09:04:43.524Z</updated>
+    <updated>2017-10-31T09:04:43.000Z</updated>
     
     <content type="html">&lt;p&gt;JavaScript开发者们，现在得承认：我们有一个关于promise的问题。&lt;/p&gt;
 &lt;p&gt;不，这不是promise自身问题。采用&lt;a href=&quot;https://promisesaplus.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;A+ 规范&lt;/a&gt;定义的Promise是非常酷的。&lt;/p&gt;
@@ -239,7 +239,7 @@
     <link href="http://yoursite.com/2017/10/07/the-revolution-of-web-development-2016/"/>
     <id>http://yoursite.com/2017/10/07/the-revolution-of-web-development-2016/</id>
     <published>2017-10-07T12:40:53.000Z</published>
-    <updated>2017-10-29T11:53:39.405Z</updated>
+    <updated>2017-10-29T11:53:39.000Z</updated>
     
     <content type="html">&lt;p&gt;随着时间推移，web开发带来了戏剧性变化，现代化web开发包含了一系列的工具、方法和概念。这些工具可能很复杂，但可以创建以前不可能实现的具有更快的开发速度和更好的可维护性的强大的应用程序。&lt;/p&gt;
 &lt;h2 id=&quot;Web开发简史&quot;&gt;&lt;a href=&quot;#Web开发简史&quot; class=&quot;headerlink&quot; title=&quot;Web开发简史&quot;&gt;&lt;/a&gt;Web开发简史&lt;/h2&gt;&lt;h3 id=&quot;Web-1-0（1991-2001）&quot;&gt;&lt;a href=&quot;#Web-1-0（1991-2001）&quot; class=&quot;headerlink&quot; title=&quot;Web 1.0（1991-2001）&quot;&gt;&lt;/a&gt;Web 1.0（1991-2001）&lt;/h3&gt;&lt;p&gt;这段时期典型的站点是由静态的html页面构成，在全球的城市或大学页面上托管，采用FrontPage、DreamWeaver或Notepad写成。&lt;/p&gt;
@@ -624,7 +624,7 @@
     <link href="http://yoursite.com/2017/09/30/promise-pro-tips/"/>
     <id>http://yoursite.com/2017/09/30/promise-pro-tips/</id>
     <published>2017-09-30T02:14:58.000Z</published>
-    <updated>2017-10-27T06:15:05.095Z</updated>
+    <updated>2017-10-27T06:15:05.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;Promise-all&quot;&gt;&lt;a href=&quot;#Promise-all&quot; class=&quot;headerlink&quot; title=&quot;Promise.all&quot;&gt;&lt;/a&gt;Promise.all&lt;/h3&gt;&lt;p&gt;这个方法用来一次执行多个promise非常有用。&lt;/p&gt;
 &lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;Promise&lt;/span&gt;.all([&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    promise1,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    promise2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;]);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -654,7 +654,7 @@
     <link href="http://yoursite.com/2017/09/24/es6-quiz-answer-explain/"/>
     <id>http://yoursite.com/2017/09/24/es6-quiz-answer-explain/</id>
     <published>2017-09-24T02:42:53.000Z</published>
-    <updated>2017-10-27T11:24:08.007Z</updated>
+    <updated>2017-10-27T11:24:08.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;第一题&quot;&gt;&lt;a href=&quot;#第一题&quot; class=&quot;headerlink&quot; title=&quot;第一题&quot;&gt;&lt;/a&gt;第一题&lt;/h3&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; func = &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;) &lt;/span&gt;&amp;#123;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;func.name&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;ol&gt;
@@ -797,7 +797,7 @@
     <link href="http://yoursite.com/2017/09/16/ecmascript-language-object-extensions-2017/"/>
     <id>http://yoursite.com/2017/09/16/ecmascript-language-object-extensions-2017/</id>
     <published>2017-09-16T12:06:44.000Z</published>
-    <updated>2017-10-12T12:50:19.237Z</updated>
+    <updated>2017-10-12T12:50:19.000Z</updated>
     
     <content type="html">&lt;p&gt;ECMAScript语言发展越来越迅速，ES5之前好几年才发布一次新的标准规范，从ES6 (ECMAScript 2015)开始，每年发布一次标准规范，基于向后兼容的原则对语言进行功能扩展使得开发效率越来越高。&lt;/p&gt;
 &lt;p&gt;下面将ECMAScript在数值、字符串、数组、对象、函数、正则表达式上的扩展做一个小结。&lt;/p&gt;
@@ -911,7 +911,7 @@
     <link href="http://yoursite.com/2017/08/30/react-code-style/"/>
     <id>http://yoursite.com/2017/08/30/react-code-style/</id>
     <published>2017-08-30T02:03:56.000Z</published>
-    <updated>2017-09-01T11:55:08.513Z</updated>
+    <updated>2017-09-01T11:55:08.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;文件组织&quot;&gt;&lt;a href=&quot;#文件组织&quot; class=&quot;headerlink&quot; title=&quot;文件组织&quot;&gt;&lt;/a&gt;文件组织&lt;/h2&gt;&lt;p&gt;· [强制]同一目录下不得拥有同名的.js和.jsx文件。&lt;br&gt;  在使用模块导入时，倾向于不添加后缀，如果存在同名但不同后缀的文件，构建工具将无法决定哪一个是需要引入的模块。&lt;/p&gt;
 &lt;p&gt;· [强制]组件文件使用一致的.js或.jsx后缀。&lt;br&gt;  所有组件文件的后缀从.js或.jsx中任选其一。&lt;br&gt;  不应在项目中出现部分组件为.js文件，部分为.jsx情况。&lt;/p&gt;
@@ -968,7 +968,7 @@
     <link href="http://yoursite.com/2017/08/08/chrome-common-plugin/"/>
     <id>http://yoursite.com/2017/08/08/chrome-common-plugin/</id>
     <published>2017-08-08T06:45:55.000Z</published>
-    <updated>2017-10-12T12:48:19.359Z</updated>
+    <updated>2017-11-17T02:54:46.000Z</updated>
     
     <content type="html">&lt;p&gt;作为一名web开发者，会接触到很多开发工具，今天就来说说常用的chrome插件，利用这些插件给平时的工作、开发带来很大的便利。&lt;/p&gt;
 &lt;h2 id=&quot;浏览器相关&quot;&gt;&lt;a href=&quot;#浏览器相关&quot; class=&quot;headerlink&quot; title=&quot;浏览器相关&quot;&gt;&lt;/a&gt;浏览器相关&lt;/h2&gt;&lt;p&gt;首选介绍这几个插件在浏览器使用过程中会有一些优化，它会给你带来什么样的体验呢？赶快去体验吧~&lt;/p&gt;
@@ -982,6 +982,8 @@
 &lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-onekeyplugin.png&quot; alt=&quot;onekeyplugin&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;二维码&quot;&gt;&lt;a href=&quot;#二维码&quot; class=&quot;headerlink&quot; title=&quot;二维码&quot;&gt;&lt;/a&gt;二维码&lt;/h3&gt;&lt;p&gt;我们常常会在电脑上访问的页面用手机去浏览，比如开发测试无线页面效果，一般做法是将浏览器上访问的地址用手机浏览器打开，这样难以避免输入一串网址的烦恼，而且容易出错。有了这个插件，可以直接用手机扫描插件生成的二维码，从而快速访问到页面内容。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-qrcode.png&quot; alt=&quot;qrcode&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;划词翻译&quot;&gt;&lt;a href=&quot;#划词翻译&quot; class=&quot;headerlink&quot; title=&quot;划词翻译&quot;&gt;&lt;/a&gt;划词翻译&lt;/h3&gt;&lt;p&gt;阅读外文资料时常常会遇到陌生的单词，这个时候鼠标轻轻一划其汉语意义就出来了，方便快捷，提升阅读理解效率。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-translate.png&quot; alt=&quot;translate&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Github相关&quot;&gt;&lt;a href=&quot;#Github相关&quot; class=&quot;headerlink&quot; title=&quot;Github相关&quot;&gt;&lt;/a&gt;Github相关&lt;/h2&gt;&lt;p&gt;github对于一个开发者来说并不陌生，github作为一个代码托管的在线服务，许多优秀的开发资源在这里涌现。Github最丰富的资源就是代码和文档，开发者可以从这里学习和利用到很多资源。下面介绍这几款与github相关的插件。&lt;/p&gt;
 &lt;h3 id=&quot;Avatars-for-Github&quot;&gt;&lt;a href=&quot;#Avatars-for-Github&quot; class=&quot;headerlink&quot; title=&quot;Avatars for Github&quot;&gt;&lt;/a&gt;Avatars for Github&lt;/h3&gt;&lt;p&gt;登录用户访问github网站首页，呈现的是许多关注用户的一些动态信息，比如创建代码仓库、关注代码仓库、提及到代码、留言评论，网站默认不显示用户头像，只显示出用户名。人通常对图片比文字敏感，看到图片能更快获取到信息。使用了这个插件就能让页面中涉及的用户头像展示出来，浏览信息更加引起用户的注意力。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/201708/2017-08-08-avatars-for-github.png&quot; alt=&quot;avatars for github&quot;&gt;&lt;/p&gt;
@@ -1040,7 +1042,7 @@
     <link href="http://yoursite.com/2017/07/29/refactor-static-website/"/>
     <id>http://yoursite.com/2017/07/29/refactor-static-website/</id>
     <published>2017-07-29T15:03:29.000Z</published>
-    <updated>2017-10-12T12:46:46.102Z</updated>
+    <updated>2017-10-12T12:46:46.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;静态网站顾名思义是由静态页面构成的网站，不涉及到后端数据库系统，页面中的内容在制作的时候就已经写好了。若需要去改某个页面的内容则需要找到该页面的模板文件修改。&lt;/p&gt;
 &lt;p&gt;最近收到了一个大学老师的消息，问我是否有空能帮她做个课题申报项目网站。我按照了项目开发的流程先打听了老师的项目需求，老师说该项目需求与在大学期间帮她做的那个课题申报项目类似，具体需求内容在此不多介绍了，主要是课题的一些相关内容需要采用网站的形式展示出来。&lt;/p&gt;

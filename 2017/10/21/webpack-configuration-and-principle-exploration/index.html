@@ -86,41 +86,28 @@
 
 
 
-<meta name="description" content="几乎不可能用心记住所有的API。这就是什么时候需要用到手册！这里有我收集的最好的前端手册。
-JavaScript ES2015特性https://devhints.io/es6
-JavaScripthttp://overapi.com/javascript
-JavaScript正则表达式https://www.debuggex.com/cheatsheet/regex/javascript
-Rea">
+<meta name="description" content="webpack介绍webpack官网是这么介绍的：
+
+webpack是用于现代JavaScript应用程序的模块打包器。当Webpack处理您的应用程序时，它递归地构建一个包含应用程序所需的每个模块的依赖关系图，然后将所有这些模块打包到少量的捆绑（通常只有一个），由浏览器加载。
+
+webpack打包是基于由一系列规则构成的配置文件生成模块文件，四个核心的配置项分别是入口文件（Entry）、输出文件">
 <meta property="og:type" content="article">
-<meta property="og:title" content="最好的前端手册 - 都在这里">
-<meta property="og:url" content="http://yoursite.com/2017/11/02/modern-frontend-hacking-cheatsheets/index.html">
+<meta property="og:title" content="webpack配置及其原理探索">
+<meta property="og:url" content="http://yoursite.com/2017/10/21/webpack-configuration-and-principle-exploration/index.html">
 <meta property="og:site_name" content="YXX博客">
-<meta property="og:description" content="几乎不可能用心记住所有的API。这就是什么时候需要用到手册！这里有我收集的最好的前端手册。
-JavaScript ES2015特性https://devhints.io/es6
-JavaScripthttp://overapi.com/javascript
-JavaScript正则表达式https://www.debuggex.com/cheatsheet/regex/javascript
-Rea">
-<meta property="og:image" content="http://yoursite.com/assets/201711/2017-11-02-es6.png">
-<meta property="og:image" content="http://yoursite.com/assets/201711/2017-11-02-javascript.png">
-<meta property="og:image" content="http://yoursite.com/assets/201711/2017-11-02-javascript-exp.png">
-<meta property="og:image" content="http://yoursite.com/assets/201711/2017-11-02-react.png">
-<meta property="og:image" content="http://yoursite.com/assets/201711/2017-11-02-redux.png">
-<meta property="og:image" content="http://yoursite.com/assets/201711/2017-11-02-vuejs.png">
-<meta property="og:image" content="http://yoursite.com/assets/201711/2017-11-02-vuex.png">
-<meta property="og:image" content="http://yoursite.com/assets/201711/2017-11-02-angular5.png">
-<meta property="og:image" content="http://yoursite.com/assets/201711/2017-11-02-flexbox.png">
-<meta property="og:image" content="http://yoursite.com/assets/201711/2017-11-02-sass.png">
-<meta property="og:image" content="http://yoursite.com/assets/201711/2017-11-02-stylus.png">
-<meta property="og:image" content="http://yoursite.com/assets/201711/2017-11-02-graphql.png">
-<meta property="og:updated_time" content="2017-11-06T02:50:03.000Z">
+<meta property="og:description" content="webpack介绍webpack官网是这么介绍的：
+
+webpack是用于现代JavaScript应用程序的模块打包器。当Webpack处理您的应用程序时，它递归地构建一个包含应用程序所需的每个模块的依赖关系图，然后将所有这些模块打包到少量的捆绑（通常只有一个），由浏览器加载。
+
+webpack打包是基于由一系列规则构成的配置文件生成模块文件，四个核心的配置项分别是入口文件（Entry）、输出文件">
+<meta property="og:updated_time" content="2017-11-03T07:41:58.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="最好的前端手册 - 都在这里">
-<meta name="twitter:description" content="几乎不可能用心记住所有的API。这就是什么时候需要用到手册！这里有我收集的最好的前端手册。
-JavaScript ES2015特性https://devhints.io/es6
-JavaScripthttp://overapi.com/javascript
-JavaScript正则表达式https://www.debuggex.com/cheatsheet/regex/javascript
-Rea">
-<meta name="twitter:image" content="http://yoursite.com/assets/201711/2017-11-02-es6.png">
+<meta name="twitter:title" content="webpack配置及其原理探索">
+<meta name="twitter:description" content="webpack介绍webpack官网是这么介绍的：
+
+webpack是用于现代JavaScript应用程序的模块打包器。当Webpack处理您的应用程序时，它递归地构建一个包含应用程序所需的每个模块的依赖关系图，然后将所有这些模块打包到少量的捆绑（通常只有一个），由浏览器加载。
+
+webpack打包是基于由一系列规则构成的配置文件生成模块文件，四个核心的配置项分别是入口文件（Entry）、输出文件">
 
 
 
@@ -138,7 +125,7 @@ Rea">
   };
 </script>
 
-  <title> 最好的前端手册 - 都在这里 | YXX博客 </title>
+  <title> webpack配置及其原理探索 | YXX博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -281,7 +268,7 @@ Rea">
             
             
               
-                最好的前端手册 - 都在这里
+                webpack配置及其原理探索
               
             
           </h1>
@@ -293,8 +280,8 @@ Rea">
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-11-02T14:01:39+08:00" content="2017-11-02">
-              2017-11-02
+            <time itemprop="dateCreated" datetime="2017-10-21T17:55:53+08:00" content="2017-10-21">
+              2017-10-21
             </time>
           </span>
 
@@ -321,26 +308,32 @@ Rea">
       
 
       
-        <p>几乎不可能用心记住所有的API。这就是什么时候需要用到手册！这里有我收集的最好的前端手册。</p>
-<h3 id="JavaScript-ES2015特性"><a href="#JavaScript-ES2015特性" class="headerlink" title="JavaScript ES2015特性"></a><a href="https://devhints.io/es6" target="_blank" rel="external">JavaScript ES2015特性</a></h3><p><img src="/assets/201711/2017-11-02-es6.png" alt="JavaScript ES2015 Features"><br><a href="https://devhints.io/es6" target="_blank" rel="external">https://devhints.io/es6</a></p>
-<h3 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a><a href="http://overapi.com/javascript" target="_blank" rel="external">JavaScript</a></h3><p><img src="/assets/201711/2017-11-02-javascript.png" alt="JavaScript"><br><a href="http://overapi.com/javascript" target="_blank" rel="external">http://overapi.com/javascript</a></p>
-<h3 id="JavaScript正则表达式"><a href="#JavaScript正则表达式" class="headerlink" title="JavaScript正则表达式"></a><a href="https://www.debuggex.com/cheatsheet/regex/javascript" target="_blank" rel="external">JavaScript正则表达式</a></h3><p><img src="/assets/201711/2017-11-02-javascript-exp.png" alt="JavaScript Regular expression"><br><a href="https://www.debuggex.com/cheatsheet/regex/javascript" target="_blank" rel="external">https://www.debuggex.com/cheatsheet/regex/javascript</a></p>
-<h3 id="React"><a href="#React" class="headerlink" title="React"></a><a href="https://devhints.io/react" target="_blank" rel="external">React</a></h3><p><img src="/assets/201711/2017-11-02-react.png" alt="React"><br><a href="https://devhints.io/react" target="_blank" rel="external">https://devhints.io/react</a></p>
-<h3 id="Redux"><a href="#Redux" class="headerlink" title="Redux"></a><a href="https://github.com/linkmesrl/react-journey-2016/blob/master/resources/egghead-redux-cheat-sheet-3-2-1.pdf" target="_blank" rel="external">Redux</a></h3><p><img src="/assets/201711/2017-11-02-redux.png" alt="Redux"><br><a href="https://github.com/linkmesrl/react-journey-2016/blob/master/resources/egghead-redux-cheat-sheet-3-2-1.pdf" target="_blank" rel="external">https://github.com/linkmesrl/react-journey-2016/blob/master/resources/egghead-redux-cheat-sheet-3-2-1.pdf</a></p>
-<h3 id="Vue-js"><a href="#Vue-js" class="headerlink" title="Vue.js"></a><a href="https://vuejs-tips.github.io/cheatsheet/" target="_blank" rel="external">Vue.js</a></h3><p><img src="/assets/201711/2017-11-02-vuejs.png" alt="Vue.js"><br><a href="https://vuejs-tips.github.io/cheatsheet/" target="_blank" rel="external">https://vuejs-tips.github.io/cheatsheet/</a></p>
-<h3 id="Vuex"><a href="#Vuex" class="headerlink" title="Vuex"></a><a href="https://vuejs-tips.github.io/vuex-cheatsheet/" target="_blank" rel="external">Vuex</a></h3><p><img src="/assets/201711/2017-11-02-vuex.png" alt="Vuex"><br><a href="https://vuejs-tips.github.io/vuex-cheatsheet/" target="_blank" rel="external">https://vuejs-tips.github.io/vuex-cheatsheet/</a></p>
-<h3 id="Angular-5"><a href="#Angular-5" class="headerlink" title="Angular 5"></a><a href="https://angular.io/guide/cheatsheet" target="_blank" rel="external">Angular 5</a></h3><p><img src="/assets/201711/2017-11-02-angular5.png" alt="Angular 5"><br><a href="https://angular.io/guide/cheatsheet" target="_blank" rel="external">https://angular.io/guide/cheatsheet</a></p>
-<h3 id="Flexbox"><a href="#Flexbox" class="headerlink" title="Flexbox"></a><a href="https://yoksel.github.io/flex-cheatsheet/" target="_blank" rel="external">Flexbox</a></h3><p><img src="/assets/201711/2017-11-02-flexbox.png" alt="Flexbox"><br><a href="https://yoksel.github.io/flex-cheatsheet/" target="_blank" rel="external">https://yoksel.github.io/flex-cheatsheet/</a></p>
-<h3 id="Sass"><a href="#Sass" class="headerlink" title="Sass"></a><a href="https://devhints.io/sass" target="_blank" rel="external">Sass</a></h3><p><img src="/assets/201711/2017-11-02-sass.png" alt="Sass"><br><a href="https://devhints.io/sass" target="_blank" rel="external">https://devhints.io/sass</a></p>
-<h3 id="Stylus"><a href="#Stylus" class="headerlink" title="Stylus"></a><a href="https://devhints.io/stylus" target="_blank" rel="external">Stylus</a></h3><p><img src="/assets/201711/2017-11-02-stylus.png" alt="Stylus"><br><a href="https://devhints.io/stylus" target="_blank" rel="external">https://devhints.io/stylus</a></p>
-<h3 id="GraphQL"><a href="#GraphQL" class="headerlink" title="GraphQL"></a><a href="https://raw.githubusercontent.com/sogko/graphql-shorthand-notation-cheat-sheet/master/graphql-shorthand-notation-cheat-sheet.png" target="_blank" rel="external">GraphQL</a></h3><p><img src="/assets/201711/2017-11-02-graphql.png" alt="GraphQL"><br><a href="https://raw.githubusercontent.com/sogko/graphql-shorthand-notation-cheat-sheet/master/graphql-shorthand-notation-cheat-sheet.png" target="_blank" rel="external">https://raw.githubusercontent.com/sogko/graphql-shorthand-notation-cheat-sheet/master/graphql-shorthand-notation-cheat-sheet.png</a></p>
-<p>遗漏了你最喜爱的手册？请在留言区让我知道！</p>
-<p>如果你发现这篇文章有用，请给我一些掌声让更多的人看到。谢谢！</p>
-<p><a href="https://medium.com/@wesharehoodies/easy-guide-for-webpack-2-0-from-scratch-fe508a3ce44e" target="_blank" rel="external">怎样从头开始搭建Webpack 2.0</a></p>
-<p><a href="https://medium.com/@wesharehoodies/best-courses-to-learn-javascript-in-2017-fc3a254638cc" target="_blank" rel="external">2017学习JavaScript最好的课程</a></p>
-<p><a href="https://medium.com/@wesharehoodies/bitcoin-ripple-ethereum-price-checker-with-react-native-redux-e9d076037092" target="_blank" rel="external">学习如何使用RN和Redux构建一个加密货币原生移动应用</a></p>
-<p>当然，不要忘记更多地关注我！♥</p>
-<p>文章翻译整理自 <a href="https://medium.freecodecamp.org/modern-frontend-hacking-cheatsheets-df9c2566c72a" target="_blank" rel="external">https://medium.freecodecamp.org/modern-frontend-hacking-cheatsheets-df9c2566c72a</a> 。</p>
+        <h3 id="webpack介绍"><a href="#webpack介绍" class="headerlink" title="webpack介绍"></a>webpack介绍</h3><p><a href="https://webpack.js.org/concepts/" target="_blank" rel="external">webpack官网</a>是这么介绍的：</p>
+<blockquote>
+<p>webpack是用于现代JavaScript应用程序的模块打包器。当Webpack处理您的应用程序时，它递归地构建一个包含应用程序所需的每个模块的依赖关系图，然后将所有这些模块打包到少量的捆绑（通常只有一个），由浏览器加载。</p>
+</blockquote>
+<p>webpack打包是基于由一系列规则构成的配置文件生成模块文件，四个核心的配置项分别是入口文件（<a href="https://webpack.js.org/concepts/entry-points/" target="_blank" rel="external">Entry</a>）、输出文件（<a href="https://webpack.js.org/concepts/output/" target="_blank" rel="external">Output</a>）、加载器（<a href="https://webpack.js.org/concepts/loaders/" target="_blank" rel="external">Loaders</a>）、插件（<a href="https://webpack.js.org/concepts/plugins/" target="_blank" rel="external">Plugins</a>）。</p>
+<h3 id="webpack基本配置"><a href="#webpack基本配置" class="headerlink" title="webpack基本配置"></a>webpack基本配置</h3><p>webpack目前最新版本是3.8.1，分别有三个大版本1.x、2.x、3.x，从1.x升级到2.x有一些相关<a href="https://webpack.js.org/guides/migrating/" target="_blank" rel="external">配置规则变动</a>。下面以3.x版本展现一份基本的webpack配置文件内容：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// webpack.config.js</span></span><br><span class="line"><span class="keyword">let</span> path = <span class="built_in">require</span>(<span class="string">'path'</span>);</span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">    entry: <span class="string">'./app/index'</span>,</span><br><span class="line">    output: &#123;</span><br><span class="line">        path: path.resolve(__dirname, <span class="string">'dist'</span>),</span><br><span class="line">        filename: <span class="string">'bundle.js'</span>,</span><br><span class="line">        publicPath: <span class="string">'/assets/'</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="built_in">module</span>: &#123;</span><br><span class="line">        rules: [&#123;</span><br><span class="line">            test: <span class="regexp">/\.js$/</span>,</span><br><span class="line">            loader: <span class="string">'babel-loader'</span>,</span><br><span class="line">            options: &#123;</span><br><span class="line">                presets: [<span class="string">'env'</span>]</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;]</span><br><span class="line">    &#125;,</span><br><span class="line">    resolve: &#123;</span><br><span class="line">        extensions: [<span class="string">'.js'</span>]</span><br><span class="line">    &#125;,</span><br><span class="line">    plugins: [</span><br><span class="line">        <span class="keyword">new</span> webpack.optimize.UglifyJsPlugin(&#123;</span><br><span class="line">            compress: &#123;</span><br><span class="line">                warnings: <span class="literal">false</span>,</span><br><span class="line">                drop_console: <span class="literal">false</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;)</span><br><span class="line">    ]</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
+<h3 id="webpack热更新介绍"><a href="#webpack热更新介绍" class="headerlink" title="webpack热更新介绍"></a>webpack热更新介绍</h3><p>什么是热更新呢？热更新（<a href="https://webpack.js.org/concepts/hot-module-replacement/" target="_blank" rel="external">HMR</a>）在应用程序运行时交换，添加或删除模块，而不需要完全重新加载。采用热更新调试程序能够在页面模块更新后保留应用的状态、节省开发时间、更快地调整样式。</p>
+<p>热更新可以用来替代LiveReload开发。它们之间的区别是热更新局部刷新，LiveReload页面整体刷新。</p>
+<p>热更新是webpack重要的功能特性之一，它允许在运行时更新各种模块，而无需进行全面刷新。用于开发调试应用程序非常便利。</p>
+<h3 id="webpack热更新配置"><a href="#webpack热更新配置" class="headerlink" title="webpack热更新配置"></a>webpack热更新配置</h3><p>这里有3种方式用来配置HMR项目，逐个地进行介绍。</p>
+<h4 id="1、webpack-dev-server-CLI"><a href="#1、webpack-dev-server-CLI" class="headerlink" title="1、webpack-dev-server CLI"></a>1、webpack-dev-server CLI</h4><p>在命令行中运行webpack-dev-server命令，这种方式不需要改变webpack.config.js文件内容，它是最简单的。</p>
+<p>可以访问这个<a href="https://github.com/yunxiange/wepack-hmr-demo/tree/master/webpack-dev-server-cli" target="_blank" rel="external">例子</a>，看看具体的配置内容和效果。</p>
+<h4 id="2、webpack-dev-server-API"><a href="#2、webpack-dev-server-API" class="headerlink" title="2、webpack-dev-server API"></a>2、webpack-dev-server API</h4><p>从一个node.js脚本中运行WebpackDevServer。要求添加一些内容到你的webpack.config.js文件中。这个适合于采用grunt或者gulp任务流或者从你的node脚本中运行webpack。</p>
+<p>具体的配置内容可查看<a href="https://github.com/yunxiange/wepack-hmr-demo/tree/master/webpack-dev-server-api" target="_blank" rel="external">这里</a>，有相应的示例效果。</p>
+<h4 id="3、webpack-hot-middleware-w-express"><a href="#3、webpack-hot-middleware-w-express" class="headerlink" title="3、webpack-hot-middleware w/express"></a>3、webpack-hot-middleware w/express</h4><p><a href="https://github.com/glenjamin/webpack-hot-middleware" target="_blank" rel="external">webpack-hot-middleware</a>被用来运行一个webpack开发服务内置在express服务的HMR。这个用来集成到你的express服务。</p>
+<p>详细的细节配置和运行效果，可以参照<a href="https://github.com/yunxiange/wepack-hmr-demo/tree/master/webpack-hot-middleware-express" target="_blank" rel="external">这里</a>。</p>
+<h3 id="webpack打包原理"><a href="#webpack打包原理" class="headerlink" title="webpack打包原理"></a>webpack打包原理</h3><h3 id="webpack热更新原理"><a href="#webpack热更新原理" class="headerlink" title="webpack热更新原理"></a>webpack热更新原理</h3><h3 id="webpack性能优化"><a href="#webpack性能优化" class="headerlink" title="webpack性能优化"></a>webpack性能优化</h3><h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ul>
+<li><a href="https://github.com/webpack/docs/wiki/contents" target="_blank" rel="external">https://github.com/webpack/docs/wiki/contents</a></li>
+<li><a href="https://webpack.js.org/" target="_blank" rel="external">https://webpack.js.org/</a></li>
+<li><a href="https://www.pshrmn.com/tutorials/webpack/compiler_and_compilation/" target="_blank" rel="external">https://www.pshrmn.com/tutorials/webpack/compiler_and_compilation/</a></li>
+<li><a href="https://www.andrewhfarmer.com/webpack-hmr-tutorial/" target="_blank" rel="external">https://www.andrewhfarmer.com/webpack-hmr-tutorial/</a></li>
+<li><a href="https://www.andrewhfarmer.com/understanding-hmr/" target="_blank" rel="external">https://www.andrewhfarmer.com/understanding-hmr/</a></li>
+<li><a href="https://medium.com/@rajaraodv/webpack-hot-module-replacement-hmr-e756a726a07" target="_blank" rel="external">https://medium.com/@rajaraodv/webpack-hot-module-replacement-hmr-e756a726a07</a></li>
+<li><a href="http://taobaofed.org/blog/2016/09/09/webpack-flow/" target="_blank" rel="external">http://taobaofed.org/blog/2016/09/09/webpack-flow/</a></li>
+<li><a href="https://cnodejs.org/topic/5867bb575eac96bb04d3e301" target="_blank" rel="external">https://cnodejs.org/topic/5867bb575eac96bb04d3e301</a></li>
+</ul>
 
       
     </div>
@@ -371,13 +364,17 @@ Rea">
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/11/01/what-is-new-in-node-js-8-and-node-js-9/" rel="next" title="Node.js 8和Node.js 9的新功能">
-                <i class="fa fa-chevron-left"></i> Node.js 8和Node.js 9的新功能
+              <a href="/2017/10/14/are-you-rellay-understand-promise/" rel="next" title="你真的搞懂Promise了吗？">
+                <i class="fa fa-chevron-left"></i> 你真的搞懂Promise了吗？
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/11/01/what-is-new-in-node-js-8-and-node-js-9/" rel="prev" title="Node.js 8和Node.js 9的新功能">
+                Node.js 8和Node.js 9的新功能 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -445,7 +442,7 @@ Rea">
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">10</span>
+              <span class="site-state-item-count">12</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -491,7 +488,7 @@ Rea">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#JavaScript-ES2015特性"><span class="nav-number">1.</span> <span class="nav-text">JavaScript ES2015特性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#JavaScript"><span class="nav-number">2.</span> <span class="nav-text">JavaScript</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#JavaScript正则表达式"><span class="nav-number">3.</span> <span class="nav-text">JavaScript正则表达式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#React"><span class="nav-number">4.</span> <span class="nav-text">React</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Redux"><span class="nav-number">5.</span> <span class="nav-text">Redux</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Vue-js"><span class="nav-number">6.</span> <span class="nav-text">Vue.js</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Vuex"><span class="nav-number">7.</span> <span class="nav-text">Vuex</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Angular-5"><span class="nav-number">8.</span> <span class="nav-text">Angular 5</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Flexbox"><span class="nav-number">9.</span> <span class="nav-text">Flexbox</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sass"><span class="nav-number">10.</span> <span class="nav-text">Sass</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Stylus"><span class="nav-number">11.</span> <span class="nav-text">Stylus</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GraphQL"><span class="nav-number">12.</span> <span class="nav-text">GraphQL</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#webpack介绍"><span class="nav-number">1.</span> <span class="nav-text">webpack介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#webpack基本配置"><span class="nav-number">2.</span> <span class="nav-text">webpack基本配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#webpack热更新介绍"><span class="nav-number">3.</span> <span class="nav-text">webpack热更新介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#webpack热更新配置"><span class="nav-number">4.</span> <span class="nav-text">webpack热更新配置</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、webpack-dev-server-CLI"><span class="nav-number">4.1.</span> <span class="nav-text">1、webpack-dev-server CLI</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、webpack-dev-server-API"><span class="nav-number">4.2.</span> <span class="nav-text">2、webpack-dev-server API</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3、webpack-hot-middleware-w-express"><span class="nav-number">4.3.</span> <span class="nav-text">3、webpack-hot-middleware w/express</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#webpack打包原理"><span class="nav-number">5.</span> <span class="nav-text">webpack打包原理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#webpack热更新原理"><span class="nav-number">6.</span> <span class="nav-text">webpack热更新原理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#webpack性能优化"><span class="nav-number">7.</span> <span class="nav-text">webpack性能优化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参考资料"><span class="nav-number">8.</span> <span class="nav-text">参考资料</span></a></li></ol></div>
             
           </div>
         </section>

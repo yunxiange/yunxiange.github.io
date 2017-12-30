@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Tool," />
 
 
 
@@ -86,13 +86,23 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="YXX博客">
-<meta property="og:url" content="http://yoursite.com/archives/2017/10/index.html">
+<meta name="description" content="平时工作中需要接触Git版本管理，这次对Git进行一个整体的梳理。 Git介绍什么是“版本控制”？一种记录一个或若干文件内容变化，以便将来查阅特定版本修订情况的系统。 “版本控制”类别 本地版本控制系统，如RCS 集中化的版本控制系统，如CVS、Subversion、Perforce等 分布式版本控制系统，如Git、Mercurial、Bazaar、Darcs等  Git版本控制系统特点 直接记录">
+<meta name="keywords" content="Tool">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Git主干和分支开发最佳实践">
+<meta property="og:url" content="http://yoursite.com/2017/09/18/git-best-practise/index.html">
 <meta property="og:site_name" content="YXX博客">
+<meta property="og:description" content="平时工作中需要接触Git版本管理，这次对Git进行一个整体的梳理。 Git介绍什么是“版本控制”？一种记录一个或若干文件内容变化，以便将来查阅特定版本修订情况的系统。 “版本控制”类别 本地版本控制系统，如RCS 集中化的版本控制系统，如CVS、Subversion、Perforce等 分布式版本控制系统，如Git、Mercurial、Bazaar、Darcs等  Git版本控制系统特点 直接记录">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yoursite.com/assets/201709/2017-09-18-git-feature.png">
+<meta property="og:image" content="http://yoursite.com/assets/201709/2017-09-18-git-process.png">
+<meta property="og:image" content="http://yoursite.com/assets/201709/2017-09-18-git-master-develop.png">
+<meta property="og:image" content="http://yoursite.com/assets/201709/2017-09-18-git-branch-develop.png">
+<meta property="og:updated_time" content="2017-12-30T08:04:34.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="YXX博客">
+<meta name="twitter:title" content="Git主干和分支开发最佳实践">
+<meta name="twitter:description" content="平时工作中需要接触Git版本管理，这次对Git进行一个整体的梳理。 Git介绍什么是“版本控制”？一种记录一个或若干文件内容变化，以便将来查阅特定版本修订情况的系统。 “版本控制”类别 本地版本控制系统，如RCS 集中化的版本控制系统，如CVS、Subversion、Perforce等 分布式版本控制系统，如Git、Mercurial、Bazaar、Darcs等  Git版本控制系统特点 直接记录">
+<meta name="twitter:image" content="http://yoursite.com/assets/201709/2017-09-18-git-feature.png">
 
 
 
@@ -110,7 +120,7 @@
   };
 </script>
 
-  <title> 归档 | YXX博客 </title>
+  <title> Git主干和分支开发最佳实践 | YXX博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -131,7 +141,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  page-archive  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -232,140 +242,183 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
-
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 14 篇日志。 继续努力。
-    </span>
-
+  <div id="posts" class="posts-expand">
     
-
-      
-      
-      
-
-      
-        
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2017">2017</h2>
-        </div>
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2017/10/21/webpack-configuration-and-hmr-intro/" itemprop="url">
-              
-                <span itemprop="name">webpack配置及热更新介绍</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-10-21T17:55:53+08:00"
-              content="2017-10-21" >
-          10-21
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2017/10/14/are-you-rellay-understand-promise/" itemprop="url">
-              
-                <span itemprop="name">你真的搞懂Promise了吗？</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-10-14T14:10:01+08:00"
-              content="2017-10-14" >
-          10-14
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2017/10/07/the-revolution-of-web-development-2016/" itemprop="url">
-              
-                <span itemprop="name">Web开发演化</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-10-07T20:40:53+08:00"
-              content="2017-10-07" >
-          10-07
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-  </section>
 
   
+  
 
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Git主干和分支开发最佳实践
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-09-18T21:35:03+08:00" content="2017-09-18">
+              2017-09-18
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>平时工作中需要接触Git版本管理，这次对Git进行一个整体的梳理。</p>
+<h3 id="Git介绍"><a href="#Git介绍" class="headerlink" title="Git介绍"></a>Git介绍</h3><h4 id="什么是“版本控制”？"><a href="#什么是“版本控制”？" class="headerlink" title="什么是“版本控制”？"></a>什么是“版本控制”？</h4><p>一种记录一个或若干文件内容变化，以便将来查阅特定版本修订情况的系统。</p>
+<h4 id="“版本控制”类别"><a href="#“版本控制”类别" class="headerlink" title="“版本控制”类别"></a>“版本控制”类别</h4><ul>
+<li>本地版本控制系统，如RCS</li>
+<li>集中化的版本控制系统，如CVS、Subversion、Perforce等</li>
+<li>分布式版本控制系统，如Git、Mercurial、Bazaar、Darcs等</li>
+</ul>
+<h4 id="Git版本控制系统特点"><a href="#Git版本控制系统特点" class="headerlink" title="Git版本控制系统特点"></a>Git版本控制系统特点</h4><ul>
+<li>直接记录快照，而非差异比较</li>
+<li>近乎所有操作都是本地执行</li>
+<li>Git保证完整性</li>
+<li>Git一般只添加数据</li>
+</ul>
+<p><img src="/assets/201709/2017-09-18-git-feature.png" alt="git-feature"></p>
+<h4 id="Git版本控制系统三种状态"><a href="#Git版本控制系统三种状态" class="headerlink" title="Git版本控制系统三种状态"></a>Git版本控制系统三种状态</h4><ul>
+<li>已提交（committed）</li>
+<li>已修改（modified）</li>
+<li>已暂存（staged）</li>
+</ul>
+<p>工作流程：</p>
+<ol>
+<li>在工作目录中修改文件</li>
+<li>暂存文件，将文件的快照放入暂存区域</li>
+<li>提交更新，找到暂存区域文件，将快照永久性存储到Git仓库目录</li>
+</ol>
+<p><img src="/assets/201709/2017-09-18-git-process.png" alt="git-process"></p>
+<h3 id="Git常用命令"><a href="#Git常用命令" class="headerlink" title="Git常用命令"></a>Git常用命令</h3><ul>
+<li>获取Git仓库：git init、git clone</li>
+<li>检查Git状态：git status、git log</li>
+<li>Git文件操作：git add、git rm、git mv、git diff</li>
+<li>Git提交操作：git commit、git reset、git revert</li>
+<li>远程仓库使用：git pull、git remote、git fetch、git push</li>
+<li>Git打上标签：git tag</li>
+<li>Git分支操作： git checkout 、git branch 、git merge、git rebase 、git stash</li>
+</ul>
+<h3 id="Git开发实践方式"><a href="#Git开发实践方式" class="headerlink" title="Git开发实践方式"></a>Git开发实践方式</h3><p>Git开发分为主干开发和分支开发。主干开发是所有用户开发、测试、发布上线基于一个分支上，默认为master分支的开发方式。分支开发是开发、测试、发布上线基于不同分支上，在适当的时候进行分支合并的开发方式。</p>
+<h4 id="主干开发"><a href="#主干开发" class="headerlink" title="主干开发"></a>主干开发</h4><p>Git主分支的名字，默认叫做master。它是自动建立的，版本库初始化以后，默认就是在主分支在进行开发。</p>
+<p>适合场景：</p>
+<ul>
+<li>个人项目</li>
+<li>项目需求变更少</li>
+<li>不需要团队多人员协作的项目</li>
+</ul>
+<p>最佳实践：</p>
+<ul>
+<li>应该以实现一个需求点为前提提交，不可将未完全实现的代码提交</li>
+<li>发布应该进行标记，利于查看发布记录</li>
+</ul>
+<p><img src="/assets/201709/2017-09-18-git-master-develop.png" alt="git-master-develop"></p>
+<h4 id="分支开发"><a href="#分支开发" class="headerlink" title="分支开发"></a>分支开发</h4><p>分支开发背景</p>
+<ol>
+<li>经过多个开发周期，发布多个软件版本；每个发布的版本可能出现bug，需要对历史版本进行更改；</li>
+<li>新版本开发与当前版本同步进行，混在一个分支中开发比较混乱；</li>
+<li>客户功能定制开发，混在一个分支中必会带来混乱，多分支管理不善则带来定制功能迁移问题；</li>
+<li>多人员多任务开发，任务开发周期不同，分支开发可避免冲突导致的效率低下；</li>
+<li>敏捷开发，快速迭代编译</li>
+</ol>
+<p>最佳实践：<br>分为主分支和辅助分支，Main branches：master、develop，Supporting branches：feature branches、release branches、hotfix branches。<br>主分支：master分支和develop分支，master分支用来发布，HEAD就是当前线上运行代码；develop分支用于日常开发，开发完成并且测试没有问题再合入到master分支。<br>辅助分支：feature分支、release分支、hotfix分支，feature分支用来开发具体功能，一般fork自develop分支，最终合入develop分支；release分支可看作pre-master，可用来修复QA测试发现的问题，fork与合入分别来自develop分支；hotfix分支用来修复线上bug，基于master分支fork，hotfix修复过的代码需要分别合到master和develop分支，采用hotfix好处不打断develop分支正常进行，同时能修复现实代码中的问题。</p>
+<p><img src="/assets/201709/2017-09-18-git-branch-develop.png" alt="git-branch-develop"></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Tool/" rel="tag">#Tool</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/09/16/ecmascript-language-object-extensions-2017/" rel="next" title="ECMAScript语言对象扩展小结">
+                <i class="fa fa-chevron-left"></i> ECMAScript语言对象扩展小结
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/09/24/es6-quiz-answer-explain/" rel="prev" title="ES6测试解答">
+                ES6测试解答 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -373,6 +426,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -392,8 +449,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -443,6 +509,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Git介绍"><span class="nav-number">1.</span> <span class="nav-text">Git介绍</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#什么是“版本控制”？"><span class="nav-number">1.1.</span> <span class="nav-text">什么是“版本控制”？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#“版本控制”类别"><span class="nav-number">1.2.</span> <span class="nav-text">“版本控制”类别</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Git版本控制系统特点"><span class="nav-number">1.3.</span> <span class="nav-text">Git版本控制系统特点</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Git版本控制系统三种状态"><span class="nav-number">1.4.</span> <span class="nav-text">Git版本控制系统三种状态</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Git常用命令"><span class="nav-number">2.</span> <span class="nav-text">Git常用命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Git开发实践方式"><span class="nav-number">3.</span> <span class="nav-text">Git开发实践方式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#主干开发"><span class="nav-number">3.1.</span> <span class="nav-text">主干开发</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#分支开发"><span class="nav-number">3.2.</span> <span class="nav-text">分支开发</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -539,11 +616,9 @@
   
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
 
 
   

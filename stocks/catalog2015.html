@@ -1,0 +1,1908 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAYcAA0AAAAACjQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABMAAAABwAAAAca8vGTk9TLzIAAAFMAAAARAAAAFZG1VHVY21hcAAAAZAAAAA+AAABQgAP9AdjdnQgAAAB0AAAAAQAAAAEACICiGdhc3AAAAHUAAAACAAAAAj//wADZ2x5ZgAAAdwAAADRAAABEKyikaNoZWFkAAACsAAAAC0AAAA2AtXoA2hoZWEAAALgAAAAHAAAACQHngNFaG10eAAAAvwAAAAQAAAAEAwAACJsb2NhAAADDAAAAAoAAAAKALIAVG1heHAAAAMYAAAAHwAAACABEAB2bmFtZQAAAzgAAALBAAAFu3I9x/Nwb3N0AAAF/AAAAB0AAAAvaoFvbwAAAAEAAAAAzBdyYwAAAADP2IQvAAAAAM/bz7t4nGNgZGFgnMDAysDB1Ml0hoGBoR9CM75mMGLkYGBgYmBlZsAKAtJcUxgcPsR8iGF2+O/AEMPsznAYKMwIkgMA5REMOXicY2BgYGaAYBkGRgYQsAHyGMF8FgYFIM0ChED+h5j//yEk/3KoSgZGNgYYk4GRCUgwMaACRoZhDwCs7QgGAAAAIgKIAAAAAf//AAJ4nHWMMQrCQBBF/0zWrCCIKUQsTDCL2EXMohYGSSmorScInsRGL2DOYJe0Ntp7BK+gJ1BxF1stZvjz/v8DRghQzEc4kIgKwiAppcA9LtzKLSkdNhKFY3HF4lK69ExKslx7Xa+vPRVS43G98vG1DnkDMIBUgFN0MDXflU8tbaZOUkXUH0+U27RoRpOIyCKjbMCVejwypzJJG4jIwb43rfl6wbwanocrJm9XFYfskuVC5K/TPyczNU7b84CXcbxks1Un6H6tLH9vf2LRnn8Ax7A5WQAAAHicY2BkYGAA4teL1+yI57f5ysDNwgAC529f0kOmWRiYVgEpDgYmEA8AUzEKsQAAAHicY2BkYGB2+O/AEMPCAAJAkpEBFbAAADgKAe0EAAAiAAAAAAQAAAAEAAAAAAAAKgAqACoAiAAAeJxjYGRgYGBhsGFgYgABEMkFhAwM/xn0QAIAD6YBhwB4nI1Ty07cMBS9QwKlQapQW3VXySvEqDCZGbGaHULiIQ1FKgjWMxknMfLEke2A+IJu+wntrt/QbVf9gG75jK577Lg8K1qQPCfnnnt8fX1NRC/pmjrk/zprC+8D7tBy9DHgBXoWfQ44Av8t4Bj4Z8CLtBL9CniJluPXASf0Lm4CXqFX8Q84dOLnMB17N4c7tBo1AS/Qi+hTwBH4rwHHwN8DXqQ30XXAS7QaLwSc0Gn8NuAVWou/gFmnjLrEaEh9GmDdDGgL3B4JsrRPDU2hTOiMSuJUIdKQQayiAth69r6akSSFqIJuA19TrzCIaY8sIoxyrNIrL//pw7A2iMygkX5vDj+G+kuoLdX4GlGK/8Lnlz6/h9MpmoO9rafrz7ILXEHHaAx95s9lsI7AHNMBWEZHULnfAXwG9/ZqdzLI08iuwRloXE8kfhXYAvE23+23DU3t626rbs8/8adv+9DWknsHp3E17oCf+Z48rvEQNZ78paYM38qfk3v/u3l3u3GXN2Dmvmvpf1Srwk3pB/VSsp512bA/GG5i2WJ7wu430yQ5K3nFGiOqgtmSB5pJVSizwaacmUZzZhXLlZTq8qGGFY2YcSkqbth6aW1tRmlaCFs2016m5qn36SbJrqosG4uMV4aP2PHBmB3tjtmgN2izkGQyLWprekbIntJFing32a5rKWCN/SdSoga45EJykyQ7asZvHQ8PTm6cslIpwyeyjbVltNikc2HTR7YKh9LBl9DADC0U/jLcBZDKrMhUBfQBvXRzLtFtjU9eNHKin0x5InTqb8lNpfKv1s1xHzTXRqgKzek/mb7nB8RZTCDhGEX3kK/8Q75AmUM/eLkfA+0Hi908Kx4eNsMgudg5GLdRD7a84npi+YxNr5i5KIbW5izXas7cHXIMAau1OueZhfj+cOcP3P8MNIWLyYOBuxL6DRylJ4cAAAB4nGNgYoAALjDJyIAOWMCiTIxMLDmZedkABtIBygAAAA==) format('woff');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body .markdown-body {
+    padding: 45px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    word-wrap: break-word;
+}
+
+pre {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background-color: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body input {
+  font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.markdown-body a {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body .select::-ms-expand {
+  opacity: 0;
+}
+
+.markdown-body .octicon {
+  font: normal normal normal 16px/1 octicons-anchor;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.markdown-body .octicon-link:before {
+  content: '\f05c';
+}
+
+.markdown-body:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .anchor {
+  display: inline-block;
+  padding-right: 2px;
+  margin-left: -18px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #000;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h1 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h3 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h5 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body h6 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+
+.markdown-body code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .pl-c {
+  color: #969896;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #0086b3;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #795da3;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
+  color: #333;
+}
+
+.markdown-body .pl-ent {
+  color: #63a35c;
+}
+
+.markdown-body .pl-k {
+  color: #a71d5d;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #183691;
+}
+
+.markdown-body .pl-v {
+  color: #ed6a43;
+}
+
+.markdown-body .pl-id {
+  color: #b52a1d;
+}
+
+.markdown-body .pl-ii {
+  background-color: #b52a1d;
+  color: #f8f8f8;
+}
+
+.markdown-body .pl-sr .pl-cce {
+  color: #63a35c;
+  font-weight: bold;
+}
+
+.markdown-body .pl-ml {
+  color: #693a17;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  color: #1d3e81;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mq {
+  color: #008080;
+}
+
+.markdown-body .pl-mi {
+  color: #333;
+  font-style: italic;
+}
+
+.markdown-body .pl-mb {
+  color: #333;
+  font-weight: bold;
+}
+
+.markdown-body .pl-md {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.markdown-body .pl-mi1 {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.markdown-body .pl-mdr {
+  color: #795da3;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mo {
+  color: #1d3e81;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .plan-price-unit {
+  color: #767676;
+  font-weight: normal;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 0.35em 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body .plan-choice {
+  padding: 15px;
+  padding-left: 40px;
+  display: block;
+  border: 1px solid #e0e0e0;
+  position: relative;
+  font-weight: normal;
+  background-color: #fafafa;
+}
+
+.markdown-body .plan-choice.open {
+  background-color: #fff;
+}
+
+.markdown-body .plan-choice.open .plan-choice-seat-breakdown {
+  display: block;
+}
+
+.markdown-body .plan-choice-free {
+  border-radius: 3px 3px 0 0;
+}
+
+.markdown-body .plan-choice-paid {
+  border-radius: 0 0 3px 3px;
+  border-top: 0;
+  margin-bottom: 20px;
+}
+
+.markdown-body .plan-choice-radio {
+  position: absolute;
+  left: 15px;
+  top: 18px;
+}
+
+.markdown-body .plan-choice-exp {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.markdown-body .plan-choice-seat-breakdown {
+  margin-top: 10px;
+  display: none;
+}
+
+.markdown-body :checked+.radio-label {
+  z-index: 1;
+  position: relative;
+  border-color: #4078c0;
+}
+</style><title>article2015</title></head><body><article class="markdown-body"><h1>
+<a id="user-content-2015-12" class="anchor" href="#2015-12" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2015-12</h1>
+<h2>
+<a id="user-content-千金散尽还复来" class="anchor" href="#%E5%8D%83%E9%87%91%E6%95%A3%E5%B0%BD%E8%BF%98%E5%A4%8D%E6%9D%A5" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401886344&amp;idx=1&amp;sn=85b3f42f4d5a83ebd6ea2be3a3076f00&amp;scene=27#wechat_redirect" rel="nofollow">千金散尽还复来</a>
+</h2>
+<p>日期：2015-12-31 17:54:17<br>
+天生我材必有用，千金散尽还复来！</p>
+<h2>
+<a id="user-content-12月31日股市前瞻" class="anchor" href="#12%E6%9C%8831%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401865918&amp;idx=1&amp;sn=a863fd05c45aff71535bd95503488564&amp;scene=27#wechat_redirect" rel="nofollow">12月31日股市前瞻</a>
+</h2>
+<p>日期：2015-12-30 21:46:29<br>
+持股过节。</p>
+<h2>
+<a id="user-content-12月30日股市前瞻" class="anchor" href="#12%E6%9C%8830%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401829871&amp;idx=1&amp;sn=6a248b246a395eaedb5f4595a39332d5&amp;scene=27#wechat_redirect" rel="nofollow">12月30日股市前瞻</a>
+</h2>
+<p>日期：2015-12-29 21:49:53<br>
+继续持股。</p>
+<h2>
+<a id="user-content-12月29日股市前瞻" class="anchor" href="#12%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401794501&amp;idx=1&amp;sn=7f4c6fba8a7a251dc5981af72e6b68b8&amp;scene=27#wechat_redirect" rel="nofollow">12月29日股市前瞻</a>
+</h2>
+<p>日期：2015-12-28 21:9:24<br>
+别怕！</p>
+<h2>
+<a id="user-content-12月28日股市前瞻" class="anchor" href="#12%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401755008&amp;idx=1&amp;sn=79b41663718d25b65b0a6b64d6ac1d78&amp;scene=27#wechat_redirect" rel="nofollow">12月28日股市前瞻</a>
+</h2>
+<p>日期：2015-12-27 22:6:41<br>
+持股待涨。</p>
+<h2>
+<a id="user-content-12月25日股市前瞻" class="anchor" href="#12%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401678456&amp;idx=1&amp;sn=168340a552bc30df9756bd89d7ac3b8a&amp;scene=27#wechat_redirect" rel="nofollow">12月25日股市前瞻</a>
+</h2>
+<p>日期：2015-12-24 21:58:52<br>
+继续持股。</p>
+<h2>
+<a id="user-content-12月24日股市前瞻" class="anchor" href="#12%E6%9C%8824%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401655613&amp;idx=1&amp;sn=1209e6be33d1e6752387ad2106974729&amp;scene=27#wechat_redirect" rel="nofollow">12月24日股市前瞻</a>
+</h2>
+<p>日期：2015-12-23 21:19:25<br>
+逢低加仓。</p>
+<h2>
+<a id="user-content-12月23日股市前瞻" class="anchor" href="#12%E6%9C%8823%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401624730&amp;idx=1&amp;sn=837bb3bd0a2cb55bb6621194835353d3&amp;scene=27#wechat_redirect" rel="nofollow">12月23日股市前瞻</a>
+</h2>
+<p>日期：2015-12-22 20:57:33<br>
+继续持股。如过前高，短线或有回调，中线可无视波动。</p>
+<h2>
+<a id="user-content-12月22日股市前瞻" class="anchor" href="#12%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401600557&amp;idx=1&amp;sn=c4b69cd6476a3532f264905cc7bdff02&amp;scene=27#wechat_redirect" rel="nofollow">12月22日股市前瞻</a>
+</h2>
+<p>日期：2015-12-21 21:47:40<br>
+继续持股，逢低加仓。</p>
+<h2>
+<a id="user-content-12月21日股市前瞻" class="anchor" href="#12%E6%9C%8821%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401575757&amp;idx=1&amp;sn=147bd7cc456bd2d934043d30e86e9f8d&amp;scene=27#wechat_redirect" rel="nofollow">12月21日股市前瞻</a>
+</h2>
+<p>日期：2015-12-20 21:57:7<br>
+继续持股。如大涨，短线可稍减仓。</p>
+<h2>
+<a id="user-content-12月18日股市前瞻" class="anchor" href="#12%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401478014&amp;idx=1&amp;sn=6c4ebf051c929bcf84066f5555c06606&amp;scene=27#wechat_redirect" rel="nofollow">12月18日股市前瞻</a>
+</h2>
+<p>日期：2015-12-17 17:28:29<br>
+继续持股待涨。</p>
+<h2>
+<a id="user-content-12月17日股市前瞻" class="anchor" href="#12%E6%9C%8817%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401438709&amp;idx=1&amp;sn=daacd583dc3052379b81589c9ed35b66&amp;scene=27#wechat_redirect" rel="nofollow">12月17日股市前瞻</a>
+</h2>
+<p>日期：2015-12-16 21:46:35<br>
+持股待涨。</p>
+<h2>
+<a id="user-content-11月16日股市前瞻" class="anchor" href="#11%E6%9C%8816%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401404003&amp;idx=1&amp;sn=e64d6dc6840e35239744942380af02b6&amp;scene=27#wechat_redirect" rel="nofollow">11月16日股市前瞻</a>
+</h2>
+<p>日期：2015-12-15 22:0:8<br>
+继续持股。</p>
+<h2>
+<a id="user-content-12月15日股市前瞻" class="anchor" href="#12%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401367272&amp;idx=1&amp;sn=dc0f42d21012369cd637fa08993c9ddd&amp;scene=27#wechat_redirect" rel="nofollow">12月15日股市前瞻</a>
+</h2>
+<p>日期：2015-12-14 22:12:50<br>
+持股待涨，坐等解冻资金接盘。</p>
+<h2>
+<a id="user-content-12月14日股市前瞻" class="anchor" href="#12%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401340389&amp;idx=1&amp;sn=fd835b2b0f007ad4ceb7245c34cbc056&amp;scene=27#wechat_redirect" rel="nofollow">12月14日股市前瞻</a>
+</h2>
+<p>日期：2015-12-13 22:9:24<br>
+或有最后一跌，反弹随时展开！</p>
+<h2>
+<a id="user-content-12月11日股市前瞻" class="anchor" href="#12%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401193130&amp;idx=1&amp;sn=1938bdbd0267633a73a79d2e2832777e&amp;chksm=34f424070383ad1146457bab02df435933f09282d2d1732883a43dcde5358470b2ec7cd394e6&amp;scene=27#wechat_redirect" rel="nofollow">12月11日股市前瞻</a>
+</h2>
+<p>日期：2015-12-10 22:18:25<br>
+放松心情，沉着应对。</p>
+<h2>
+<a id="user-content-12月10日股市前瞻" class="anchor" href="#12%E6%9C%8810%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401146027&amp;idx=1&amp;sn=3093a4585f6f285f6893cbd32ccc7f3a&amp;scene=27#wechat_redirect" rel="nofollow">12月10日股市前瞻</a>
+</h2>
+<p>日期：2015-12-9 22:12:27<br>
+黎明就在前方！</p>
+<h2>
+<a id="user-content-12月9日股市前瞻" class="anchor" href="#12%E6%9C%889%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401125468&amp;idx=1&amp;sn=6538446adc9b4c9ddb0b9f140c5d1129&amp;scene=27#wechat_redirect" rel="nofollow">12月9日股市前瞻</a>
+</h2>
+<p>日期：2015-12-8 22:13:2<br>
+不畏浮云遮望眼，只缘身在最高层。——王安石《登飞来峰》</p>
+<h2>
+<a id="user-content-12月8日股市前瞻" class="anchor" href="#12%E6%9C%888%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401106542&amp;idx=1&amp;sn=d838f4be3357c9882e82824cea53f46c&amp;scene=27#wechat_redirect" rel="nofollow">12月8日股市前瞻</a>
+</h2>
+<p>日期：2015-12-7 22:5:32<br>
+上证指数下跌空间极其有限，创业板指难说。可以不用满仓，待心仪股票下跌时加仓。如满仓，长线亦无忧，只是要耐得住寂寞。</p>
+<h2>
+<a id="user-content-12月7日股市前瞻" class="anchor" href="#12%E6%9C%887%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401089147&amp;idx=1&amp;sn=79771865e7120f2de5fa96d10ea62d2b&amp;scene=27#wechat_redirect" rel="nofollow">12月7日股市前瞻</a>
+</h2>
+<p>日期：2015-12-6 22:6:37<br>
+主板逢低加仓。创业板短期回避，或逢更低加仓。</p>
+<h2>
+<a id="user-content-12月4日股市前瞻" class="anchor" href="#12%E6%9C%884%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401011063&amp;idx=1&amp;sn=dfffe6d733cad3f6f68119fc487a3134&amp;scene=27#wechat_redirect" rel="nofollow">12月4日股市前瞻</a>
+</h2>
+<p>日期：2015-12-3 22:2:52<br>
+逢高减仓。</p>
+<h2>
+<a id="user-content-12月3日股市前瞻" class="anchor" href="#12%E6%9C%883%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400995539&amp;idx=1&amp;sn=b6117ebec0e8cd4f91c563a3c534fbe6&amp;scene=27#wechat_redirect" rel="nofollow">12月3日股市前瞻</a>
+</h2>
+<p>日期：2015-12-2 22:13:28<br>
+逢高酌情减仓。</p>
+<h2>
+<a id="user-content-12月2日股市前瞻" class="anchor" href="#12%E6%9C%882%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400972493&amp;idx=1&amp;sn=4affb75e17045980c6e1bd29d0b4ddd6&amp;scene=27#wechat_redirect" rel="nofollow">12月2日股市前瞻</a>
+</h2>
+<p>日期：2015-12-1 22:18:5<br>
+得意淡然，失意泰然。——王夫之</p>
+<h1>
+<a id="user-content-2015-11" class="anchor" href="#2015-11" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2015-11</h1>
+<h2>
+<a id="user-content-12月1日股市前瞻" class="anchor" href="#12%E6%9C%881%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400940324&amp;idx=1&amp;sn=8dbc2325ad77065777abb9a9486d4e5e&amp;chksm=34f84189038fc89f2befd1eb1456a210366cd3f994dad9045c2d3df5f651c33659fced9da3a2&amp;scene=27#wechat_redirect" rel="nofollow">12月1日股市前瞻</a>
+</h2>
+<p>日期：2015-11-30 21:59:30<br>
+小涨无忧，大涨考虑减仓。</p>
+<h2>
+<a id="user-content-11月30日股市前瞻" class="anchor" href="#11%E6%9C%8830%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400919209&amp;idx=1&amp;sn=6e60517f0e35cd7b676eb48e4d314b5b&amp;scene=27#wechat_redirect" rel="nofollow">11月30日股市前瞻</a>
+</h2>
+<p>日期：2015-11-29 22:11:57<br>
+天下有大勇者，卒然临之而不惊，无故加之而不怒。此其所挟持者甚大，而其志甚远也。 ——苏轼《留侯论》</p>
+<h2>
+<a id="user-content-写在暴跌之后" class="anchor" href="#%E5%86%99%E5%9C%A8%E6%9A%B4%E8%B7%8C%E4%B9%8B%E5%90%8E" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400893641&amp;idx=1&amp;sn=639beb9dbbbd1b63e8f20cacc0d5c36c&amp;scene=27#wechat_redirect" rel="nofollow">写在暴跌之后</a>
+</h2>
+<p>日期：2015-11-27 22:0:50<br>
+由爱故生忧，由爱故生怖，若离于爱者，无忧亦无怖。</p>
+<h2>
+<a id="user-content-11月27日股市前瞻" class="anchor" href="#11%E6%9C%8827%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400874415&amp;idx=1&amp;sn=4b647240cb3b01e676043d50a783631c&amp;scene=27#wechat_redirect" rel="nofollow">11月27日股市前瞻</a>
+</h2>
+<p>日期：2015-11-26 22:11:5<br>
+趋势未变前，不用自己吓自己。</p>
+<h2>
+<a id="user-content-11月26日股市前瞻" class="anchor" href="#11%E6%9C%8826%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400851553&amp;idx=1&amp;sn=f66e65ec4a376f1293e4463a7aeb7edb&amp;scene=27#wechat_redirect" rel="nofollow">11月26日股市前瞻</a>
+</h2>
+<p>日期：2015-11-25 21:53:46<br>
+主板无忧，创业板提防冲高回落。</p>
+<h2>
+<a id="user-content-11月25日股市前瞻" class="anchor" href="#11%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400834800&amp;idx=1&amp;sn=abddc1abf22c69d297a95e300cabc81a&amp;scene=27#wechat_redirect" rel="nofollow">11月25日股市前瞻</a>
+</h2>
+<p>日期：2015-11-24 21:19:32<br>
+继续持股，坐等新高！</p>
+<h2>
+<a id="user-content-11月24日股市前瞻" class="anchor" href="#11%E6%9C%8824%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400815815&amp;idx=1&amp;sn=51607ad032843b100356d14cfa927e0e&amp;scene=27#wechat_redirect" rel="nofollow">11月24日股市前瞻</a>
+</h2>
+<p>日期：2015-11-23 22:17:11<br>
+趋势未变，继续持股。</p>
+<h2>
+<a id="user-content-11月23日股市前瞻" class="anchor" href="#11%E6%9C%8823%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400798686&amp;idx=1&amp;sn=1a3f287ebb0cf5493d14926a8a8ecd7e&amp;scene=27#wechat_redirect" rel="nofollow">11月23日股市前瞻</a>
+</h2>
+<p>日期：2015-11-22 22:19:45<br>
+短期无忧。</p>
+<h2>
+<a id="user-content-11月20日股市前瞻" class="anchor" href="#11%E6%9C%8820%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400732266&amp;idx=1&amp;sn=9d98e5a3a26c745ef97237483d982c58&amp;scene=27#wechat_redirect" rel="nofollow">11月20日股市前瞻</a>
+</h2>
+<p>日期：2015-11-19 22:15:30<br>
+不畏浮云遮望眼,只缘身在最高层。</p>
+<h2>
+<a id="user-content-11月19日股市前瞻" class="anchor" href="#11%E6%9C%8819%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400708726&amp;idx=1&amp;sn=4d3b378e59d73ae23c14b325fc2f25c4&amp;scene=27#wechat_redirect" rel="nofollow">11月19日股市前瞻</a>
+</h2>
+<p>日期：2015-11-18 22:27:37<br>
+牢骚太盛防肠断,风物长宜放眼量。</p>
+<h2>
+<a id="user-content-11月18日股市前瞻" class="anchor" href="#11%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400683658&amp;idx=1&amp;sn=e14a42875f1d9289986693277781aa05&amp;scene=27#wechat_redirect" rel="nofollow">11月18日股市前瞻</a>
+</h2>
+<p>日期：2015-11-17 22:17:17<br>
+涨多了舍得卖，跌多了敢于买。</p>
+<h2>
+<a id="user-content-11月17日股市前瞻" class="anchor" href="#11%E6%9C%8817%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400658667&amp;idx=1&amp;sn=858a2d92c7cbbd764da3943399a5a94f&amp;scene=27#wechat_redirect" rel="nofollow">11月17日股市前瞻</a>
+</h2>
+<p>日期：2015-11-16 22:2:29<br>
+安心再赚一天，有事明晚再说。</p>
+<h2>
+<a id="user-content-11月16日股市前瞻-1" class="anchor" href="#11%E6%9C%8816%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400624074&amp;idx=1&amp;sn=8bb54cb2fd7879a9ea8d83ee56e08fae&amp;scene=27#wechat_redirect" rel="nofollow">11月16日股市前瞻</a>
+</h2>
+<p>日期：2015-11-15 20:24:39<br>
+逢低可加仓，拉回即买点。</p>
+<h2>
+<a id="user-content-11月13日股市前瞻" class="anchor" href="#11%E6%9C%8813%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400581036&amp;idx=1&amp;sn=1844de1ee313c3f1198bbfa581e2947b&amp;scene=27#wechat_redirect" rel="nofollow">11月13日股市前瞻</a>
+</h2>
+<p>日期：2015-11-12 22:14:9<br>
+该来的都会来</p>
+<h2>
+<a id="user-content-11月12日股市前瞻" class="anchor" href="#11%E6%9C%8812%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400562612&amp;idx=1&amp;sn=6dccb49f196c6d7cdaededb52bda2fd5&amp;scene=27#wechat_redirect" rel="nofollow">11月12日股市前瞻</a>
+</h2>
+<p>日期：2015-11-11 22:11:9<br>
+“死多头”开始变“活多头”。</p>
+<h2>
+<a id="user-content-11月11日股市前瞻" class="anchor" href="#11%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400527779&amp;idx=1&amp;sn=60c97f3f4464499645ba98369e61d284&amp;chksm=34c20d0e03b584187d7ae690b84f96e822e7bae696e8c685585486c35e663a2ccf16d81ef114&amp;scene=27#wechat_redirect" rel="nofollow">11月11日股市前瞻</a>
+</h2>
+<p>日期：2015-11-10 22:21:21<br>
+或跃在渊，无咎。</p>
+<h2>
+<a id="user-content-11月10日股市前瞻" class="anchor" href="#11%E6%9C%8810%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400506477&amp;idx=1&amp;sn=586060d3794bb5653682dbe520a7a69d&amp;scene=27#wechat_redirect" rel="nofollow">11月10日股市前瞻</a>
+</h2>
+<p>日期：2015-11-9 22:21:27<br>
+安心持股，持安心股。</p>
+<h2>
+<a id="user-content-11月9日股市前瞻" class="anchor" href="#11%E6%9C%889%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400487735&amp;idx=1&amp;sn=86d8ae94d691ade9413350005395d709&amp;chksm=34c3699a03b4e08cee22713d84f45dc1526b1ce73cb505064beaa0ffedc6ff70d54d144f8b5c&amp;scene=27#wechat_redirect" rel="nofollow">11月9日股市前瞻</a>
+</h2>
+<p>日期：2015-11-8 22:17:24<br>
+安心持股！</p>
+<h2>
+<a id="user-content-写在ipo重启之后" class="anchor" href="#%E5%86%99%E5%9C%A8ipo%E9%87%8D%E5%90%AF%E4%B9%8B%E5%90%8E" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400460380&amp;idx=1&amp;sn=c31bc20394c62506644c38476c760024&amp;scene=27#wechat_redirect" rel="nofollow">写在IPO重启之后</a>
+</h2>
+<p>日期：2015-11-6 22:7:53<br>
+归去，也无风雨也无晴。</p>
+<h2>
+<a id="user-content-11月6日股市前瞻" class="anchor" href="#11%E6%9C%886%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400443372&amp;idx=1&amp;sn=b4acd136ce90dc94489afdaf504db8ee&amp;scene=27#wechat_redirect" rel="nofollow">11月6日股市前瞻</a>
+</h2>
+<p>日期：2015-11-5 21:57:30<br>
+别怕！</p>
+<h2>
+<a id="user-content-11月5日股市前瞻" class="anchor" href="#11%E6%9C%885%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400422821&amp;idx=1&amp;sn=b56cf48a24e32a9701c6d28ef8684db3&amp;scene=27#wechat_redirect" rel="nofollow">11月5日股市前瞻</a>
+</h2>
+<p>日期：2015-11-4 22:23:25<br>
+好风凭借力，送我上青云。</p>
+<h2>
+<a id="user-content-11月4日股市前瞻" class="anchor" href="#11%E6%9C%884%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400407595&amp;idx=1&amp;sn=e2a2cbd7e4cb4b94a9b2209a58837970&amp;scene=27#wechat_redirect" rel="nofollow">11月4日股市前瞻</a>
+</h2>
+<p>日期：2015-11-3 22:14:23<br>
+最后的胜利，往往在于再坚持一下的努力之中。</p>
+<h2>
+<a id="user-content-11月3日股市前瞻" class="anchor" href="#11%E6%9C%883%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400391504&amp;idx=1&amp;sn=563d68e1070b99a516cfb513f878a191&amp;scene=27#wechat_redirect" rel="nofollow">11月3日股市前瞻</a>
+</h2>
+<p>日期：2015-11-2 22:36:7<br>
+相信这里只是洗盘。</p>
+<h2>
+<a id="user-content-11月2日股市前瞻" class="anchor" href="#11%E6%9C%882%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400368707&amp;idx=1&amp;sn=b7aaaf227c417347d1f8bb78042f616c&amp;scene=27#wechat_redirect" rel="nofollow">11月2日股市前瞻</a>
+</h2>
+<p>日期：2015-11-1 19:24:9<br>
+B股指数会成为A股的指引吗？</p>
+<h1>
+<a id="user-content-2015-10" class="anchor" href="#2015-10" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2015-10</h1>
+<h2>
+<a id="user-content-10月30日股市前瞻" class="anchor" href="#10%E6%9C%8830%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400324763&amp;idx=1&amp;sn=ab36bf27c777f101f410b7fa34cf7fb9&amp;scene=27#wechat_redirect" rel="nofollow">10月30日股市前瞻</a>
+</h2>
+<p>日期：2015-10-29 21:3:15<br>
+这是最后的斗争，团结起来到明天，英特纳雄耐尔就一定要实现！</p>
+<h2>
+<a id="user-content-10月29日股市前瞻" class="anchor" href="#10%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400305364&amp;idx=1&amp;sn=75314d3bad94baaa4de6377f00627c81&amp;scene=27#wechat_redirect" rel="nofollow">10月29日股市前瞻</a>
+</h2>
+<p>日期：2015-10-28 22:11:58<br>
+试问岭南应不好。却道，此心安处是吾乡。</p>
+<h2>
+<a id="user-content-10月28日股市前瞻" class="anchor" href="#10%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400289345&amp;idx=1&amp;sn=264dfc1ab0f33e860efd2f6bf0f9cc09&amp;scene=27#wechat_redirect" rel="nofollow">10月28日股市前瞻</a>
+</h2>
+<p>日期：2015-10-27 22:18:57<br>
+沉舟侧畔千帆过，病树前头万木春。</p>
+<h2>
+<a id="user-content-10月27日股市前瞻" class="anchor" href="#10%E6%9C%8827%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400273833&amp;idx=1&amp;sn=82073461efd9a94b62fd56ce661604d9&amp;scene=27#wechat_redirect" rel="nofollow">10月27日股市前瞻</a>
+</h2>
+<p>日期：2015-10-26 22:13:59<br>
+任凭风浪起，稳坐钓鱼台。</p>
+<h2>
+<a id="user-content-10月26日股市前瞻" class="anchor" href="#10%E6%9C%8826%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400254082&amp;idx=1&amp;sn=8707470fab4d1892ca5b2601d776452b&amp;chksm=34c6f82f03b17139d13c22b64bc407347875b8cb5f323189ac462ccce9da7dab22f639ba0804&amp;scene=27#wechat_redirect" rel="nofollow">10月26日股市前瞻</a>
+</h2>
+<p>日期：2015-10-25 22:14:51<br>
+继续坚定做多不减仓！</p>
+<h2>
+<a id="user-content-10月23日股市前瞻" class="anchor" href="#10%E6%9C%8823%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400177638&amp;idx=1&amp;sn=52d9db9bc351d593160378580a779d1b&amp;scene=27#wechat_redirect" rel="nofollow">10月23日股市前瞻</a>
+</h2>
+<p>日期：2015-10-22 22:1:53<br>
+坚定看多不减仓。</p>
+<h2>
+<a id="user-content-1月22日股市前瞻" class="anchor" href="#1%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400151671&amp;idx=1&amp;sn=9f160742a029732a9c638f83b28e937c&amp;chksm=34c448da03b3c1cc7ab35fe68b2ba8a541a8f4b9d9ee6eee0b5273ac930e626fcb437150eb12&amp;scene=27#wechat_redirect" rel="nofollow">1月22日股市前瞻</a>
+</h2>
+<p>日期：2015-10-21 22:41:5<br>
+宠辱不惊，看庭前花开花落；去留无意，望天空云卷云舒。</p>
+<h2>
+<a id="user-content-10月21日股市前瞻" class="anchor" href="#10%E6%9C%8821%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400126310&amp;idx=1&amp;sn=9c5e9f85c82962ec1976bd8909549d45&amp;scene=27#wechat_redirect" rel="nofollow">10月21日股市前瞻</a>
+</h2>
+<p>日期：2015-10-20 22:9:43<br>
+关注成交量和五日均线。</p>
+<h2>
+<a id="user-content-10月20日股市前瞻" class="anchor" href="#10%E6%9C%8820%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400101470&amp;idx=1&amp;sn=ad7141089a2b6f992d0b00b73c61b58e&amp;scene=27#wechat_redirect" rel="nofollow">10月20日股市前瞻</a>
+</h2>
+<p>日期：2015-10-19 21:4:21<br>
+关注五日均线支撑</p>
+<h2>
+<a id="user-content-10月19日股市前瞻" class="anchor" href="#10%E6%9C%8819%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=400037581&amp;idx=1&amp;sn=cfa1dad0789fa5b5a16a283bf054dcf8&amp;scene=27#wechat_redirect" rel="nofollow">10月19日股市前瞻</a>
+</h2>
+<p>日期：2015-10-17 15:41:24<br>
+宜将剩勇追穷寇，不可沽名学霸王！</p>
+<h2>
+<a id="user-content-10月16日股市前瞻" class="anchor" href="#10%E6%9C%8816%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=210153172&amp;idx=1&amp;sn=90ebd9a8632f8d6176d588339628f0e9&amp;scene=27#wechat_redirect" rel="nofollow">10月16日股市前瞻</a>
+</h2>
+<p>日期：2015-10-15 22:9:10<br>
+上证指数继续乐观，创业板指警惕冲高回落。</p>
+<h2>
+<a id="user-content-10月15日股市前瞻" class="anchor" href="#10%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=210119949&amp;idx=1&amp;sn=70260075b36fd873f5d745302fe97d29&amp;scene=27#wechat_redirect" rel="nofollow">10月15日股市前瞻</a>
+</h2>
+<p>日期：2015-10-14 22:3:51<br>
+机会总是跌出来的，明天相对乐观，逢低加仓！</p>
+<h2>
+<a id="user-content-10月14日股市前瞻" class="anchor" href="#10%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=210090196&amp;idx=1&amp;sn=a579aa90363a3f93e62b36f1ca8aad79&amp;scene=27#wechat_redirect" rel="nofollow">10月14日股市前瞻</a>
+</h2>
+<p>日期：2015-10-13 21:42:9<br>
+静观其变，别太激进！</p>
+<h2>
+<a id="user-content-10月13日股市前瞻" class="anchor" href="#10%E6%9C%8813%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=210065903&amp;idx=1&amp;sn=8cbed14fa3973e4f66dedbe82715162c&amp;scene=27#wechat_redirect" rel="nofollow">10月13日股市前瞻</a>
+</h2>
+<p>日期：2015-10-12 22:3:37<br>
+短线逐渐收兵，等待下一个战机！</p>
+<h2>
+<a id="user-content-10月12日股市前瞻" class="anchor" href="#10%E6%9C%8812%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=210040751&amp;idx=1&amp;sn=f7e628f64e792f0f185b16cfa93909e5&amp;scene=27#wechat_redirect" rel="nofollow">10月12日股市前瞻</a>
+</h2>
+<p>日期：2015-10-11 22:18:31<br>
+短线依然乐观</p>
+<h2>
+<a id="user-content-写在人民币跑步进入sdr的路上" class="anchor" href="#%E5%86%99%E5%9C%A8%E4%BA%BA%E6%B0%91%E5%B8%81%E8%B7%91%E6%AD%A5%E8%BF%9B%E5%85%A5sdr%E7%9A%84%E8%B7%AF%E4%B8%8A" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=210016319&amp;idx=1&amp;sn=7bbf146992a019dcc8db6cd95ce12f74&amp;chksm=2f99049218ee8d844249cd16426af3357e8bb9af520fb7c746081de9fb848c6a2ecbc469102e&amp;scene=27#wechat_redirect" rel="nofollow">写在人民币跑步进入SDR的路上</a>
+</h2>
+<p>日期：2015-10-10 22:25:4<br>
+国际货币基金组织（IMF）将于2015年底前完成是否允许人民币纳入特别提款权（SDR）的评估。  ——IMF总裁   克里斯蒂娜·拉加德，10月9日</p>
+<h2>
+<a id="user-content-10月9日股市前瞻" class="anchor" href="#10%E6%9C%889%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209970891&amp;idx=1&amp;sn=ce4f7fec712363fae51bfe6be7ac1c77&amp;scene=27#wechat_redirect" rel="nofollow">10月9日股市前瞻</a>
+</h2>
+<p>日期：2015-10-8 22:10:50<br>
+短期依然安全，保持积极心态！</p>
+<h2>
+<a id="user-content-10月8日股市前瞻" class="anchor" href="#10%E6%9C%888%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209938439&amp;idx=1&amp;sn=830a131a26b7360a95482e5d7ef35014&amp;scene=27#wechat_redirect" rel="nofollow">10月8日股市前瞻</a>
+</h2>
+<p>日期：2015-10-7 21:59:39<br>
+积极做多十月！</p>
+<h2>
+<a id="user-content-tpp就是骗傻逼" class="anchor" href="#tpp%E5%B0%B1%E6%98%AF%E9%AA%97%E5%82%BB%E9%80%BC" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209918130&amp;idx=1&amp;sn=20949b6c01ed153a4fb4126be2b1f9e6&amp;scene=27#wechat_redirect" rel="nofollow">TPP就是骗傻逼！</a>
+</h2>
+<p>日期：2015-10-6 21:15:10<br>
+TPP就是个P，放出来其实也就那么回事，无需大惊下怪。如果谁要真把它当原子弹，那就真成傻逼了。</p>
+<h2>
+<a id="user-content-打假人民币惊天大屠杀一个不好笑的的笑话" class="anchor" href="#%E6%89%93%E5%81%87%E4%BA%BA%E6%B0%91%E5%B8%81%E6%83%8A%E5%A4%A9%E5%A4%A7%E5%B1%A0%E6%9D%80%E4%B8%80%E4%B8%AA%E4%B8%8D%E5%A5%BD%E7%AC%91%E7%9A%84%E7%9A%84%E7%AC%91%E8%AF%9D" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209874373&amp;idx=1&amp;sn=b9593e5c3a9e61bbd8b39d965c93e364&amp;scene=27#wechat_redirect" rel="nofollow">【打假】人民币惊天大屠杀？一个不好笑的的笑话！</a>
+</h2>
+<p>日期：2015-10-5 8:28:11<br>
+人民币惊天大屠杀？一个不好笑的的笑话！</p>
+<h1>
+<a id="user-content-2015-9" class="anchor" href="#2015-9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2015-9</h1>
+<h2>
+<a id="user-content-9月30日股市前瞻" class="anchor" href="#9%E6%9C%8830%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209742875&amp;idx=1&amp;sn=3315f077ab2d36ae662d1b5781b72bd9&amp;chksm=2f9df0b618ea79a08ba83780dc7d19d66e2a353e20e65d60d29aabe5b43001a6ab908dee32d7&amp;scene=27#wechat_redirect" rel="nofollow">9月30日股市前瞻</a>
+</h2>
+<p>日期：2015-9-30 0:27:45<br>
+持股过节问题不大，不建议割肉空仓。</p>
+<h2>
+<a id="user-content-9月29日股市前瞻" class="anchor" href="#9%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209709347&amp;idx=1&amp;sn=382ad42c77f43df1c7d71391aa928cbb&amp;scene=27#wechat_redirect" rel="nofollow">9月29日股市前瞻</a>
+</h2>
+<p>日期：2015-9-29 0:29:25<br>
+整理接近尾声，向上概率大于向下。</p>
+<h2>
+<a id="user-content-重发9月28日股市前瞻" class="anchor" href="#%E9%87%8D%E5%8F%919%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209680613&amp;idx=1&amp;sn=2deba506d7b816f36a451b2db2966e53&amp;scene=27#wechat_redirect" rel="nofollow">【重发】9月28日股市前瞻</a>
+</h2>
+<p>日期：2015-9-28 0:19:5<br>
+【重发】在箱体有效突破前，继续维持高抛低吸策略，靠近3200点附近考虑减仓（但不建议割肉），跌至3000点附近时逐步加仓。</p>
+<h2>
+<a id="user-content-9月28日股市前瞻" class="anchor" href="#9%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209676513&amp;idx=1&amp;sn=65fdc63a8df913ebe07ee33ecee1c5ef&amp;scene=27#wechat_redirect" rel="nofollow">9月28日股市前瞻</a>
+</h2>
+<p>日期：2015-9-27 19:36:46<br>
+在箱体有效突破前，继续维持高抛低吸策略，靠近3200点附近考虑减仓（但不建议割肉），跌至3000点附近时逐步加仓。</p>
+<h2>
+<a id="user-content-9月25日股市前瞻" class="anchor" href="#9%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209601208&amp;idx=1&amp;sn=c5a12c63b1ca3328ca04e8f20fa64498&amp;scene=27#wechat_redirect" rel="nofollow">9月25日股市前瞻</a>
+</h2>
+<p>日期：2015-9-24 22:47:41<br>
+谨慎中怀抱希望</p>
+<h2>
+<a id="user-content-9月24日股市前瞻" class="anchor" href="#9%E6%9C%8824%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209571791&amp;idx=1&amp;sn=f7f8e202c0012b17c0f09732d37ca4c5&amp;scene=27#wechat_redirect" rel="nofollow">9月24日股市前瞻</a>
+</h2>
+<p>日期：2015-9-23 22:15:35<br>
+近期保守谨慎为好</p>
+<h2>
+<a id="user-content-9月23日股市前瞻" class="anchor" href="#9%E6%9C%8823%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209538886&amp;idx=1&amp;sn=b83aa1fbedeb8b120580d7e6ad9f8e7c&amp;scene=27#wechat_redirect" rel="nofollow">9月23日股市前瞻</a>
+</h2>
+<p>日期：2015-9-22 21:52:56<br>
+短期以稳健保守为主，不宜太过激进追高。</p>
+<h2>
+<a id="user-content-9月22日股市前瞻" class="anchor" href="#9%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209490618&amp;idx=1&amp;sn=35cf70dad69a931b527437ac3ca527c1&amp;scene=27#wechat_redirect" rel="nofollow">9月22日股市前瞻</a>
+</h2>
+<p>日期：2015-9-21 19:58:54<br>
+明日如果继续上冲，短线将触及箱体上沿，仓位重的投资者可酌情降低仓位（但并不建议割肉）。如果指数在未来几天能够放量突破并站稳箱体上沿，则可对未来走势做出新的评估，但在市场确定走出来之前维持原“箱体整理”的观点不变。</p>
+<h2>
+<a id="user-content-怎样看待美联储暂不升息" class="anchor" href="#%E6%80%8E%E6%A0%B7%E7%9C%8B%E5%BE%85%E7%BE%8E%E8%81%94%E5%82%A8%E6%9A%82%E4%B8%8D%E5%8D%87%E6%81%AF" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209439247&amp;idx=1&amp;sn=106f649f89c0f9c6b1346e2edd6c7afe&amp;scene=27#wechat_redirect" rel="nofollow">怎样看待美联储“暂不升息”？</a>
+</h2>
+<p>日期：2015-9-20 5:50:45<br>
+好一朵茉莉花，满园花草香也香不过它。我有心采一朵戴，又怕看花的人儿骂。  \n——致暂不升息的耶伦女士</p>
+<h2>
+<a id="user-content-怎样看待美联储暂不升息-1" class="anchor" href="#%E6%80%8E%E6%A0%B7%E7%9C%8B%E5%BE%85%E7%BE%8E%E8%81%94%E5%82%A8%E6%9A%82%E4%B8%8D%E5%8D%87%E6%81%AF-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209438115&amp;idx=1&amp;sn=7a87639a663a13a32f51775fc7ced4aa&amp;scene=27#wechat_redirect" rel="nofollow">怎样看待美联储“暂不升息”？</a>
+</h2>
+<p>日期：2015-9-19 22:49:9<br>
+好一朵茉莉花，满园花草香也香不过它。我有心采一朵戴，又怕看花的人儿骂。  \n——致暂不升息的耶伦女士</p>
+<h2>
+<a id="user-content-9月18日股市前瞻" class="anchor" href="#9%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209415779&amp;idx=1&amp;sn=2bac582cb7100f2f2a2625bc08840f1d&amp;scene=27#wechat_redirect" rel="nofollow">9月18日股市前瞻</a>
+</h2>
+<p>日期：2015-9-17 21:46:56<br>
+如能跌到三千点，逐步承接韭菜盘。</p>
+<h2>
+<a id="user-content-9月17日股市前瞻" class="anchor" href="#9%E6%9C%8817%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209402496&amp;idx=1&amp;sn=52454e1b0ef6b93b126c92877bec470c&amp;scene=27#wechat_redirect" rel="nofollow">9月17日股市前瞻</a>
+</h2>
+<p>日期：2015-9-16 22:31:20<br>
+明日逢高减仓</p>
+<h2>
+<a id="user-content-9月16日股市前瞻" class="anchor" href="#9%E6%9C%8816%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209388026&amp;idx=1&amp;sn=53d867ef54317e1fec3877ac266de471&amp;scene=27#wechat_redirect" rel="nofollow">9月16日股市前瞻</a>
+</h2>
+<p>日期：2015-9-15 22:3:15<br>
+股市并非是被理性所主导。虽然最终会归于理性，但是在大部分时间里，股市都处于非理性状态，这让那些“大胆”的投资者可以靠其他人的错误和愚蠢，而赚的盆满钵满。——史蒂芬·韦恩斯《恐慌与机会》</p>
+<h2>
+<a id="user-content-9月15日股市前瞻" class="anchor" href="#9%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209372530&amp;idx=1&amp;sn=41adb3af68b8e27017edfecc748a06b3&amp;scene=27#wechat_redirect" rel="nofollow">9月15日股市前瞻</a>
+</h2>
+<p>日期：2015-9-14 22:18:40<br>
+绝望中保持希望，因为是底部。</p>
+<h2>
+<a id="user-content-9月14日股市前瞻" class="anchor" href="#9%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209352582&amp;idx=1&amp;sn=9293a02cd9bed667af13d5ec375f83e0&amp;scene=27#wechat_redirect" rel="nofollow">9月14日股市前瞻</a>
+</h2>
+<p>日期：2015-9-13 22:5:53<br>
+反弹应该还能继续，但追高时不宜太过激进。</p>
+<h2>
+<a id="user-content-9月11日股市前瞻" class="anchor" href="#9%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209313589&amp;idx=1&amp;sn=bd14989dc009bc42e766ca58fd01b4b4&amp;scene=27#wechat_redirect" rel="nofollow">9月11日股市前瞻</a>
+</h2>
+<p>日期：2015-9-10 22:5:58<br>
+涨起来后不要怕踏空，耐心等待下一次进场的机会。跌下来后要敢于逐步加仓，就算满仓被套也无所畏惧，这就是我们现在的态度。</p>
+<h2>
+<a id="user-content-9月10日股市前瞻" class="anchor" href="#9%E6%9C%8810%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209298078&amp;idx=1&amp;sn=2e9723b9bb993090d2ae974823090478&amp;scene=27#wechat_redirect" rel="nofollow">9月10日股市前瞻</a>
+</h2>
+<p>日期：2015-9-9 22:11:38<br>
+明天最好别追高</p>
+<h2>
+<a id="user-content-9月9日股市前瞻" class="anchor" href="#9%E6%9C%889%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209280155&amp;idx=1&amp;sn=969462448551dd9f1fd748ec362fb704&amp;scene=27#wechat_redirect" rel="nofollow">9月9日股市前瞻</a>
+</h2>
+<p>日期：2015-9-8 21:33:40<br>
+明日追高需谨慎</p>
+<h2>
+<a id="user-content-9月8日股市前瞻" class="anchor" href="#9%E6%9C%888%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209268369&amp;idx=1&amp;sn=3cc8e2fd357ccd76378d239259e9b60c&amp;scene=27#wechat_redirect" rel="nofollow">9月8日股市前瞻</a>
+</h2>
+<p>日期：2015-9-7 22:6:16<br>
+往往有这种情形，有利的情况和主动的恢复，产生于“再坚持一下”的努力之中。——毛泽东</p>
+<h2>
+<a id="user-content-9月7日股市前瞻" class="anchor" href="#9%E6%9C%887%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209249832&amp;idx=1&amp;sn=2cdc0268dc72373cb3d781de54457942&amp;scene=27#wechat_redirect" rel="nofollow">9月7日股市前瞻</a>
+</h2>
+<p>日期：2015-9-6 21:38:42<br>
+如果我们逃离了股市，一般不会立刻回头，等到回去时总是已经太晚了。如果复苏真的到来，我们肯定会被甩在后面；而如果复苏永远不来，那就怎么做也没用。 ——约翰·凯恩斯</p>
+<h2>
+<a id="user-content-9月2日股市前瞻" class="anchor" href="#9%E6%9C%882%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209190639&amp;idx=1&amp;sn=8c205eed0a0d79eefad8062089b1f60f&amp;scene=27#wechat_redirect" rel="nofollow">9月2日股市前瞻</a>
+</h2>
+<p>日期：2015-9-1 21:45:37<br>
+会有乘风日，背负海天看。</p>
+<h1>
+<a id="user-content-2015-8" class="anchor" href="#2015-8" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2015-8</h1>
+<h2>
+<a id="user-content-9月1日股市前瞻" class="anchor" href="#9%E6%9C%881%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209175387&amp;idx=1&amp;sn=b9491c14bffde1a0a4e8b6f1d1544734&amp;scene=27#wechat_redirect" rel="nofollow">9月1日股市前瞻</a>
+</h2>
+<p>日期：2015-8-31 21:58:50<br>
+万里归来年愈少，微笑，笑时犹带岭梅香。 试问岭南应不好？却道，此心安处是吾乡。 ——苏轼《定风波》</p>
+<h2>
+<a id="user-content-8月31日股市前瞻" class="anchor" href="#8%E6%9C%8831%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209161074&amp;idx=1&amp;sn=7fad806e8c96e02d99aeebce8c4f9741&amp;scene=27#wechat_redirect" rel="nofollow">8月31日股市前瞻</a>
+</h2>
+<p>日期：2015-8-30 20:42:47<br>
+如果你要做短线，先记住这里是长线的底部。</p>
+<h2>
+<a id="user-content-8月28日股市前瞻" class="anchor" href="#8%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209126292&amp;idx=1&amp;sn=b69dc55bd37b8e5b661aa4758d5b99eb&amp;scene=27#wechat_redirect" rel="nofollow">8月28日股市前瞻</a>
+</h2>
+<p>日期：2015-8-27 22:10:47<br>
+你还敢相信一万点吗？</p>
+<h2>
+<a id="user-content-8月27日股市前瞻" class="anchor" href="#8%E6%9C%8827%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209103626&amp;idx=1&amp;sn=6098531584c8c8aa757ac0a8d67f896b&amp;scene=27#wechat_redirect" rel="nofollow">8月27日股市前瞻</a>
+</h2>
+<p>日期：2015-8-26 22:3:27<br>
+待到秋来九月八，我花开后百花杀。冲天香阵透长安，满城尽带黄金甲。——黄巢《不第后赋菊》</p>
+<h2>
+<a id="user-content-8月26日股市前瞻" class="anchor" href="#8%E6%9C%8826%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209090411&amp;idx=1&amp;sn=c6d93c9ccaa0339999382e7d3b184a21&amp;scene=27#wechat_redirect" rel="nofollow">8月26日股市前瞻</a>
+</h2>
+<p>日期：2015-8-25 21:46:34<br>
+不仅股市行情非常难预测，而且小规模投资者也总是更容易在不该悲观的时候反而非常悲观，在不该乐观的时候反而非常乐观，因此，当他们想在牛市中追涨买入以及在熊市中杀跌卖出时，往往会事与愿违，弄巧成拙。  ——彼得·林奇</p>
+<h2>
+<a id="user-content-8月25日股市前瞻" class="anchor" href="#8%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209065972&amp;idx=1&amp;sn=f0487341d2adc743d8126e4c9d23d419&amp;scene=27#wechat_redirect" rel="nofollow">8月25日股市前瞻</a>
+</h2>
+<p>日期：2015-8-24 22:15:29<br>
+除非你是一个沽空的投资者，或者是想要傍上富婆的诗人，否则悲观对你是没什么好处的。——彼得·林奇</p>
+<h2>
+<a id="user-content-8月24日股市前瞻" class="anchor" href="#8%E6%9C%8824%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209054570&amp;idx=1&amp;sn=999174e43d8034939a2c53e9561d2251&amp;scene=27#wechat_redirect" rel="nofollow">8月24日股市前瞻</a>
+</h2>
+<p>日期：2015-8-23 20:50:16<br>
+在别人都恐惧的时候，你敢贪婪吗？</p>
+<h2>
+<a id="user-content-8月21日股市前瞻" class="anchor" href="#8%E6%9C%8821%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209022042&amp;idx=1&amp;sn=c7af46eda76ce04dd4f582fa2db7556a&amp;scene=27#wechat_redirect" rel="nofollow">8月21日股市前瞻</a>
+</h2>
+<p>日期：2015-8-20 22:0:28<br>
+不在恐慌中割肉卖股票，静下心来聆听市场的声音。</p>
+<h2>
+<a id="user-content-8月20日股市前瞻" class="anchor" href="#8%E6%9C%8820%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=209001816&amp;idx=1&amp;sn=60cf85215af919a6442f9d045ea4e82c&amp;scene=27#wechat_redirect" rel="nofollow">8月20日股市前瞻</a>
+</h2>
+<p>日期：2015-8-19 21:45:50<br>
+明日逢高减仓！</p>
+<h2>
+<a id="user-content-8月19日股市前瞻" class="anchor" href="#8%E6%9C%8819%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208978128&amp;idx=1&amp;sn=dbc8b17a6b3c6975413dc73bd7649164&amp;scene=27#wechat_redirect" rel="nofollow">8月19日股市前瞻</a>
+</h2>
+<p>日期：2015-8-18 22:14:38<br>
+关注3700点的支撑</p>
+<h2>
+<a id="user-content-8月18日股市前瞻" class="anchor" href="#8%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208959495&amp;idx=1&amp;sn=d1ad973922dfaa8b8a637a3d0e52207a&amp;scene=27#wechat_redirect" rel="nofollow">8月18日股市前瞻</a>
+</h2>
+<p>日期：2015-8-17 21:56:41<br>
+上证指数4030点之上压力重重，如果成交量不能有效放大，需酌情考虑分批减仓。</p>
+<h2>
+<a id="user-content-8月17日股市前瞻" class="anchor" href="#8%E6%9C%8817%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208942190&amp;idx=1&amp;sn=eb687c3ea66a0633eac110eb80e4d618&amp;scene=27#wechat_redirect" rel="nofollow">8月17日股市前瞻</a>
+</h2>
+<p>日期：2015-8-16 21:31:14<br>
+继续上行动力还在，重上四千点问题不大。</p>
+<h2>
+<a id="user-content-8月14日股市前瞻" class="anchor" href="#8%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208903090&amp;idx=1&amp;sn=f8fa65108b4cf2baa205128760571e9a&amp;scene=27#wechat_redirect" rel="nofollow">8月14日股市前瞻</a>
+</h2>
+<p>日期：2015-8-13 22:29:2<br>
+量！量！量！</p>
+<h2>
+<a id="user-content-8月13日股市前瞻" class="anchor" href="#8%E6%9C%8813%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208887966&amp;idx=1&amp;sn=5603c9f84638471e238b38030d835369&amp;scene=27#wechat_redirect" rel="nofollow">8月13日股市前瞻</a>
+</h2>
+<p>日期：2015-8-12 21:37:18<br>
+期待放量阳线出现。</p>
+<h2>
+<a id="user-content-8月12日股市前瞻" class="anchor" href="#8%E6%9C%8812%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208873997&amp;idx=1&amp;sn=10642cb77145a9b6641226793419fdaf&amp;scene=27#wechat_redirect" rel="nofollow">8月12日股市前瞻</a>
+</h2>
+<p>日期：2015-8-11 22:13:35<br>
+大盘短线以区间震荡为主。但如果成交量急剧萎缩或急剧放大，都有反弹结束之可能。</p>
+<h2>
+<a id="user-content-8月11日股市前瞻" class="anchor" href="#8%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208854694&amp;idx=1&amp;sn=b8ab4e88795aaf947b2293dffffc311a&amp;scene=27#wechat_redirect" rel="nofollow">8月11日股市前瞻</a>
+</h2>
+<p>日期：2015-8-10 21:17:38<br>
+标志阳线出现，有扭转趋势之可能。谨慎做多，勿轻易追高，回落时买。</p>
+<h2>
+<a id="user-content-8月10日股市前瞻" class="anchor" href="#8%E6%9C%8810%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208841699&amp;idx=1&amp;sn=7c81b329be3673aa9fa8f2fa50955ca5&amp;scene=27#wechat_redirect" rel="nofollow">8月10日股市前瞻</a>
+</h2>
+<p>日期：2015-8-9 21:38:0<br>
+严格控制仓位，不宜入戏太深。</p>
+<h2>
+<a id="user-content-8月7日股市前瞻" class="anchor" href="#8%E6%9C%887%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208801756&amp;idx=1&amp;sn=6b13b681ba6d767d0521270b5ca2ccd5&amp;scene=27#wechat_redirect" rel="nofollow">8月7日股市前瞻</a>
+</h2>
+<p>日期：2015-8-6 21:54:36<br>
+谨慎观望为主，不要妄猜底部。</p>
+<h2>
+<a id="user-content-8月6日股市前瞻" class="anchor" href="#8%E6%9C%886%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208786815&amp;idx=1&amp;sn=7188f8d62fcd34d6deb6493b2f3fdafe&amp;scene=27#wechat_redirect" rel="nofollow">8月6日股市前瞻</a>
+</h2>
+<p>日期：2015-8-5 21:55:46<br>
+市场短期如逆水行舟，不进则退。如不能尽快站上3844点，则有重新跌破3600点，测试3537点之可能。小心，谨慎。</p>
+<h2>
+<a id="user-content-8月5日股市前瞻" class="anchor" href="#8%E6%9C%885%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208777846&amp;idx=1&amp;sn=5bd370c3d8be7d99662936c2b83f8f23&amp;scene=27#wechat_redirect" rel="nofollow">8月5日股市前瞻</a>
+</h2>
+<p>日期：2015-8-4 21:41:22<br>
+今日依然以超跌反弹对待，视未来几日走势来判断下降趋势是否已经扭转，届时再考虑是否要进场买票。</p>
+<h2>
+<a id="user-content-8月4日股市前瞻" class="anchor" href="#8%E6%9C%884%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208765435&amp;idx=1&amp;sn=5c37186a6186d5cb497991f717e06f89&amp;scene=27#wechat_redirect" rel="nofollow">8月4日股市前瞻</a>
+</h2>
+<p>日期：2015-8-3 21:49:51<br>
+我来问道无余说，云在青天水在瓶。——李翱</p>
+<h2>
+<a id="user-content-8月3日股市前瞻" class="anchor" href="#8%E6%9C%883%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208756460&amp;idx=1&amp;sn=0404ea0c1ea3c1f2f06827b6aaea7b5c&amp;scene=27#wechat_redirect" rel="nofollow">8月3日股市前瞻</a>
+</h2>
+<p>日期：2015-8-2 21:33:52<br>
+继续空仓，不言抄底。</p>
+<h1>
+<a id="user-content-2015-7" class="anchor" href="#2015-7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2015-7</h1>
+<h2>
+<a id="user-content-7月31日股市前瞻" class="anchor" href="#7%E6%9C%8831%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208707031&amp;idx=1&amp;sn=64b3c9db1dc16fc697d1eead51c000bc&amp;scene=27#wechat_redirect" rel="nofollow">7月31日股市前瞻</a>
+</h2>
+<p>日期：2015-7-30 21:57:9<br>
+任凭风浪起，稳坐钓鱼台！</p>
+<h2>
+<a id="user-content-7月30日股市前瞻" class="anchor" href="#7%E6%9C%8830%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208696915&amp;idx=1&amp;sn=c55f93319c0227ac4a23f65a9f81d38b&amp;scene=27#wechat_redirect" rel="nofollow">7月30日股市前瞻</a>
+</h2>
+<p>日期：2015-7-29 21:50:57<br>
+明日酌情考虑逢高减仓！</p>
+<h2>
+<a id="user-content-7月29日股市前瞻" class="anchor" href="#7%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208687929&amp;idx=1&amp;sn=5d5f762499eccf0abc7e46af943a306d&amp;scene=27#wechat_redirect" rel="nofollow">7月29日股市前瞻</a>
+</h2>
+<p>日期：2015-7-28 21:57:37<br>
+长期虽看好，短期难乐观。可以不减仓，勿轻易抄底。</p>
+<h2>
+<a id="user-content-7月28日股市前瞻" class="anchor" href="#7%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208668761&amp;idx=1&amp;sn=5309bfaceb2e0716ef12761b25892f3b&amp;scene=27#wechat_redirect" rel="nofollow">7月28日股市前瞻</a>
+</h2>
+<p>日期：2015-7-27 22:18:46<br>
+再赌一次国运！</p>
+<h2>
+<a id="user-content-7月27日股市前瞻" class="anchor" href="#7%E6%9C%8827%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208655996&amp;idx=1&amp;sn=48adec7cd493190c7c08592f53cf7090&amp;scene=27#wechat_redirect" rel="nofollow">7月27日股市前瞻</a>
+</h2>
+<p>日期：2015-7-26 21:26:55<br>
+上有压力，下有支撑，继续高抛低吸。</p>
+<h2>
+<a id="user-content-7月24日股市前瞻" class="anchor" href="#7%E6%9C%8824%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208601726&amp;idx=1&amp;sn=9d64da1eab9af9780acfb80ef4d4d734&amp;scene=27#wechat_redirect" rel="nofollow">7月24日股市前瞻</a>
+</h2>
+<p>日期：2015-7-23 22:0:25<br>
+警钟已在前方响起，下周可能遇见短期头部。</p>
+<h2>
+<a id="user-content-7月23日股市前瞻" class="anchor" href="#7%E6%9C%8823%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208574058&amp;idx=1&amp;sn=dc2fd4eeb897cbbe7462e476f9124856&amp;scene=27#wechat_redirect" rel="nofollow">7月23日股市前瞻</a>
+</h2>
+<p>日期：2015-7-22 22:19:30<br>
+所有指数中线均看好，维持七成以上仓位。</p>
+<h2>
+<a id="user-content-7月22日股市前瞻" class="anchor" href="#7%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208551556&amp;idx=1&amp;sn=53a4178bfaf4fc0567bfb61f1882c46a&amp;scene=27#wechat_redirect" rel="nofollow">7月22日股市前瞻</a>
+</h2>
+<p>日期：2015-7-21 22:5:49<br>
+所有指数中线均看好，维持七成以上仓位。</p>
+<h2>
+<a id="user-content-7月21日股市前瞻" class="anchor" href="#7%E6%9C%8821%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208528311&amp;idx=1&amp;sn=006c3f2c5847613a27bf6d3fdd6e88cd&amp;scene=27#wechat_redirect" rel="nofollow">7月21日股市前瞻</a>
+</h2>
+<p>日期：2015-7-20 21:52:15<br>
+上有压力，下有支撑，继续高抛低吸。</p>
+<h2>
+<a id="user-content-7月20日股市前瞻" class="anchor" href="#7%E6%9C%8820%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208510542&amp;idx=1&amp;sn=bfbf3fe21254b1e34380b834c81cc0a9&amp;scene=27#wechat_redirect" rel="nofollow">7月20日股市前瞻</a>
+</h2>
+<p>日期：2015-7-19 20:21:3<br>
+中长线看好，短线如大涨，会有回踩。高抛低吸，滚动操作。勿以赚小而不为，勿以亏小而为之。</p>
+<h2>
+<a id="user-content-7月17日股市前瞻" class="anchor" href="#7%E6%9C%8817%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208454865&amp;idx=1&amp;sn=e4da24630388bd432c6b5e1c72cfae05&amp;scene=27#wechat_redirect" rel="nofollow">7月17日股市前瞻</a>
+</h2>
+<p>日期：2015-7-16 21:40:35<br>
+逢低介入，持股待涨！</p>
+<h2>
+<a id="user-content-7月16日股市前瞻" class="anchor" href="#7%E6%9C%8816%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208421981&amp;idx=1&amp;sn=1156d5190e1ec222b0970fd2ef2502e1&amp;scene=27#wechat_redirect" rel="nofollow">7月16日股市前瞻</a>
+</h2>
+<p>日期：2015-7-15 21:40:25<br>
+天天涨停的时候，你抓耳挠腮惦记着买。现在跌下来了，你还敢买吗？</p>
+<h2>
+<a id="user-content-7月15日股市前瞻" class="anchor" href="#7%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208399301&amp;idx=1&amp;sn=6cae43e777f7d4fe2d3bc313cac73e0c&amp;scene=27#wechat_redirect" rel="nofollow">7月15日股市前瞻</a>
+</h2>
+<p>日期：2015-7-14 22:1:6<br>
+明日可能继续回调，但回调幅度不会很深，逢低分批介入，高抛低吸。</p>
+<h2>
+<a id="user-content-7月14日股市前瞻" class="anchor" href="#7%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208375285&amp;idx=1&amp;sn=f94d6a6d0f147e5cca67acdc4abe2a12&amp;scene=27#wechat_redirect" rel="nofollow">7月14日股市前瞻</a>
+</h2>
+<p>日期：2015-7-13 21:48:3<br>
+逢高减仓，跌时买回。首先，保住短期抄底战果。其次，短期内不要有太大理想，高抛低吸，做做短线就好。</p>
+<h2>
+<a id="user-content-7月13日股市前瞻" class="anchor" href="#7%E6%9C%8813%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208357116&amp;idx=1&amp;sn=8dd01276019a02ef202902aa4ffde68e&amp;scene=27#wechat_redirect" rel="nofollow">7月13日股市前瞻</a>
+</h2>
+<p>日期：2015-7-12 21:2:10<br>
+短线考虑玩高抛低吸，来回做T+0。</p>
+<h2>
+<a id="user-content-7月10日股市前瞻" class="anchor" href="#7%E6%9C%8810%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208297651&amp;idx=1&amp;sn=2cd3b5f58fbf559f9e74dde33ea83fc2&amp;scene=27#wechat_redirect" rel="nofollow">7月10日股市前瞻</a>
+</h2>
+<p>日期：2015-7-9 21:57:57<br>
+雄关漫道真如铁，而今迈步从头越。从头越，苍山如海，残阳如血。——毛泽东《忆秦娥·娄山关》</p>
+<h2>
+<a id="user-content-7月9日股市前瞻" class="anchor" href="#7%E6%9C%889%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208274972&amp;idx=1&amp;sn=bfa4b08ee269efcafeefeca1c1c223c7&amp;scene=27#wechat_redirect" rel="nofollow">7月9日股市前瞻</a>
+</h2>
+<p>日期：2015-7-8 21:35:21<br>
+心若在，梦就在，天地之间还有真爱。看成败，人生豪迈，只不过是从头再来。 ——刘欢</p>
+<h2>
+<a id="user-content-7月8日股市前瞻" class="anchor" href="#7%E6%9C%888%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208238119&amp;idx=1&amp;sn=c4c9e7d109c8bec75bde5ac0b678c4ac&amp;scene=27#wechat_redirect" rel="nofollow">7月8日股市前瞻</a>
+</h2>
+<p>日期：2015-7-7 22:18:29<br>
+若困民之主，匮神乏祀，百姓绝望，社稷无主，将安用之？弗去何为？ ——《左传》</p>
+<h2>
+<a id="user-content-7月7日股市前瞻" class="anchor" href="#7%E6%9C%887%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208192579&amp;idx=1&amp;sn=6b3db03270b2173a912501d999284eff&amp;scene=27#wechat_redirect" rel="nofollow">7月7日股市前瞻</a>
+</h2>
+<p>日期：2015-7-6 22:27:57<br>
+山重水复疑无路，柳暗花明又一村。 ——陆游</p>
+<h2>
+<a id="user-content-7月6日股市前瞻" class="anchor" href="#7%E6%9C%886%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208141026&amp;idx=1&amp;sn=6cb10d0f60182664734dd5d02b0fa168&amp;scene=27#wechat_redirect" rel="nofollow">7月6日股市前瞻</a>
+</h2>
+<p>日期：2015-7-5 18:33:9<br>
+为高层的“流氓”救市政策点赞！</p>
+<h2>
+<a id="user-content-7月3日股市前瞻" class="anchor" href="#7%E6%9C%883%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=208022387&amp;idx=1&amp;sn=729bad214293144e674d4400c785a002&amp;scene=27#wechat_redirect" rel="nofollow">7月3日股市前瞻</a>
+</h2>
+<p>日期：2015-7-2 21:51:55<br>
+男儿到死心如铁，看试手，补天裂！ ——辛弃疾《贺新郎》</p>
+<h2>
+<a id="user-content-7月2日股市前瞻" class="anchor" href="#7%E6%9C%882%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=207962467&amp;idx=1&amp;sn=7c573a5d2d644759d3a3b8a520c0f1ad&amp;scene=27#wechat_redirect" rel="nofollow">7月2日股市前瞻</a>
+</h2>
+<p>日期：2015-7-1 22:42:17<br>
+设使食肉者一旦失计于庙堂之上，若臣等之藿食者，宁得无肝胆涂地于中原之野与？ ——刘向《说苑》</p>
+<h1>
+<a id="user-content-2015-6" class="anchor" href="#2015-6" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2015-6</h1>
+<h2>
+<a id="user-content-7月1日股市前瞻" class="anchor" href="#7%E6%9C%881%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=207884971&amp;idx=1&amp;sn=71621c188be9afc30b77fcdb49ae6ebf&amp;scene=27#wechat_redirect" rel="nofollow">7月1日股市前瞻</a>
+</h2>
+<p>日期：2015-6-30 21:56:31<br>
+短期还会继续反弹，在4430-4530的缺口处将面临反弹的第一道关卡。可能会出现回落，但封闭缺口的可能性更大。</p>
+<h2>
+<a id="user-content-6月30日股市前瞻" class="anchor" href="#6%E6%9C%8830%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=207815789&amp;idx=1&amp;sn=a6844ddf2646f9dfc5ee1587fdd31c28&amp;scene=27#wechat_redirect" rel="nofollow">6月30日股市前瞻</a>
+</h2>
+<p>日期：2015-6-29 21:22:1<br>
+肉食者鄙，未能远谋。 ——《左传·曹刿论战》</p>
+<h2>
+<a id="user-content-6月29日股市前瞻" class="anchor" href="#6%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=207767621&amp;idx=1&amp;sn=410a62c9dca119967c0d9dd6c0a16744&amp;scene=27#wechat_redirect" rel="nofollow">6月29日股市前瞻</a>
+</h2>
+<p>日期：2015-6-28 21:0:52<br>
+往往有这种情形，有利的情况和主动的恢复，产生于“再坚持一下”的努力之中。 ——毛泽东《抗日游击战争的战略问题》</p>
+<h2>
+<a id="user-content-6月26日股市前瞻" class="anchor" href="#6%E6%9C%8826%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=207653335&amp;idx=1&amp;sn=adb301fe93415b5f22818072ae810d5c&amp;scene=27#wechat_redirect" rel="nofollow">6月26日股市前瞻</a>
+</h2>
+<p>日期：2015-6-25 21:29:51<br>
+在最绝望的氛围中依然抱持希望，相信毕竟是牛市。最多输时间，终不会输钱。</p>
+<h2>
+<a id="user-content-6月25日股市前瞻" class="anchor" href="#6%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=207606482&amp;idx=1&amp;sn=432466b415442c3fb8d0bbc097b9ccff&amp;scene=27#wechat_redirect" rel="nofollow">6月25日股市前瞻</a>
+</h2>
+<p>日期：2015-6-24 21:59:48<br>
+上证指数走势较创业板指稍强，但继续向上反弹将压力重重。创业板指五日、十日、二十日均线已成空头排列，但六十日均线也已经靠上来形成支撑。预期各大指数未来都将在上下皆有限的窄幅空间内来回震荡，可以考虑高抛低吸。</p>
+<h2>
+<a id="user-content-6月24日股市前瞻" class="anchor" href="#6%E6%9C%8824%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=207556300&amp;idx=1&amp;sn=b12e74ba6c47a67ed8988bb13c087aa5&amp;scene=27#wechat_redirect" rel="nofollow">6月24日股市前瞻</a>
+</h2>
+<p>日期：2015-6-23 21:42:8<br>
+明天理应继续反弹，但反弹高度有限。上证指数大约反弹100-150点，创业板指大约反弹60-90点，而后冲高回落。但短期底部已经探明，继续大幅下跌创新低的可能性几乎为零。</p>
+<h2>
+<a id="user-content-6月23日股市前瞻" class="anchor" href="#6%E6%9C%8823%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=207502840&amp;idx=1&amp;sn=cfd7e5fe058dfc934ec9e58598d7424a&amp;scene=27#wechat_redirect" rel="nofollow">6月23日股市前瞻</a>
+</h2>
+<p>日期：2015-6-22 12:42:27<br>
+牛市依然还在，新高依然会有，只是需要时间。</p>
+<h2>
+<a id="user-content-这一次我们败在哪里" class="anchor" href="#%E8%BF%99%E4%B8%80%E6%AC%A1%E6%88%91%E4%BB%AC%E8%B4%A5%E5%9C%A8%E5%93%AA%E9%87%8C" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=207423520&amp;idx=1&amp;sn=4335cc3237db99a7e05242545a613b8e&amp;scene=27#wechat_redirect" rel="nofollow">这一次，我们败在哪里？</a>
+</h2>
+<p>日期：2015-6-19 22:28:41<br>
+设使食肉者一旦失计于庙堂之上，若臣等之藿食者，宁得无肝胆涂地于中原之野与？其祸亦及臣之身，臣与有其忧深，臣安得无与国家之计乎？   ——汉·刘向《说苑·善说》</p>
+<h2>
+<a id="user-content-6月19日股市前瞻" class="anchor" href="#6%E6%9C%8819%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=207382145&amp;idx=1&amp;sn=32f9a58133bddebd45001ca3c483bfd8&amp;scene=27#wechat_redirect" rel="nofollow">6月19日股市前瞻</a>
+</h2>
+<p>日期：2015-6-18 21:36:12<br>
+明天不卖股票，要卖也等下周打新资金回流后反弹再卖。</p>
+<h2>
+<a id="user-content-6月18日股市前瞻" class="anchor" href="#6%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=207344597&amp;idx=1&amp;sn=ce40ffd1b0090939000ee6ad5ed98dc5&amp;scene=27#wechat_redirect" rel="nofollow">6月18日股市前瞻</a>
+</h2>
+<p>日期：2015-6-17 21:50:36<br>
+上证指数继续满仓持股，创业板指密切关注，今天暂时不作方向性判断。</p>
+<h2>
+<a id="user-content-6月17日股市前瞻" class="anchor" href="#6%E6%9C%8817%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=207305284&amp;idx=1&amp;sn=db325804413798fead3c1116f769ebe4&amp;scene=27#wechat_redirect" rel="nofollow">6月17日股市前瞻</a>
+</h2>
+<p>日期：2015-6-16 21:44:15<br>
+上证指数继续满仓持股，创业板指依然敬而远之。</p>
+<h2>
+<a id="user-content-6月16日股市前瞻" class="anchor" href="#6%E6%9C%8816%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=207249657&amp;idx=1&amp;sn=81d3aea49c8d09307d507b69ac775837&amp;scene=27#wechat_redirect" rel="nofollow">6月16日股市前瞻</a>
+</h2>
+<p>日期：2015-6-15 21:15:40<br>
+上证指数继续坚定持股，创业板继续敬而远之。</p>
+<h2>
+<a id="user-content-6月15日股市前瞻" class="anchor" href="#6%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=207210838&amp;idx=1&amp;sn=03bbc3296bed964090f07cecbb55b00b&amp;scene=27#wechat_redirect" rel="nofollow">6月15日股市前瞻</a>
+</h2>
+<p>日期：2015-6-14 21:15:10<br>
+主板继续持股，创业板还很难断言调整结束，不过中小板走势非常好。回避前期涨幅过大、有见顶迹象的创业板龙头股，只要涨幅不大的小票，依然可以积极做多。</p>
+<h2>
+<a id="user-content-6月12日股市前瞻" class="anchor" href="#6%E6%9C%8812%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=207078169&amp;idx=1&amp;sn=a677681d322120f4a1ac0a45ab78a84e&amp;scene=27#wechat_redirect" rel="nofollow">6月12日股市前瞻</a>
+</h2>
+<p>日期：2015-6-11 21:34:7<br>
+主板继续持股，创业板密切关注，本周五或下周一或许能在走势上给出方向选择。</p>
+<h2>
+<a id="user-content-6月11日股市前瞻" class="anchor" href="#6%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=207017543&amp;idx=1&amp;sn=f6c62d0fa1687a32ad98635b79c79e27&amp;scene=27#wechat_redirect" rel="nofollow">6月11日股市前瞻</a>
+</h2>
+<p>日期：2015-6-10 21:12:51<br>
+上证指数继续坚定持股，创业板指因成交量未能放大，依然将其界定为反弹，逢高减仓为宜。</p>
+<h2>
+<a id="user-content-6月10日股市前瞻" class="anchor" href="#6%E6%9C%8810%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206966567&amp;idx=1&amp;sn=e2ad257be37fa84d7c38be3403469127&amp;scene=27#wechat_redirect" rel="nofollow">6月10日股市前瞻</a>
+</h2>
+<p>日期：2015-6-9 21:26:52<br>
+上证指数继续坚定持股，创业板逢高减仓，在趋势明朗前保持谨慎态度，不轻易抄底。</p>
+<h2>
+<a id="user-content-6月9日股市前瞻" class="anchor" href="#6%E6%9C%889%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206922153&amp;idx=1&amp;sn=44ad762e7e62b7949ce727c1306dc5ce&amp;scene=27#wechat_redirect" rel="nofollow">6月9日股市前瞻</a>
+</h2>
+<p>日期：2015-6-8 21:5:50<br>
+上证指数继续坚定看好，创业板指中长线并不悲观，短线下跌幅度也不会太大，只是需要横盘整理一段时间才能再创新高。</p>
+<h2>
+<a id="user-content-6月8日股市前瞻" class="anchor" href="#6%E6%9C%888%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206886761&amp;idx=1&amp;sn=b9669d2bccd94e2b30f3318d94ad6dfc&amp;scene=27#wechat_redirect" rel="nofollow">6月8日股市前瞻</a>
+</h2>
+<p>日期：2015-6-7 20:58:59<br>
+上证指数坚定看好，创业板指中长线看好，短期或许调整，须密切观察。</p>
+<h2>
+<a id="user-content-投机者的觉悟" class="anchor" href="#%E6%8A%95%E6%9C%BA%E8%80%85%E7%9A%84%E8%A7%89%E6%82%9F" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206832503&amp;idx=1&amp;sn=2a94757f98f85e177213a7034db19426&amp;scene=27#wechat_redirect" rel="nofollow">投机者的觉悟</a>
+</h2>
+<p>日期：2015-6-6 10:46:24<br>
+投机者必须彻底觉悟，股票本身无所谓价值，如果非要说它有价值，只是看它能否具有忽悠价值。越是能忽悠到傻子的股票，才越是有价值的股票。</p>
+<h2>
+<a id="user-content-6月5日股市前瞻" class="anchor" href="#6%E6%9C%885%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206773796&amp;idx=1&amp;sn=7b94c264ae8f2d2e47d40c277f318562&amp;scene=27#wechat_redirect" rel="nofollow">6月5日股市前瞻</a>
+</h2>
+<p>日期：2015-6-4 18:39:8<br>
+所有指数皆乐观，坐等打新资金回流创新高。</p>
+<h2>
+<a id="user-content-6月4日股市前瞻" class="anchor" href="#6%E6%9C%884%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206738958&amp;idx=1&amp;sn=b3d129bf7c96a0bad5e86e3b398c53e4&amp;scene=27#wechat_redirect" rel="nofollow">6月4日股市前瞻</a>
+</h2>
+<p>日期：2015-6-3 21:22:33<br>
+对所有指数均保持中线乐观，依然维持较高仓位，坐等打新资金回流。</p>
+<h2>
+<a id="user-content-6月3日股市前瞻" class="anchor" href="#6%E6%9C%883%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206700926&amp;idx=1&amp;sn=3b5aedb2ada13fcbd30d9555219f23e8&amp;scene=27#wechat_redirect" rel="nofollow">6月3日股市前瞻</a>
+</h2>
+<p>日期：2015-6-2 22:2:36<br>
+对所有指数的中长线均看好，但明天存在短线冲高回落的可能。可继续持股，也可酌情降低部分仓位，不建议追高。</p>
+<h2>
+<a id="user-content-6月2日股市前瞻" class="anchor" href="#6%E6%9C%882%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206660659&amp;idx=1&amp;sn=27ec5cf9d90f1a2c4525a55f754839aa&amp;scene=27#wechat_redirect" rel="nofollow">6月2日股市前瞻</a>
+</h2>
+<p>日期：2015-6-1 21:24:2<br>
+所有指数都继续看好，坚定持股，逢低介入。</p>
+<h1>
+<a id="user-content-2015-5" class="anchor" href="#2015-5" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2015-5</h1>
+<h2>
+<a id="user-content-6月1日股市前瞻" class="anchor" href="#6%E6%9C%881%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206624413&amp;idx=1&amp;sn=047abb3058628c2f79408e1e92968697&amp;scene=27#wechat_redirect" rel="nofollow">6月1日股市前瞻</a>
+</h2>
+<p>日期：2015-5-31 21:27:40<br>
+主板并不看空，创业板积极做多，不见新高不减仓。</p>
+<h2>
+<a id="user-content-獐子岛002069投资分析" class="anchor" href="#%E7%8D%90%E5%AD%90%E5%B2%9B002069%E6%8A%95%E8%B5%84%E5%88%86%E6%9E%90" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206578438&amp;idx=1&amp;sn=04a226682503f080c11eeb7ec9ae254a&amp;scene=27#wechat_redirect" rel="nofollow">獐子岛（002069）投资分析</a>
+</h2>
+<p>日期：2015-5-30 11:26:28<br>
+底部突破，挑战新高。</p>
+<h2>
+<a id="user-content-5月29日股市前瞻" class="anchor" href="#5%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206517848&amp;idx=1&amp;sn=b024a4bb28852d2337fd8ad78c0d6e1e&amp;scene=27#wechat_redirect" rel="nofollow">5月29日股市前瞻</a>
+</h2>
+<p>日期：2015-5-28 21:8:33<br>
+坚定持股，有钱抄底，不见新高不减仓！</p>
+<h2>
+<a id="user-content-5月28日股市前瞻" class="anchor" href="#5%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206482048&amp;idx=1&amp;sn=84b64f26787bda1682a573e8081434e8&amp;scene=27#wechat_redirect" rel="nofollow">5月28日股市前瞻</a>
+</h2>
+<p>日期：2015-5-27 21:9:13<br>
+所有指数均看涨，坚定持股，逢低介入。</p>
+<h2>
+<a id="user-content-5月27日股市前瞻" class="anchor" href="#5%E6%9C%8827%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206441282&amp;idx=1&amp;sn=1c43e34ae8350f04693e5c00e5d3b024&amp;scene=27#wechat_redirect" rel="nofollow">5月27日股市前瞻</a>
+</h2>
+<p>日期：2015-5-26 21:12:31<br>
+所有指数均看涨。如出现百点以上的长阳，可酌情降低部分短线仓位，否则可坚定持股，逢低介入。</p>
+<h2>
+<a id="user-content-5月26日股市前瞻" class="anchor" href="#5%E6%9C%8826%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206408736&amp;idx=1&amp;sn=2aa56995a2aea30d71afae2682a7565c&amp;scene=27#wechat_redirect" rel="nofollow">5月26日股市前瞻</a>
+</h2>
+<p>日期：2015-5-25 21:37:37<br>
+所有指数皆乐观，逢回调，皆买点。</p>
+<h2>
+<a id="user-content-5月25日股市前瞻" class="anchor" href="#5%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206371068&amp;idx=1&amp;sn=93e46da09de550327630c8e8d1d5040f&amp;scene=27#wechat_redirect" rel="nofollow">5月25日股市前瞻</a>
+</h2>
+<p>日期：2015-5-24 19:42:1<br>
+所有指数均乐观，逢回调，皆买点。</p>
+<h2>
+<a id="user-content-5月22日股市前瞻" class="anchor" href="#5%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206283673&amp;idx=1&amp;sn=4af8212d9b5ece784a3c529d986e35ac&amp;scene=27#wechat_redirect" rel="nofollow">5月22日股市前瞻</a>
+</h2>
+<p>日期：2015-5-21 20:54:29<br>
+明日，上证指数，涨！创业板指，涨！</p>
+<h2>
+<a id="user-content-5月21日股市前瞻" class="anchor" href="#5%E6%9C%8821%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206246616&amp;idx=1&amp;sn=075d30b29fc56f37c889e8014146d28a&amp;scene=27#wechat_redirect" rel="nofollow">5月21日股市前瞻</a>
+</h2>
+<p>日期：2015-5-20 20:45:42<br>
+上证指数维持区间震荡，创业板指中线依然乐观，坚定持股，逢低买入。</p>
+<h2>
+<a id="user-content-5月20日股市前瞻" class="anchor" href="#5%E6%9C%8820%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206206226&amp;idx=1&amp;sn=191d57e59d539968209ecb405db5353c&amp;scene=27#wechat_redirect" rel="nofollow">5月20日股市前瞻</a>
+</h2>
+<p>日期：2015-5-19 21:16:56<br>
+上证指数短期不宜追高，可逢高减磅。创业板指运行良好，坚定持股，逢低介入。</p>
+<h2>
+<a id="user-content-5月19日股市前瞻" class="anchor" href="#5%E6%9C%8819%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206172171&amp;idx=1&amp;sn=afb904128dc9b7b31d004c6736da7e06&amp;scene=27#wechat_redirect" rel="nofollow">5月19日股市前瞻</a>
+</h2>
+<p>日期：2015-5-18 20:59:25<br>
+上证指数维持区间震荡，如大跌，可以博个反弹，小跌就算了。创业板指中长线乐观，但如果涨得太猛，短线考虑降低点仓位。</p>
+<h2>
+<a id="user-content-5月18日股市前瞻" class="anchor" href="#5%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206141611&amp;idx=1&amp;sn=89354d8536a7deacaf613c6a2d6238ce&amp;scene=27#wechat_redirect" rel="nofollow">5月18日股市前瞻</a>
+</h2>
+<p>日期：2015-5-17 21:31:22<br>
+上证指数维持区间震荡，上下空间均有限。创业板指中长线依然乐观，逢回调，可买入。</p>
+<h2>
+<a id="user-content-笨蛋问题在战略" class="anchor" href="#%E7%AC%A8%E8%9B%8B%E9%97%AE%E9%A2%98%E5%9C%A8%E6%88%98%E7%95%A5" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206109935&amp;idx=1&amp;sn=2af9d21d2e7d2fd6cd571c5f3c15c8ed&amp;scene=27#wechat_redirect" rel="nofollow">笨蛋，问题在战略！</a>
+</h2>
+<p>日期：2015-5-16 18:12:24<br>
+就根本而言，战争艺术就是在战斗中使用制定工具的艺术……于是就产生两种不同的活动：一种是个别战斗本身的计划和执行；另一种是协调个别战斗之间的关系，以求达到战争的目的。前者称为战术，后者称为战略。  ——克劳塞维茨《战争论》</p>
+<h2>
+<a id="user-content-5月15日股市前瞻" class="anchor" href="#5%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=206043019&amp;idx=1&amp;sn=331871e157e9fd592e4842ed6e826a02&amp;scene=27#wechat_redirect" rel="nofollow">5月15日股市前瞻</a>
+</h2>
+<p>日期：2015-5-14 22:35:36<br>
+上证指数继续维持震荡整理，创业板指中长线乐观不变，逢回调，皆买点。</p>
+<h2>
+<a id="user-content-5月14日股市前瞻" class="anchor" href="#5%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205996253&amp;idx=1&amp;sn=2bdb7cc5becf94653a99ffba547236e3&amp;scene=27#wechat_redirect" rel="nofollow">5月14日股市前瞻</a>
+</h2>
+<p>日期：2015-5-13 16:26:9<br>
+上证指数短期维持震荡走势，向上向下空间都有限。创业板指中长线依然看好，如有回调，积极介入。</p>
+<h2>
+<a id="user-content-5月13日股市前瞻" class="anchor" href="#5%E6%9C%8813%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205970447&amp;idx=1&amp;sn=2ea103d3eaf6edad4a2f4ee8998b8188&amp;scene=27#wechat_redirect" rel="nofollow">5月13日股市前瞻</a>
+</h2>
+<p>日期：2015-5-12 21:48:38<br>
+上证指数考虑修正中线看空的观点，但短期内创出新高的可能不大，很可能是回落震荡整理一段时间后再创新高。创业板指继续维持积极乐观态度，只是短期涨的实在太猛，逢低介入。</p>
+<h2>
+<a id="user-content-5月12日股市前瞻" class="anchor" href="#5%E6%9C%8812%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205926770&amp;idx=1&amp;sn=3b275989a0fd2418c01bd1ac50fb4b37&amp;scene=27#wechat_redirect" rel="nofollow">5月12日股市前瞻</a>
+</h2>
+<p>日期：2015-5-11 19:40:5<br>
+明天冲高减仓，但主板和创业板的减仓有着本质不同！权重股这次减仓，至少一个月后再考虑买回，创业板这次减仓，估计最晚下周就得买回，纯粹是因为短期涨得过猛做个小短线，中线投资者甚至可以完全忽视这次波动。</p>
+<h2>
+<a id="user-content-5月11日股市前瞻" class="anchor" href="#5%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205895852&amp;idx=1&amp;sn=8e8140c867ab396d1e16f29637393858&amp;scene=27#wechat_redirect" rel="nofollow">5月11日股市前瞻</a>
+</h2>
+<p>日期：2015-5-10 19:48:28<br>
+上证指数逢高减磅，切忌追高买入。创业板指继续看好，有回调就买。</p>
+<h2>
+<a id="user-content-5月8日股市前瞻" class="anchor" href="#5%E6%9C%888%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205799770&amp;idx=1&amp;sn=fa4a72ba5a4d95126e2d239181ec1565&amp;scene=27#wechat_redirect" rel="nofollow">5月8日股市前瞻</a>
+</h2>
+<p>日期：2015-5-7 20:58:9<br>
+上证指数明天或许有反弹，但如果有反弹的话，只能严格的当反弹看，不要意淫会有反转，甚至短期内会创出新高。创业板指中长期依然乐观，但短期走势有些问题，建议投资者适当降低一部分仓位，兑现一部分已经比较丰厚的利润。</p>
+<h2>
+<a id="user-content-5月7日股市前瞻" class="anchor" href="#5%E6%9C%887%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205766996&amp;idx=1&amp;sn=001094efc698ddb2992415c757a2ee3c&amp;scene=27#wechat_redirect" rel="nofollow">5月7日股市前瞻</a>
+</h2>
+<p>日期：2015-5-6 20:46:18<br>
+上证指数依然没有走好的迹象，不建议此时进场抄底。创业板指短期亦有隐忧，前期介入者继续持有问题应该不大，但也不建议在现在这个位置追高买入。</p>
+<h2>
+<a id="user-content-5月6日股市前瞻" class="anchor" href="#5%E6%9C%886%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205711095&amp;idx=1&amp;sn=b57ecaf2b283ef053929125e25ae8ba7&amp;scene=27#wechat_redirect" rel="nofollow">5月6日股市前瞻</a>
+</h2>
+<p>日期：2015-5-5 20:20:20<br>
+上证指数明日不建议抄底抢反弹，而应该是借反弹离场。创业板指上涨趋势还没结束，中线依然乐观。</p>
+<h2>
+<a id="user-content-5月5日股市前瞻" class="anchor" href="#5%E6%9C%885%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205677012&amp;idx=1&amp;sn=fca808f4f5f8f85d2a0d6ce3985e0551&amp;scene=27#wechat_redirect" rel="nofollow">5月5日股市前瞻</a>
+</h2>
+<p>日期：2015-5-4 22:37:31<br>
+上证指数虽然收出阳线，但成交量继续萎缩，考虑到新股申购因素，因对市场保持谨慎。创业板指短期内亦可能继续调整，但中线维持乐观态度不变，可逢低布局。</p>
+<h2>
+<a id="user-content-5月4日股市前瞻" class="anchor" href="#5%E6%9C%884%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205608930&amp;idx=1&amp;sn=70fb247585a907c43e2e1450924e2992&amp;scene=27#wechat_redirect" rel="nofollow">5月4日股市前瞻</a>
+</h2>
+<p>日期：2015-5-3 21:39:17<br>
+对上证指数短期持谨慎态度，可先观察周一的走势后再做进一步的判断。如果市场果真看好后市，周一理应收出放量中阳线，否则对后市态度悲观。对创业板中线依然乐观，可以安心持股。如有下跌，可以逢低介入，但并不鼓励追高。</p>
+<h1>
+<a id="user-content-2015-4" class="anchor" href="#2015-4" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2015-4</h1>
+<h2>
+<a id="user-content-4月30日股市前瞻" class="anchor" href="#4%E6%9C%8830%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205468247&amp;idx=1&amp;sn=15dc4231584fec34fff6be646fe1cabb&amp;scene=27#wechat_redirect" rel="nofollow">4月30日股市前瞻</a>
+</h2>
+<p>日期：2015-4-29 16:30:45<br>
+先说主板。在昨天的股市前瞻中，姚尧提到：“上证指数应该还不至于就见顶，只是距离顶部又进了一步，现在的</p>
+<h2>
+<a id="user-content-4月29日股市前瞻" class="anchor" href="#4%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205429822&amp;idx=1&amp;sn=f184fbc9c964106eeaf2a3567d887c1c&amp;scene=27#wechat_redirect" rel="nofollow">4月29日股市前瞻</a>
+</h2>
+<p>日期：2015-4-28 15:56:28<br>
+虽然各大指数均出现下跌，但这里肯定都不是顶部，接下来肯定都还会创出新高。只是上证指数距离顶部已经很近，而创业板指距离顶部还非常遥远。</p>
+<h2>
+<a id="user-content-4月28日股市前瞻" class="anchor" href="#4%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205410087&amp;idx=1&amp;sn=0599ea54f901000fda60d01156239d15&amp;scene=27#wechat_redirect" rel="nofollow">4月28日股市前瞻</a>
+</h2>
+<p>日期：2015-4-27 21:40:47<br>
+上证指数虽然还能继续上涨，但风险正在快速积聚，尤其是权重股中敢买得下手的股票越来越少。创业板指维持中长线看好观点不变，若能下跌至重要均线，皆可大胆买入。</p>
+<h2>
+<a id="user-content-4月27日股市前瞻" class="anchor" href="#4%E6%9C%8827%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205378374&amp;idx=1&amp;sn=6e1ef89c969c1f4d13b62cd25ecdab63&amp;scene=27#wechat_redirect" rel="nofollow">4月27日股市前瞻</a>
+</h2>
+<p>日期：2015-4-26 21:39:0<br>
+4444.41不会是上证指数的顶，不过已经进入赶顶期，会玩短线的可以快进快出，不会玩的最好少碰权重股。继续看好创业板指中长期走势，小票中蕴藏着无限机会。</p>
+<h2>
+<a id="user-content-4月24日股市前瞻" class="anchor" href="#4%E6%9C%8824%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205301910&amp;idx=1&amp;sn=5cd021c11164ba3b51f63a544041b9d7&amp;scene=27#wechat_redirect" rel="nofollow">4月24日股市前瞻</a>
+</h2>
+<p>日期：2015-4-23 21:57:0<br>
+上证指数接下来可能反复演绎跳水又拉起的戏码，直到投资者对高抛低吸的游戏乐此不疲时，便会是真正套人的时候。创业板指维持3000点的目标位不变，但短期涨幅过快过猛，技术指标严重背离，如明日继续上冲，短线投资者可以考虑降低一部分仓位。</p>
+<h2>
+<a id="user-content-4月23日股市前瞻" class="anchor" href="#4%E6%9C%8823%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205270508&amp;idx=1&amp;sn=95f3d7b4e22c351c10db163a76047687&amp;scene=27#wechat_redirect" rel="nofollow">4月23日股市前瞻</a>
+</h2>
+<p>日期：2015-4-22 21:15:59<br>
+上涨趋势强劲，短期或有回调，回调即可买入（前期涨幅过大者除外）。</p>
+<h2>
+<a id="user-content-4月22日股市前瞻" class="anchor" href="#4%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205241073&amp;idx=1&amp;sn=550dfb138954a3d6d1fe67ee7782039f&amp;scene=27#wechat_redirect" rel="nofollow">4月22日股市前瞻</a>
+</h2>
+<p>日期：2015-4-21 21:36:45<br>
+虽然各大指数在创出新高后，可能又会有个调整的过程，但姚尧对各大指数的中长期走势都不悲观，只是要踏好节奏，精选个股，别追高，逢低买，在2015年接下来的八个月内再翻一倍绝对不是难事。</p>
+<h2>
+<a id="user-content-4月21日股市前瞻" class="anchor" href="#4%E6%9C%8821%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205205182&amp;idx=1&amp;sn=c50179e22be0c362d0744ce83704c96b&amp;scene=27#wechat_redirect" rel="nofollow">4月21日股市前瞻</a>
+</h2>
+<p>日期：2015-4-20 21:28:45<br>
+上证指数今天再次出现天量天价，继续按照“先见天量，后见天量”的规律，今天的4356点肯定不会是最高点。创业板指短期趋势已经走坏，调整依然会继续，不宜进场抢反弹，但可以开始挖掘潜力股，以便将来能够以便宜的价格买入。</p>
+<h2>
+<a id="user-content-4月20日股市前瞻" class="anchor" href="#4%E6%9C%8820%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205154661&amp;idx=1&amp;sn=4c5ada13365bc2bf84f3c6446ad22fee&amp;scene=27#wechat_redirect" rel="nofollow">4月20日股市前瞻</a>
+</h2>
+<p>日期：2015-4-19 11:32:28<br>
+在《书剑恩仇录》最后，美丽纯洁的香香公主用鲜血留下“不可相信皇帝”六个大字，来警醒一厢情愿而又自作聪明的陈家洛。陈家洛以为乾隆是他哥，就会听他话光复汉人河山。你以为证监会是你妈，就会保护你财产不受损失。在姚尧看来，这两者是一样的很傻很天真。</p>
+<h2>
+<a id="user-content-4月17日股市前瞻" class="anchor" href="#4%E6%9C%8817%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205085379&amp;idx=1&amp;sn=2911e0ca0567fc42eb5cce97047f1f5e&amp;scene=27#wechat_redirect" rel="nofollow">4月17日股市前瞻</a>
+</h2>
+<p>日期：2015-4-16 22:16:2<br>
+创业板今天只是反弹，反弹结束后又将继续下跌。上证指数未来还会创出新高，只是在中石油都已经启动后，可操作性实在越来越差。</p>
+<h2>
+<a id="user-content-4月16日股市前瞻" class="anchor" href="#4%E6%9C%8816%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205053179&amp;idx=1&amp;sn=499bb0dfdce547c909125a6cdc07b313&amp;scene=27#wechat_redirect" rel="nofollow">4月16日股市前瞻</a>
+</h2>
+<p>日期：2015-4-15 20:59:36<br>
+别急着抄底，沉住气，慢慢来！</p>
+<h2>
+<a id="user-content-4月15日股市前瞻" class="anchor" href="#4%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=205022965&amp;idx=1&amp;sn=a8e2836c76aada1bab263cd9057e172b&amp;scene=27#wechat_redirect" rel="nofollow">4月15日股市前瞻</a>
+</h2>
+<p>日期：2015-4-14 21:48:22<br>
+上证指数明天的走势将相当关键，如果能收出中阳线，表示多头经过短暂休整后，继续牢牢掌控局势。如果收的是阴线，甚至把周一的跳空缺口给回补了，那么今天这根十字星就基本可以认定为趋势出现逆转的预兆了。创业板指的风险则比主板更加大，更加需要高度警惕。</p>
+<h2>
+<a id="user-content-4月14日股市前瞻" class="anchor" href="#4%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204995483&amp;idx=1&amp;sn=dff01ca46fbcca4950ad2268007825f5&amp;scene=27#wechat_redirect" rel="nofollow">4月14日股市前瞻</a>
+</h2>
+<p>日期：2015-4-13 22:4:53<br>
+虽然猜不透政府为什么要在牛市的狂热阶段拼命发布利好政策，但却明白无论政府如何力挺，都改变不了股市终究是个零和游戏的铁律。大家都在赚钱，到底是赚谁的钱呢？现在大家基本上都同意股市（至少是绝大多数股票）已经进入博傻阶段，那么谁会是最后的傻子呢？</p>
+<h2>
+<a id="user-content-4月13日股市前瞻" class="anchor" href="#4%E6%9C%8813%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204965682&amp;idx=1&amp;sn=b0a145480f3dfefe3f8f9bac829403da&amp;scene=27#wechat_redirect" rel="nofollow">4月13日股市前瞻</a>
+</h2>
+<p>日期：2015-4-12 21:34:11<br>
+下周将有30家新股申购，这必将对市场资金面造成巨大压力。市场上纷纷传言的这个利好那个利好很多都是一厢情愿、想当然尔，唯有新股申购会分流资金这个利空却是实实在在的。因此，退一万步说，即便你顽固地看好后市，在下周也该适当降低一些仓位。</p>
+<h2>
+<a id="user-content-4月10日股市前瞻" class="anchor" href="#4%E6%9C%8810%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204885237&amp;idx=1&amp;sn=da1669aa5874abe5839a8114f140710a&amp;scene=27#wechat_redirect" rel="nofollow">4月10日股市前瞻</a>
+</h2>
+<p>日期：2015-4-9 21:42:34<br>
+主板和创业板都将进入高度风险期，尤其创业板风险更大，此前反复提及的四月中旬马上也要到了，投资者务必高度警惕！</p>
+<h2>
+<a id="user-content-4月9日股市前瞻" class="anchor" href="#4%E6%9C%889%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204854308&amp;idx=1&amp;sn=aabf719ea1bdbfa01f274ddac34f44c8&amp;scene=27#wechat_redirect" rel="nofollow">4月9日股市前瞻</a>
+</h2>
+<p>日期：2015-4-8 20:35:31<br>
+创业板今天走出的“穿头破脚”具有明显的转势信号，投资者不宜对后市抱有太多不切实际的幻想。上证指数明天肯定会创出新高，但向上空间依然有限，提请投资者多加谨慎。</p>
+<h2>
+<a id="user-content-4月8日股市前瞻" class="anchor" href="#4%E6%9C%888%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204825550&amp;idx=1&amp;sn=237721e7d091f45c7030332370e347a2&amp;scene=27#wechat_redirect" rel="nofollow">4月8日股市前瞻</a>
+</h2>
+<p>日期：2015-4-7 21:34:45<br>
+各大指数的趋势都没有走坏，但风险总是在飙涨中积聚，投资者务必高度警惕，一旦跌破止盈止损位，必须严格执行纪律，保护已经到手的利润。</p>
+<h2>
+<a id="user-content-4月7日股市前瞻" class="anchor" href="#4%E6%9C%887%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204789032&amp;idx=1&amp;sn=3e9a79d38a0625f8ff969024f80dd5df&amp;scene=27#wechat_redirect" rel="nofollow">4月7日股市前瞻</a>
+</h2>
+<p>日期：2015-4-6 18:45:18<br>
+距离姚尧念兹在兹的四月中旬可真的已经是近在眼前了。接下来，就是见证奇迹的时刻！</p>
+<h2>
+<a id="user-content-你是那只自以为是的猪吗" class="anchor" href="#%E4%BD%A0%E6%98%AF%E9%82%A3%E5%8F%AA%E8%87%AA%E4%BB%A5%E4%B8%BA%E6%98%AF%E7%9A%84%E7%8C%AA%E5%90%97" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204763812&amp;idx=1&amp;sn=b4f0047869e5eb559199b41be13741e5&amp;scene=27#wechat_redirect" rel="nofollow">你是那只自以为是的猪吗？</a>
+</h2>
+<p>日期：2015-4-5 16:15:56<br>
+近期股市的火爆，让此前多年一直被套而趴着不动的猪和听闻此处赚钱快而闻风前来的猪都飞了起来。But，它们似乎忘记风有一天会停下来。更过分的，它们甚至开始觉得自己是靠翅膀飞起来的。待到风停的那一刻，且看它们会摔成什么模样！</p>
+<h2>
+<a id="user-content-4月3日股市前瞻" class="anchor" href="#4%E6%9C%883%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204696997&amp;idx=1&amp;sn=5282b00a07f3b2cab91305c07b400608&amp;scene=27#wechat_redirect" rel="nofollow">4月3日股市前瞻</a>
+</h2>
+<p>日期：2015-4-2 22:14:33<br>
+上证指数一次次跳水，又一次次拉起，只不过是为了让投资者对下跌不再恐惧。创业板指虽然不断创出新高，但风险已经非常大，投资者务必要高度警惕。</p>
+<h2>
+<a id="user-content-4月2日股市前瞻" class="anchor" href="#4%E6%9C%882%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204667772&amp;idx=1&amp;sn=a66c41810d64c2426e32afdf3a9d18c6&amp;scene=27#wechat_redirect" rel="nofollow">4月2日股市前瞻</a>
+</h2>
+<p>日期：2015-4-1 20:50:42<br>
+上证指数和创业板指居然都走在了第五浪。上证指数是走在第一大浪中的第五浪中的第五浪，创业板指是走在第三大浪中的第三浪的第五浪，这两个五浪都将在四月中旬左右结束。之后，上证指数将走入第二大浪调整，而创业板指将走入第三大浪中的第四浪调整。</p>
+<h1>
+<a id="user-content-2015-3" class="anchor" href="#2015-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2015-3</h1>
+<h2>
+<a id="user-content-4月1日股市前瞻" class="anchor" href="#4%E6%9C%881%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204637428&amp;idx=1&amp;sn=1dfecf8401ed9b73cf323f8dc7fc3357&amp;scene=27#wechat_redirect" rel="nofollow">4月1日股市前瞻</a>
+</h2>
+<p>日期：2015-3-31 21:27:6<br>
+姚尧对各大指数均持谨慎悲观态度，无论接下来指数是否能创出新高，都已经可以基本认定是在筑顶期，请投资者务必高度警惕风险，尤其不能盲目追高涨幅已经过大的品种。</p>
+<h2>
+<a id="user-content-3月31日股市前瞻" class="anchor" href="#3%E6%9C%8831%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204602377&amp;idx=1&amp;sn=a1f5b34743cc68e52fa76a9e1a7b60aa&amp;scene=27#wechat_redirect" rel="nofollow">3月31日股市前瞻</a>
+</h2>
+<p>日期：2015-3-30 20:1:4<br>
+虽然在大盘最后筑顶阶段，往往是补涨股表现的最好机会。但走到今天，绝对意义上趴在底部的补涨股已经不多了。投资者如果真要参与补涨股，也应该快进快出，不宜过分恋战。</p>
+<h2>
+<a id="user-content-3月30日股市前瞻" class="anchor" href="#3%E6%9C%8830%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204575569&amp;idx=1&amp;sn=9d3ad391e47ce37e54310d44009af96e&amp;scene=27#wechat_redirect" rel="nofollow">3月30日股市前瞻</a>
+</h2>
+<p>日期：2015-3-29 20:57:48<br>
+主板和创业板的指数向上空间已经不大，时间上也差不多快要到点，补涨类个股或许还有机会，只是现在趴在底部的股票也已经越来越难找了。</p>
+<h2>
+<a id="user-content-股市里的三种傻瓜" class="anchor" href="#%E8%82%A1%E5%B8%82%E9%87%8C%E7%9A%84%E4%B8%89%E7%A7%8D%E5%82%BB%E7%93%9C" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204551053&amp;idx=1&amp;sn=5e7069a3dc162c91e74f68a93fa59489&amp;scene=27#wechat_redirect" rel="nofollow">股市里的三种傻瓜</a>
+</h2>
+<p>日期：2015-3-28 18:44:37<br>
+在股市这个生态系统里，真正的明白人堪称凤毛麟角，而糊涂人则俯拾皆是，他们大致可以被分为三种类型：一无所知型、一知半解型和专家型。从结局来看，他们注定都是被宰杀的可怜人（部分专家除外）。从过程来看，他们又都是构建生态系统的基础。</p>
+<h2>
+<a id="user-content-3月27日股市前瞻" class="anchor" href="#3%E6%9C%8827%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204497733&amp;idx=1&amp;sn=a8766c7ce04ab745e261f8c1e680348f&amp;scene=27#wechat_redirect" rel="nofollow">3月27日股市前瞻</a>
+</h2>
+<p>日期：2015-3-26 21:35:45<br>
+上证指数依然上看3800点，如果接下来能跌到3500点附近，或可考虑抄一次底。如果没有这个下跌就直接上攻挑过3715点，则必须逢高减磅！创业板已经基本认定进入筑顶阶段，即便指数上会创出新高，也与我无关！</p>
+<h2>
+<a id="user-content-3月26日股市前瞻" class="anchor" href="#3%E6%9C%8826%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204468412&amp;idx=1&amp;sn=70ee011e074e98f35fbd9c50305d2c5f&amp;scene=27#wechat_redirect" rel="nofollow">3月26日股市前瞻</a>
+</h2>
+<p>日期：2015-3-25 21:31:4<br>
+明日，上证指数如果不能高开，则开盘就会在五日均线之下，投资者需要高度警惕，并不是每一次下跌，当天都必定会被拉起。创业板指距离五日均线还有一段距离，可以继续持有，但要继续上行，也同样是压力重重，投资者切勿头脑发热，盲目追高，谨慎！谨慎！</p>
+<h2>
+<a id="user-content-3月25日股市前瞻" class="anchor" href="#3%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204433406&amp;idx=1&amp;sn=cbe5f6d9aaec1a8e707a17718b4ac325&amp;scene=27#wechat_redirect" rel="nofollow">3月25日股市前瞻</a>
+</h2>
+<p>日期：2015-3-24 16:10:46<br>
+没错，风来了，猪是能够飞起来了。可是自从盘古开天地以来，有永远刮不停的风吗？风停了，猪怎么办？聪明的投资者首先想到的应该是自己能够安全着地，然后静静地，静静地，等风停后看那些猪一个一个摔下来。</p>
+<h2>
+<a id="user-content-3月24日股市前瞻" class="anchor" href="#3%E6%9C%8824%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204417304&amp;idx=1&amp;sn=a4d6efbcace5193d009e25bbf96208c1&amp;scene=27#wechat_redirect" rel="nofollow">3月24日股市前瞻</a>
+</h2>
+<p>日期：2015-3-23 21:44:19<br>
+密切关注五日均线，只要不跌破五日均线，继续持有。一旦跌破五日均线，立刻走人！</p>
+<h2>
+<a id="user-content-3月23日股市前瞻" class="anchor" href="#3%E6%9C%8823%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204376085&amp;idx=1&amp;sn=1e81a22b4c4e94401007243646f9f0a4&amp;scene=27#wechat_redirect" rel="nofollow">3月23日股市前瞻</a>
+</h2>
+<p>日期：2015-3-22 10:9:41<br>
+姚尧依然维持上证指数本轮行情四月中旬左右结束、点位就在3800点左右的观点不变，而对接下来几个交易日依然维持谨慎悲观态度，不见回调不考虑买入，打死也不追高。创业板指也依然维持“会创新高，可以持有，不建议买入”的观点。</p>
+<h2>
+<a id="user-content-3月20日股市前瞻" class="anchor" href="#3%E6%9C%8820%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204319229&amp;idx=1&amp;sn=362304883e1ff5c90f1e1e2e168e929e&amp;scene=27#wechat_redirect" rel="nofollow">3月20日股市前瞻</a>
+</h2>
+<p>日期：2015-3-19 21:23:17<br>
+姚尧对周五的上证指数持谨慎悲观态度，并认为接下来几个交易日都应该是以震荡回落为主。创业板指还会再创出新高，继续持有问题不大，但不再建议读者勇敢杀入。</p>
+<h2>
+<a id="user-content-3月19日股市前瞻" class="anchor" href="#3%E6%9C%8819%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204291292&amp;idx=1&amp;sn=97cb983f76157c13d13593e783eb5994&amp;scene=27#wechat_redirect" rel="nofollow">3月19日股市前瞻</a>
+</h2>
+<p>日期：2015-3-18 21:43:43<br>
+虽然各大指数还会继续上涨，但警钟已在远方响起！</p>
+<h2>
+<a id="user-content-3月18日股市前瞻" class="anchor" href="#3%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204264055&amp;idx=1&amp;sn=239259a7e4f6bcd7414e4d28c137a3cb&amp;scene=27#wechat_redirect" rel="nofollow">3月18日股市前瞻</a>
+</h2>
+<p>日期：2015-3-17 20:54:48<br>
+周三上证指数在冲高后将会有回踩的需求，投资者切记不要冲动。回踩后上证指数将重拾升势，剑指3800点！创业板指在周二创出的历史新高2164.49点绝不是本轮行情的头部！新高之后，还有新高！</p>
+<h2>
+<a id="user-content-3月17日股市前瞻" class="anchor" href="#3%E6%9C%8817%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204237488&amp;idx=1&amp;sn=521ca64b53e2adc14b0334d9c3911617&amp;scene=27#wechat_redirect" rel="nofollow">3月17日股市前瞻</a>
+</h2>
+<p>日期：2015-3-16 21:3:35<br>
+这是姚尧2015年以来第一次提示创业板风险，虽然创业板接下来还会涨。自元旦以来一路相随的读者可以继续持有创业板，但姚尧已经不鼓励新股民再勇敢杀入创业板了。</p>
+<h2>
+<a id="user-content-3月16日股市前瞻" class="anchor" href="#3%E6%9C%8816%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204196112&amp;idx=1&amp;sn=c809560799202d6342aa449097dff38e&amp;scene=27#wechat_redirect" rel="nofollow">3月16日股市前瞻</a>
+</h2>
+<p>日期：2015-3-15 13:30:26<br>
+对于创业板何时见顶的问题，姚尧现在提出三个指标：第一：时间上，四月中旬。第二：点位上，2200点。第三：成交量上，一千亿。当这三个指标出现一个的时候，你就要开始警惕。出现两个的时候，你就要高度警惕。出现三个的时候，准备考虑什么时候走人。</p>
+<h2>
+<a id="user-content-3月13日股市前瞻" class="anchor" href="#3%E6%9C%8813%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204122362&amp;idx=1&amp;sn=ebc3a7731be430c3e2afefae6db447a7&amp;scene=27#wechat_redirect" rel="nofollow">3月13日股市前瞻</a>
+</h2>
+<p>日期：2015-3-12 20:15:53<br>
+姚尧对各大指数的中长线走势都看好，只是具体到分时上可能会出现分化。权重股抢眼时，小盘股沉寂。权重股沉寂时，小盘股发挥，但总体趋势都将是向上的！主板跌，买主板！创业板跌，买创业板！</p>
+<h2>
+<a id="user-content-3月12日股市前瞻" class="anchor" href="#3%E6%9C%8812%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204091871&amp;idx=1&amp;sn=f3f5f1f45d8375f2f9b8681188a03477&amp;scene=27#wechat_redirect" rel="nofollow">3月12日股市前瞻</a>
+</h2>
+<p>日期：2015-3-11 21:22:30<br>
+明天（最多还算上后天）可能是投资者最后的进场或加仓机会，如果还是犹犹豫豫不敢下手，估计就只能眼睁睁地看着上证指数3400点进发，而创业板指一次又一次任性地创出历史新高了。</p>
+<h2>
+<a id="user-content-3月11日股市前瞻" class="anchor" href="#3%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204064349&amp;idx=1&amp;sn=a78d81bd627685728bcf888b3e2da37d&amp;scene=27#wechat_redirect" rel="nofollow">3月11日股市前瞻</a>
+</h2>
+<p>日期：2015-3-10 21:36:59<br>
+姚尧猜测本周接下来的行情极可能是这样的：周三周四上证指数小幅回调盘整，创业板略有回调后继续上行（甚至无回调而加速上行）。周四尾盘或周五出现二八分化，上证指数开始启动上涨行情，目标直指3400，创业板则因短期涨速过快而展开回调（但绝非见顶）。</p>
+<h2>
+<a id="user-content-3月10日股市前瞻" class="anchor" href="#3%E6%9C%8810%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=204036054&amp;idx=1&amp;sn=9e3d94d4a17defbcad24a70ae27f7e83&amp;scene=27#wechat_redirect" rel="nofollow">3月10日股市前瞻</a>
+</h2>
+<p>日期：2015-3-9 22:21:49<br>
+姚尧猜测本周接下来的行情极有可能是这样的：周二冲高后回落，周三周四继续调整，周四下午或者周五开始重拾升势。最晚在下周打新资金全部回流后，上证指数将跃过3330点，而对3400点发起第一次攻击，创业板指将跃过2032点，而不断创出历史新高！</p>
+<h2>
+<a id="user-content-3月9日股市前瞻" class="anchor" href="#3%E6%9C%889%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=203996208&amp;idx=1&amp;sn=7772cf01ed42418e507e1f23c37991c6&amp;scene=27#wechat_redirect" rel="nofollow">3月9日股市前瞻</a>
+</h2>
+<p>日期：2015-3-8 20:46:19<br>
+姚尧对各大指数接下来的中期走势都不悲观。只是在具体操作方面，下周的新股申购会是影响市场短期走势的重要因素。预计前半周股市（尤其中小板、创业板）仍以调整为主，待到周四、周五申购资金已经基本冻结，市场就将重拾升势，希望读者能够把握好节奏。</p>
+<h2>
+<a id="user-content-洛阳亲友如相问一片冰心在玉壶" class="anchor" href="#%E6%B4%9B%E9%98%B3%E4%BA%B2%E5%8F%8B%E5%A6%82%E7%9B%B8%E9%97%AE%E4%B8%80%E7%89%87%E5%86%B0%E5%BF%83%E5%9C%A8%E7%8E%89%E5%A3%B6" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=203814569&amp;idx=1&amp;sn=34b11b0d6c45cc72cba4e9f02128986c&amp;scene=27#wechat_redirect" rel="nofollow">洛阳亲友如相问，一片冰心在玉壶</a>
+</h2>
+<p>日期：2015-3-1 14:10:59<br>
+环保股将接过前期网络股的接力棒，成为带领创业板指向上冲击的龙头。</p>
+<h1>
+<a id="user-content-2015-2" class="anchor" href="#2015-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2015-2</h1>
+<h2>
+<a id="user-content-识人之明与用人之量" class="anchor" href="#%E8%AF%86%E4%BA%BA%E4%B9%8B%E6%98%8E%E4%B8%8E%E7%94%A8%E4%BA%BA%E4%B9%8B%E9%87%8F" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=203736570&amp;idx=1&amp;sn=726fed5eea7d0e81f722120d8e644c2b&amp;scene=27#wechat_redirect" rel="nofollow">识人之明与用人之量</a>
+</h2>
+<p>日期：2015-2-26 20:37:26<br>
+作为领袖，光能够识别人才是远远不够的，还要有容忍人才个性、甚至坏脾气，以及听得进真话、甚至难听话的度量，否则真正的人才迟早都会离开，留下一群只会让你感到舒服，却无法帮你解决问题的庸才。</p>
+<h2>
+<a id="user-content-百年事业三更梦万里江山一局棋" class="anchor" href="#%E7%99%BE%E5%B9%B4%E4%BA%8B%E4%B8%9A%E4%B8%89%E6%9B%B4%E6%A2%A6%E4%B8%87%E9%87%8C%E6%B1%9F%E5%B1%B1%E4%B8%80%E5%B1%80%E6%A3%8B" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=203466755&amp;idx=1&amp;sn=4a2f3c492399d13e94fbcfdfcbac8062&amp;scene=27#wechat_redirect" rel="nofollow">百年事业三更梦，万里江山一局棋</a>
+</h2>
+<p>日期：2015-2-12 16:54:14<br>
+在这个世界上，既不是大的吃小的，也不是快的吃慢的，而是明白的吃糊涂的。\n你心里明白就好！别着急！</p>
+<h2>
+<a id="user-content-花外春来路芳草不曾遮" class="anchor" href="#%E8%8A%B1%E5%A4%96%E6%98%A5%E6%9D%A5%E8%B7%AF%E8%8A%B3%E8%8D%89%E4%B8%8D%E6%9B%BE%E9%81%AE" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=203353601&amp;idx=1&amp;sn=c9cefcadbdb23c88a5848135422bc0d7&amp;scene=27#wechat_redirect" rel="nofollow">花外春来路，芳草不曾遮。</a>
+</h2>
+<p>日期：2015-2-7 14:2:37<br>
+既然春天已经到来，就不要轻易放弃春天的思维。不要因为一时花落，就否定春天的存在。只要你心里有春天，满眼都是鲜艳的花朵。</p>
+<h2>
+<a id="user-content-中小板的战略机遇期" class="anchor" href="#%E4%B8%AD%E5%B0%8F%E6%9D%BF%E7%9A%84%E6%88%98%E7%95%A5%E6%9C%BA%E9%81%87%E6%9C%9F" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=203238942&amp;idx=1&amp;sn=3c99b09f39e6ee575384b2050e291056&amp;scene=27#wechat_redirect" rel="nofollow">中小板的战略机遇期</a>
+</h2>
+<p>日期：2015-2-2 18:35:24<br>
+中小板指向下的风险极其有限，向上的空间却不可限量，堪称获取超额利润的重要战略机遇期，希望读者能够好好珍惜。</p>
+<h1>
+<a id="user-content-2015-1" class="anchor" href="#2015-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2015-1</h1>
+<h2>
+<a id="user-content-那人却在灯火阑珊处" class="anchor" href="#%E9%82%A3%E4%BA%BA%E5%8D%B4%E5%9C%A8%E7%81%AF%E7%81%AB%E9%98%91%E7%8F%8A%E5%A4%84" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=203132639&amp;idx=1&amp;sn=8cec33306f173768ef771b2b0413d035&amp;scene=27#wechat_redirect" rel="nofollow">那人却在，灯火阑珊处</a>
+</h2>
+<p>日期：2015-1-28 20:40:44<br>
+真正的佳人，出色的才、情、貌固然是不可或缺。但比这三者更重要的，是不流于俗的孤傲与幽独。这种孤傲与幽独只能出现在空谷，出现在灯火阑珊处。</p>
+<h2>
+<a id="user-content-坚守核心战略之难" class="anchor" href="#%E5%9D%9A%E5%AE%88%E6%A0%B8%E5%BF%83%E6%88%98%E7%95%A5%E4%B9%8B%E9%9A%BE" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=203067190&amp;idx=1&amp;sn=f90648dbfc8e96a0061360d2d109b8ec&amp;scene=27#wechat_redirect" rel="nofollow">坚守核心战略之难</a>
+</h2>
+<p>日期：2015-1-25 22:48:1<br>
+制定核心战略固然不易，坚守核心战略似乎更难。人们总是倾向于做那些让自己内心愉悦的事情，而核心战略则严格管控你的行为，为了达成目标哪些事是应该做的，哪些事是不应该做的。核心战略就像是骑手的缰绳，一旦稍有放松，这匹马很快就不知道跑到哪里去了。</p>
+<h2>
+<a id="user-content-刘备是怎样把荆州给亏光的" class="anchor" href="#%E5%88%98%E5%A4%87%E6%98%AF%E6%80%8E%E6%A0%B7%E6%8A%8A%E8%8D%86%E5%B7%9E%E7%BB%99%E4%BA%8F%E5%85%89%E7%9A%84" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=203027838&amp;idx=1&amp;sn=1da229fb62f3a3c08f651abe5b85be60&amp;scene=27#wechat_redirect" rel="nofollow">刘备是怎样把荆州给亏光的？</a>
+</h2>
+<p>日期：2015-1-23 23:28:54<br>
+你如果真的在股市里遭受过重大损失，只能说明你战略不清晰、反省不深刻、认错不及时，跟中国股市是否健康、庄家是否操纵股价、上市公司是否造假无关，就正如刘备亏掉了荆州与关羽是否大意无关一样。</p>
+<h2>
+<a id="user-content-难道我们错怪证监会了" class="anchor" href="#%E9%9A%BE%E9%81%93%E6%88%91%E4%BB%AC%E9%94%99%E6%80%AA%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BA%86" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=202975733&amp;idx=1&amp;sn=3c8287fdca089eef9692fbdb8c02871a&amp;scene=27#wechat_redirect" rel="nofollow">难道我们错怪证监会了？</a>
+</h2>
+<p>日期：2015-1-21 22:36:26<br>
+一百五十点的大阳线，是否能够证明证监会对我们的爱？难道真是我们错怪他了吗？</p>
+<h2>
+<a id="user-content-上证指数危险小心被吊死" class="anchor" href="#%E4%B8%8A%E8%AF%81%E6%8C%87%E6%95%B0%E5%8D%B1%E9%99%A9%E5%B0%8F%E5%BF%83%E8%A2%AB%E5%90%8A%E6%AD%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=202937465&amp;idx=1&amp;sn=9cde1ae350ac361b67c5c8a56e9e3247&amp;scene=27#wechat_redirect" rel="nofollow">上证指数危险！小心被吊死！</a>
+</h2>
+<p>日期：2015-1-20 15:11:9<br>
+小心点，崇祯就在煤山上的那颗歪脖子树上看着你呢！如果不想上吊，就赶紧离开北京，跑到南京去！</p>
+<h2>
+<a id="user-content-是自己太无能还是敌人太狡猾" class="anchor" href="#%E6%98%AF%E8%87%AA%E5%B7%B1%E5%A4%AA%E6%97%A0%E8%83%BD%E8%BF%98%E6%98%AF%E6%95%8C%E4%BA%BA%E5%A4%AA%E7%8B%A1%E7%8C%BE" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=202911393&amp;idx=1&amp;sn=fd6cefd271cbd2b9bce9ac4fcf9b14de&amp;scene=27#wechat_redirect" rel="nofollow">是自己太无能，还是敌人太狡猾？</a>
+</h2>
+<p>日期：2015-1-19 19:31:0<br>
+如果说英雄不可以成败论的话，但就面对失败的态度，却足以判断一个人够不够格做英雄。</p>
+<h2>
+<a id="user-content-我们应该怎样玩券商股" class="anchor" href="#%E6%88%91%E4%BB%AC%E5%BA%94%E8%AF%A5%E6%80%8E%E6%A0%B7%E7%8E%A9%E5%88%B8%E5%95%86%E8%82%A1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=202809995&amp;idx=1&amp;sn=a1c988eb3fe8b1e13f5f90c04cdb9a1a&amp;scene=27#wechat_redirect" rel="nofollow">我们应该怎样玩券商股?</a>
+</h2>
+<p>日期：2015-1-16 4:26:54<br>
+券商股的初升段已经结束，主升段还没开始，接下来具体该怎么玩？您听我说！</p>
+<h2>
+<a id="user-content-是自己太无能还是敌人太狡猾-1" class="anchor" href="#%E6%98%AF%E8%87%AA%E5%B7%B1%E5%A4%AA%E6%97%A0%E8%83%BD%E8%BF%98%E6%98%AF%E6%95%8C%E4%BA%BA%E5%A4%AA%E7%8B%A1%E7%8C%BE-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=202911393&amp;idx=1&amp;sn=fd6cefd271cbd2b9bce9ac4fcf9b14de&amp;scene=27#wechat_redirect" rel="nofollow">是自己太无能，还是敌人太狡猾？</a>
+</h2>
+<p>日期：2015-1-19 19:31:0<br>
+如果说英雄不可以成败论的话，但就面对失败的态度，却足以判断一个人够不够格做英雄。</p>
+<h2>
+<a id="user-content-我们应该怎样玩券商股-1" class="anchor" href="#%E6%88%91%E4%BB%AC%E5%BA%94%E8%AF%A5%E6%80%8E%E6%A0%B7%E7%8E%A9%E5%88%B8%E5%95%86%E8%82%A1-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=202809995&amp;idx=1&amp;sn=a1c988eb3fe8b1e13f5f90c04cdb9a1a&amp;scene=27#wechat_redirect" rel="nofollow">我们应该怎样玩券商股?</a>
+</h2>
+<p>日期：2015-1-16 4:26:54<br>
+券商股的初升段已经结束，主升段还没开始，接下来具体该怎么玩？您听我说！</p>
+</article></body></html>

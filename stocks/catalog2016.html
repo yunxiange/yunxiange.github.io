@@ -1,0 +1,2093 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAYcAA0AAAAACjQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABMAAAABwAAAAca8vGTk9TLzIAAAFMAAAARAAAAFZG1VHVY21hcAAAAZAAAAA+AAABQgAP9AdjdnQgAAAB0AAAAAQAAAAEACICiGdhc3AAAAHUAAAACAAAAAj//wADZ2x5ZgAAAdwAAADRAAABEKyikaNoZWFkAAACsAAAAC0AAAA2AtXoA2hoZWEAAALgAAAAHAAAACQHngNFaG10eAAAAvwAAAAQAAAAEAwAACJsb2NhAAADDAAAAAoAAAAKALIAVG1heHAAAAMYAAAAHwAAACABEAB2bmFtZQAAAzgAAALBAAAFu3I9x/Nwb3N0AAAF/AAAAB0AAAAvaoFvbwAAAAEAAAAAzBdyYwAAAADP2IQvAAAAAM/bz7t4nGNgZGFgnMDAysDB1Ml0hoGBoR9CM75mMGLkYGBgYmBlZsAKAtJcUxgcPsR8iGF2+O/AEMPsznAYKMwIkgMA5REMOXicY2BgYGaAYBkGRgYQsAHyGMF8FgYFIM0ChED+h5j//yEk/3KoSgZGNgYYk4GRCUgwMaACRoZhDwCs7QgGAAAAIgKIAAAAAf//AAJ4nHWMMQrCQBBF/0zWrCCIKUQsTDCL2EXMohYGSSmorScInsRGL2DOYJe0Ntp7BK+gJ1BxF1stZvjz/v8DRghQzEc4kIgKwiAppcA9LtzKLSkdNhKFY3HF4lK69ExKslx7Xa+vPRVS43G98vG1DnkDMIBUgFN0MDXflU8tbaZOUkXUH0+U27RoRpOIyCKjbMCVejwypzJJG4jIwb43rfl6wbwanocrJm9XFYfskuVC5K/TPyczNU7b84CXcbxks1Un6H6tLH9vf2LRnn8Ax7A5WQAAAHicY2BkYGAA4teL1+yI57f5ysDNwgAC529f0kOmWRiYVgEpDgYmEA8AUzEKsQAAAHicY2BkYGB2+O/AEMPCAAJAkpEBFbAAADgKAe0EAAAiAAAAAAQAAAAEAAAAAAAAKgAqACoAiAAAeJxjYGRgYGBhsGFgYgABEMkFhAwM/xn0QAIAD6YBhwB4nI1Ty07cMBS9QwKlQapQW3VXySvEqDCZGbGaHULiIQ1FKgjWMxknMfLEke2A+IJu+wntrt/QbVf9gG75jK577Lg8K1qQPCfnnnt8fX1NRC/pmjrk/zprC+8D7tBy9DHgBXoWfQ44Av8t4Bj4Z8CLtBL9CniJluPXASf0Lm4CXqFX8Q84dOLnMB17N4c7tBo1AS/Qi+hTwBH4rwHHwN8DXqQ30XXAS7QaLwSc0Gn8NuAVWou/gFmnjLrEaEh9GmDdDGgL3B4JsrRPDU2hTOiMSuJUIdKQQayiAth69r6akSSFqIJuA19TrzCIaY8sIoxyrNIrL//pw7A2iMygkX5vDj+G+kuoLdX4GlGK/8Lnlz6/h9MpmoO9rafrz7ILXEHHaAx95s9lsI7AHNMBWEZHULnfAXwG9/ZqdzLI08iuwRloXE8kfhXYAvE23+23DU3t626rbs8/8adv+9DWknsHp3E17oCf+Z48rvEQNZ78paYM38qfk3v/u3l3u3GXN2Dmvmvpf1Srwk3pB/VSsp512bA/GG5i2WJ7wu430yQ5K3nFGiOqgtmSB5pJVSizwaacmUZzZhXLlZTq8qGGFY2YcSkqbth6aW1tRmlaCFs2016m5qn36SbJrqosG4uMV4aP2PHBmB3tjtmgN2izkGQyLWprekbIntJFing32a5rKWCN/SdSoga45EJykyQ7asZvHQ8PTm6cslIpwyeyjbVltNikc2HTR7YKh9LBl9DADC0U/jLcBZDKrMhUBfQBvXRzLtFtjU9eNHKin0x5InTqb8lNpfKv1s1xHzTXRqgKzek/mb7nB8RZTCDhGEX3kK/8Q75AmUM/eLkfA+0Hi908Kx4eNsMgudg5GLdRD7a84npi+YxNr5i5KIbW5izXas7cHXIMAau1OueZhfj+cOcP3P8MNIWLyYOBuxL6DRylJ4cAAAB4nGNgYoAALjDJyIAOWMCiTIxMLDmZedkABtIBygAAAA==) format('woff');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body .markdown-body {
+    padding: 45px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    word-wrap: break-word;
+}
+
+pre {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background-color: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body input {
+  font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.markdown-body a {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body .select::-ms-expand {
+  opacity: 0;
+}
+
+.markdown-body .octicon {
+  font: normal normal normal 16px/1 octicons-anchor;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.markdown-body .octicon-link:before {
+  content: '\f05c';
+}
+
+.markdown-body:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .anchor {
+  display: inline-block;
+  padding-right: 2px;
+  margin-left: -18px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #000;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h1 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h3 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h5 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body h6 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+
+.markdown-body code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .pl-c {
+  color: #969896;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #0086b3;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #795da3;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
+  color: #333;
+}
+
+.markdown-body .pl-ent {
+  color: #63a35c;
+}
+
+.markdown-body .pl-k {
+  color: #a71d5d;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #183691;
+}
+
+.markdown-body .pl-v {
+  color: #ed6a43;
+}
+
+.markdown-body .pl-id {
+  color: #b52a1d;
+}
+
+.markdown-body .pl-ii {
+  background-color: #b52a1d;
+  color: #f8f8f8;
+}
+
+.markdown-body .pl-sr .pl-cce {
+  color: #63a35c;
+  font-weight: bold;
+}
+
+.markdown-body .pl-ml {
+  color: #693a17;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  color: #1d3e81;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mq {
+  color: #008080;
+}
+
+.markdown-body .pl-mi {
+  color: #333;
+  font-style: italic;
+}
+
+.markdown-body .pl-mb {
+  color: #333;
+  font-weight: bold;
+}
+
+.markdown-body .pl-md {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.markdown-body .pl-mi1 {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.markdown-body .pl-mdr {
+  color: #795da3;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mo {
+  color: #1d3e81;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .plan-price-unit {
+  color: #767676;
+  font-weight: normal;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 0.35em 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body .plan-choice {
+  padding: 15px;
+  padding-left: 40px;
+  display: block;
+  border: 1px solid #e0e0e0;
+  position: relative;
+  font-weight: normal;
+  background-color: #fafafa;
+}
+
+.markdown-body .plan-choice.open {
+  background-color: #fff;
+}
+
+.markdown-body .plan-choice.open .plan-choice-seat-breakdown {
+  display: block;
+}
+
+.markdown-body .plan-choice-free {
+  border-radius: 3px 3px 0 0;
+}
+
+.markdown-body .plan-choice-paid {
+  border-radius: 0 0 3px 3px;
+  border-top: 0;
+  margin-bottom: 20px;
+}
+
+.markdown-body .plan-choice-radio {
+  position: absolute;
+  left: 15px;
+  top: 18px;
+}
+
+.markdown-body .plan-choice-exp {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.markdown-body .plan-choice-seat-breakdown {
+  margin-top: 10px;
+  display: none;
+}
+
+.markdown-body :checked+.radio-label {
+  z-index: 1;
+  position: relative;
+  border-color: #4078c0;
+}
+</style><title>article2016</title></head><body><article class="markdown-body"><h1>
+<a id="user-content-2016-12" class="anchor" href="#2016-12" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2016-12</h1>
+<h2>
+<a id="user-content-12月30日股市前瞻" class="anchor" href="#12%E6%9C%8830%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901508&amp;idx=1&amp;sn=630e41755b8c9730d0aeb8daaed239e9&amp;chksm=bd1c10a98a6b99bff1456f6ebba241e3f714789b018ed1db4e1127ea6695a5f684d344aa25f3&amp;scene=27#wechat_redirect" rel="nofollow">12月30日股市前瞻</a>
+</h2>
+<p>日期：2016-12-29 21:50:33<br>
+落红不是无情物，化作春泥更护花。——龚自珍</p>
+<h2>
+<a id="user-content-12月29日股市前瞻" class="anchor" href="#12%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901503&amp;idx=1&amp;sn=f3be5e46c7e5519668b6588d9d057ebf&amp;chksm=bd1c17528a6b9e4415d687c13489a5de8790743578dadb97f2f44ee5e51280548916a2eb0330&amp;scene=27#wechat_redirect" rel="nofollow">12月29日股市前瞻</a>
+</h2>
+<p>日期：2016-12-28 21:25:48<br>
+战罢玉龙三百万，败鳞残甲满天飞。——张元</p>
+<h2>
+<a id="user-content-12月28日股市前瞻" class="anchor" href="#12%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901498&amp;idx=1&amp;sn=48dca96cbcb1aed5034d8601162e0488&amp;chksm=bd1c17578a6b9e4147a99517dfa6894fb8585f6b65a07853ad5e897625d0df20eade115a573d&amp;scene=27#wechat_redirect" rel="nofollow">12月28日股市前瞻</a>
+</h2>
+<p>日期：2016-12-27 21:52:8<br>
+黄沙百战穿金甲，不破楼兰终不还。——王昌龄</p>
+<h2>
+<a id="user-content-12月27日股市前瞻" class="anchor" href="#12%E6%9C%8827%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901494&amp;idx=1&amp;sn=87bdcef4cc6e578d3aec2e86d6d04626&amp;chksm=bd1c175b8a6b9e4d0cc214f0eeb9b0eadd573ecf88cb952796b4b441eda25af1f834bea4c336&amp;scene=27#wechat_redirect" rel="nofollow">12月27日股市前瞻</a>
+</h2>
+<p>日期：2016-12-26 21:28:20<br>
+青山遮不住，毕竟东流去。——辛弃疾</p>
+<h2>
+<a id="user-content-12月26日股市前瞻" class="anchor" href="#12%E6%9C%8826%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901489&amp;idx=1&amp;sn=e6779df311a7fcec428c8bd8a68452da&amp;chksm=bd1c175c8a6b9e4aa6e57cd89e890c420afb33bb3a8b4d638db6adb1e6bcec25be74463f2a7b&amp;scene=27#wechat_redirect" rel="nofollow">12月26日股市前瞻</a>
+</h2>
+<p>日期：2016-12-25 21:9:35<br>
+千花百草凋零后，留向纷纷雪里看。——白居易</p>
+<h2>
+<a id="user-content-12月23日股市前瞻" class="anchor" href="#12%E6%9C%8823%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901484&amp;idx=1&amp;sn=a299c4ecf0dd979801b2cf3fc5fc0072&amp;chksm=bd1c17418a6b9e5736fdc86859cec74c19725c23f7cc17582c9256f81bfcd2a67adc292a3b40&amp;scene=27#wechat_redirect" rel="nofollow">12月23日股市前瞻</a>
+</h2>
+<p>日期：2016-12-22 21:3:39<br>
+岸容待腊将舒柳，山意冲寒欲放梅。——杜甫</p>
+<h2>
+<a id="user-content-12月22日股市前瞻" class="anchor" href="#12%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901479&amp;idx=1&amp;sn=5fc19b196f0f1a5df0496d01347a9af7&amp;chksm=bd1c174a8a6b9e5c4574faa258d4af731c051251ecdd2a0ab5160339c7e7f2b6748808f8ffd5&amp;scene=27#wechat_redirect" rel="nofollow">12月22日股市前瞻</a>
+</h2>
+<p>日期：2016-12-21 20:22:28<br>
+已有岸旁迎腊柳，参差又欲领春来。——朱淑真</p>
+<h2>
+<a id="user-content-12月21日股市前瞻" class="anchor" href="#12%E6%9C%8821%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901474&amp;idx=1&amp;sn=7bef0b7a72916e62636b369106c164e2&amp;chksm=bd1c174f8a6b9e594bc7c44b1448153baad62eed954484d0d732b35a7463a5d4dd15b40e3f3c&amp;scene=27#wechat_redirect" rel="nofollow">12月21日股市前瞻</a>
+</h2>
+<p>日期：2016-12-20 21:21:13<br>
+三年不翅，将以长羽翼；不飞不鸣，将以观民则。虽无飞，飞必冲天；虽无鸣，鸣必惊人。——韩非子</p>
+<h2>
+<a id="user-content-黄金该不该买兼论三角形顶1219" class="anchor" href="#%E9%BB%84%E9%87%91%E8%AF%A5%E4%B8%8D%E8%AF%A5%E4%B9%B0%E5%85%BC%E8%AE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E9%A1%B61219" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901470&amp;idx=1&amp;sn=3dbe3097c9838f690a48f22b6ac0cfa2&amp;chksm=bd1c17738a6b9e6506a09a6d31358175032ce03f6fb9da4bd940c1ba51186db293803956eae7&amp;scene=27#wechat_redirect" rel="nofollow">黄金该不该买？兼论三角形顶【1219】</a>
+</h2>
+<p>日期：2016-12-19 21:45:16<br>
+世人见我恒殊调，闻余大言皆冷笑。——李白</p>
+<h2>
+<a id="user-content-特朗普vs耶伦两个极度自恋的强人一场难以预测的战争1218" class="anchor" href="#%E7%89%B9%E6%9C%97%E6%99%AEvs%E8%80%B6%E4%BC%A6%E4%B8%A4%E4%B8%AA%E6%9E%81%E5%BA%A6%E8%87%AA%E6%81%8B%E7%9A%84%E5%BC%BA%E4%BA%BA%E4%B8%80%E5%9C%BA%E9%9A%BE%E4%BB%A5%E9%A2%84%E6%B5%8B%E7%9A%84%E6%88%98%E4%BA%891218" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901463&amp;idx=1&amp;sn=8c666feb413a37d025faaebdf69ad2f6&amp;chksm=bd1c177a8a6b9e6c5b65e65e90ef1438a8845d7f9e2c627f78c80ada511af6e06b5225edb88d&amp;scene=27#wechat_redirect" rel="nofollow">特朗普VS耶伦：两个极度自恋的强人，一场难以预测的战争。【1218】</a>
+</h2>
+<p>日期：2016-12-18 21:14:32<br>
+龙战于野，其血玄黄。——《易经·坤卦》</p>
+<h2>
+<a id="user-content-特朗普能当几年总统领先全世界的惊天预言" class="anchor" href="#%E7%89%B9%E6%9C%97%E6%99%AE%E8%83%BD%E5%BD%93%E5%87%A0%E5%B9%B4%E6%80%BB%E7%BB%9F%E9%A2%86%E5%85%88%E5%85%A8%E4%B8%96%E7%95%8C%E7%9A%84%E6%83%8A%E5%A4%A9%E9%A2%84%E8%A8%80" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901457&amp;idx=1&amp;sn=a425e39ce6373d7790830dce0175c345&amp;chksm=bd1c177c8a6b9e6acee705cf7b9c0f4076a58444d7f7972d775a002b13e3480b9d44a43fda76&amp;scene=27#wechat_redirect" rel="nofollow">特朗普能当几年总统？（领先全世界的惊天预言）</a>
+</h2>
+<p>日期：2016-12-16 10:32:41<br>
+俺曾见，金陵玉树莺声晓，秦淮水榭花开早，谁知道容易冰消!眼看他起朱楼，眼看他宴宾客，眼看他楼塌了。——孔尚任《桃花扇》</p>
+<h2>
+<a id="user-content-12月16日股市前瞻" class="anchor" href="#12%E6%9C%8816%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901453&amp;idx=1&amp;sn=fc50ffae39149fdf9c1410414f603c54&amp;chksm=bd1c17608a6b9e76796dbee7fa28eb79691ddf5761e791668141808ebc126c7a9ca4114269b1&amp;scene=27#wechat_redirect" rel="nofollow">12月16日股市前瞻</a>
+</h2>
+<p>日期：2016-12-15 19:26:34<br>
+千淘万漉虽辛苦，吹尽狂沙始到金。——刘禹锡</p>
+<h2>
+<a id="user-content-12月15日股市前瞻" class="anchor" href="#12%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901449&amp;idx=1&amp;sn=796080069778aa37599641fdf8f39e29&amp;chksm=bd1c17648a6b9e72ac0e7529f954f06a996986305049d9f89ac2ebc932d2231d16d080f0d07c&amp;scene=27#wechat_redirect" rel="nofollow">12月15日股市前瞻</a>
+</h2>
+<p>日期：2016-12-14 22:2:43<br>
+请看今日之域中，竟是谁家之天下！——骆宾王</p>
+<h2>
+<a id="user-content-12月14日股市前瞻" class="anchor" href="#12%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901442&amp;idx=1&amp;sn=4be453712943975166c7293b06aee52b&amp;chksm=bd1c176f8a6b9e79d091ff9edbf361780b2d8b6d5f76c78210f9bb767ec1b60a52722ca5a2de&amp;scene=27#wechat_redirect" rel="nofollow">12月14日股市前瞻</a>
+</h2>
+<p>日期：2016-12-13 22:15:25<br>
+我最怜君中宵舞，道“男儿到死心如铁”。看试手，补天裂。——辛弃疾</p>
+<h2>
+<a id="user-content-12月13日股市前瞻" class="anchor" href="#12%E6%9C%8813%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901436&amp;idx=1&amp;sn=35a581b01a9293af53b4e67835c0104c&amp;chksm=bd1c17118a6b9e074e1a1794f51a05cf6ae9950f26328ba9105dfc11fecd9b2845391c852e6a&amp;scene=27#wechat_redirect" rel="nofollow">12月13日股市前瞻</a>
+</h2>
+<p>日期：2016-12-12 22:12:47<br>
+莫言下岭便无难，赚得行人空喜欢。正入万山圈子里，一山放过一山拦。——杨万里</p>
+<h2>
+<a id="user-content-12月12日股市前瞻" class="anchor" href="#12%E6%9C%8812%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901429&amp;idx=1&amp;sn=78a110400ade3b98c949e59fab3f77d7&amp;chksm=bd1c17188a6b9e0e853f5b2f833aa17fbe4854fc50af2555142e508c4f6daa2b3a2371810b88&amp;scene=27#wechat_redirect" rel="nofollow">12月12日股市前瞻</a>
+</h2>
+<p>日期：2016-12-11 22:16:7<br>
+沉舟侧畔千帆过，病树前头万木春。——刘禹锡</p>
+<h2>
+<a id="user-content-12月9日股市前瞻" class="anchor" href="#12%E6%9C%889%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901424&amp;idx=1&amp;sn=9a9ccac3b5fb380d57e632d28764d527&amp;chksm=bd1c171d8a6b9e0bd886d85868cef52bbc971f14cc58612f826f568e0de849c2840dad628976&amp;scene=27#wechat_redirect" rel="nofollow">12月9日股市前瞻</a>
+</h2>
+<p>日期：2016-12-8 22:19:18<br>
+昨夜江边春水生，艨艟巨舰一毛轻。向来枉费推移力，此日中流自在行。——朱熹</p>
+<h2>
+<a id="user-content-12月8日股市前瞻" class="anchor" href="#12%E6%9C%888%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901420&amp;idx=1&amp;sn=b584111545a036912c528efa362b9753&amp;chksm=bd1c17018a6b9e17f836b918940d5e1c5ff24b4957c3b30b06a695a04884840e7c428d361c01&amp;scene=27#wechat_redirect" rel="nofollow">12月8日股市前瞻</a>
+</h2>
+<p>日期：2016-12-7 20:48:16<br>
+只眼须凭自主张，纷纷艺苑漫雌黄。矮人看戏何曾见，都是随人说短长。——赵翼</p>
+<h2>
+<a id="user-content-12月7日股市前瞻" class="anchor" href="#12%E6%9C%887%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901416&amp;idx=1&amp;sn=ca54d0bb85417611abee3a679fbb724f&amp;chksm=bd1c17058a6b9e1370258ae9e58a5585d8d37a6bc1a4f28c3bf7c67fe40d5ecae24a12de81b4&amp;scene=27#wechat_redirect" rel="nofollow">12月7日股市前瞻</a>
+</h2>
+<p>日期：2016-12-6 21:23:12<br>
+砌下梨花一堆雪， 明年谁此凭栏杆？——杜牧</p>
+<h2>
+<a id="user-content-12月6日股市前瞻" class="anchor" href="#12%E6%9C%886%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901411&amp;idx=1&amp;sn=80809f9459e974f3f14ebeff805393b6&amp;chksm=bd1c170e8a6b9e18e20ac3699c4e50fd0b9e5a929e7587f602b22dcd06b0da35fcc2bfab7fd6&amp;scene=27#wechat_redirect" rel="nofollow">12月6日股市前瞻</a>
+</h2>
+<p>日期：2016-12-5 21:52:8<br>
+落红不是无情物，化作春泥更护花。——龚自珍</p>
+<h2>
+<a id="user-content-12月5日股市前瞻" class="anchor" href="#12%E6%9C%885%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901406&amp;idx=1&amp;sn=33881ac59e3fa11f5dc11ee79a8b6b5d&amp;chksm=bd1c17338a6b9e259069256fe15e6d8fc8bfc5013eeef7d5722903d26707e05abd628f07a127&amp;scene=27#wechat_redirect" rel="nofollow">12月5日股市前瞻</a>
+</h2>
+<p>日期：2016-12-4 21:56:45<br>
+非关癖爱轻模样，冷处偏佳。——纳兰性德</p>
+<h2>
+<a id="user-content-蔡英文献的什么殷勤" class="anchor" href="#%E8%94%A1%E8%8B%B1%E6%96%87%E7%8C%AE%E7%9A%84%E4%BB%80%E4%B9%88%E6%AE%B7%E5%8B%A4" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901402&amp;idx=1&amp;sn=f4e5512c2c508d4b3608c0104aa5f8cf&amp;chksm=bd1c17378a6b9e21aa01113867750c4b0674b97c62c8d7ba833df2f7542eb3bce388e0c9b8e3&amp;scene=27#wechat_redirect" rel="nofollow">蔡英文献的什么殷勤？</a>
+</h2>
+<p>日期：2016-12-3 15:54:9<br>
+小敌之坚，大敌之擒也。——《孙子兵法·谋攻》</p>
+<h2>
+<a id="user-content-12月2日股市前瞻" class="anchor" href="#12%E6%9C%882%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901395&amp;idx=1&amp;sn=a7ef276d8aa1b761f4fa249df08ab701&amp;chksm=bd1c173e8a6b9e28e6d43c05af3a5a2892504ff07e85b99eb08632bd0b9935aa4e289b2487f9&amp;scene=27#wechat_redirect" rel="nofollow">12月2日股市前瞻</a>
+</h2>
+<p>日期：2016-12-1 22:28:34<br>
+重瞳帐下已知名，隆准军中亦漫行。——顾祖禹</p>
+<h1>
+<a id="user-content-2016-11" class="anchor" href="#2016-11" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2016-11</h1>
+<h2>
+<a id="user-content-12月1日股市前瞻" class="anchor" href="#12%E6%9C%881%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901392&amp;idx=1&amp;sn=f05ebf14f9dd94c667521e3c90990751&amp;chksm=bd1c173d8a6b9e2b679962224251402f89212c58211dfeb071553549b60d2b7219e112ae4f26&amp;scene=27#wechat_redirect" rel="nofollow">12月1日股市前瞻</a>
+</h2>
+<p>日期：2016-11-30 22:14:43<br>
+能攻心，则反侧自消，从古知兵非好战；不审势，即宽严皆误，后来治蜀要深思。——赵藩</p>
+<h2>
+<a id="user-content-11月30日股市前瞻" class="anchor" href="#11%E6%9C%8830%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901384&amp;idx=1&amp;sn=58f8821f23b7eb7129f4d3e68d9017a7&amp;chksm=bd1c17258a6b9e33a1bbdc1aab593b97d6883e49cbf9070899e4903220d7159aaf5473795790&amp;scene=27#wechat_redirect" rel="nofollow">11月30日股市前瞻</a>
+</h2>
+<p>日期：2016-11-29 21:2:25<br>
+至诚之道，可以前知。国家将兴，必有祯祥；国家将亡，必有妖孽。——《中庸》</p>
+<h2>
+<a id="user-content-11月29日股市前瞻" class="anchor" href="#11%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901377&amp;idx=1&amp;sn=47e067cc063c52a7675503b58ad71772&amp;chksm=bd1c172c8a6b9e3a66be1883c527729888cb076bad55f0eb511b4f2efacfe68475bed5b4378c&amp;scene=27#wechat_redirect" rel="nofollow">11月29日股市前瞻</a>
+</h2>
+<p>日期：2016-11-28 21:24:48<br>
+云冷江空岁暮时，竹阴梅影月参差。——殷尧藩</p>
+<h2>
+<a id="user-content-11月28日股市前瞻" class="anchor" href="#11%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901370&amp;idx=1&amp;sn=2434cf6c7e5293207de0547b8a68773f&amp;chksm=bd1c17d78a6b9ec1d0688212ed9f9b1b779f2c57ef82792a8ec45f5fba5318499b55637ab118&amp;scene=27#wechat_redirect" rel="nofollow">11月28日股市前瞻</a>
+</h2>
+<p>日期：2016-11-27 12:29:35<br>
+履霜，坚冰至。——《易经·坤卦》</p>
+<h2>
+<a id="user-content-11月25日股市前瞻" class="anchor" href="#11%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901357&amp;idx=1&amp;sn=d570e2f8183a9dcea76e6ed46baccb2a&amp;chksm=bd1c17c08a6b9ed6fcd247c8251f3a10bda87d1e7b3948335eef9d80a5ae7f350f9e0968139a&amp;scene=27#wechat_redirect" rel="nofollow">11月25日股市前瞻</a>
+</h2>
+<p>日期：2016-11-24 22:11:39<br>
+同来望月人何处？风景依稀似去年。——赵嘏</p>
+<h2>
+<a id="user-content-11月24日股市前瞻" class="anchor" href="#11%E6%9C%8824%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901354&amp;idx=1&amp;sn=009e73c6ae919f8178e09181c0ff8f89&amp;chksm=bd1c17c78a6b9ed1c5c5a0ba5ee52188e2c2b92dcccddc634127452af536fb5462a9a192b97b&amp;scene=27#wechat_redirect" rel="nofollow">11月24日股市前瞻</a>
+</h2>
+<p>日期：2016-11-23 18:12:11<br>
+天寒望善自珍摄，幸勿为风露所欺。——资中筠</p>
+<h2>
+<a id="user-content-11月23日股市前瞻" class="anchor" href="#11%E6%9C%8823%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901349&amp;idx=1&amp;sn=6c5105f0d085ac163cd9dc690d07b404&amp;chksm=bd1c17c88a6b9edececb27c39ea675ea244a5ae7759af9f02385046dedca36cb07f9a4718e75&amp;scene=27#wechat_redirect" rel="nofollow">11月23日股市前瞻</a>
+</h2>
+<p>日期：2016-11-22 22:0:13<br>
+我见青山多妩媚，料青山、见我应如是。情与貌，略相似。——辛弃疾</p>
+<h2>
+<a id="user-content-11月22日股市前瞻" class="anchor" href="#11%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901343&amp;idx=1&amp;sn=a1226e3f9be9bbf39900dd415d1b8aeb&amp;chksm=bd1c17f28a6b9ee4267e69a5b863685afc48d425be1b65f458b2dc67245e89ff6e9c54528ca4&amp;scene=27#wechat_redirect" rel="nofollow">11月22日股市前瞻</a>
+</h2>
+<p>日期：2016-11-21 19:27:8<br>
+胜兵先胜而后求战，败兵先战而后求胜。——《孙子兵法·军形》</p>
+<h2>
+<a id="user-content-11月21日股市前瞻" class="anchor" href="#11%E6%9C%8821%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901336&amp;idx=1&amp;sn=7761de2dc804d9bb17b9cbe75a5b13d0&amp;chksm=bd1c17f58a6b9ee3dd4e193756d00707e71b8414c1f4c72dbe8cea71c61f8e395ef566a6d7d9&amp;scene=27#wechat_redirect" rel="nofollow">11月21日股市前瞻</a>
+</h2>
+<p>日期：2016-11-20 14:46:48<br>
+登东山而小鲁，登泰山而小天下。——《孟子·尽心上》</p>
+<h2>
+<a id="user-content-11月18日股市前瞻" class="anchor" href="#11%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901327&amp;idx=1&amp;sn=e8c954169e0af3a7f8468065b5e28f10&amp;chksm=bd1c17e28a6b9ef4ca56b3d741cf8149b334718af1a2f47e1aa7f410083eb3f91e34e8dcbc64&amp;scene=27#wechat_redirect" rel="nofollow">11月18日股市前瞻</a>
+</h2>
+<p>日期：2016-11-17 21:57:29<br>
+等闲变却故人心，却道故人心易变。——纳兰性德</p>
+<h2>
+<a id="user-content-11月17日股市前瞻" class="anchor" href="#11%E6%9C%8817%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901320&amp;idx=1&amp;sn=90b6799e73e200d8ce67b3b01e60f86e&amp;chksm=bd1c17e58a6b9ef3cb9c63c9701e2d821aad3ee7f872a8346a3fe40ffc001caf3527e80811f1&amp;scene=27#wechat_redirect" rel="nofollow">11月17日股市前瞻</a>
+</h2>
+<p>日期：2016-11-16 17:26:43<br>
+会挽雕弓如满月，西北望，射天狼。——苏轼</p>
+<h2>
+<a id="user-content-11月16日股市前瞻" class="anchor" href="#11%E6%9C%8816%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901315&amp;idx=1&amp;sn=a26ae18008298cb8d4999da94bc68361&amp;chksm=bd1c17ee8a6b9ef862123198f6d77fdf6affa1b686153be66a86dbb1db1d7b579b61c798916f&amp;scene=27#wechat_redirect" rel="nofollow">11月16日股市前瞻</a>
+</h2>
+<p>日期：2016-11-15 19:0:24<br>
+花开堪折直须折，莫待无花空折枝。——杜秋娘</p>
+<h2>
+<a id="user-content-11月15日股市前瞻" class="anchor" href="#11%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901309&amp;idx=1&amp;sn=be2de01d6751755bebbf8177173da2bc&amp;chksm=bd1c17908a6b9e86914da4f01ca2f8556d86bc6e38d673927a4071e08cd05e3aecc02f9d6b5f&amp;scene=27#wechat_redirect" rel="nofollow">11月15日股市前瞻</a>
+</h2>
+<p>日期：2016-11-14 21:36:5<br>
+牧人驱犊返，猎马带禽归。——王绩</p>
+<h2>
+<a id="user-content-11月14日股市前瞻" class="anchor" href="#11%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901305&amp;idx=1&amp;sn=6e26f451da6adc7018027c11925da3fa&amp;chksm=bd1c17948a6b9e82c7c0750431d84c7b3b8e2610fc09d3008e048b08cef975a46d596c1af3ca&amp;scene=27#wechat_redirect" rel="nofollow">11月14日股市前瞻</a>
+</h2>
+<p>日期：2016-11-13 21:40:53<br>
+昔日龌龊不足夸，今朝放荡思无涯。春风得意马蹄疾，一日看尽长安花。——孟郊</p>
+<h2>
+<a id="user-content-核心永远是仓位不死才会有未来" class="anchor" href="#%E6%A0%B8%E5%BF%83%E6%B0%B8%E8%BF%9C%E6%98%AF%E4%BB%93%E4%BD%8D%E4%B8%8D%E6%AD%BB%E6%89%8D%E4%BC%9A%E6%9C%89%E6%9C%AA%E6%9D%A5" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901300&amp;idx=1&amp;sn=6e26db6df462c179ec3ffa2ccaa5a4ee&amp;chksm=bd1c17998a6b9e8f99189fda73903de97b63b03e2e02ba4a083c149a0cfcaa47def13be316db&amp;scene=27#wechat_redirect" rel="nofollow">核心永远是仓位，不死才会有未来</a>
+</h2>
+<p>日期：2016-11-12 20:27:18<br>
+身后有余忘缩手，眼前无路想回头。——曹雪芹</p>
+<h2>
+<a id="user-content-11月11日股市前瞻" class="anchor" href="#11%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901289&amp;idx=1&amp;sn=6e35cf01bb1a0bff90b5ecbd4ff1557b&amp;chksm=bd1c17848a6b9e9297663599f94f3e5d36c62762d9e9d3567dc2ccbb47b3ef447541b37feb44&amp;scene=27#wechat_redirect" rel="nofollow">11月11日股市前瞻</a>
+</h2>
+<p>日期：2016-11-10 21:53:49<br>
+花径不曾缘客扫，蓬门今始为君开。——杜甫</p>
+<h2>
+<a id="user-content-11月10日股市前瞻" class="anchor" href="#11%E6%9C%8810%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901280&amp;idx=1&amp;sn=d3d780b48ac2afb961f85d1b08ad426e&amp;chksm=bd1c178d8a6b9e9b4b06d025ba863b45476810b3bd4354e8d3b79b227177f78e0f8e3d9ced60&amp;scene=27#wechat_redirect" rel="nofollow">11月10日股市前瞻</a>
+</h2>
+<p>日期：2016-11-9 21:15:56<br>
+不畏浮云遮望眼，只缘身在最高层。——王安石《登飞来峰》</p>
+<h2>
+<a id="user-content-11月9日股市前瞻" class="anchor" href="#11%E6%9C%889%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901275&amp;idx=1&amp;sn=eb0c71ec890bac3fcfbc44c7995c1496&amp;chksm=bd1c17b68a6b9ea035721968821e8a0c3b89f503f646c61c6a0d7f0213998ea18af783f67f33&amp;scene=27#wechat_redirect" rel="nofollow">11月9日股市前瞻</a>
+</h2>
+<p>日期：2016-11-8 21:46:58<br>
+归去来兮，田园将芜胡不归？既自以心为形役，奚惆怅而独悲？悟已往之不谏，知来者之可追。实迷途其未远，觉今是而昨非。——陶渊明《归去来兮辞》</p>
+<h2>
+<a id="user-content-11月8日股市前瞻" class="anchor" href="#11%E6%9C%888%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901272&amp;idx=1&amp;sn=c1f83eae5d099300af535e5f265f64ac&amp;chksm=bd1c17b58a6b9ea3e3730fec967648f3bea94c5851bb1bee2a7b55490af9804a48f66f3511e8&amp;scene=27#wechat_redirect" rel="nofollow">11月8日股市前瞻</a>
+</h2>
+<p>日期：2016-11-7 21:58:46<br>
+一道残阳铺水中，半江瑟瑟半江红。——白居易</p>
+<h2>
+<a id="user-content-11月7日股市前瞻" class="anchor" href="#11%E6%9C%887%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901265&amp;idx=1&amp;sn=42c7d69e73225282e3dc13776e429e03&amp;chksm=bd1c17bc8a6b9eaa1f228e1a841c317bb5efc55b7becb046b75c817eab29325ee2f7bbbc52d8&amp;scene=27#wechat_redirect" rel="nofollow">11月7日股市前瞻</a>
+</h2>
+<p>日期：2016-11-6 11:49:53<br>
+涂有所不由，军有所不击，城有所不攻，地有所不争，君命有所不受。——《孙子兵法·九变》</p>
+<h2>
+<a id="user-content-11月4日股市前瞻" class="anchor" href="#11%E6%9C%884%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901260&amp;idx=1&amp;sn=656d8907f36df943f9d36edb0365b93c&amp;chksm=bd1c17a18a6b9eb7585fbe228fa75bedd5bac892313fdcbb67c9d459ac2462dac444f70fe749&amp;scene=27#wechat_redirect" rel="nofollow">11月4日股市前瞻</a>
+</h2>
+<p>日期：2016-11-3 20:38:33<br>
+隔岸红尘忙似火，当轩青嶂冷如冰。——乾康</p>
+<h2>
+<a id="user-content-11月3日股市前瞻" class="anchor" href="#11%E6%9C%883%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901257&amp;idx=1&amp;sn=f9ecf5f87a05b5ec823c2e85615605e6&amp;chksm=bd1c17a48a6b9eb2b1c5a6ed2515ef0a93d17e5495820e675a0ca5052fb75b6a7b01c5d236c5&amp;scene=27#wechat_redirect" rel="nofollow">11月3日股市前瞻</a>
+</h2>
+<p>日期：2016-11-2 21:4:31<br>
+月黑雁飞高，单于夜遁逃。——卢纶</p>
+<h2>
+<a id="user-content-11月2日股市前瞻" class="anchor" href="#11%E6%9C%882%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901253&amp;idx=1&amp;sn=32ef4dcca941fa1af60499194ae5a990&amp;chksm=bd1c17a88a6b9ebe4accbebba4d4055e0f7c169a300a550e8f38c3eac9d2926d239813442b3c&amp;scene=27#wechat_redirect" rel="nofollow">11月2日股市前瞻</a>
+</h2>
+<p>日期：2016-11-1 20:12:32<br>
+刑天舞干戚，猛志固常在。——陶渊明</p>
+<h1>
+<a id="user-content-2016-10" class="anchor" href="#2016-10" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2016-10</h1>
+<h2>
+<a id="user-content-11月1日股市前瞻" class="anchor" href="#11%E6%9C%881%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901250&amp;idx=1&amp;sn=12c7efacd4f7b78ad353f005f0b24c39&amp;chksm=bd1c17af8a6b9eb95c17c25570292ffdfe061116ef8923c1d0037b1d1a11fdfcfa0ac8bc073a&amp;scene=27#wechat_redirect" rel="nofollow">11月1日股市前瞻</a>
+</h2>
+<p>日期：2016-10-31 22:1:37<br>
+会当凌绝顶，一览众山小。——杜甫</p>
+<h2>
+<a id="user-content-10月31日股市前瞻" class="anchor" href="#10%E6%9C%8831%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901247&amp;idx=1&amp;sn=72ca5f514614902a12f9827d6e2c471d&amp;chksm=bd1c16528a6b9f44a45848d808d878bbe4506372f009d5844c69bd9bc1196fc96774dcb9a753&amp;scene=27#wechat_redirect" rel="nofollow">10月31日股市前瞻</a>
+</h2>
+<p>日期：2016-10-30 20:10:27<br>
+欲渡黄河冰塞川，将登太行雪满山。——李白</p>
+<h2>
+<a id="user-content-10月28日股市前瞻" class="anchor" href="#10%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901240&amp;idx=1&amp;sn=5aee530ea5d79e111295df93af8df689&amp;chksm=bd1c16558a6b9f43c0cea7863944706f5ca7bde1c049558072b9fa7647135510490dfe75426c&amp;scene=27#wechat_redirect" rel="nofollow">10月28日股市前瞻</a>
+</h2>
+<p>日期：2016-10-27 22:6:41<br>
+雪暗雕旗画，风多杂鼓声。——杨炯</p>
+<h2>
+<a id="user-content-10月27日股市前瞻" class="anchor" href="#10%E6%9C%8827%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901231&amp;idx=1&amp;sn=c1726257593c2790cc082b20da0feb47&amp;chksm=bd1c16428a6b9f546cea71f9ed26a6f5cdb293034ff2c764c098a253c361227757c0d20aa7cf&amp;scene=27#wechat_redirect" rel="nofollow">10月27日股市前瞻</a>
+</h2>
+<p>日期：2016-10-26 21:19:47<br>
+东边日出西边雨，道是无晴却有晴。——刘禹锡</p>
+<h2>
+<a id="user-content-10月26日股市前瞻" class="anchor" href="#10%E6%9C%8826%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901228&amp;idx=1&amp;sn=19229be01d3fcd1a1ee2c8a5260f5cfd&amp;chksm=bd1c16418a6b9f577bb1fd77ecdf0a2c910e5ac25db419af6f5a10c1f5a12f100276e8e872ee&amp;scene=27#wechat_redirect" rel="nofollow">10月26日股市前瞻</a>
+</h2>
+<p>日期：2016-10-25 22:8:19<br>
+勿以赚小而不为，勿以亏小而为之。</p>
+<h2>
+<a id="user-content-10月25日股市前瞻" class="anchor" href="#10%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901221&amp;idx=1&amp;sn=8e1b02a73a83790394a605d0d9ae694c&amp;chksm=bd1c16488a6b9f5ed441b995e8c665da835d42a20b6175703b23d09edbe14841c211c387b453&amp;scene=27#wechat_redirect" rel="nofollow">10月25日股市前瞻</a>
+</h2>
+<p>日期：2016-10-24 20:48:28<br>
+醉中知遇圣，梦里见寻仙。——张说</p>
+<h2>
+<a id="user-content-10月24日股市前瞻" class="anchor" href="#10%E6%9C%8824%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901217&amp;idx=1&amp;sn=ecafd5b06a0a9bfd048063992efa38dd&amp;chksm=bd1c164c8a6b9f5ae5448b940930491d704607a729b2ccb4e5fa3d5ec4ca73a69b6a904f215c&amp;scene=27#wechat_redirect" rel="nofollow">10月24日股市前瞻</a>
+</h2>
+<p>日期：2016-10-23 20:27:2<br>
+闲来垂钓碧溪上，忽复乘舟梦日边。——李白</p>
+<h2>
+<a id="user-content-10月21日股市前瞻" class="anchor" href="#10%E6%9C%8821%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901211&amp;idx=1&amp;sn=dc752ec70332b4ce59d47ec7acfd2a91&amp;chksm=bd1c16768a6b9f60a7fc1abd0cb143761cf86b44f553ba4e8ff5e349c292ecccb6b92ccffa60&amp;scene=27#wechat_redirect" rel="nofollow">10月21日股市前瞻</a>
+</h2>
+<p>日期：2016-10-20 22:24:8<br>
+善战者之胜也，无智名，无勇功。——《孙子兵法·形篇》</p>
+<h2>
+<a id="user-content-10月20日股市前瞻" class="anchor" href="#10%E6%9C%8820%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901203&amp;idx=1&amp;sn=aeb5064ae950c671c468974c006e5173&amp;chksm=bd1c167e8a6b9f682c5f80ef992077519e86cbb3170dacc12a1dc0772c2264a501360e4f7ca0&amp;scene=27#wechat_redirect" rel="nofollow">10月20日股市前瞻</a>
+</h2>
+<p>日期：2016-10-19 21:52:55<br>
+千磨万击还坚劲，任尔东西南北风。——郑板桥《竹石》</p>
+<h2>
+<a id="user-content-10月19日股市前瞻" class="anchor" href="#10%E6%9C%8819%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901200&amp;idx=1&amp;sn=3691ad8b9d382aab68083e16bd00e7c5&amp;chksm=bd1c167d8a6b9f6bc94fcad82fa94091fafa65c046088b17bf30081ba11e37134c137eb712d0&amp;scene=27#wechat_redirect" rel="nofollow">10月19日股市前瞻</a>
+</h2>
+<p>日期：2016-10-18 22:15:53<br>
+有人辞官归故里，有人漏夜赶科场。——吴敬梓《儒林外史》</p>
+<h2>
+<a id="user-content-10月18日股市前瞻" class="anchor" href="#10%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901197&amp;idx=1&amp;sn=78d7dbdd78ccca6669474eddf8192e67&amp;chksm=bd1c16608a6b9f76d9f25386a723756dc53f1241122eaaf7419a238aa20d72f2bef6b31ca432&amp;scene=27#wechat_redirect" rel="nofollow">10月18日股市前瞻</a>
+</h2>
+<p>日期：2016-10-17 22:16:37<br>
+不违农时，谷不可胜食也；数罟不入洿池，鱼鳖不可胜食也；斧斤以时入山林，材木不可胜用也。——《孟子·梁惠王上》</p>
+<h2>
+<a id="user-content-10月17日股市前瞻" class="anchor" href="#10%E6%9C%8817%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901194&amp;idx=1&amp;sn=80366190f2f3348f03847c8acfe4f96f&amp;chksm=bd1c16678a6b9f71ffa901799b86edd5f47b254c32d8d9d271ddbc977af345b43cf1f9fe9308&amp;scene=27#wechat_redirect" rel="nofollow">10月17日股市前瞻</a>
+</h2>
+<p>日期：2016-10-16 21:41:13<br>
+大漠风尘日色昏，红旗半卷出辕门。——王昌龄《从军行》</p>
+<h2>
+<a id="user-content-10月14日股市前瞻" class="anchor" href="#10%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901187&amp;idx=1&amp;sn=641e878ef6dacb27d4aba3e5d397108b&amp;chksm=bd1c166e8a6b9f789b55861e12a24b6c9da11c090c6d325f58a12ef83e4ec45299aaa4158597&amp;scene=27#wechat_redirect" rel="nofollow">10月14日股市前瞻</a>
+</h2>
+<p>日期：2016-10-13 22:14:8<br>
+随意春芳歇，王孙自可留。——王维《山居秋暝》</p>
+<h2>
+<a id="user-content-10月13日股市前瞻" class="anchor" href="#10%E6%9C%8813%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901181&amp;idx=1&amp;sn=591ce37e216446b8174d86ef8c051788&amp;chksm=bd1c16108a6b9f06abf56b74cae75900db745446d08c5bab0037728eb1eff767fe4e6727604d&amp;scene=27#wechat_redirect" rel="nofollow">10月13日股市前瞻</a>
+</h2>
+<p>日期：2016-10-12 22:15:32<br>
+长风破浪会有时，直挂云帆济沧海。——李白</p>
+<h2>
+<a id="user-content-10月12日股市前瞻" class="anchor" href="#10%E6%9C%8812%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901175&amp;idx=1&amp;sn=cbe13bd0f0daa7af77bed3d28434625c&amp;chksm=bd1c161a8a6b9f0c6b2b1ddcd16ce761b97cdbe44d375efc2fb5de867ab3c6c55e72b4e95523&amp;scene=27#wechat_redirect" rel="nofollow">10月12日股市前瞻</a>
+</h2>
+<p>日期：2016-10-11 22:19:14<br>
+山近月远觉月小，便道此山大于月。若有人眼大如天，当见山高月更阔。——王阳明</p>
+<h2>
+<a id="user-content-10月11日股市前瞻" class="anchor" href="#10%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901171&amp;idx=1&amp;sn=24d93ac8008f437df5cf5e5a1a5d6db2&amp;chksm=bd1c161e8a6b9f087c122bc842ad9584d534fe2a2d5b40161a2f0b006cda4e81ec759adf08c6&amp;scene=27#wechat_redirect" rel="nofollow">10月11日股市前瞻</a>
+</h2>
+<p>日期：2016-10-10 21:58:23<br>
+古人学问无遗力，少壮工夫老始成。纸上得来终觉浅，绝知此事要躬行。——陆游</p>
+<h2>
+<a id="user-content-10月10日股市前瞻" class="anchor" href="#10%E6%9C%8810%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901165&amp;idx=1&amp;sn=1cd2673044351675685e8c7828ee95f5&amp;chksm=bd1c16008a6b9f1639e96a468c9eccdcea783bad99414418eb785bdcefd2f409ba10d190bb2f&amp;scene=27#wechat_redirect" rel="nofollow">10月10日股市前瞻</a>
+</h2>
+<p>日期：2016-10-9 16:30:40<br>
+但将酩酊酬佳节，不用登临恨落晖。——杜牧《九日齐安登高》</p>
+<h2>
+<a id="user-content-忠臣如何不被杀续" class="anchor" href="#%E5%BF%A0%E8%87%A3%E5%A6%82%E4%BD%95%E4%B8%8D%E8%A2%AB%E6%9D%80%E7%BB%AD" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901156&amp;idx=1&amp;sn=ca0da69a83660d192f59770480fdf45b&amp;chksm=bd1c16098a6b9f1f891073035a5bcb347c2ec6d6b816e517acbb376e553567c3a6cc0b468b3d&amp;scene=27#wechat_redirect" rel="nofollow">忠臣如何不被杀（续）？</a>
+</h2>
+<p>日期：2016-10-4 23:12:47<br>
+重瞳帐下已知名，隆准军中亦漫行。半世行藏都是错，如何坛上会谈兵。 ——顾祖禹</p>
+<h2>
+<a id="user-content-忠臣如何不被杀" class="anchor" href="#%E5%BF%A0%E8%87%A3%E5%A6%82%E4%BD%95%E4%B8%8D%E8%A2%AB%E6%9D%80" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901153&amp;idx=1&amp;sn=ed133a15c3541e34eaaa77f6d7ea32f5&amp;chksm=bd1c160c8a6b9f1ab38ce3a5780b6760c974b68bcc215a88e91b9282e18fd8e50dfc6b4642a5&amp;scene=27#wechat_redirect" rel="nofollow">忠臣如何不被杀？</a>
+</h2>
+<p>日期：2016-10-1 20:34:40<br>
+故明主之畜臣，臣不得越官而有功，不得陈言而不当。越官则死，不当则罪。守业其官，所言者贞也，则群臣不得朋党相为矣。——《韩非子·二柄》</p>
+<h1>
+<a id="user-content-2016-9" class="anchor" href="#2016-9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2016-9</h1>
+<h2>
+<a id="user-content-9月30日股市前瞻" class="anchor" href="#9%E6%9C%8830%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901150&amp;idx=1&amp;sn=3e5621b4c2f8a9272b1444094dd9f2fc&amp;chksm=bd1c16338a6b9f25ba83041e659144c0a4d69463943ff8d73948f4a2f7108bebcfe8bc2f21b7&amp;scene=27#wechat_redirect" rel="nofollow">9月30日股市前瞻</a>
+</h2>
+<p>日期：2016-9-29 21:58:10<br>
+迷津欲有问，平海夕漫漫。——孟浩然《早寒江上有怀》</p>
+<h2>
+<a id="user-content-9月29日股市前瞻" class="anchor" href="#9%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901147&amp;idx=1&amp;sn=52a8425130ae36b3243721c3f0d53c0a&amp;chksm=bd1c16368a6b9f204548b36f6ae36d8f987c7a4c6caaba93805dd643a8ad753f2ab0cd72f77e&amp;scene=27#wechat_redirect" rel="nofollow">9月29日股市前瞻</a>
+</h2>
+<p>日期：2016-9-28 21:49:29<br>
+竹外桃花三两枝，春江水暖鸭先知。——苏轼</p>
+<h2>
+<a id="user-content-9月28日股市前瞻" class="anchor" href="#9%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901138&amp;idx=1&amp;sn=51e6f599bf3ef8ea8671c107a627c533&amp;chksm=bd1c163f8a6b9f29739f6f5e81b9fee6e2124c08e06d0a0232cad7a1fe6977dd9fb9ba44da8b&amp;scene=27#wechat_redirect" rel="nofollow">9月28日股市前瞻</a>
+</h2>
+<p>日期：2016-9-27 21:58:4<br>
+天阶夜色凉如水，坐看牵牛织女星。——杜牧《秋夕》</p>
+<h2>
+<a id="user-content-9月27股市前瞻" class="anchor" href="#9%E6%9C%8827%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901135&amp;idx=1&amp;sn=4786bb6202886dc2e230020a8aeb6461&amp;chksm=bd1c16228a6b9f3483884af840a1dddfda5b7a9ef08c49d273e0fc7feb4fe76fe61f1fa210a3&amp;scene=27#wechat_redirect" rel="nofollow">9月27股市前瞻</a>
+</h2>
+<p>日期：2016-9-26 22:12:54<br>
+君子与其练达，不若朴鲁；与其曲谨，不若疏狂。——《菜根谭》</p>
+<h2>
+<a id="user-content-9月26日股市前瞻" class="anchor" href="#9%E6%9C%8826%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901130&amp;idx=1&amp;sn=d8910b7e10db99730d593cf1aa4ed36a&amp;chksm=bd1c16278a6b9f3175a700bbb938e0a5ceb54f2bf733d3827a0d5a21cc1a6f3d9b3067a396a2&amp;scene=27#wechat_redirect" rel="nofollow">9月26日股市前瞻</a>
+</h2>
+<p>日期：2016-9-25 22:27:9<br>
+百年世事三更梦，万里江山一局棋。——顺治</p>
+<h2>
+<a id="user-content-9月23日股市前瞻" class="anchor" href="#9%E6%9C%8823%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901127&amp;idx=1&amp;sn=155f9b6a2f8e364b3bfb0919a4767e9f&amp;chksm=bd1c162a8a6b9f3cec098e6bf2006e80386c9bcef9e06f599d9c49e88ca27b44a6a945e80121&amp;scene=27#wechat_redirect" rel="nofollow">9月23日股市前瞻</a>
+</h2>
+<p>日期：2016-9-22 22:23:27<br>
+长风破浪会有时，直挂云帆济沧海。——李白《行路难》</p>
+<h2>
+<a id="user-content-9月22日股市前瞻" class="anchor" href="#9%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901124&amp;idx=1&amp;sn=d5f8cba34b3a934f1be5d5260fc01c51&amp;chksm=bd1c16298a6b9f3f92eb93de6289a2b3a2a0da4b736b363bb60c62d22ee48eecdb02573557aa&amp;scene=27#wechat_redirect" rel="nofollow">9月22日股市前瞻</a>
+</h2>
+<p>日期：2016-9-21 22:14:16<br>
+天地不仁，以万物为刍狗；圣人不仁，以百姓为刍狗。——老子《道德经》</p>
+<h2>
+<a id="user-content-9月21日股市前瞻" class="anchor" href="#9%E6%9C%8821%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901121&amp;idx=1&amp;sn=51516a565366c3e2faccad9f322e13d5&amp;chksm=bd1c162c8a6b9f3a8d1726c17790338102f4c2ddf5e9cb399e6ce4e49fdd12186a5ea904bf37&amp;scene=27#wechat_redirect" rel="nofollow">9月21日股市前瞻</a>
+</h2>
+<p>日期：2016-9-20 22:25:5<br>
+非关癖爱轻模样，冷处偏佳。别有根芽，不是人间富贵花。——纳兰性德《采桑子·塞上咏雪花》</p>
+<h2>
+<a id="user-content-9月20日股市前瞻" class="anchor" href="#9%E6%9C%8820%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901118&amp;idx=1&amp;sn=287c1d6bacc21840dfc72995d16b801b&amp;scene=27#wechat_redirect" rel="nofollow">9月20日股市前瞻</a>
+</h2>
+<p>日期：2016-9-19 21:48:34<br>
+随意春芳歇，王孙自可留。——王维《山居秋暝》</p>
+<h2>
+<a id="user-content-9月19日股市前瞻" class="anchor" href="#9%E6%9C%8819%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901113&amp;idx=1&amp;sn=a2fd5772b9558071c9036cee9c72698f&amp;scene=27#wechat_redirect" rel="nofollow">9月19日股市前瞻</a>
+</h2>
+<p>日期：2016-9-18 18:26:8<br>
+黑云压城城欲摧，甲光向日金鳞开。——李贺《雁门太守行》</p>
+<h2>
+<a id="user-content-9月14日股市前瞻" class="anchor" href="#9%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901099&amp;idx=1&amp;sn=2be09088618036abf80f1c41ce9b570f&amp;scene=27#wechat_redirect" rel="nofollow">9月14日股市前瞻</a>
+</h2>
+<p>日期：2016-9-13 20:45:29<br>
+贤者以其昭昭，使人昭昭；今以其昏昏，使人昭昭。——《孟子·尽心下》</p>
+<h2>
+<a id="user-content-9月13日股市前瞻" class="anchor" href="#9%E6%9C%8813%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901096&amp;idx=1&amp;sn=b508a332b82a16fe473c08266c3005f2&amp;scene=27#wechat_redirect" rel="nofollow">9月13日股市前瞻</a>
+</h2>
+<p>日期：2016-9-12 22:21:40<br>
+万山不许一溪奔，拦得溪声日夜喧。到得前头山脚尽，堂堂溪水出前村。——杨万里《桂源铺》</p>
+<h2>
+<a id="user-content-9月12日股市前瞻" class="anchor" href="#9%E6%9C%8812%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901086&amp;idx=1&amp;sn=53e44143b51913c1bb0124a062e2ebb8&amp;scene=27#wechat_redirect" rel="nofollow">9月12日股市前瞻</a>
+</h2>
+<p>日期：2016-9-11 20:54:23<br>
+反认他乡是故乡；甚荒唐，到头来都是为他人作嫁衣裳。——曹雪芹《红楼梦》</p>
+<h2>
+<a id="user-content-9月9日股市前瞻" class="anchor" href="#9%E6%9C%889%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901080&amp;idx=1&amp;sn=87928fa0ac8c818914b930944a7bab00&amp;scene=27#wechat_redirect" rel="nofollow">9月9日股市前瞻</a>
+</h2>
+<p>日期：2016-9-8 22:26:30<br>
+诗家清景在新春，绿柳才黄半未匀。若待上林花似锦，出门俱是看花人。——杨巨源《城东早春》</p>
+<h2>
+<a id="user-content-9月8日股市前瞻" class="anchor" href="#9%E6%9C%888%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901076&amp;idx=1&amp;sn=a6a0020906b159e3f9bc640375f53542&amp;scene=27#wechat_redirect" rel="nofollow">9月8日股市前瞻</a>
+</h2>
+<p>日期：2016-9-7 22:16:8<br>
+待到秋来九月八，​我花开后百花杀。 ​冲天香阵透长安，​满城尽带黄金甲。——黄巢《不第后赋菊》</p>
+<h2>
+<a id="user-content-9月7日股市前瞻" class="anchor" href="#9%E6%9C%887%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901072&amp;idx=1&amp;sn=3f19b9899d77e5b39b0e210d3fba9d87&amp;scene=27#wechat_redirect" rel="nofollow">9月7日股市前瞻</a>
+</h2>
+<p>日期：2016-9-6 22:5:23<br>
+回看射雕处，千里暮云平。——王维《观猎》</p>
+<h2>
+<a id="user-content-9月6日股市前瞻" class="anchor" href="#9%E6%9C%886%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901068&amp;idx=1&amp;sn=70a728924d6fd37d81bc184944b64526&amp;scene=27#wechat_redirect" rel="nofollow">9月6日股市前瞻</a>
+</h2>
+<p>日期：2016-9-5 22:11:37<br>
+云霞出海曙，梅柳渡江春。——杜审言《和晋陵陆丞早春游望》</p>
+<h2>
+<a id="user-content-9月5日股市前瞻" class="anchor" href="#9%E6%9C%885%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901064&amp;idx=1&amp;sn=70d28c9c72e1d8cecb1e156072f01130&amp;scene=27#wechat_redirect" rel="nofollow">9月5日股市前瞻</a>
+</h2>
+<p>日期：2016-9-4 17:27:10<br>
+亦余心之所善兮，虽九死其犹未悔。——屈原《离骚》</p>
+<h2>
+<a id="user-content-9月2日股市前瞻" class="anchor" href="#9%E6%9C%882%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901060&amp;idx=1&amp;sn=c4b5f1e77c4453b2951d38d11f218af1&amp;scene=27#wechat_redirect" rel="nofollow">9月2日股市前瞻</a>
+</h2>
+<p>日期：2016-9-1 22:7:3<br>
+山下旌旗在望，山头鼓角相闻。敌军围困万千重，我自岿然不动。 ——毛泽东《西江月·井冈山》</p>
+<h1>
+<a id="user-content-2016-8" class="anchor" href="#2016-8" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2016-8</h1>
+<h2>
+<a id="user-content-9月1日股市前瞻" class="anchor" href="#9%E6%9C%881%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901057&amp;idx=1&amp;sn=0895fd0e538ac728a34aae18438fbeed&amp;scene=27#wechat_redirect" rel="nofollow">9月1日股市前瞻</a>
+</h2>
+<p>日期：2016-8-31 21:15:18<br>
+今日长缨在手，何时缚住苍龙？——毛泽东《清平乐·六盘山》</p>
+<h2>
+<a id="user-content-8月31日股市前瞻" class="anchor" href="#8%E6%9C%8831%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901051&amp;idx=1&amp;sn=ada72fc9785af5f24a0313cac897606f&amp;scene=27#wechat_redirect" rel="nofollow">8月31日股市前瞻</a>
+</h2>
+<p>日期：2016-8-30 21:34:18<br>
+春来我不先开口，哪个虫儿敢作声！——毛泽东《咏蛙》</p>
+<h2>
+<a id="user-content-8月30日股市前瞻" class="anchor" href="#8%E6%9C%8830%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901041&amp;idx=1&amp;sn=ff10159e17b638e860dca2aed1e286fd&amp;scene=27#wechat_redirect" rel="nofollow">8月30日股市前瞻</a>
+</h2>
+<p>日期：2016-8-29 20:1:38<br>
+四十八盘才走过，风驰又已到钱塘。——毛泽东《莫干山》</p>
+<h2>
+<a id="user-content-8月29日股市前瞻" class="anchor" href="#8%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901034&amp;idx=1&amp;sn=9c14c4ea86dacce0ddcf7391f1f9a625&amp;scene=27#wechat_redirect" rel="nofollow">8月29日股市前瞻</a>
+</h2>
+<p>日期：2016-8-28 14:15:9<br>
+一年一度秋风劲，不似春光。胜似春光，寥廓江天万里霜。——毛泽东《采桑子·重阳》</p>
+<h2>
+<a id="user-content-8月26日股市前瞻" class="anchor" href="#8%E6%9C%8826%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901027&amp;idx=1&amp;sn=84ce3045ccab582cc69b0dd8f5d59d06&amp;scene=27#wechat_redirect" rel="nofollow">8月26日股市前瞻</a>
+</h2>
+<p>日期：2016-8-25 19:49:15<br>
+僧是愚氓犹可训，妖为鬼蜮必成灾。——毛泽东《七律·和郭沫若同志》</p>
+<h2>
+<a id="user-content-8月25日股市前瞻" class="anchor" href="#8%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901022&amp;idx=1&amp;sn=fa76e07d32360fe5d5260a24cd7476b9&amp;scene=27#wechat_redirect" rel="nofollow">8月25日股市前瞻</a>
+</h2>
+<p>日期：2016-8-24 21:4:46<br>
+宜将剩勇追穷寇，不可沽名学霸王。 ——毛泽东《七律·人民解放军占领南京》</p>
+<h2>
+<a id="user-content-8月24日股市前瞻" class="anchor" href="#8%E6%9C%8824%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901008&amp;idx=1&amp;sn=a0a33532a3d7d933bdf7b8123ceb2b70&amp;scene=27#wechat_redirect" rel="nofollow">8月24日股市前瞻</a>
+</h2>
+<p>日期：2016-8-23 17:34:41<br>
+待到山花烂漫时，她在丛中笑。——毛泽东《卜算子·咏梅》</p>
+<h2>
+<a id="user-content-8月23日股市前瞻" class="anchor" href="#8%E6%9C%8823%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901003&amp;idx=1&amp;sn=e8db65edcb9da9890f1db296eb7416e2&amp;scene=27#wechat_redirect" rel="nofollow">8月23日股市前瞻</a>
+</h2>
+<p>日期：2016-8-22 21:50:58<br>
+等闲变却故人心，却道故人心易变。——纳兰性德《木兰花令·拟古决绝词》</p>
+<h2>
+<a id="user-content-8月20日股市前瞻" class="anchor" href="#8%E6%9C%8820%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650901000&amp;idx=1&amp;sn=e3677324d7d7d9363d1617d2dd089310&amp;scene=27#wechat_redirect" rel="nofollow">8月20日股市前瞻</a>
+</h2>
+<p>日期：2016-8-21 21:34:22<br>
+昨夜江边春水生，蒙冲巨舰一毛轻。向来枉费推移力，此日中流自在行。 ——朱熹</p>
+<h2>
+<a id="user-content-8月19日股市前瞻" class="anchor" href="#8%E6%9C%8819%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900997&amp;idx=1&amp;sn=a7ff88b8a0d8da2ffb2ecd56b03d162e&amp;scene=27#wechat_redirect" rel="nofollow">8月19日股市前瞻</a>
+</h2>
+<p>日期：2016-8-18 21:31:33<br>
+男儿何不带吴钩，收取关山五十州。——李贺</p>
+<h2>
+<a id="user-content-8月18日股市前瞻" class="anchor" href="#8%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900993&amp;idx=1&amp;sn=37b5beb6f7d63e8866495fb470fad8a9&amp;scene=27#wechat_redirect" rel="nofollow">8月18日股市前瞻</a>
+</h2>
+<p>日期：2016-8-17 18:1:56<br>
+子绝四：毋意，毋必，毋固，毋我。——《论语》</p>
+<h2>
+<a id="user-content-8月17日股市前瞻" class="anchor" href="#8%E6%9C%8817%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900988&amp;idx=1&amp;sn=10f71b7e55778dcba5d9f51027443c51&amp;scene=27#wechat_redirect" rel="nofollow">8月17日股市前瞻</a>
+</h2>
+<p>日期：2016-8-16 18:47:47<br>
+月黑雁飞高，单于夜遁逃。欲将轻骑逐，大雪满弓刀。——卢纶</p>
+<h2>
+<a id="user-content-8月16日股市前瞻" class="anchor" href="#8%E6%9C%8816%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900983&amp;idx=1&amp;sn=338bd511e5a8d69eee46a463f0b2a017&amp;scene=27#wechat_redirect" rel="nofollow">8月16日股市前瞻</a>
+</h2>
+<p>日期：2016-8-15 18:16:19<br>
+万山不许一溪奔，拦得溪声日夜喧。到得前头山脚尽，堂堂溪水出前村。——杨万里</p>
+<h2>
+<a id="user-content-8月15日股市前瞻" class="anchor" href="#8%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900978&amp;idx=1&amp;sn=efa91822897458a47528ff0a130008a5&amp;scene=27#wechat_redirect" rel="nofollow">8月15日股市前瞻</a>
+</h2>
+<p>日期：2016-8-14 22:17:25<br>
+天之道，损有余而补不足。人之道，则不然，损不足以奉有余。——《道德经》</p>
+<h2>
+<a id="user-content-8月12日股市前瞻" class="anchor" href="#8%E6%9C%8812%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900972&amp;idx=1&amp;sn=a8f3305b43c3b6cb82abbed08b3b3f09&amp;scene=27#wechat_redirect" rel="nofollow">8月12日股市前瞻</a>
+</h2>
+<p>日期：2016-8-11 21:59:57<br>
+纸上得来终觉浅，绝知此事要躬行。——陆游</p>
+<h2>
+<a id="user-content-8月11日股市前瞻" class="anchor" href="#8%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900968&amp;idx=1&amp;sn=0e96631699f811ce337822a77c6d1e5b&amp;scene=27#wechat_redirect" rel="nofollow">8月11日股市前瞻</a>
+</h2>
+<p>日期：2016-8-10 22:6:51<br>
+昨夜西风凋碧树，独上高楼，望尽天涯路。——晏殊《蝶恋花》</p>
+<h2>
+<a id="user-content-8月10日股市前瞻" class="anchor" href="#8%E6%9C%8810%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900964&amp;idx=1&amp;sn=c1b43d988dbfd12303ffd99980ca34f2&amp;scene=27#wechat_redirect" rel="nofollow">8月10日股市前瞻</a>
+</h2>
+<p>日期：2016-8-9 19:2:40<br>
+人生自是有情痴，此恨不关风与月。——欧阳修《玉楼春》</p>
+<h2>
+<a id="user-content-8月9日股市前瞻" class="anchor" href="#8%E6%9C%889%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900960&amp;idx=1&amp;sn=ee7d088418a70ef3d99a56301f66572b&amp;scene=27#wechat_redirect" rel="nofollow">8月9日股市前瞻</a>
+</h2>
+<p>日期：2016-8-8 22:14:17<br>
+人少则慕父母，知好色则慕少艾。——《孟子·万章》</p>
+<h2>
+<a id="user-content-8月8日股市前瞻" class="anchor" href="#8%E6%9C%888%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900957&amp;idx=1&amp;sn=fc0156a7f5a292abb38536f4cbc734b1&amp;scene=27#wechat_redirect" rel="nofollow">8月8日股市前瞻</a>
+</h2>
+<p>日期：2016-8-7 22:1:31<br>
+若菩萨有我相、人相、众生相、寿者相，即非菩萨。——《金刚经》</p>
+<h2>
+<a id="user-content-8月5日股市前瞻" class="anchor" href="#8%E6%9C%885%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900951&amp;idx=1&amp;sn=bd8b009ec2a35497c61395f653ba9011&amp;scene=27#wechat_redirect" rel="nofollow">8月5日股市前瞻</a>
+</h2>
+<p>日期：2016-8-4 22:20:56<br>
+曾虑多情损梵行，入山又恐别倾城。世间安得双全法，不负如来不负卿。——仓央嘉措</p>
+<h2>
+<a id="user-content-8月4日股市前瞻" class="anchor" href="#8%E6%9C%884%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900947&amp;idx=1&amp;sn=c028150d10c6d2b83b4c1146cd664e59&amp;scene=27#wechat_redirect" rel="nofollow">8月4日股市前瞻</a>
+</h2>
+<p>日期：2016-8-3 22:17:55<br>
+行到水穷处，坐看云起时。——王维《终南别业》</p>
+<h2>
+<a id="user-content-8月3日股市前瞻" class="anchor" href="#8%E6%9C%883%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900941&amp;idx=1&amp;sn=1ea09731f97af70d74e84b2eac60a7e2&amp;scene=27#wechat_redirect" rel="nofollow">8月3日股市前瞻</a>
+</h2>
+<p>日期：2016-8-2 22:14:59<br>
+俏也不争春，只把春来报。待到山花烂漫时，她在丛中笑。——毛泽东《卜算子·咏梅》</p>
+<h2>
+<a id="user-content-8月2日股市前瞻" class="anchor" href="#8%E6%9C%882%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900936&amp;idx=1&amp;sn=141d4eb60bacf52b51033cdf681f0e6f&amp;scene=27#wechat_redirect" rel="nofollow">8月2日股市前瞻</a>
+</h2>
+<p>日期：2016-8-1 22:8:4<br>
+独有英雄驱虎豹，更无豪杰怕熊罴。梅花欢喜漫天雪，冻死苍蝇未足奇。——毛泽东《冬云》</p>
+<h1>
+<a id="user-content-2016-7" class="anchor" href="#2016-7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2016-7</h1>
+<h2>
+<a id="user-content-8月1日股市前瞻" class="anchor" href="#8%E6%9C%881%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900931&amp;idx=1&amp;sn=c4c746d75df8f438c840ec0ed92c1e07&amp;scene=27#wechat_redirect" rel="nofollow">8月1日股市前瞻</a>
+</h2>
+<p>日期：2016-7-31 22:13:10<br>
+过眼滔滔云共雾，算人间知己吾和汝。人有病，天知否？ ——毛泽东《贺新郎》</p>
+<h2>
+<a id="user-content-7月29日股市前瞻" class="anchor" href="#7%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900926&amp;idx=1&amp;sn=2b7b419fceac1f1c5965d5b5e2fe2dc6&amp;scene=27#wechat_redirect" rel="nofollow">7月29日股市前瞻</a>
+</h2>
+<p>日期：2016-7-28 22:3:15<br>
+雄关漫道真如铁，而今迈步从头越。从头越，苍山如海，残阳如血。——毛泽东《忆秦娥·娄山关》</p>
+<h2>
+<a id="user-content-7月28日股市前瞻" class="anchor" href="#7%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900920&amp;idx=1&amp;sn=ba31012f40bda381a5ea5617fce8fdeb&amp;scene=27#wechat_redirect" rel="nofollow">7月28日股市前瞻</a>
+</h2>
+<p>日期：2016-7-27 22:12:36<br>
+山下旌旗在望，山头鼓角相闻。敌军围困万千重，我自岿然不动。——毛泽东《西江月·井冈山》</p>
+<h2>
+<a id="user-content-7月27日股市前瞻" class="anchor" href="#7%E6%9C%8827%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900914&amp;idx=1&amp;sn=35852a7df1e3d252ced70d421f6f4902&amp;scene=27#wechat_redirect" rel="nofollow">7月27日股市前瞻</a>
+</h2>
+<p>日期：2016-7-26 21:31:39<br>
+成败极知无定势，是非元自要徐观。——陆游《次韵季长见示》</p>
+<h2>
+<a id="user-content-7月26日股市前瞻" class="anchor" href="#7%E6%9C%8826%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900907&amp;idx=1&amp;sn=0d372fad8eaa00f2b1a992b6ed822f73&amp;scene=27#wechat_redirect" rel="nofollow">7月26日股市前瞻</a>
+</h2>
+<p>日期：2016-7-25 22:24:56<br>
+问渠那得清如许，为有源头活水来。——朱熹</p>
+<h2>
+<a id="user-content-7月25日股市前瞻" class="anchor" href="#7%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900901&amp;idx=1&amp;sn=81b2b24cba6db044010e2d9173c68897&amp;scene=27#wechat_redirect" rel="nofollow">7月25日股市前瞻</a>
+</h2>
+<p>日期：2016-7-24 22:20:51<br>
+岁寒，然后知松柏之后凋也。——《论语·子罕》</p>
+<h2>
+<a id="user-content-7月22日股市前瞻" class="anchor" href="#7%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900896&amp;idx=1&amp;sn=22041bae3c670e33ce4a5f07c655fa97&amp;scene=27#wechat_redirect" rel="nofollow">7月22日股市前瞻</a>
+</h2>
+<p>日期：2016-7-21 22:16:30<br>
+落霞与孤鹜齐飞，秋水共长天一色。 ——王勃《滕王阁序》</p>
+<h2>
+<a id="user-content-7月21日股市前瞻" class="anchor" href="#7%E6%9C%8821%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900892&amp;idx=1&amp;sn=41af9b4aabf795f21982287779e5931e&amp;scene=27#wechat_redirect" rel="nofollow">7月21日股市前瞻</a>
+</h2>
+<p>日期：2016-7-20 22:17:1<br>
+不畏浮云遮望眼，只缘身在最高层。——王安石《登飞来峰》</p>
+<h2>
+<a id="user-content-7月20日股市前瞻" class="anchor" href="#7%E6%9C%8820%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900888&amp;idx=1&amp;sn=32f318c6a6d8313ae6814766ae74942a&amp;scene=27#wechat_redirect" rel="nofollow">7月20日股市前瞻</a>
+</h2>
+<p>日期：2016-7-19 22:19:34<br>
+蠢货有两种，一种是蠢货，一种是抵制蠢货的蠢货。</p>
+<h2>
+<a id="user-content-7月19日股市前瞻" class="anchor" href="#7%E6%9C%8819%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900885&amp;idx=1&amp;sn=53153241da50bc1adf1dea3dca557e32&amp;scene=27#wechat_redirect" rel="nofollow">7月19日股市前瞻</a>
+</h2>
+<p>日期：2016-7-18 22:16:48<br>
+会挽雕弓如满月，西北望，射天狼。——苏轼《江城子·密州出猎》</p>
+<h2>
+<a id="user-content-7月18日股市前瞻" class="anchor" href="#7%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900879&amp;idx=1&amp;sn=7b5621f30d358ed78d4173aea5fa5531&amp;scene=27#wechat_redirect" rel="nofollow">7月18日股市前瞻</a>
+</h2>
+<p>日期：2016-7-17 21:40:34<br>
+八百里分麾下炙，五十弦翻塞外声。沙场秋点兵。—— 辛弃疾《破阵子·为陈同甫赋壮词以寄》</p>
+<h2>
+<a id="user-content-7月15日股市前瞻" class="anchor" href="#7%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900874&amp;idx=1&amp;sn=2566dca1bf890116512363e0a9e84343&amp;scene=27#wechat_redirect" rel="nofollow">7月15日股市前瞻</a>
+</h2>
+<p>日期：2016-7-14 20:51:36<br>
+男儿何不带吴钩，收取关山五十州？ ——李贺</p>
+<h2>
+<a id="user-content-7月14日股市前瞻" class="anchor" href="#7%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900866&amp;idx=1&amp;sn=81b37a874b65f90d0767d5b12ede0127&amp;scene=27#wechat_redirect" rel="nofollow">7月14日股市前瞻</a>
+</h2>
+<p>日期：2016-7-13 22:16:16<br>
+西塞山前白鹭飞，桃花流水鳜鱼肥。——张志和《渔歌子》</p>
+<h2>
+<a id="user-content-7月13日股市前瞻" class="anchor" href="#7%E6%9C%8813%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900862&amp;idx=1&amp;sn=10aac2e086554754ff82459ce30bb591&amp;scene=27#wechat_redirect" rel="nofollow">7月13日股市前瞻</a>
+</h2>
+<p>日期：2016-7-12 22:19:34<br>
+宠辱不惊，看庭前花开花落；去留无意，望天上云卷云舒 。——陈继儒《小窗幽记》</p>
+<h2>
+<a id="user-content-7月12日股市前瞻" class="anchor" href="#7%E6%9C%8812%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900857&amp;idx=1&amp;sn=281b7a8d78fa821343f10f41fbcc619e&amp;scene=27#wechat_redirect" rel="nofollow">7月12日股市前瞻</a>
+</h2>
+<p>日期：2016-7-11 22:18:22<br>
+闲来垂钓坐溪上，忽复乘舟梦日边。——李白</p>
+<h2>
+<a id="user-content-7月11日股市前瞻" class="anchor" href="#7%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900854&amp;idx=1&amp;sn=2d3364ff34a8d3d8e4dfee6533b8cb96&amp;scene=27#wechat_redirect" rel="nofollow">7月11日股市前瞻</a>
+</h2>
+<p>日期：2016-7-10 22:16:3<br>
+问余何意栖碧山，笑而不答心自闲。桃花流水窅然去，别有天地非人间。 ——李白《山中问答》</p>
+<h2>
+<a id="user-content-曹操为什么没能统一天下" class="anchor" href="#%E6%9B%B9%E6%93%8D%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B2%A1%E8%83%BD%E7%BB%9F%E4%B8%80%E5%A4%A9%E4%B8%8B" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900847&amp;idx=1&amp;sn=10d320342f9e03d0e0429ac96a8de0be&amp;scene=27#wechat_redirect" rel="nofollow">曹操为什么没能统一天下？</a>
+</h2>
+<p>日期：2016-7-8 20:46:58<br>
+百年世事三更梦，万里江山一局棋。 ——顺治</p>
+<h2>
+<a id="user-content-7月8日股市前瞻" class="anchor" href="#7%E6%9C%888%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900844&amp;idx=1&amp;sn=218a064b6b85cb5c77956259cf2878e2&amp;scene=27#wechat_redirect" rel="nofollow">7月8日股市前瞻</a>
+</h2>
+<p>日期：2016-7-7 22:6:2<br>
+暮色苍茫看劲松，乱云飞渡仍从容。天生一个仙人洞，无限风光在险峰。 ——毛泽东《为李进同志题所摄庐山仙人洞照》</p>
+<h2>
+<a id="user-content-7月7日股市前瞻" class="anchor" href="#7%E6%9C%887%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900832&amp;idx=1&amp;sn=82dba87bfb47a94d7466352930198d3e&amp;scene=27#wechat_redirect" rel="nofollow">7月7日股市前瞻</a>
+</h2>
+<p>日期：2016-7-6 21:57:11<br>
+青海长云暗雪山，孤城遥望玉门关。黄沙百战穿金甲，不破楼兰终不还。——王昌龄《从军行》</p>
+<h2>
+<a id="user-content-7月6日股市前瞻" class="anchor" href="#7%E6%9C%886%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900826&amp;idx=1&amp;sn=258e44f8cb4b41aece46e8dd18a571cf&amp;scene=27#wechat_redirect" rel="nofollow">7月6日股市前瞻</a>
+</h2>
+<p>日期：2016-7-5 22:12:45<br>
+莫听穿林打叶声，何妨吟啸且徐行。竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。——苏轼《定风波》</p>
+<h2>
+<a id="user-content-7月5日股市前瞻" class="anchor" href="#7%E6%9C%885%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900822&amp;idx=1&amp;sn=b6e3728766e2bd226eb412aad3985d86&amp;scene=27#wechat_redirect" rel="nofollow">7月5日股市前瞻</a>
+</h2>
+<p>日期：2016-7-4 22:13:49<br>
+梅花欢喜漫天雪，冻死苍蝇未足奇。——毛泽东《冬云》</p>
+<h2>
+<a id="user-content-7月4日股市前瞻" class="anchor" href="#7%E6%9C%884%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900817&amp;idx=1&amp;sn=d4f5a44b2168786a7aa0a00150ec8dd1&amp;scene=27#wechat_redirect" rel="nofollow">7月4日股市前瞻</a>
+</h2>
+<p>日期：2016-7-3 20:9:55<br>
+可上九天揽月，可下五洋捉鳖，谈笑凯歌还。 ——毛泽东《水调歌头·重上井冈山》</p>
+<h2>
+<a id="user-content-刘备是怎样把荆州给亏光的" class="anchor" href="#%E5%88%98%E5%A4%87%E6%98%AF%E6%80%8E%E6%A0%B7%E6%8A%8A%E8%8D%86%E5%B7%9E%E7%BB%99%E4%BA%8F%E5%85%89%E7%9A%84" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900810&amp;idx=1&amp;sn=2971eadcf7039bf8a8fd3eb96da43ece&amp;scene=27#wechat_redirect" rel="nofollow">刘备是怎样把荆州给亏光的？</a>
+</h2>
+<p>日期：2016-7-1 20:15:35<br>
+事实上，每个人都不可能不犯错误，重要的是你要及时反省自己是否在犯错误，而发现自己犯错误后必须立刻纠正错误，减少损失。决不能因为战术上的小胜利而产生不切实际的幻觉，忽视自己战略上正在步入万劫不复的深渊。</p>
+<h1>
+<a id="user-content-2016-6" class="anchor" href="#2016-6" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2016-6</h1>
+<h2>
+<a id="user-content-7月1日股市前瞻" class="anchor" href="#7%E6%9C%881%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900807&amp;idx=1&amp;sn=580e9689da00becfca5a81ce5efac4ea&amp;scene=27#wechat_redirect" rel="nofollow">7月1日股市前瞻</a>
+</h2>
+<p>日期：2016-6-30 22:8:38<br>
+欲渡黄河冰塞川，将登太行雪满山。 闲来垂钓碧溪上，忽复乘舟梦日边。——李白《行路难》</p>
+<h2>
+<a id="user-content-6月30日股市前瞻" class="anchor" href="#6%E6%9C%8830%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900803&amp;idx=1&amp;sn=92e3a7db3c8ab32e4fb3c8d5dcc78f9c&amp;scene=27#wechat_redirect" rel="nofollow">6月30日股市前瞻</a>
+</h2>
+<p>日期：2016-6-29 22:5:41<br>
+不知天上宫阙，今夕是何年。——苏轼《水调歌头》</p>
+<h2>
+<a id="user-content-6月29日股市前瞻" class="anchor" href="#6%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900796&amp;idx=1&amp;sn=ae6e098b8bfac3955cf766176ea3a40e&amp;scene=27#wechat_redirect" rel="nofollow">6月29日股市前瞻</a>
+</h2>
+<p>日期：2016-6-28 22:7:3<br>
+近乡情更怯，不敢问来人。——宋之问《渡汉江》</p>
+<h2>
+<a id="user-content-6月28日股市前瞻" class="anchor" href="#6%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900792&amp;idx=1&amp;sn=62a5059b22907d22502222d023859b00&amp;scene=27#wechat_redirect" rel="nofollow">6月28日股市前瞻</a>
+</h2>
+<p>日期：2016-6-27 21:12:48<br>
+男儿到死心如铁，看试手，补天裂。——辛弃疾</p>
+<h2>
+<a id="user-content-6月27日股市前瞻" class="anchor" href="#6%E6%9C%8827%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900789&amp;idx=1&amp;sn=a3d0dcbc048d38bcb859c4bd8e1ccbd4&amp;scene=27#wechat_redirect" rel="nofollow">6月27日股市前瞻</a>
+</h2>
+<p>日期：2016-6-26 20:18:40<br>
+咬定青山不放松，立根原在破岩中。千磨万击还坚劲，任尔东西南北风。 ——郑板桥《竹石》</p>
+<h2>
+<a id="user-content-我为什么能预知英国脱欧" class="anchor" href="#%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E8%83%BD%E9%A2%84%E7%9F%A5%E8%8B%B1%E5%9B%BD%E8%84%B1%E6%AC%A7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900783&amp;idx=1&amp;sn=058aaaff4a86e45e21c69d0c8a6a3af2&amp;scene=27#wechat_redirect" rel="nofollow">我为什么能预知英国脱欧？</a>
+</h2>
+<p>日期：2016-6-25 21:14:33<br>
+一窝二窝三四窝，五窝六窝七八窝。食尽皇王千种粟，凤凰何少尔何多？   ——李调元《麻雀》</p>
+<h2>
+<a id="user-content-6月24日股市前瞻" class="anchor" href="#6%E6%9C%8824%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900776&amp;idx=1&amp;sn=0d8b0fb53f3231de17d1bd343e72b161&amp;scene=27#wechat_redirect" rel="nofollow">6月24日股市前瞻</a>
+</h2>
+<p>日期：2016-6-23 21:27:51<br>
+行到水穷处，坐看云起时。——王维《终南别业》</p>
+<h2>
+<a id="user-content-6月23日股市前瞻" class="anchor" href="#6%E6%9C%8823%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900773&amp;idx=1&amp;sn=478302341c23c0b978d717a52108ee71&amp;scene=27#wechat_redirect" rel="nofollow">6月23日股市前瞻</a>
+</h2>
+<p>日期：2016-6-22 21:26:9<br>
+我来问道无馀说，云在青天水在瓶。——李翱《赠药山高僧惟俨》</p>
+<h2>
+<a id="user-content-6月22日股市前瞻" class="anchor" href="#6%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900768&amp;idx=1&amp;sn=76ad18eba789443c7d6b45f7bf1ffa00&amp;scene=27#wechat_redirect" rel="nofollow">6月22日股市前瞻</a>
+</h2>
+<p>日期：2016-6-21 21:48:9<br>
+东边日出西边雨，道是无晴却有晴。——刘禹锡《竹枝词》</p>
+<h2>
+<a id="user-content-6月21日股市前瞻" class="anchor" href="#6%E6%9C%8821%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900765&amp;idx=1&amp;sn=4a0e8490d8b74339f83ef3d0dc28256e&amp;scene=27#wechat_redirect" rel="nofollow">6月21日股市前瞻</a>
+</h2>
+<p>日期：2016-6-20 21:43:11<br>
+有匪君子，如切如磋，如琢如磨。 ——《诗经·卫风·淇奥》</p>
+<h2>
+<a id="user-content-6月20日股市前瞻" class="anchor" href="#6%E6%9C%8820%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900762&amp;idx=1&amp;sn=e182334be4bfafc6893ff7916c1ee3a8&amp;scene=27#wechat_redirect" rel="nofollow">6月20日股市前瞻</a>
+</h2>
+<p>日期：2016-6-19 22:16:46<br>
+人在荆棘中，不动不刺。</p>
+<h2>
+<a id="user-content-msci再拒a股的本质及以后" class="anchor" href="#msci%E5%86%8D%E6%8B%92a%E8%82%A1%E7%9A%84%E6%9C%AC%E8%B4%A8%E5%8F%8A%E4%BB%A5%E5%90%8E" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900752&amp;idx=1&amp;sn=29b217ff9de2161dad8859f27dee8b44&amp;scene=27#wechat_redirect" rel="nofollow">MSCI再拒A股的本质及以后</a>
+</h2>
+<p>日期：2016-6-18 23:21:8<br>
+万山不许一溪奔，拦得溪声日夜喧。到得前头山脚尽，堂堂溪水出前村。 ——杨万里《桂源铺》</p>
+<h2>
+<a id="user-content-6月17日股市前瞻" class="anchor" href="#6%E6%9C%8817%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900745&amp;idx=1&amp;sn=b10ecdf09eeb821e4521df26da00d2d9&amp;scene=27#wechat_redirect" rel="nofollow">6月17日股市前瞻</a>
+</h2>
+<p>日期：2016-6-16 21:50:39<br>
+如果你还在为错过太阳而流泪，那么你也将错过群星。——泰戈尔</p>
+<h2>
+<a id="user-content-6月16日股市前瞻" class="anchor" href="#6%E6%9C%8816%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900738&amp;idx=1&amp;sn=4894703968a565f66c504c693aad4031&amp;scene=27#wechat_redirect" rel="nofollow">6月16日股市前瞻</a>
+</h2>
+<p>日期：2016-6-15 22:7:35<br>
+君莫舞，君不见、玉环飞燕皆尘土。——辛弃疾《摸鱼儿》</p>
+<h2>
+<a id="user-content-6月15日股市前瞻" class="anchor" href="#6%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900734&amp;idx=1&amp;sn=56132719e1389cbd5a0631ffd14a09a1&amp;scene=27#wechat_redirect" rel="nofollow">6月15日股市前瞻</a>
+</h2>
+<p>日期：2016-6-14 21:25:37<br>
+耐心是一切聪明才智的基础。——柏拉图</p>
+<h2>
+<a id="user-content-6月14日股市前瞻" class="anchor" href="#6%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900729&amp;idx=1&amp;sn=d9f0cc8243e6fa3a9c9e74103137d698&amp;scene=27#wechat_redirect" rel="nofollow">6月14日股市前瞻</a>
+</h2>
+<p>日期：2016-6-13 21:49:13<br>
+月儿弯弯照九州，几家欢乐几家愁。几家夫妇同罗帐，几家飘零在外头？ ——南宋民歌</p>
+<h2>
+<a id="user-content-6月13日股市前瞻" class="anchor" href="#6%E6%9C%8813%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900725&amp;idx=1&amp;sn=dbfe995284c4d7e4d473be324a137c6e&amp;scene=27#wechat_redirect" rel="nofollow">6月13日股市前瞻</a>
+</h2>
+<p>日期：2016-6-12 21:44:38<br>
+莫言下岭便无难，赚得行人空喜欢。正入万山圈子里，一山放过一山拦。 ——杨万里《过松源晨炊漆公店》</p>
+<h2>
+<a id="user-content-要买就买垃圾股-股市投机客的高考作文" class="anchor" href="#%E8%A6%81%E4%B9%B0%E5%B0%B1%E4%B9%B0%E5%9E%83%E5%9C%BE%E8%82%A1-%E8%82%A1%E5%B8%82%E6%8A%95%E6%9C%BA%E5%AE%A2%E7%9A%84%E9%AB%98%E8%80%83%E4%BD%9C%E6%96%87" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900722&amp;idx=1&amp;sn=09861a4e5f09f21c4c25bc737613d1f0&amp;scene=27#wechat_redirect" rel="nofollow">要买就买垃圾股 （股市投机客的高考作文）</a>
+</h2>
+<p>日期：2016-6-9 0:53:16<br>
+等闲变却故人心，却道故人心易变。——纳兰性德《木兰花令·拟古决绝词》</p>
+<h2>
+<a id="user-content-6月8日股市前瞻" class="anchor" href="#6%E6%9C%888%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900719&amp;idx=1&amp;sn=2ed17032ad57c8c603de9e6816777386&amp;scene=27#wechat_redirect" rel="nofollow">6月8日股市前瞻</a>
+</h2>
+<p>日期：2016-6-7 22:8:9<br>
+岭外音书断，经冬复历春。近乡情更怯，不敢问来人。 ——宋之问《渡汉江》</p>
+<h2>
+<a id="user-content-6月7日股市前瞻" class="anchor" href="#6%E6%9C%887%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900711&amp;idx=1&amp;sn=df7605676b267d56b4b3a2962b8a0cc0&amp;scene=27#wechat_redirect" rel="nofollow">6月7日股市前瞻</a>
+</h2>
+<p>日期：2016-6-6 22:10:57<br>
+启蒙运动就是人类脱离自己所加之于自己的不成熟状态。不成熟状态就是不经别人的引导，就对运用自己的理智无能为力。要有勇气运用你自己的理智，这就是启蒙运动的口号。  ——康德《答复这个问题：什么是启蒙运动？》</p>
+<h2>
+<a id="user-content-6月6日股市前瞻" class="anchor" href="#6%E6%9C%886%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900703&amp;idx=1&amp;sn=e5ab0ba0e0ee7ac8dc84ff7aae22289f&amp;scene=27#wechat_redirect" rel="nofollow">6月6日股市前瞻</a>
+</h2>
+<p>日期：2016-6-5 22:14:56<br>
+三日入厨下，洗手作羹汤。未谙姑食性，先遣小姑尝。 ——王建《新嫁娘词》</p>
+<h2>
+<a id="user-content-你觉得自己是好学者吗" class="anchor" href="#%E4%BD%A0%E8%A7%89%E5%BE%97%E8%87%AA%E5%B7%B1%E6%98%AF%E5%A5%BD%E5%AD%A6%E8%80%85%E5%90%97" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900699&amp;idx=1&amp;sn=edc6c3f96c319cf966382bc8e24c008b&amp;scene=27#wechat_redirect" rel="nofollow">你觉得自己是好学者吗？</a>
+</h2>
+<p>日期：2016-6-3 15:51:44<br>
+半亩方塘一鉴开，天光云影共徘徊。问渠那得清如许，为有源头活水来。 ——朱熹《观书有感》</p>
+<h2>
+<a id="user-content-6月3日股市前瞻" class="anchor" href="#6%E6%9C%883%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900696&amp;idx=1&amp;sn=d4be45c00fa55cecef00a3f46e5d8162&amp;scene=27#wechat_redirect" rel="nofollow">6月3日股市前瞻</a>
+</h2>
+<p>日期：2016-6-2 21:56:31<br>
+九四：或跃于渊，无咎。 ——《易经·乾卦》</p>
+<h2>
+<a id="user-content-6月2日股市前瞻" class="anchor" href="#6%E6%9C%882%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900685&amp;idx=1&amp;sn=e73c081fefde958693c24d5a4b78a2c3&amp;scene=27#wechat_redirect" rel="nofollow">6月2日股市前瞻</a>
+</h2>
+<p>日期：2016-6-1 21:38:55<br>
+泉眼无声惜细流，树阴照水爱晴柔。小荷才露尖尖角，早有蜻蜓立上头。 ——杨万里《小池》</p>
+<h1>
+<a id="user-content-2016-5" class="anchor" href="#2016-5" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2016-5</h1>
+<h2>
+<a id="user-content-6月1日股市前瞻" class="anchor" href="#6%E6%9C%881%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900682&amp;idx=1&amp;sn=20f6d4a56414e41c3cc92dbfa970966b&amp;scene=27#wechat_redirect" rel="nofollow">6月1日股市前瞻</a>
+</h2>
+<p>日期：2016-5-31 22:11:39<br>
+飘风不终朝，骤雨不终日。 ——《道德经》</p>
+<h2>
+<a id="user-content-6月1日股市前瞻-1" class="anchor" href="#6%E6%9C%881%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900678&amp;idx=1&amp;sn=7318b5946ca5bb1e2cdc27292df7ae19&amp;scene=27#wechat_redirect" rel="nofollow">6月1日股市前瞻</a>
+</h2>
+<p>日期：2016-5-30 21:52:27<br>
+落红不是无情物,化作春泥更护花。 ——龚自珍</p>
+<h2>
+<a id="user-content-5月30日股市前瞻" class="anchor" href="#5%E6%9C%8830%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900672&amp;idx=1&amp;sn=1542805a7dd4092d33c1f5a9d78d2c01&amp;scene=27#wechat_redirect" rel="nofollow">5月30日股市前瞻</a>
+</h2>
+<p>日期：2016-5-29 21:43:25<br>
+万山不许一溪奔，拦得溪声日夜喧。到得前头山脚尽，堂堂溪水出前村。  ——杨万里《桂源铺》</p>
+<h2>
+<a id="user-content-读了那么多股票书为什么你还是赔钱" class="anchor" href="#%E8%AF%BB%E4%BA%86%E9%82%A3%E4%B9%88%E5%A4%9A%E8%82%A1%E7%A5%A8%E4%B9%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%A0%E8%BF%98%E6%98%AF%E8%B5%94%E9%92%B1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900664&amp;idx=1&amp;sn=805be943121b6ca43b5888b5587c8c5e&amp;scene=27#wechat_redirect" rel="nofollow">读了那么多股票书，为什么你还是赔钱？</a>
+</h2>
+<p>日期：2016-5-27 23:42:6<br>
+古人学问无遗力，少壮工夫老始成。纸上得来终觉浅，绝知此事要躬行。 ——陆游</p>
+<h2>
+<a id="user-content-5月27日股市前瞻" class="anchor" href="#5%E6%9C%8827%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900657&amp;idx=1&amp;sn=15f5e0e5446c791dbca660bb150ce4be&amp;scene=27#wechat_redirect" rel="nofollow">5月27日股市前瞻</a>
+</h2>
+<p>日期：2016-5-26 22:22:19<br>
+天下皆知美之为美，斯恶矣；皆知善之为善，斯不善已。——《道德经》</p>
+<h2>
+<a id="user-content-5月26日股市前瞻" class="anchor" href="#5%E6%9C%8826%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900653&amp;idx=1&amp;sn=934d49a1cbf30d6f4dfd4a29757f0eb1&amp;scene=27#wechat_redirect" rel="nofollow">5月26日股市前瞻</a>
+</h2>
+<p>日期：2016-5-25 22:16:15<br>
+问余何意栖碧山，笑而不答心自闲。桃花流水窅然去，别有天地非人间。 ——李白</p>
+<h2>
+<a id="user-content-5月25日股市前瞻" class="anchor" href="#5%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900650&amp;idx=1&amp;sn=31b0a634d469fab71832a5bc5f18f953&amp;scene=27#wechat_redirect" rel="nofollow">5月25日股市前瞻</a>
+</h2>
+<p>日期：2016-5-24 22:12:40<br>
+有人辞官归故里，有人星夜赶科场。少年不知愁滋味，老来方知行路难。   ——吴敬梓 《儒林外史》</p>
+<h2>
+<a id="user-content-5月24日股市前瞻" class="anchor" href="#5%E6%9C%8824%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900645&amp;idx=1&amp;sn=3c37b396e7b9c04dd6f4abdeaf4585f7&amp;scene=27#wechat_redirect" rel="nofollow">5月24日股市前瞻</a>
+</h2>
+<p>日期：2016-5-23 22:19:20<br>
+如人以手，指月示人。彼人因指，当应看月。若复观指，以为月体，此人岂唯亡失月轮，亦亡其指。 ——《楞严经》</p>
+<h2>
+<a id="user-content-5月23日股市前瞻" class="anchor" href="#5%E6%9C%8823%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900640&amp;idx=1&amp;sn=d8e97913b696de7166607f5f073128e6&amp;scene=27#wechat_redirect" rel="nofollow">5月23日股市前瞻</a>
+</h2>
+<p>日期：2016-5-22 22:12:24<br>
+文章千古事，得失寸心知。 ——杜甫《偶题》</p>
+<h2>
+<a id="user-content-如果那两个字没有开口" class="anchor" href="#%E5%A6%82%E6%9E%9C%E9%82%A3%E4%B8%A4%E4%B8%AA%E5%AD%97%E6%B2%A1%E6%9C%89%E5%BC%80%E5%8F%A3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900637&amp;idx=1&amp;sn=ba57bcc02a60d742aea02fdc1893865b&amp;scene=27#wechat_redirect" rel="nofollow">如果那两个字没有开口</a>
+</h2>
+<p>日期：2016-5-21 0:45:12<br>
+娶了红玫瑰，久而久之，红的变成了墙上的一抹蚊子血，白的还是“床前明月光”；娶了白玫瑰，白的便是衣服上的一粒饭粘子，红的却是心口上的一颗朱砂痣。     ——张爱玲《红玫瑰与玫瑰》</p>
+<h2>
+<a id="user-content-5月20日股市前瞻" class="anchor" href="#5%E6%9C%8820%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900634&amp;idx=1&amp;sn=418745090898fa6b55af00ff3558222b&amp;scene=27#wechat_redirect" rel="nofollow">5月20日股市前瞻</a>
+</h2>
+<p>日期：2016-5-19 22:14:58<br>
+夫未战而庙算胜者，得算多也；未战而庙算不胜者，得算少也。多算胜，少算不胜，而况于无算乎！——《孙子兵法·始计篇》</p>
+<h2>
+<a id="user-content-5月19日股市前瞻" class="anchor" href="#5%E6%9C%8819%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900629&amp;idx=1&amp;sn=e75384ee0612d636fabe6964cfda7ca3&amp;scene=27#wechat_redirect" rel="nofollow">5月19日股市前瞻</a>
+</h2>
+<p>日期：2016-5-18 22:20:33<br>
+君问归期未有期，巴山夜雨涨秋池。何当共剪西窗烛，却话巴山夜雨时。 ——李商隐</p>
+<h2>
+<a id="user-content-5月18日股市前瞻" class="anchor" href="#5%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900625&amp;idx=1&amp;sn=a73c14ce04cbd4fecf600174b6891c08&amp;scene=27#wechat_redirect" rel="nofollow">5月18日股市前瞻</a>
+</h2>
+<p>日期：2016-5-17 20:41:53<br>
+时来天地皆同力，运去英雄不自由。——罗隐《筹笔驿》</p>
+<h2>
+<a id="user-content-5月17日股市前瞻" class="anchor" href="#5%E6%9C%8817%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900616&amp;idx=1&amp;sn=15cef499e32e70b7aa37c32105c7691b&amp;scene=27#wechat_redirect" rel="nofollow">5月17日股市前瞻</a>
+</h2>
+<p>日期：2016-5-16 19:33:11<br>
+夕阳无限好，只是近黄昏。——李商隐《登乐游原》</p>
+<h2>
+<a id="user-content-5月16日股市前瞻" class="anchor" href="#5%E6%9C%8816%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900605&amp;idx=1&amp;sn=589e690c780e4927cab76cdaaee4c3ff&amp;scene=27#wechat_redirect" rel="nofollow">5月16日股市前瞻</a>
+</h2>
+<p>日期：2016-5-15 22:20:44<br>
+等闲变却故人心，却道故人心易变。——纳兰性德《木兰花令·拟古决绝词》</p>
+<h2>
+<a id="user-content-年年岁岁骗相似岁岁年年人不同" class="anchor" href="#%E5%B9%B4%E5%B9%B4%E5%B2%81%E5%B2%81%E9%AA%97%E7%9B%B8%E4%BC%BC%E5%B2%81%E5%B2%81%E5%B9%B4%E5%B9%B4%E4%BA%BA%E4%B8%8D%E5%90%8C" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900601&amp;idx=1&amp;sn=140b6447d028758a98ab622c58a5c594&amp;scene=27#wechat_redirect" rel="nofollow">年年岁岁骗相似，岁岁年年人不同</a>
+</h2>
+<p>日期：2016-5-14 11:29:37<br>
+年年岁岁花相似，岁岁年年人不同。寄言全盛红颜子，应怜半死白头翁。 ——刘希夷</p>
+<h2>
+<a id="user-content-5月13日股市前瞻" class="anchor" href="#5%E6%9C%8813%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900594&amp;idx=1&amp;sn=e419a10a6a9529627b1db1747dac26d0&amp;scene=27#wechat_redirect" rel="nofollow">5月13日股市前瞻</a>
+</h2>
+<p>日期：2016-5-12 21:4:31<br>
+任凭风浪起，稳坐钓鱼船。</p>
+<h2>
+<a id="user-content-5月12日股市前瞻" class="anchor" href="#5%E6%9C%8812%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900589&amp;idx=1&amp;sn=7ab18be856bce81ebb30bb54a9d48606&amp;scene=27#wechat_redirect" rel="nofollow">5月12日股市前瞻</a>
+</h2>
+<p>日期：2016-5-11 22:6:36<br>
+耐心是一切聪明才智的基础。  ——柏拉图</p>
+<h2>
+<a id="user-content-5月11日股市前瞻" class="anchor" href="#5%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900583&amp;idx=1&amp;sn=37c40cc08d25050bcc302d1b406e01ff&amp;scene=27#wechat_redirect" rel="nofollow">5月11日股市前瞻</a>
+</h2>
+<p>日期：2016-5-10 21:20:55<br>
+隔岸红尘忙似火，当轩青嶂冷如冰。——乾康</p>
+<h2>
+<a id="user-content-5月10日股市前瞻" class="anchor" href="#5%E6%9C%8810%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900580&amp;idx=1&amp;sn=eb2cb9fb020b45a3e2515d06f01c9a83&amp;scene=27#wechat_redirect" rel="nofollow">5月10日股市前瞻</a>
+</h2>
+<p>日期：2016-5-9 16:20:25<br>
+失守街亭罪不轻，堪嗟马谡枉谈兵。辕门斩首严军法，拭泪犹思先帝明。——罗贯中《三国演义》第九十六回</p>
+<h2>
+<a id="user-content-5月9日股市前瞻" class="anchor" href="#5%E6%9C%889%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900577&amp;idx=1&amp;sn=2bc7de6477f5466725eacead80a51b1b&amp;scene=27#wechat_redirect" rel="nofollow">5月9日股市前瞻</a>
+</h2>
+<p>日期：2016-5-8 20:45:18<br>
+凡不能毁灭我的，必使我更强大。 ——尼采《偶像的黄昏》</p>
+<h2>
+<a id="user-content-5月6日股市前瞻" class="anchor" href="#5%E6%9C%886%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900570&amp;idx=1&amp;sn=e862341695de8685004cc5af41d07319&amp;scene=27#wechat_redirect" rel="nofollow">5月6日股市前瞻</a>
+</h2>
+<p>日期：2016-5-5 16:10:39<br>
+选择时间就等于节省时间，而不合乎时机的举动则等于乱打空气。 ——培根《论敏捷》</p>
+<h2>
+<a id="user-content-5月5日股市前瞻" class="anchor" href="#5%E6%9C%885%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900564&amp;idx=1&amp;sn=34095b6812ea4050a16344f97c525ff4&amp;scene=27#wechat_redirect" rel="nofollow">5月5日股市前瞻</a>
+</h2>
+<p>日期：2016-5-4 22:17:49<br>
+市场是有规律的，市场的规律性是缘于人性不会改变。——杰西·利弗莫尔</p>
+<h2>
+<a id="user-content-5月4日股市前瞻" class="anchor" href="#5%E6%9C%884%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900559&amp;idx=1&amp;sn=5ab74c4f330cd8454d031d8dec60e643&amp;scene=27#wechat_redirect" rel="nofollow">5月4日股市前瞻</a>
+</h2>
+<p>日期：2016-5-3 21:42:50<br>
+君子言必可行也，然后言之；行必可言也，然后行之。——贾谊《新书·大政上》</p>
+<h2>
+<a id="user-content-5月3日股市前瞻" class="anchor" href="#5%E6%9C%883%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900553&amp;idx=1&amp;sn=d6f3d1ea06f88b39786937ae14816020&amp;scene=27#wechat_redirect" rel="nofollow">5月3日股市前瞻</a>
+</h2>
+<p>日期：2016-5-2 22:5:15<br>
+入则无法家拂士，出则无敌国外患者，国恒亡。然后知生于忧患，而死于安乐也。 ——孟子</p>
+<h1>
+<a id="user-content-2016-4" class="anchor" href="#2016-4" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2016-4</h1>
+<h2>
+<a id="user-content-4月29日股市前瞻" class="anchor" href="#4%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900550&amp;idx=1&amp;sn=0383e4b959888faed74e3a994fd6501a&amp;scene=27#wechat_redirect" rel="nofollow">4月29日股市前瞻</a>
+</h2>
+<p>日期：2016-4-28 21:49:38<br>
+窃钩者诛，窃国者诸侯。——《庄子·胠箧》</p>
+<h2>
+<a id="user-content-4月28日股市前瞻" class="anchor" href="#4%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900543&amp;idx=1&amp;sn=daf221fe5bec71849c0819ceab7743e0&amp;scene=27#wechat_redirect" rel="nofollow">4月28日股市前瞻</a>
+</h2>
+<p>日期：2016-4-27 21:32:25<br>
+美人首饰王侯印，尽是沙中浪底来。——刘禹锡《浪淘沙》</p>
+<h2>
+<a id="user-content-4月27日股市前瞻" class="anchor" href="#4%E6%9C%8827%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900536&amp;idx=1&amp;sn=b6fe5a5984dddf86eb5b047bf29f82c9&amp;scene=27#wechat_redirect" rel="nofollow">4月27日股市前瞻</a>
+</h2>
+<p>日期：2016-4-26 22:3:39<br>
+不畏浮云遮望眼， 自缘身在最高层。——王安石《登飞来峰》</p>
+<h2>
+<a id="user-content-4月26日股市前瞻" class="anchor" href="#4%E6%9C%8826%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900531&amp;idx=1&amp;sn=1e67d2291f4a990c7d7f7543af1a6bc6&amp;scene=27#wechat_redirect" rel="nofollow">4月26日股市前瞻</a>
+</h2>
+<p>日期：2016-4-25 22:10:47<br>
+君莫舞，君不见、玉环飞燕皆尘土！闲愁最苦。休去倚危栏，斜阳正在、烟柳断肠处。 ——辛弃疾《摸鱼儿》</p>
+<h2>
+<a id="user-content-4月25日股市前瞻" class="anchor" href="#4%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900527&amp;idx=1&amp;sn=1850e1b3fed9e8a979d68574d6b904bb&amp;scene=27#wechat_redirect" rel="nofollow">4月25日股市前瞻</a>
+</h2>
+<p>日期：2016-4-24 22:1:46<br>
+尺素如今何处也，彩云依旧无踪迹。谩教人、羞去上层楼，平芜碧。——辛弃疾《满江红·暮春》</p>
+<h2>
+<a id="user-content-4月22日股市前瞻" class="anchor" href="#4%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900523&amp;idx=1&amp;sn=ab170744da89f2eb276af7f5a1c909e9&amp;scene=27#wechat_redirect" rel="nofollow">4月22日股市前瞻</a>
+</h2>
+<p>日期：2016-4-21 22:1:50<br>
+人之所以合群，是由于他的身体柔弱；我们之所以心爱人类，是由于我们有共同的苦难。如果我们不是人，我们对人类便没有任何责任了。——卢梭</p>
+<h2>
+<a id="user-content-4月21日股市前瞻" class="anchor" href="#4%E6%9C%8821%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900518&amp;idx=1&amp;sn=48f2f37fe68e389474ced143271c217b&amp;scene=27#wechat_redirect" rel="nofollow">4月21日股市前瞻</a>
+</h2>
+<p>日期：2016-4-20 21:30:26<br>
+俺曾见金陵玉殿莺啼晓，秦淮水榭花开早，谁知道容易冰消!眼看他起高楼，眼看他宴宾客，眼看他楼塌了！——孔尚任 《桃花扇》</p>
+<h2>
+<a id="user-content-4月20日股市前瞻" class="anchor" href="#4%E6%9C%8820%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900509&amp;idx=1&amp;sn=2a8059b7d587549dd5c77a4248e8e8fa&amp;scene=27#wechat_redirect" rel="nofollow">4月20日股市前瞻</a>
+</h2>
+<p>日期：2016-4-19 21:59:20<br>
+练得身形似鹤形，千株松下两函经。 我来问道无馀说，云在青天水在瓶。 ——李翱《赠药山高僧惟俨》</p>
+<h2>
+<a id="user-content-4月19日股市前瞻" class="anchor" href="#4%E6%9C%8819%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900503&amp;idx=1&amp;sn=2c2ab16c70d83e70e610f48c9115eb00&amp;scene=27#wechat_redirect" rel="nofollow">4月19日股市前瞻</a>
+</h2>
+<p>日期：2016-4-18 20:57:23<br>
+操笑曰：“袁绍色厉胆薄，好谋无断，干大事而惜身，见小利而忘命，非英雄也。”——罗贯中《三国演义》第二十一回</p>
+<h2>
+<a id="user-content-4月18日股市前瞻" class="anchor" href="#4%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900498&amp;idx=1&amp;sn=1570e192e9ce4dc174359ffdee9db159&amp;scene=27#wechat_redirect" rel="nofollow">4月18日股市前瞻</a>
+</h2>
+<p>日期：2016-4-17 22:7:0<br>
+乐躬耕于陇亩兮，吾爱吾庐； 聊寄傲于琴书兮，以待天时。——诸葛亮</p>
+<h2>
+<a id="user-content-4月15日股市前瞻" class="anchor" href="#4%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650900489&amp;idx=1&amp;sn=e03e5c7a4536ba7230d16756dcded9c0&amp;scene=27#wechat_redirect" rel="nofollow">4月15日股市前瞻</a>
+</h2>
+<p>日期：2016-4-14 21:26:13<br>
+九霄龙吟惊天变，风云际会浅水游。——泥菩萨</p>
+<h2>
+<a id="user-content-4月14日股市前瞻" class="anchor" href="#4%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=403416836&amp;idx=1&amp;sn=b8f733a7591d7829e1691ed39f3fa52d&amp;scene=27#wechat_redirect" rel="nofollow">4月14日股市前瞻</a>
+</h2>
+<p>日期：2016-4-13 22:19:57<br>
+古之所谓善战者，胜于易胜者也。——《孙子兵法· 军形》</p>
+<h2>
+<a id="user-content-4月13日股市前瞻" class="anchor" href="#4%E6%9C%8813%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=403402907&amp;idx=1&amp;sn=967843b21ff08f9a57630af2b8cc66e5&amp;scene=27#wechat_redirect" rel="nofollow">4月13日股市前瞻</a>
+</h2>
+<p>日期：2016-4-12 22:15:32<br>
+故不尽知用兵之害者，则不能尽知用兵之利也。 ——《孙子兵法·作战》</p>
+<h2>
+<a id="user-content-4月12日股市前瞻" class="anchor" href="#4%E6%9C%8812%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=403387942&amp;idx=1&amp;sn=1627dec781831389c6659b5b494701cb&amp;scene=27#wechat_redirect" rel="nofollow">4月12日股市前瞻</a>
+</h2>
+<p>日期：2016-4-11 22:7:1<br>
+途有所不由，军有所不击，城有所不攻，地有所不争，君命有所不受。 ——《孙子兵法·九变》</p>
+<h2>
+<a id="user-content-4月11日股市前瞻" class="anchor" href="#4%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=403373906&amp;idx=1&amp;sn=7eaf304c2806e1de6b0511adaf460303&amp;scene=27#wechat_redirect" rel="nofollow">4月11日股市前瞻</a>
+</h2>
+<p>日期：2016-4-10 21:43:14<br>
+夫未战而庙算胜者，得算多也；未战而庙算不胜者，得算少也。多算胜，少算不胜，而况于无算乎！ ——《孙子兵法·始计》</p>
+<h2>
+<a id="user-content-4月8日股市前瞻" class="anchor" href="#4%E6%9C%888%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=403341323&amp;idx=1&amp;sn=6e0401282c149eedfd71aeb47bb6f996&amp;scene=27#wechat_redirect" rel="nofollow">4月8日股市前瞻</a>
+</h2>
+<p>日期：2016-4-7 22:10:2<br>
+贤者以其昭昭使人昭昭，今以其昏昏使人昭昭。——《孟子·尽心下》</p>
+<h2>
+<a id="user-content-4月7日股市前瞻" class="anchor" href="#4%E6%9C%887%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=403327092&amp;idx=1&amp;sn=cab2307b319f5248e5799f520adcdeb5&amp;scene=27#wechat_redirect" rel="nofollow">4月7日股市前瞻</a>
+</h2>
+<p>日期：2016-4-6 21:47:56<br>
+量能渐缩，宜谨慎。</p>
+<h2>
+<a id="user-content-4月6日股市前瞻" class="anchor" href="#4%E6%9C%886%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=403286070&amp;idx=1&amp;sn=2367fb7a72648f336e35f924e54f56d5&amp;scene=27#wechat_redirect" rel="nofollow">4月6日股市前瞻</a>
+</h2>
+<p>日期：2016-4-5 22:17:11<br>
+知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得。——《大学》</p>
+<h2>
+<a id="user-content-4月5日股市前瞻" class="anchor" href="#4%E6%9C%885%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=403220513&amp;idx=1&amp;sn=7adc5c914b59b010f5fc9ac09fc85714&amp;scene=27#wechat_redirect" rel="nofollow">4月5日股市前瞻</a>
+</h2>
+<p>日期：2016-4-4 21:8:17<br>
+无欲速，无见小利。欲速则不达，见小利则大事不成。 ——《论语·子路》</p>
+<h2>
+<a id="user-content-同读一本书之孙子兵法" class="anchor" href="#%E5%90%8C%E8%AF%BB%E4%B8%80%E6%9C%AC%E4%B9%A6%E4%B9%8B%E5%AD%99%E5%AD%90%E5%85%B5%E6%B3%95" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=403173708&amp;idx=1&amp;sn=4c6233682ab2e61b6e72e474273781e1&amp;scene=27#wechat_redirect" rel="nofollow">同读一本书之《孙子兵法》</a>
+</h2>
+<p>日期：2016-4-3 22:3:50<br>
+千淘万漉虽辛苦，吹尽黄沙始到金。 ——刘禹锡</p>
+<h1>
+<a id="user-content-2016-3" class="anchor" href="#2016-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2016-3</h1>
+<h2>
+<a id="user-content-4月1日股市前瞻" class="anchor" href="#4%E6%9C%881%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=403137616&amp;idx=1&amp;sn=4a3392aa2863069930e1e2c76f589742&amp;scene=27#wechat_redirect" rel="nofollow">4月1日股市前瞻</a>
+</h2>
+<p>日期：2016-3-31 22:10:16<br>
+短线可上可下，宜稍加谨慎。</p>
+<h2>
+<a id="user-content-3月31日股市前瞻" class="anchor" href="#3%E6%9C%8831%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=403122726&amp;idx=1&amp;sn=ed649824da68fbe008c14b9354b84a42&amp;scene=27#wechat_redirect" rel="nofollow">3月31日股市前瞻</a>
+</h2>
+<p>日期：2016-3-30 21:39:11<br>
+忽如一夜春风来，千树万树梨花开。——岑参</p>
+<h2>
+<a id="user-content-3月30日股市前瞻" class="anchor" href="#3%E6%9C%8830%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=403107282&amp;idx=1&amp;sn=73ab2dd3a64759d96cc1ec28e1b2d4da&amp;scene=27#wechat_redirect" rel="nofollow">3月30日股市前瞻</a>
+</h2>
+<p>日期：2016-3-29 22:9:11<br>
+一片花飞减却春，风飘万点正愁人。——杜甫</p>
+<h2>
+<a id="user-content-3月29日股市前瞻" class="anchor" href="#3%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=403091213&amp;idx=1&amp;sn=eb22ef17198555384bf597093c0428d5&amp;scene=27#wechat_redirect" rel="nofollow">3月29日股市前瞻</a>
+</h2>
+<p>日期：2016-3-28 22:9:39<br>
+短线弱势依旧，涨跌不喜不忧。</p>
+<h2>
+<a id="user-content-3月28日股市前瞻" class="anchor" href="#3%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=403075651&amp;idx=1&amp;sn=a1f75b166102d9c048f2e9efdc24e12c&amp;scene=27#wechat_redirect" rel="nofollow">3月28日股市前瞻</a>
+</h2>
+<p>日期：2016-3-27 21:53:47<br>
+打得赢就打，打不赢就跑。你打你的，我打我的。 ——毛泽东</p>
+<h2>
+<a id="user-content-3月25日股市前瞻" class="anchor" href="#3%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402942334&amp;idx=1&amp;sn=b622e877ee036ded49a3870794764d87&amp;scene=27#wechat_redirect" rel="nofollow">3月25日股市前瞻</a>
+</h2>
+<p>日期：2016-3-24 22:22:32<br>
+山近月远觉月小，便道此山大于月。若有人眼大如天，当见山高月更阔。 ——王阳明</p>
+<h2>
+<a id="user-content-3月24日股市前瞻" class="anchor" href="#3%E6%9C%8824%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402926030&amp;idx=1&amp;sn=5a6f392969b4ff626bf1dbfd033a594f&amp;scene=27#wechat_redirect" rel="nofollow">3月24日股市前瞻</a>
+</h2>
+<p>日期：2016-3-23 21:24:23<br>
+明日观察重点：一、开盘价；二、成交量。</p>
+<h2>
+<a id="user-content-3月23日股市前瞻" class="anchor" href="#3%E6%9C%8823%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402909981&amp;idx=1&amp;sn=30152c76a84be37b0ca7c4ee2b56946c&amp;scene=27#wechat_redirect" rel="nofollow">3月23日股市前瞻</a>
+</h2>
+<p>日期：2016-3-22 22:13:16<br>
+长线无忧，短线震荡。</p>
+<h2>
+<a id="user-content-3月22日股市前瞻" class="anchor" href="#3%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402890812&amp;idx=1&amp;sn=bc554001bad08f7ef439d2d469cb8204&amp;scene=27#wechat_redirect" rel="nofollow">3月22日股市前瞻</a>
+</h2>
+<p>日期：2016-3-21 22:12:44<br>
+长线依然看好，短线隐藏风险。追高务必谨慎，头脑保持冷静。</p>
+<h2>
+<a id="user-content-3月21日股市前瞻" class="anchor" href="#3%E6%9C%8821%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402875894&amp;idx=1&amp;sn=bef723d0dce9f6d7d612294b24b99989&amp;scene=27#wechat_redirect" rel="nofollow">3月21日股市前瞻</a>
+</h2>
+<p>日期：2016-3-20 22:4:35<br>
+上证指数突破颈线，创业板指短线遇压。</p>
+<h2>
+<a id="user-content-笨蛋问题在战略项羽3" class="anchor" href="#%E7%AC%A8%E8%9B%8B%E9%97%AE%E9%A2%98%E5%9C%A8%E6%88%98%E7%95%A5%E9%A1%B9%E7%BE%BD3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402865698&amp;idx=1&amp;sn=72ff00a5c973d93851a8ad881f9ba37f&amp;scene=27#wechat_redirect" rel="nofollow">笨蛋，问题在战略：项羽（3）</a>
+</h2>
+<p>日期：2016-3-19 21:58:41<br>
+陈胜是大秦帝国的掘墓人，可惜他来的太早太早。</p>
+<h2>
+<a id="user-content-3月18日股市前瞻" class="anchor" href="#3%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402837562&amp;idx=1&amp;sn=53ef219392d8cfdcd47dfb053973e808&amp;scene=27#wechat_redirect" rel="nofollow">3月18日股市前瞻</a>
+</h2>
+<p>日期：2016-3-17 21:39:45<br>
+洛阳亲友如相问，一片冰心在玉壶。——王昌龄《芙蓉楼送辛渐》</p>
+<h2>
+<a id="user-content-3月17日股市前瞻" class="anchor" href="#3%E6%9C%8817%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402818069&amp;idx=1&amp;sn=af445c6ecd7b9adde87eff6cb7086cc4&amp;scene=27#wechat_redirect" rel="nofollow">3月17日股市前瞻</a>
+</h2>
+<p>日期：2016-3-16 21:18:23<br>
+静待美联储图穷匕见。</p>
+<h2>
+<a id="user-content-3月16日股市前瞻" class="anchor" href="#3%E6%9C%8816%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402799523&amp;idx=1&amp;sn=d02521adaad12d05dc464c89ed12cbea&amp;scene=27#wechat_redirect" rel="nofollow">3月16日股市前瞻</a>
+</h2>
+<p>日期：2016-3-15 21:42:2<br>
+耐得住寂寞，才能守得住繁华。</p>
+<h2>
+<a id="user-content-3月15日股市前瞻" class="anchor" href="#3%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402781998&amp;idx=1&amp;sn=c85c0b9f6ad937747c0367ddb1fa4617&amp;scene=27#wechat_redirect" rel="nofollow">3月15日股市前瞻</a>
+</h2>
+<p>日期：2016-3-14 21:11:51<br>
+明日观察重点：一、成交量能否有效放大；二、回调能否守住支撑位。</p>
+<h2>
+<a id="user-content-3月14日股市前瞻" class="anchor" href="#3%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402765794&amp;idx=1&amp;sn=4e2ffc772ea21e1836c93a1fe16bca0b&amp;scene=27#wechat_redirect" rel="nofollow">3月14日股市前瞻</a>
+</h2>
+<p>日期：2016-3-13 22:7:35<br>
+地量之后，酝酿变盘。</p>
+<h2>
+<a id="user-content-笨蛋问题在战略项羽2" class="anchor" href="#%E7%AC%A8%E8%9B%8B%E9%97%AE%E9%A2%98%E5%9C%A8%E6%88%98%E7%95%A5%E9%A1%B9%E7%BE%BD2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402754395&amp;idx=1&amp;sn=8edb962e7240d35c380f1ac31c5b9fe6&amp;scene=27#wechat_redirect" rel="nofollow">笨蛋，问题在战略：项羽（2）</a>
+</h2>
+<p>日期：2016-3-12 22:9:53<br>
+闾左称雄日，渔阳适戍人。王候宁有种？竿木足亡秦。大义呼豪杰，先声仗鬼神。驱除功第一，汉将可谁伦？ ——屈大均《读陈胜传》</p>
+<h2>
+<a id="user-content-3月11日股市前瞻" class="anchor" href="#3%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402729601&amp;idx=1&amp;sn=146af71392928f7d6348e133a99f8d4d&amp;scene=27#wechat_redirect" rel="nofollow">3月11日股市前瞻</a>
+</h2>
+<p>日期：2016-3-10 22:18:17<br>
+无端风雨，未肯收尽余寒。 ——辛弃疾《汉宫春》</p>
+<h2>
+<a id="user-content-3月10日股市前瞻" class="anchor" href="#3%E6%9C%8810%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402704625&amp;idx=1&amp;sn=4dc5db6c121e2bc880d8f7eebe8ee054&amp;scene=27#wechat_redirect" rel="nofollow">3月10日股市前瞻</a>
+</h2>
+<p>日期：2016-3-9 22:10:15<br>
+短期维持弱势，中线依然乐观。</p>
+<h2>
+<a id="user-content-3月9日股市前瞻" class="anchor" href="#3%E6%9C%889%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402674965&amp;idx=1&amp;sn=40321c6fc74f79b161c1037a6bedc0df&amp;scene=27#wechat_redirect" rel="nofollow">3月9日股市前瞻</a>
+</h2>
+<p>日期：2016-3-8 22:16:5<br>
+由爱故生忧，由爱故生怖，若离于爱者，无忧亦无怖。 ——《妙色王求法偈》</p>
+<h2>
+<a id="user-content-3月8日股市前瞻" class="anchor" href="#3%E6%9C%888%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402658601&amp;idx=1&amp;sn=b34542faf728257511bce6f5ce3b8c19&amp;scene=27#wechat_redirect" rel="nofollow">3月8日股市前瞻</a>
+</h2>
+<p>日期：2016-3-7 21:44:54<br>
+短期或有回调，中期依然乐观。</p>
+<h2>
+<a id="user-content-3月7日股市前瞻" class="anchor" href="#3%E6%9C%887%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402638004&amp;idx=1&amp;sn=6a1896281e5594604de5b806686b707a&amp;scene=27#wechat_redirect" rel="nofollow">3月7日股市前瞻</a>
+</h2>
+<p>日期：2016-3-6 21:53:26<br>
+过尽危矶出小潭，回头失却石峰巉。春寒料峭元无事，知我犹藏一布衫。——杨万里《出真阳峡》</p>
+<h2>
+<a id="user-content-3月4日股市前瞻" class="anchor" href="#3%E6%9C%884%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402595893&amp;idx=1&amp;sn=18a53752cefd9baf4a9a96811230f2da&amp;scene=27#wechat_redirect" rel="nofollow">3月4日股市前瞻</a>
+</h2>
+<p>日期：2016-3-3 22:2:20<br>
+九四：或跃在渊，无咎。——《易经·乾卦》</p>
+<h2>
+<a id="user-content-3月3日股市前瞻" class="anchor" href="#3%E6%9C%883%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402579289&amp;idx=1&amp;sn=56eb7da5b3ced0e313329f14698afcdb&amp;scene=27#wechat_redirect" rel="nofollow">3月3日股市前瞻</a>
+</h2>
+<p>日期：2016-3-2 21:36:55<br>
+等闲变却故人心，却道故人心易变。 ——纳兰性德《木兰花令·拟古决绝词》</p>
+<h2>
+<a id="user-content-3月2日股市前瞻" class="anchor" href="#3%E6%9C%882%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402554514&amp;idx=1&amp;sn=b9147d2b1aba82773160825e3d0086cc&amp;scene=27#wechat_redirect" rel="nofollow">3月2日股市前瞻</a>
+</h2>
+<p>日期：2016-3-1 21:50:2<br>
+凭君莫话封侯事，一将功成万骨枯。 ——曹松《己亥岁》</p>
+<h1>
+<a id="user-content-2016-2" class="anchor" href="#2016-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2016-2</h1>
+<h2>
+<a id="user-content-3月1日股市前瞻" class="anchor" href="#3%E6%9C%881%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402534464&amp;idx=1&amp;sn=0feeb1e1821e0ddb93910157ef0bf7f9&amp;scene=27#wechat_redirect" rel="nofollow">3月1日股市前瞻</a>
+</h2>
+<p>日期：2016-2-29 22:26:27<br>
+落红不是无情物，化作春泥更护花。 ——龚自珍《己亥杂诗》</p>
+<h2>
+<a id="user-content-2月29日股市前瞻" class="anchor" href="#2%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402515667&amp;idx=1&amp;sn=d8dbfe714858ba6a7359f9dc5a14c8cc&amp;scene=27#wechat_redirect" rel="nofollow">2月29日股市前瞻</a>
+</h2>
+<p>日期：2016-2-28 22:7:25<br>
+梅花欢喜漫天雪，冻死苍蝇未足奇。 ——毛泽东《七律·冬云》</p>
+<h2>
+<a id="user-content-2月26日股市前瞻" class="anchor" href="#2%E6%9C%8826%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402482125&amp;idx=1&amp;sn=892e453aff83f536e863ed7fbe67700d&amp;scene=27#wechat_redirect" rel="nofollow">2月26日股市前瞻</a>
+</h2>
+<p>日期：2016-2-25 22:22:42<br>
+暮色苍茫看劲松，乱云飞渡仍从容。——毛泽东《七绝·为李进同志题所摄庐山仙人洞照》</p>
+<h2>
+<a id="user-content-2月25日股市前瞻" class="anchor" href="#2%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402470735&amp;idx=1&amp;sn=ed1d5f748de520ad5a649d486f7e2a2b&amp;scene=27#wechat_redirect" rel="nofollow">2月25日股市前瞻</a>
+</h2>
+<p>日期：2016-2-24 21:3:5<br>
+千古苍凉天水碧，一生缱绻夕阳红。——陈曾寿《浣溪沙》</p>
+<h2>
+<a id="user-content-2月24日股市前瞻" class="anchor" href="#2%E6%9C%8824%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402460942&amp;idx=1&amp;sn=de4b87aac6423f689b72a8e45effab85&amp;scene=27#wechat_redirect" rel="nofollow">2月24日股市前瞻</a>
+</h2>
+<p>日期：2016-2-23 20:51:44<br>
+近乡情更怯，不敢问来人。——宋之问《渡汉江》</p>
+<h2>
+<a id="user-content-2月23日股市前瞻" class="anchor" href="#2%E6%9C%8823%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402451433&amp;idx=1&amp;sn=346d3f9d41c2e40372de8914ff0ff4f2&amp;scene=27#wechat_redirect" rel="nofollow">2月23日股市前瞻</a>
+</h2>
+<p>日期：2016-2-22 21:0:43<br>
+去年元夜时，花市灯如昼。——欧阳修《生查子·元夕》</p>
+<h2>
+<a id="user-content-2月22日股市前瞻" class="anchor" href="#2%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402441864&amp;idx=1&amp;sn=348d791b2a7849236e85901ef0589380&amp;scene=27#wechat_redirect" rel="nofollow">2月22日股市前瞻</a>
+</h2>
+<p>日期：2016-2-21 20:37:50<br>
+众里寻他千百度，蓦然回首，那人却在灯火阑珊处。 ——辛弃疾《青玉案·元夕》</p>
+<h2>
+<a id="user-content-2月19日股市前瞻" class="anchor" href="#2%E6%9C%8819%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402409707&amp;idx=1&amp;sn=71fbf225b52b7f854da7255d3e8e61c9&amp;scene=27#wechat_redirect" rel="nofollow">2月19日股市前瞻</a>
+</h2>
+<p>日期：2016-2-18 21:7:35<br>
+牢骚太盛防肠断，风物长宜放眼量。——毛泽东《七律·赠柳亚子先生》</p>
+<h2>
+<a id="user-content-2月18日股市前瞻" class="anchor" href="#2%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402401044&amp;idx=1&amp;sn=a5d1f1d8150de2b207d41a7a0debaed7&amp;scene=27#wechat_redirect" rel="nofollow">2月18日股市前瞻</a>
+</h2>
+<p>日期：2016-2-17 21:37:4<br>
+这只是万里长征走完了第一步。如果这一步也值得骄傲，那是比较渺小的，更值得骄傲的还在后头。 ——毛泽东《在中国共产党第七届中央委员会第二次全体会议上的报告》</p>
+<h2>
+<a id="user-content-2月17日股市前瞻" class="anchor" href="#2%E6%9C%8817%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402392911&amp;idx=1&amp;sn=7ce07ec8ebb2673cf1c8b3669bd441ca&amp;scene=27#wechat_redirect" rel="nofollow">2月17日股市前瞻</a>
+</h2>
+<p>日期：2016-2-16 21:27:52<br>
+踏遍青山人未老，风景这边独好。 ——毛泽东《清平乐·会昌》</p>
+<h2>
+<a id="user-content-2月16日股市前瞻" class="anchor" href="#2%E6%9C%8816%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402383946&amp;idx=1&amp;sn=607aa91b562350c6d36b822333e99491&amp;scene=27#wechat_redirect" rel="nofollow">2月16日股市前瞻</a>
+</h2>
+<p>日期：2016-2-15 21:22:21<br>
+装睡的人，你永远叫不醒。</p>
+<h2>
+<a id="user-content-2月15日股市前瞻" class="anchor" href="#2%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402376671&amp;idx=1&amp;sn=befb2e022cabeb17330fd3cfa0a40b53&amp;scene=27#wechat_redirect" rel="nofollow">2月15日股市前瞻</a>
+</h2>
+<p>日期：2016-2-14 21:17:4<br>
+已是悬崖百丈冰，犹有花枝俏。  ——毛泽东《卜算子·咏梅》</p>
+<h2>
+<a id="user-content-笨蛋问题在战略项羽1" class="anchor" href="#%E7%AC%A8%E8%9B%8B%E9%97%AE%E9%A2%98%E5%9C%A8%E6%88%98%E7%95%A5%E9%A1%B9%E7%BE%BD1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402364888&amp;idx=1&amp;sn=9d541d7e38e4d30ab8cd3b8c1d7fc6bd&amp;chksm=34e6057503918c63f09b4e7ad321102b1e57de3feddf35c855dd3b869f045bcf46225fa31ca4&amp;scene=27#wechat_redirect" rel="nofollow">笨蛋，问题在战略：项羽（1）</a>
+</h2>
+<p>日期：2016-2-12 21:32:52<br>
+竹帛烟销帝业虚，关河空锁祖龙居。坑灰未冷山东乱，刘项原来不读书。——章碣《焚书坑》</p>
+<h2>
+<a id="user-content-笨蛋问题在战略项羽前言" class="anchor" href="#%E7%AC%A8%E8%9B%8B%E9%97%AE%E9%A2%98%E5%9C%A8%E6%88%98%E7%95%A5%E9%A1%B9%E7%BE%BD%E5%89%8D%E8%A8%80" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402348640&amp;idx=1&amp;sn=9e990470be29b91f601eaa7110c8575c&amp;scene=27#wechat_redirect" rel="nofollow">笨蛋，问题在战略：项羽（前言）</a>
+</h2>
+<p>日期：2016-2-9 10:12:29<br>
+战争指导包括战斗的计划和指导……于是就产生两种不同的活动：一种是个别战斗本身的计划和执行；另一种是协调个别战斗之间的关系，以求达到战争的目的。前者称为战术，后者称为战略。——克劳塞维茨《战争论》</p>
+<h2>
+<a id="user-content-2月5日股市前瞻" class="anchor" href="#2%E6%9C%885%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402325216&amp;idx=1&amp;sn=5d5bc496514f11a6b1a29e2a8fee8939&amp;scene=27#wechat_redirect" rel="nofollow">2月5日股市前瞻</a>
+</h2>
+<p>日期：2016-2-4 22:11:18<br>
+年时燕子，料今宵、梦到西园。——辛弃疾</p>
+<h2>
+<a id="user-content-2月4日股市前瞻" class="anchor" href="#2%E6%9C%884%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402314967&amp;idx=1&amp;sn=7912fcea3e1bb4928339b3e515d916d2&amp;scene=27#wechat_redirect" rel="nofollow">2月4日股市前瞻</a>
+</h2>
+<p>日期：2016-2-3 21:51:35<br>
+长期来看，群众在股市里亏钱的根本原因是头部仓位极重而底部仓位极轻。</p>
+<h2>
+<a id="user-content-2月3日股市前瞻" class="anchor" href="#2%E6%9C%883%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402308093&amp;idx=1&amp;sn=0b9ac045264cb71ec6517ecb3288eaf5&amp;scene=27#wechat_redirect" rel="nofollow">2月3日股市前瞻</a>
+</h2>
+<p>日期：2016-2-2 21:51:0<br>
+长期来看群众在股市里一定是亏钱的，而你是群众中的一员，所以长期来看你在股市里一定是亏钱的。</p>
+<h2>
+<a id="user-content-2月2日股市前瞻" class="anchor" href="#2%E6%9C%882%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402291644&amp;idx=1&amp;sn=310fe72cab990c6bc5562340611aab56&amp;scene=27#wechat_redirect" rel="nofollow">2月2日股市前瞻</a>
+</h2>
+<p>日期：2016-2-1 15:41:3<br>
+凭君莫话封侯事，一将功成万骨枯。——曹松</p>
+<h1>
+<a id="user-content-2016-1" class="anchor" href="#2016-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2016-1</h1>
+<h2>
+<a id="user-content-2月1日股市前瞻" class="anchor" href="#2%E6%9C%881%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402286339&amp;idx=1&amp;sn=4ceabb06194df910209d645b8b74c423&amp;scene=27#wechat_redirect" rel="nofollow">2月1日股市前瞻</a>
+</h2>
+<p>日期：2016-1-31 21:33:42<br>
+耐心是一切聪明才智的基础。——柏拉图</p>
+<h2>
+<a id="user-content-蔡英文难逃李自成窘境" class="anchor" href="#%E8%94%A1%E8%8B%B1%E6%96%87%E9%9A%BE%E9%80%83%E6%9D%8E%E8%87%AA%E6%88%90%E7%AA%98%E5%A2%83" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402277407&amp;idx=1&amp;sn=bdae7bd57da0098a03d3c81fc064ea50&amp;chksm=34e7d8b2039051a48a7a90e4bb607217f30fc272bb965f57bc8188e3162880ed9d88792c41db&amp;scene=27#wechat_redirect" rel="nofollow">蔡英文难逃“李自成窘境”</a>
+</h2>
+<p>日期：2016-1-30 20:8:42<br>
+三日入厨下，洗手作羹汤。未谙姑食性，先遣小姑尝。——王建《新嫁娘词》</p>
+<h2>
+<a id="user-content-好人与好领导是两码事" class="anchor" href="#%E5%A5%BD%E4%BA%BA%E4%B8%8E%E5%A5%BD%E9%A2%86%E5%AF%BC%E6%98%AF%E4%B8%A4%E7%A0%81%E4%BA%8B" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402272060&amp;idx=1&amp;sn=b7f2e489f8476a66fd393bef7de8b9e4&amp;scene=27#wechat_redirect" rel="nofollow">好人与好领导是两码事</a>
+</h2>
+<p>日期：2016-1-29 20:41:15<br>
+不能知人，害霸也；知而不能任，害霸也；任而不能信，害霸也；既信而又使小人参之，害霸也。——管仲</p>
+<h2>
+<a id="user-content-1月29日股市前瞻" class="anchor" href="#1%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402264163&amp;idx=1&amp;sn=20079305eb97a449c04547494f619d91&amp;scene=27#wechat_redirect" rel="nofollow">1月29日股市前瞻</a>
+</h2>
+<p>日期：2016-1-28 21:49:55<br>
+一定没有那么多坏消息，却偏要让你听到。一定还有很多好消息，却偏不让你现在听到。</p>
+<h2>
+<a id="user-content-1月28日股市前瞻" class="anchor" href="#1%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402250788&amp;idx=1&amp;sn=c1f7befdf49327aaa64e8cff81505e5b&amp;scene=27#wechat_redirect" rel="nofollow">1月28日股市前瞻</a>
+</h2>
+<p>日期：2016-1-27 21:46:46<br>
+刑天舞干戚，猛志固常在。  ——陶渊明</p>
+<h2>
+<a id="user-content-1月27日股市前瞻" class="anchor" href="#1%E6%9C%8827%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402242117&amp;idx=1&amp;sn=610a7cd9d5340e4ac7945746acbd787d&amp;scene=27#wechat_redirect" rel="nofollow">1月27日股市前瞻</a>
+</h2>
+<p>日期：2016-1-26 21:57:25<br>
+天地不仁，以万物为刍狗；圣人不仁，以百姓为刍狗。 ——老子《道德经》</p>
+<h2>
+<a id="user-content-1月26日股市前瞻" class="anchor" href="#1%E6%9C%8826%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402227983&amp;idx=1&amp;sn=431b42213679b79fd3c28d1d14332ae7&amp;scene=27#wechat_redirect" rel="nofollow">1月26日股市前瞻</a>
+</h2>
+<p>日期：2016-1-25 22:2:20<br>
+继续缩量，继续等待。</p>
+<h2>
+<a id="user-content-1月25日股市前瞻" class="anchor" href="#1%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402208431&amp;idx=1&amp;sn=ae8e253f6e7475aa1ec144edb4f84901&amp;scene=27#wechat_redirect" rel="nofollow">1月25日股市前瞻</a>
+</h2>
+<p>日期：2016-1-24 21:36:45<br>
+下周反弹值得期待 。</p>
+<h2>
+<a id="user-content-马英九为什么输这么惨" class="anchor" href="#%E9%A9%AC%E8%8B%B1%E4%B9%9D%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BE%93%E8%BF%99%E4%B9%88%E6%83%A8" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402196352&amp;idx=1&amp;sn=ec3bf659dec0dcb5deebb126231309b8&amp;scene=27#wechat_redirect" rel="nofollow">马英九为什么输这么惨？</a>
+</h2>
+<p>日期：2016-1-23 19:6:27<br>
+可怜三百年天下，断送忧勤惕厉中。 ——萧正模</p>
+<h2>
+<a id="user-content-1月22日股市前瞻" class="anchor" href="#1%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402176509&amp;idx=1&amp;sn=35ce06ec40c6e312bc52ff25fd57055c&amp;scene=27#wechat_redirect" rel="nofollow">1月22日股市前瞻</a>
+</h2>
+<p>日期：2016-1-21 22:3:7<br>
+千磨万击还坚劲，任尔东西南北风。——郑板桥</p>
+<h2>
+<a id="user-content-1月21日股市前瞻" class="anchor" href="#1%E6%9C%8821%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402167452&amp;idx=1&amp;sn=4aebddca0fc9bb3a74272d4a34a67525&amp;scene=27#wechat_redirect" rel="nofollow">1月21日股市前瞻</a>
+</h2>
+<p>日期：2016-1-20 21:54:4<br>
+真正的英雄主义，就是看清生活的真相之后依然热爱生活。——罗曼·罗兰</p>
+<h2>
+<a id="user-content-1月20日股市前瞻" class="anchor" href="#1%E6%9C%8820%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402136896&amp;idx=1&amp;sn=ec45f4f7e5644eba86994c37939651ba&amp;scene=27#wechat_redirect" rel="nofollow">1月20日股市前瞻</a>
+</h2>
+<p>日期：2016-1-19 15:34:55<br>
+筑底继续，短期上冲或有压力。</p>
+<h2>
+<a id="user-content-1月19日股市前瞻" class="anchor" href="#1%E6%9C%8819%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402129732&amp;idx=1&amp;sn=aa88b26c82838fe235498ca73cfc778b&amp;scene=27#wechat_redirect" rel="nofollow">1月19日股市前瞻</a>
+</h2>
+<p>日期：2016-1-18 21:53:23<br>
+千花百草凋零后，留向纷纷雪里看。——白居易</p>
+<h2>
+<a id="user-content-1月18日股市前瞻" class="anchor" href="#1%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402112207&amp;idx=1&amp;sn=0b43b70f82eb7a703dce890b0df67efc&amp;scene=27#wechat_redirect" rel="nofollow">1月18日股市前瞻</a>
+</h2>
+<p>日期：2016-1-17 21:32:24<br>
+不仅股市行情非常难预测，而且小规模投资者也总是更容易在不该悲观的时候反而非常悲观，在不该乐观的时候反而非常乐观，因此，当他们想在牛市中追涨买入以及在熊市中杀跌卖出时，往往会事与愿违，弄巧成拙。——彼得·林奇</p>
+<h2>
+<a id="user-content-二十年内可收台" class="anchor" href="#%E4%BA%8C%E5%8D%81%E5%B9%B4%E5%86%85%E5%8F%AF%E6%94%B6%E5%8F%B0" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402103712&amp;idx=1&amp;sn=edfa432b7d8152e6fbf2994b8b6abc2c&amp;scene=27#wechat_redirect" rel="nofollow">二十年内可收台</a>
+</h2>
+<p>日期：2016-1-16 21:20:40<br>
+会挽雕弓如满月，亲射虎，看孙郎。 ——苏轼的《江城子·密州出猎》</p>
+<h2>
+<a id="user-content-1月15日股市前瞻" class="anchor" href="#1%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402079266&amp;idx=1&amp;sn=b490fa92fe1374c6b182b4f09fcbf9d5&amp;scene=27#wechat_redirect" rel="nofollow">1月15日股市前瞻</a>
+</h2>
+<p>日期：2016-1-14 22:35:57<br>
+子曰：“岁寒，然后知松柏之后凋也。” ——《论语》</p>
+<h2>
+<a id="user-content-1月14日股市前瞻" class="anchor" href="#1%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402063925&amp;idx=1&amp;sn=fb7828022840a34cbce0e23e54c94356&amp;scene=27#wechat_redirect" rel="nofollow">1月14日股市前瞻</a>
+</h2>
+<p>日期：2016-1-13 21:50:15<br>
+Never，never，never give up！（永远，永远，永远不放弃！） ——丘吉尔</p>
+<h2>
+<a id="user-content-1月13日股市前瞻" class="anchor" href="#1%E6%9C%8813%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402048974&amp;idx=1&amp;sn=f35f401c4f4939b7b9bbe9cddb76b138&amp;scene=27#wechat_redirect" rel="nofollow">1月13日股市前瞻</a>
+</h2>
+<p>日期：2016-1-12 21:7:0<br>
+男儿到死心如铁。看试手，补天裂。——辛弃疾《贺新郎》</p>
+<h2>
+<a id="user-content-1月12日股市前瞻" class="anchor" href="#1%E6%9C%8812%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402036027&amp;idx=1&amp;sn=51bd9e3212724ec21bbb6a7db9c35d6c&amp;scene=27#wechat_redirect" rel="nofollow">1月12日股市前瞻</a>
+</h2>
+<p>日期：2016-1-11 21:26:28<br>
+最后一下，咬牙坚持！</p>
+<h2>
+<a id="user-content-1月11日股市前瞻" class="anchor" href="#1%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402020851&amp;idx=1&amp;sn=6f07f4cf6b2103d391621d00ada7d6a7&amp;scene=27#wechat_redirect" rel="nofollow">1月11日股市前瞻</a>
+</h2>
+<p>日期：2016-1-10 21:23:48<br>
+最黑暗的梦魇应该已经过去。</p>
+<h2>
+<a id="user-content-为什么肖钢不会下台" class="anchor" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%82%96%E9%92%A2%E4%B8%8D%E4%BC%9A%E4%B8%8B%E5%8F%B0" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=402002908&amp;idx=1&amp;sn=07a633eacd8ea9ae5c1d7fe3549d01bf&amp;scene=27#wechat_redirect" rel="nofollow">为什么肖钢不会下台？</a>
+</h2>
+<p>日期：2016-1-9 16:46:59<br>
+设使食肉者一旦失计于庙堂之上，若臣等之藿食者，宁得无肝胆涂地于中原之野与？其祸亦及臣之身，臣与有其忧深，臣安得无与国家之计乎？——刘向《说苑》</p>
+<h2>
+<a id="user-content-1月8日股市前瞻" class="anchor" href="#1%E6%9C%888%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401980392&amp;idx=1&amp;sn=4617453f161a92aba40359d21f35179d&amp;scene=27#wechat_redirect" rel="nofollow">1月8日股市前瞻</a>
+</h2>
+<p>日期：2016-1-7 21:43:12<br>
+人在荆棘中，不动不刺。</p>
+<h2>
+<a id="user-content-1月7日股市前瞻" class="anchor" href="#1%E6%9C%887%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401965755&amp;idx=1&amp;sn=9bff4c5118eaa92e5e1ea7c7032bdf9d&amp;scene=27#wechat_redirect" rel="nofollow">1月7日股市前瞻</a>
+</h2>
+<p>日期：2016-1-6 22:6:55<br>
+酌情逢高降低仓位。</p>
+<h2>
+<a id="user-content-1月6日股市前瞻" class="anchor" href="#1%E6%9C%886%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401954717&amp;idx=1&amp;sn=88381604a85eebe8b396936c74f727f8&amp;scene=27#wechat_redirect" rel="nofollow">1月6日股市前瞻</a>
+</h2>
+<p>日期：2016-1-5 22:15:42<br>
+明日应该会继续反弹，短线至3400点一线可考虑减仓。</p>
+<h2>
+<a id="user-content-1月5日股市前瞻" class="anchor" href="#1%E6%9C%885%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401935425&amp;idx=1&amp;sn=6bfe6036447b610a7d7316903c330c53&amp;scene=27#wechat_redirect" rel="nofollow">1月5日股市前瞻</a>
+</h2>
+<p>日期：2016-1-4 16:37:51<br>
+主不可以怒而兴师，将不可以愠而攻战。——《孙子兵法》</p>
+<h2>
+<a id="user-content-1月4日股市前瞻" class="anchor" href="#1%E6%9C%884%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401924867&amp;idx=1&amp;sn=9adac71fab7cf11353e92bb92638a8a1&amp;scene=27#wechat_redirect" rel="nofollow">1月4日股市前瞻</a>
+</h2>
+<p>日期：2016-1-3 21:27:17<br>
+水之积也不厚，则其负大舟也无力。风之积也不厚，则其负大翼也无力。——庄子《逍遥游》</p>
+<h2>
+<a id="user-content-我为什么还不是巴菲特" class="anchor" href="#%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E4%B8%8D%E6%98%AF%E5%B7%B4%E8%8F%B2%E7%89%B9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=401910086&amp;idx=1&amp;sn=50071862ea10f2bc1dcad5f149c7c267&amp;scene=27#wechat_redirect" rel="nofollow">我为什么还不是巴菲特？</a>
+</h2>
+<p>日期：2016-1-2 16:6:1<br>
+不恨古人吾不见，恨古人不见吾狂耳。   ——辛弃疾《贺新郎》</p>
+</article></body></html>

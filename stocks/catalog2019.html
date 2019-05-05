@@ -1,0 +1,1177 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAYcAA0AAAAACjQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABMAAAABwAAAAca8vGTk9TLzIAAAFMAAAARAAAAFZG1VHVY21hcAAAAZAAAAA+AAABQgAP9AdjdnQgAAAB0AAAAAQAAAAEACICiGdhc3AAAAHUAAAACAAAAAj//wADZ2x5ZgAAAdwAAADRAAABEKyikaNoZWFkAAACsAAAAC0AAAA2AtXoA2hoZWEAAALgAAAAHAAAACQHngNFaG10eAAAAvwAAAAQAAAAEAwAACJsb2NhAAADDAAAAAoAAAAKALIAVG1heHAAAAMYAAAAHwAAACABEAB2bmFtZQAAAzgAAALBAAAFu3I9x/Nwb3N0AAAF/AAAAB0AAAAvaoFvbwAAAAEAAAAAzBdyYwAAAADP2IQvAAAAAM/bz7t4nGNgZGFgnMDAysDB1Ml0hoGBoR9CM75mMGLkYGBgYmBlZsAKAtJcUxgcPsR8iGF2+O/AEMPsznAYKMwIkgMA5REMOXicY2BgYGaAYBkGRgYQsAHyGMF8FgYFIM0ChED+h5j//yEk/3KoSgZGNgYYk4GRCUgwMaACRoZhDwCs7QgGAAAAIgKIAAAAAf//AAJ4nHWMMQrCQBBF/0zWrCCIKUQsTDCL2EXMohYGSSmorScInsRGL2DOYJe0Ntp7BK+gJ1BxF1stZvjz/v8DRghQzEc4kIgKwiAppcA9LtzKLSkdNhKFY3HF4lK69ExKslx7Xa+vPRVS43G98vG1DnkDMIBUgFN0MDXflU8tbaZOUkXUH0+U27RoRpOIyCKjbMCVejwypzJJG4jIwb43rfl6wbwanocrJm9XFYfskuVC5K/TPyczNU7b84CXcbxks1Un6H6tLH9vf2LRnn8Ax7A5WQAAAHicY2BkYGAA4teL1+yI57f5ysDNwgAC529f0kOmWRiYVgEpDgYmEA8AUzEKsQAAAHicY2BkYGB2+O/AEMPCAAJAkpEBFbAAADgKAe0EAAAiAAAAAAQAAAAEAAAAAAAAKgAqACoAiAAAeJxjYGRgYGBhsGFgYgABEMkFhAwM/xn0QAIAD6YBhwB4nI1Ty07cMBS9QwKlQapQW3VXySvEqDCZGbGaHULiIQ1FKgjWMxknMfLEke2A+IJu+wntrt/QbVf9gG75jK577Lg8K1qQPCfnnnt8fX1NRC/pmjrk/zprC+8D7tBy9DHgBXoWfQ44Av8t4Bj4Z8CLtBL9CniJluPXASf0Lm4CXqFX8Q84dOLnMB17N4c7tBo1AS/Qi+hTwBH4rwHHwN8DXqQ30XXAS7QaLwSc0Gn8NuAVWou/gFmnjLrEaEh9GmDdDGgL3B4JsrRPDU2hTOiMSuJUIdKQQayiAth69r6akSSFqIJuA19TrzCIaY8sIoxyrNIrL//pw7A2iMygkX5vDj+G+kuoLdX4GlGK/8Lnlz6/h9MpmoO9rafrz7ILXEHHaAx95s9lsI7AHNMBWEZHULnfAXwG9/ZqdzLI08iuwRloXE8kfhXYAvE23+23DU3t626rbs8/8adv+9DWknsHp3E17oCf+Z48rvEQNZ78paYM38qfk3v/u3l3u3GXN2Dmvmvpf1Srwk3pB/VSsp512bA/GG5i2WJ7wu430yQ5K3nFGiOqgtmSB5pJVSizwaacmUZzZhXLlZTq8qGGFY2YcSkqbth6aW1tRmlaCFs2016m5qn36SbJrqosG4uMV4aP2PHBmB3tjtmgN2izkGQyLWprekbIntJFing32a5rKWCN/SdSoga45EJykyQ7asZvHQ8PTm6cslIpwyeyjbVltNikc2HTR7YKh9LBl9DADC0U/jLcBZDKrMhUBfQBvXRzLtFtjU9eNHKin0x5InTqb8lNpfKv1s1xHzTXRqgKzek/mb7nB8RZTCDhGEX3kK/8Q75AmUM/eLkfA+0Hi908Kx4eNsMgudg5GLdRD7a84npi+YxNr5i5KIbW5izXas7cHXIMAau1OueZhfj+cOcP3P8MNIWLyYOBuxL6DRylJ4cAAAB4nGNgYoAALjDJyIAOWMCiTIxMLDmZedkABtIBygAAAA==) format('woff');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body .markdown-body {
+    padding: 45px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    word-wrap: break-word;
+}
+
+pre {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background-color: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body input {
+  font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.markdown-body a {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body .select::-ms-expand {
+  opacity: 0;
+}
+
+.markdown-body .octicon {
+  font: normal normal normal 16px/1 octicons-anchor;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.markdown-body .octicon-link:before {
+  content: '\f05c';
+}
+
+.markdown-body:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .anchor {
+  display: inline-block;
+  padding-right: 2px;
+  margin-left: -18px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #000;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h1 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h3 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h5 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body h6 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+
+.markdown-body code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .pl-c {
+  color: #969896;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #0086b3;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #795da3;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
+  color: #333;
+}
+
+.markdown-body .pl-ent {
+  color: #63a35c;
+}
+
+.markdown-body .pl-k {
+  color: #a71d5d;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #183691;
+}
+
+.markdown-body .pl-v {
+  color: #ed6a43;
+}
+
+.markdown-body .pl-id {
+  color: #b52a1d;
+}
+
+.markdown-body .pl-ii {
+  background-color: #b52a1d;
+  color: #f8f8f8;
+}
+
+.markdown-body .pl-sr .pl-cce {
+  color: #63a35c;
+  font-weight: bold;
+}
+
+.markdown-body .pl-ml {
+  color: #693a17;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  color: #1d3e81;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mq {
+  color: #008080;
+}
+
+.markdown-body .pl-mi {
+  color: #333;
+  font-style: italic;
+}
+
+.markdown-body .pl-mb {
+  color: #333;
+  font-weight: bold;
+}
+
+.markdown-body .pl-md {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.markdown-body .pl-mi1 {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.markdown-body .pl-mdr {
+  color: #795da3;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mo {
+  color: #1d3e81;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .plan-price-unit {
+  color: #767676;
+  font-weight: normal;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 0.35em 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body .plan-choice {
+  padding: 15px;
+  padding-left: 40px;
+  display: block;
+  border: 1px solid #e0e0e0;
+  position: relative;
+  font-weight: normal;
+  background-color: #fafafa;
+}
+
+.markdown-body .plan-choice.open {
+  background-color: #fff;
+}
+
+.markdown-body .plan-choice.open .plan-choice-seat-breakdown {
+  display: block;
+}
+
+.markdown-body .plan-choice-free {
+  border-radius: 3px 3px 0 0;
+}
+
+.markdown-body .plan-choice-paid {
+  border-radius: 0 0 3px 3px;
+  border-top: 0;
+  margin-bottom: 20px;
+}
+
+.markdown-body .plan-choice-radio {
+  position: absolute;
+  left: 15px;
+  top: 18px;
+}
+
+.markdown-body .plan-choice-exp {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.markdown-body .plan-choice-seat-breakdown {
+  margin-top: 10px;
+  display: none;
+}
+
+.markdown-body :checked+.radio-label {
+  z-index: 1;
+  position: relative;
+  border-color: #4078c0;
+}
+</style><title>article2019</title></head><body><article class="markdown-body"><h1>
+<a id="user-content-2019-5" class="anchor" href="#2019-5" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2019-5</h1>
+<h2>
+<a id="user-content-5月6日股市前瞻" class="anchor" href="#5%E6%9C%886%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650906113&amp;idx=1&amp;sn=8e0cc0b7bf46769d06e81030c58fdc0a&amp;chksm=bd1c02ac8a6b8bba4d87a228c034cc871aee2521b42f8196b8298e8e98c15431767d236cc47a&amp;scene=27#wechat_redirect" rel="nofollow">5月6日股市前瞻</a>
+</h2>
+<p>日期：2019-5-4 9:51:25<br>
+桃李春风一杯酒，江湖夜雨十年灯。——黄庭坚</p>
+<h1>
+<a id="user-content-2019-4" class="anchor" href="#2019-4" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2019-4</h1>
+<h2>
+<a id="user-content-关于预售姚尧股市形态学之若干事宜" class="anchor" href="#%E5%85%B3%E4%BA%8E%E9%A2%84%E5%94%AE%E5%A7%9A%E5%B0%A7%E8%82%A1%E5%B8%82%E5%BD%A2%E6%80%81%E5%AD%A6%E4%B9%8B%E8%8B%A5%E5%B9%B2%E4%BA%8B%E5%AE%9C" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650906100&amp;idx=1&amp;sn=c62ac78bb6e09c4cf49f4d73b6f3e796&amp;chksm=bd1c01598a6b884f475e33f9933150d38fb93d78a379eada2a408579b49113d02f528f6d5293&amp;scene=27#wechat_redirect" rel="nofollow">关于预售《姚尧股市形态学》之若干事宜</a>
+</h2>
+<p>日期：2019-4-30 5:37:15<br>
+《姚尧股市形态学》预售</p>
+<h2>
+<a id="user-content-4月30日股市前瞻" class="anchor" href="#4%E6%9C%8830%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650906088&amp;idx=1&amp;sn=8cd3452270a074b18b7edc736c7271c2&amp;chksm=bd1c01458a6b8853cbbb7419c8122f99e2189b1d3f6af9f07a6614202a78a24b01a4ad601aa9&amp;scene=27#wechat_redirect" rel="nofollow">4月30日股市前瞻</a>
+</h2>
+<p>日期：2019-4-29 19:9:48<br>
+仙人如爱我，举手来相招。——李白</p>
+<h2>
+<a id="user-content-4月29日股市前瞻" class="anchor" href="#4%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650906073&amp;idx=1&amp;sn=a3400c8548ece65353b41adc0b3b44e8&amp;chksm=bd1c01748a6b88621ebdcb42237147179926bd1eaed5840fd15e92b4547630706209ef1c1862&amp;scene=27#wechat_redirect" rel="nofollow">4月29日股市前瞻</a>
+</h2>
+<p>日期：2019-4-28 11:10:14<br>
+知我者，二三子。——辛弃疾</p>
+<h2>
+<a id="user-content-4月26日股市前瞻" class="anchor" href="#4%E6%9C%8826%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650906052&amp;idx=1&amp;sn=f0dd94b405f237c2497ba2e5ce254880&amp;chksm=bd1c01698a6b887f2501327720814bd510a82ff1994872dcd879d30ed2bc96793e43eeace24f&amp;scene=27#wechat_redirect" rel="nofollow">4月26日股市前瞻</a>
+</h2>
+<p>日期：2019-4-25 21:16:54<br>
+辕门斩首严军法，拭泪犹思先帝明。——《三国演义》</p>
+<h2>
+<a id="user-content-4月25日股市前瞻" class="anchor" href="#4%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650906038&amp;idx=1&amp;sn=da758bf680ffdb60f179b42b13a594f3&amp;chksm=bd1c011b8a6b880d73c753fe71e937eb90908059047c1b1761dd7bc36b63f059a916996b3e0c&amp;scene=27#wechat_redirect" rel="nofollow">4月25日股市前瞻</a>
+</h2>
+<p>日期：2019-4-24 20:17:7<br>
+澉浦东南海面横，惯看潮落又潮生。——葛绍体</p>
+<h2>
+<a id="user-content-4月24日股市前瞻" class="anchor" href="#4%E6%9C%8824%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650906025&amp;idx=1&amp;sn=cacb02c7381429032e3237e529edf695&amp;chksm=bd1c01048a6b881279d40ce5aa91af5a8bc5e61f8c51dd33a4de25684ef6eb9fb71a942fbdf8&amp;scene=27#wechat_redirect" rel="nofollow">4月24日股市前瞻</a>
+</h2>
+<p>日期：2019-4-23 18:22:3<br>
+一日不读书，胸臆无佳想。一月不读书，耳目失精爽。——萧抡谓</p>
+<h2>
+<a id="user-content-4月23日股市前瞻" class="anchor" href="#4%E6%9C%8823%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650906019&amp;idx=1&amp;sn=e9c194f22189eb86e01d2f77391ccd29&amp;chksm=bd1c010e8a6b88186de975524e0fbd52c104ff701b4c7320d4dff024b41fb6d1421b2c32b45a&amp;scene=27#wechat_redirect" rel="nofollow">4月23日股市前瞻</a>
+</h2>
+<p>日期：2019-4-22 17:54:28<br>
+天地之理，有开必有合；用药之机，有补必有泻。——程国彭</p>
+<h2>
+<a id="user-content-4月22日股市前瞻" class="anchor" href="#4%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650906013&amp;idx=1&amp;sn=19b73db12768b9d8ca5c4eea56da070c&amp;chksm=bd1c01308a6b8826c565232516ece4d0233ec0693b36449b40aec0958782fc364f6c9db2988d&amp;scene=27#wechat_redirect" rel="nofollow">4月22日股市前瞻</a>
+</h2>
+<p>日期：2019-4-21 19:46:59<br>
+惊秋远雁横斜字，噪晚哀蝉断续弦。——石孝友</p>
+<h2>
+<a id="user-content-4月19日股市前瞻" class="anchor" href="#4%E6%9C%8819%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650906003&amp;idx=1&amp;sn=0afb8791d58cafc4314d1e219d39183b&amp;chksm=bd1c013e8a6b882807a7583735054e6ea9f43fa9cd715e49a8af3e97caad55518ad34b660db5&amp;scene=27#wechat_redirect" rel="nofollow">4月19日股市前瞻</a>
+</h2>
+<p>日期：2019-4-18 21:1:3<br>
+一万年太久，只争朝夕。</p>
+<h2>
+<a id="user-content-4月18日股市前瞻" class="anchor" href="#4%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905994&amp;idx=1&amp;sn=b82788ea02b8622eb64ed7f01f1a1f2f&amp;chksm=bd1c01278a6b8831d0b277a9d4089b535e257803e6c34df65e1b67256c7953ecdca07eeae958&amp;scene=27#wechat_redirect" rel="nofollow">4月18日股市前瞻</a>
+</h2>
+<p>日期：2019-4-17 21:12:25<br>
+能攻心则反侧自消，从古知兵非好战；不审势即宽严皆误，后来治蜀要深思。——赵藩</p>
+<h2>
+<a id="user-content-4月17日股市前瞻" class="anchor" href="#4%E6%9C%8817%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905985&amp;idx=1&amp;sn=fd65872d9627624dba8e49666171fca8&amp;chksm=bd1c012c8a6b883aa1fa311f183ca511ee222335e959c1a70766f3c016923d1faea9120ca1e2&amp;scene=27#wechat_redirect" rel="nofollow">4月17日股市前瞻</a>
+</h2>
+<p>日期：2019-4-16 20:7:59<br>
+望云就日，非无恋阙之心；玉粒桂薪，未有住京之计。——王禹偁</p>
+<h2>
+<a id="user-content-4月16日股市前瞻" class="anchor" href="#4%E6%9C%8816%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905972&amp;idx=1&amp;sn=4305abaa1adfa5abf05b88caed7648c7&amp;chksm=bd1c01d98a6b88cf5fd60a0e285badcfc0685fbfbac501b6c26fe31732d3fd6b40ebde098af0&amp;scene=27#wechat_redirect" rel="nofollow">4月16日股市前瞻</a>
+</h2>
+<p>日期：2019-4-15 18:7:5<br>
+知我者，谓我心忧，不知我者，谓我何求。——《诗经·黍黎》</p>
+<h2>
+<a id="user-content-4月15日股市前瞻" class="anchor" href="#4%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905964&amp;idx=1&amp;sn=1e58dc85a02a4fe678164392481018e3&amp;chksm=bd1c01c18a6b88d75846d365cb62bf05fc7fe65b14477e597a1f2fbc9c2d5875c0247001bcdf&amp;scene=27#wechat_redirect" rel="nofollow">4月15日股市前瞻</a>
+</h2>
+<p>日期：2019-4-14 16:27:30<br>
+世异则事异，事异则备变。——韩非子</p>
+<h2>
+<a id="user-content-4月12日股市前瞻" class="anchor" href="#4%E6%9C%8812%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905957&amp;idx=1&amp;sn=df6f76a7d85bd796ed04dadb66b279d9&amp;chksm=bd1c01c88a6b88dee29dfa980a5cc928453d775371c9094d31c597c5f16156fcf5d4c77c6ec7&amp;scene=27#wechat_redirect" rel="nofollow">4月12日股市前瞻</a>
+</h2>
+<p>日期：2019-4-11 21:25:24<br>
+君以此始，必以此终。——《左传》</p>
+<h2>
+<a id="user-content-4月11日股市前瞻" class="anchor" href="#4%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905942&amp;idx=1&amp;sn=37a14bffa6ebb9bbe6e55b1e92d9d01b&amp;chksm=bd1c01fb8a6b88ed81a4cb059635f0b53244ec616d4217a81cb026974cd957bf6c7d1a752333&amp;scene=27#wechat_redirect" rel="nofollow">4月11日股市前瞻</a>
+</h2>
+<p>日期：2019-4-10 20:25:28<br>
+莫为危时便怆神，前程往往有期因。——冯道</p>
+<h2>
+<a id="user-content-4月10日股市前瞻" class="anchor" href="#4%E6%9C%8810%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905934&amp;idx=1&amp;sn=0cbb98ceac6711d012bf071feaa3ee5e&amp;chksm=bd1c01e38a6b88f5edb1d3be35b437ad26ceac5493ce72f766122da1c87d81a5dd79ad73617e&amp;scene=27#wechat_redirect" rel="nofollow">4月10日股市前瞻</a>
+</h2>
+<p>日期：2019-4-9 20:55:59<br>
+等闲变却故人心，却道故人心易变。——纳兰性德</p>
+<h2>
+<a id="user-content-4月9日股市前瞻" class="anchor" href="#4%E6%9C%889%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905927&amp;idx=1&amp;sn=a39b644cc36ecf0ee7be2b26d4b85a64&amp;chksm=bd1c01ea8a6b88fc7928c7b44e3db031945becbe83a91bbf150b62bc794ee847eb9b226750f5&amp;scene=27#wechat_redirect" rel="nofollow">4月9日股市前瞻</a>
+</h2>
+<p>日期：2019-4-8 19:15:52<br>
+我来问道无余说，云在青天水在瓶。——李翱</p>
+<h2>
+<a id="user-content-4月8日股市前瞻" class="anchor" href="#4%E6%9C%888%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905920&amp;idx=1&amp;sn=a9382cb57afe8bf75dc8523c6b0351f5&amp;chksm=bd1c01ed8a6b88fb65f5f26a5ac1a50e80023948a4e0f3a5ae2dc78ba1d7defa206b532e9138&amp;scene=27#wechat_redirect" rel="nofollow">4月8日股市前瞻</a>
+</h2>
+<p>日期：2019-4-7 12:4:35<br>
+尔曹身与名俱灭，不废江河万古流。——杜甫</p>
+<h2>
+<a id="user-content-通鉴扑克" class="anchor" href="#%E9%80%9A%E9%89%B4%E6%89%91%E5%85%8B" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905912&amp;idx=1&amp;sn=0b1ab972073eaf54772324e0d3081f9e&amp;chksm=bd1c01958a6b88837c7e1451ce38fcba6c874ed3fe18bd5ada624a3c0216dd39f73c64c2d52c&amp;scene=27#wechat_redirect" rel="nofollow">通鉴扑克</a>
+</h2>
+<p>日期：2019-4-5 23:21:31<br>
+通鉴扑克</p>
+<h2>
+<a id="user-content-4月4日股市前瞻" class="anchor" href="#4%E6%9C%884%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905901&amp;idx=1&amp;sn=ee7dd8032f74001ed186251515236990&amp;chksm=bd1c01808a6b88968ac476864ff349fe6ab1ab14672ebf89122931b2e7bba0b7f55fe7b2b7ac&amp;scene=27#wechat_redirect" rel="nofollow">4月4日股市前瞻</a>
+</h2>
+<p>日期：2019-4-3 18:9:16<br>
+国强而不战，毒输于内，礼乐虱官生，必削；国遂战，毒输于敌，国无礼乐虱官，必强。——《商君书·去强》</p>
+<h2>
+<a id="user-content-4月3日股市前瞻" class="anchor" href="#4%E6%9C%883%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905888&amp;idx=1&amp;sn=2729cb33c51c637910e27fd0c096a622&amp;chksm=bd1c018d8a6b889bb5aba81db276215652e68b1587db8440b8e77e0793d9ce27c622bcf7d934&amp;scene=27#wechat_redirect" rel="nofollow">4月3日股市前瞻</a>
+</h2>
+<p>日期：2019-4-2 21:40:22<br>
+惟草木之零落兮，恐美人之迟暮。——屈原</p>
+<h2>
+<a id="user-content-4月2日股市前瞻" class="anchor" href="#4%E6%9C%882%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905879&amp;idx=1&amp;sn=7ae6c9d1b910e13ed66b9bf8a1079a06&amp;chksm=bd1c01ba8a6b88ac1d7c6460dc0322905af45166ea29c808e850fddca06eaa0e31187df381f1&amp;scene=27#wechat_redirect" rel="nofollow">4月2日股市前瞻</a>
+</h2>
+<p>日期：2019-4-1 17:20:47<br>
+讲堂迷却散花人，百万茫茫徒苦辛。——·释智愚</p>
+<h1>
+<a id="user-content-2019-3" class="anchor" href="#2019-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2019-3</h1>
+<h2>
+<a id="user-content-4月1日股市前瞻" class="anchor" href="#4%E6%9C%881%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905866&amp;idx=1&amp;sn=d0bec8bd882e0a8cac9cd7911889e701&amp;chksm=bd1c01a78a6b88b13bb8ff50cf1b770f3c84aa3bd10279e0d05086372c7c5fd19a28495b4e3f&amp;scene=27#wechat_redirect" rel="nofollow">4月1日股市前瞻</a>
+</h2>
+<p>日期：2019-3-31 21:26:40<br>
+汩余若将不及兮，恐年岁之不吾与。——屈原</p>
+<h2>
+<a id="user-content-姚尧精读资治通鉴第47集" class="anchor" href="#%E5%A7%9A%E5%B0%A7%E7%B2%BE%E8%AF%BB%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC47%E9%9B%86" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905856&amp;idx=1&amp;sn=e98a0b632b637fa23e7740284957df4d&amp;chksm=bd1c01ad8a6b88bb21908480445744fee6390f250346d0ff8c389b9bc8600b6d624259966df6&amp;scene=27#wechat_redirect" rel="nofollow">姚尧精读《资治通鉴》第47集</a>
+</h2>
+<p>日期：2019-3-28 15:23:35<br>
+破釜沉舟</p>
+<h2>
+<a id="user-content-3月28日股市前瞻" class="anchor" href="#3%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905850&amp;idx=1&amp;sn=98f4f048c3b04c49fb99612520bdaa8a&amp;chksm=bd1c00578a6b89418c919e0f203be5e654e899afabe17fdf87987fa600ac1f188ce3f2999742&amp;scene=27#wechat_redirect" rel="nofollow">3月28日股市前瞻</a>
+</h2>
+<p>日期：2019-3-27 18:57:19<br>
+学如逆水行舟，不进则退；心似脱缰野马，易放难收。</p>
+<h2>
+<a id="user-content-3月27日股市前瞻" class="anchor" href="#3%E6%9C%8827%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905839&amp;idx=1&amp;sn=0db6074c1dbda23b21ad839001120ce1&amp;chksm=bd1c00428a6b8954189167dc7c783032e48bbc37e76947bdf28a8ae46a27483a05a3d8290519&amp;scene=27#wechat_redirect" rel="nofollow">3月27日股市前瞻</a>
+</h2>
+<p>日期：2019-3-26 16:59:27<br>
+躬自厚而薄责于人，则远怨矣。——《论语·卫灵公》</p>
+<h2>
+<a id="user-content-3月26日股市前瞻" class="anchor" href="#3%E6%9C%8826%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905828&amp;idx=1&amp;sn=411bc8dea307667ddd6413c46886aab6&amp;chksm=bd1c00498a6b895f98c902cb40f3ef3c25274ddcc438ec49119d7f6be0085a72a46619c24c00&amp;scene=27#wechat_redirect" rel="nofollow">3月26日股市前瞻</a>
+</h2>
+<p>日期：2019-3-25 20:5:37<br>
+风波须畏险，老大共馀悲。——宋祁</p>
+<h2>
+<a id="user-content-3月25日股市前瞻" class="anchor" href="#3%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905815&amp;idx=1&amp;sn=a79e125227223b1af81f63d1e9d0d92f&amp;chksm=bd1c007a8a6b896c0662816256eb4716d4d6aaffa772afa2ed2494c940105ac97132740cff07&amp;scene=27#wechat_redirect" rel="nofollow">3月25日股市前瞻</a>
+</h2>
+<p>日期：2019-3-24 20:13:37<br>
+世人颠倒堕醉梦，我独坐照全天机。——司空图</p>
+<h2>
+<a id="user-content-姚尧精读资治通鉴第46集" class="anchor" href="#%E5%A7%9A%E5%B0%A7%E7%B2%BE%E8%AF%BB%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC46%E9%9B%86" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905801&amp;idx=1&amp;sn=ded35fc7a5f013fbb84c21b7ed4b127a&amp;chksm=bd1c00648a6b897283de8b17e100ec8f2c0042391347b0c6fbb876adc4d25d449795787c6452&amp;scene=27#wechat_redirect" rel="nofollow">姚尧精读《资治通鉴》第46集</a>
+</h2>
+<p>日期：2019-3-23 12:33:8<br>
+安阳兵变</p>
+<h2>
+<a id="user-content-3月22日股市前瞻" class="anchor" href="#3%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905782&amp;idx=1&amp;sn=d84396be1d2f07f29b69b41956bb739a&amp;chksm=bd1c001b8a6b890d305f0d7e4cf75e24c8ba501270bf96ade0fe586cc6930eaada73ed98b701&amp;scene=27#wechat_redirect" rel="nofollow">3月22日股市前瞻</a>
+</h2>
+<p>日期：2019-3-21 18:11:39<br>
+人类从历史中学到的唯一教训，就是人类无法从历史中学到任何教训。——黑格尔</p>
+<h2>
+<a id="user-content-3月21日股市前瞻" class="anchor" href="#3%E6%9C%8821%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905771&amp;idx=1&amp;sn=26229be26c94e4f81445f756b3ec3086&amp;chksm=bd1c00068a6b8910e1118e75f5faa9f0e89d4656d30d02dd6b11ba472c529fd232e8cf12f671&amp;scene=27#wechat_redirect" rel="nofollow">3月21日股市前瞻</a>
+</h2>
+<p>日期：2019-3-20 17:58:50<br>
+悔吝愆尤须谨细，存亡得失要知几。——程端蒙</p>
+<h2>
+<a id="user-content-3月20日股市前瞻" class="anchor" href="#3%E6%9C%8820%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905762&amp;idx=1&amp;sn=4152d86ed6638d6b91f547b0ed862558&amp;chksm=bd1c000f8a6b89192352c0fd6d11850c8cd2a7d9ef8a79814ed27b2551eabbb6a7fa6d8efa1b&amp;scene=27#wechat_redirect" rel="nofollow">3月20日股市前瞻</a>
+</h2>
+<p>日期：2019-3-19 17:52:0<br>
+君子戒慎乎其所不睹，恐惧乎其所不闻。——《中庸》</p>
+<h2>
+<a id="user-content-3月19日股市前瞻" class="anchor" href="#3%E6%9C%8819%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905750&amp;idx=1&amp;sn=339be34e91ba9981372ad2ff26410bce&amp;chksm=bd1c003b8a6b892da7192f3fa9349d18ce3f76bbefb2f372e24e451d7faf0f700f3e267cc3f4&amp;scene=27#wechat_redirect" rel="nofollow">3月19日股市前瞻</a>
+</h2>
+<p>日期：2019-3-18 18:5:7<br>
+今人不见古时月，今月曾经照古人。——李白</p>
+<h2>
+<a id="user-content-姚尧股市均线学-第1集" class="anchor" href="#%E5%A7%9A%E5%B0%A7%E8%82%A1%E5%B8%82%E5%9D%87%E7%BA%BF%E5%AD%A6-%E7%AC%AC1%E9%9B%86" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905727&amp;idx=1&amp;sn=0d90c5856a756c57e3cc2e59c946b830&amp;chksm=bd1c00d28a6b89c4a7daf91f549f7173988ffb37b6a15ae59cad58737191f3e75c24cd834aab&amp;scene=27#wechat_redirect" rel="nofollow">姚尧股市均线学 第1集</a>
+</h2>
+<p>日期：2019-3-17 11:55:5<br>
+均线的计算与趋势</p>
+<h2>
+<a id="user-content-3月18日股市前瞻" class="anchor" href="#3%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905726&amp;idx=1&amp;sn=c998f7b3523848df0978b514657a3a98&amp;chksm=bd1c00d38a6b89c56b65422aec391a0bb6d5e564b339385f9e0d427b3e8eff2971342426d7f8&amp;scene=27#wechat_redirect" rel="nofollow">3月18日股市前瞻</a>
+</h2>
+<p>日期：2019-3-16 12:56:58<br>
+料峭春风吹酒醒，微冷，山头斜照却相迎。——苏轼</p>
+<h2>
+<a id="user-content-3月15日股市前瞻" class="anchor" href="#3%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905712&amp;idx=1&amp;sn=bdfe635f7e6ef2765e4f2f9bea21c4d2&amp;chksm=bd1c00dd8a6b89cb9c354efc3b7c55781cd63f2ba9979d70199d2841fb962f671243e3cabd5f&amp;scene=27#wechat_redirect" rel="nofollow">3月15日股市前瞻</a>
+</h2>
+<p>日期：2019-3-14 19:30:19<br>
+采菊东篱下，悠然见南山。——陶渊明</p>
+<h2>
+<a id="user-content-3月14日股市前瞻" class="anchor" href="#3%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905695&amp;idx=1&amp;sn=d05b3d4c4bb7c15c3f84ee296e93790e&amp;chksm=bd1c00f28a6b89e4dcc6e7910d887203d84360f58658a5f1c0db37a178099237b9a239360a2e&amp;scene=27#wechat_redirect" rel="nofollow">3月14日股市前瞻</a>
+</h2>
+<p>日期：2019-3-13 21:12:2<br>
+天地不仁，以万物为刍狗；圣人不仁，以百姓为刍狗。——老子</p>
+<h2>
+<a id="user-content-3月13日股市前瞻" class="anchor" href="#3%E6%9C%8813%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905679&amp;idx=1&amp;sn=a4fbd87116d881d5e4970c6643cfd7c2&amp;chksm=bd1c00e28a6b89f4a870b2f8c75bd7a95dcb513b3b230a1076184d3ba7b171d7e134bdec11a9&amp;scene=27#wechat_redirect" rel="nofollow">3月13日股市前瞻</a>
+</h2>
+<p>日期：2019-3-12 20:27:31<br>
+谁念西风独自凉？萧萧黄叶闭疏窗。沉思往事立残阳。——纳兰性德</p>
+<h2>
+<a id="user-content-3月12日股市前瞻" class="anchor" href="#3%E6%9C%8812%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905666&amp;idx=1&amp;sn=9b1ad558b28c91cf0de3bd0cb9a7b7b2&amp;chksm=bd1c00ef8a6b89f9dee8eff852e74c1e66f5f2d4cdb1263379248a4717bb362a0ce04d7a8538&amp;scene=27#wechat_redirect" rel="nofollow">3月12日股市前瞻</a>
+</h2>
+<p>日期：2019-3-11 18:22:26<br>
+开到荼縻花事了，丝丝天棘出莓墙。——汪淇</p>
+<h2>
+<a id="user-content-3月11日股市前瞻" class="anchor" href="#3%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905648&amp;idx=1&amp;sn=7da992faa04b1bca2fd44b8fd6f68b91&amp;chksm=bd1c009d8a6b898bec33b31dd0b0381cc9cd089f4c10178201ca76310895ea6dc0d3b1372956&amp;scene=27#wechat_redirect" rel="nofollow">3月11日股市前瞻</a>
+</h2>
+<p>日期：2019-3-10 11:34:37<br>
+溪云初起日沉阁，山雨欲来风满楼。——许浑</p>
+<h2>
+<a id="user-content-姚尧精读资治通鉴第45集" class="anchor" href="#%E5%A7%9A%E5%B0%A7%E7%B2%BE%E8%AF%BB%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC45%E9%9B%86" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905639&amp;idx=1&amp;sn=721364209fd687b60ad832044290e0bb&amp;chksm=bd1c008a8a6b899c1e79ba7d9753a4a116f0c98b17d951863c802182c327e134183953f4cef4&amp;scene=27#wechat_redirect" rel="nofollow">姚尧精读《资治通鉴》第45集</a>
+</h2>
+<p>日期：2019-3-8 17:57:8<br>
+怀王之约</p>
+<h2>
+<a id="user-content-姚尧股市形态学之封面投票" class="anchor" href="#%E5%A7%9A%E5%B0%A7%E8%82%A1%E5%B8%82%E5%BD%A2%E6%80%81%E5%AD%A6%E4%B9%8B%E5%B0%81%E9%9D%A2%E6%8A%95%E7%A5%A8" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905638&amp;idx=1&amp;sn=ae42b9de171d8129c2b7f12af3fb7b60&amp;chksm=bd1c008b8a6b899d4a216082e79857b1885cfa8794c5597942208a9f00543c934f46b962f705&amp;scene=27#wechat_redirect" rel="nofollow">《姚尧股市形态学》之封面投票</a>
+</h2>
+<p>日期：2019-3-7 14:43:21<br>
+《姚尧股市形态学》封面投票</p>
+<h2>
+<a id="user-content-3月7月股市前瞻" class="anchor" href="#3%E6%9C%887%E6%9C%88%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905635&amp;idx=1&amp;sn=801b314817248f447d1d85fe608697b8&amp;chksm=bd1c008e8a6b89982bd2fc56897d946c4bc96114a00ddfca0689a6782505a2fef69bfab8ad63&amp;scene=27#wechat_redirect" rel="nofollow">3月7月股市前瞻</a>
+</h2>
+<p>日期：2019-3-6 18:5:0<br>
+安禅不必须山水，灭得心中火自凉。——杜荀鹤</p>
+<h2>
+<a id="user-content-3月6日股市前瞻" class="anchor" href="#3%E6%9C%886%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905615&amp;idx=1&amp;sn=8c779e072405cd8208a50aa9a213848b&amp;chksm=bd1c00a28a6b89b4485a464bd1a8056cc8f1852171543a66ac5e844fe714dcf1a1000211a6b3&amp;scene=27#wechat_redirect" rel="nofollow">3月6日股市前瞻</a>
+</h2>
+<p>日期：2019-3-5 20:52:57<br>
+无可奈何花落去，似曾相识燕归来。——晏殊</p>
+<h2>
+<a id="user-content-3月5日股市前瞻" class="anchor" href="#3%E6%9C%885%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905600&amp;idx=1&amp;sn=25783c7213a1cb6457165db0211afe65&amp;chksm=bd1c00ad8a6b89bbaad4f7785fb8f5c4a5d1187e8bb518fa803732349a4ffde925e9a2053232&amp;scene=27#wechat_redirect" rel="nofollow">3月5日股市前瞻</a>
+</h2>
+<p>日期：2019-3-4 16:36:5<br>
+江左沉酣求名者，岂识浊醪妙理。——辛弃疾</p>
+<h2>
+<a id="user-content-3月4日股市前瞻" class="anchor" href="#3%E6%9C%884%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905592&amp;idx=1&amp;sn=c53cc233e933e27307e6343b86ba8e84&amp;chksm=bd1c07558a6b8e436dc0aadfa2535e2258d7bbe5efc866e9044fe6bdb77fd334eb2f74ed9155&amp;scene=27#wechat_redirect" rel="nofollow">3月4日股市前瞻</a>
+</h2>
+<p>日期：2019-3-3 18:50:12<br>
+寂寞空庭春欲晚，梨花满地不开门。 —— 刘方平</p>
+<h1>
+<a id="user-content-2019-2" class="anchor" href="#2019-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2019-2</h1>
+<h2>
+<a id="user-content-3月1日股市前瞻" class="anchor" href="#3%E6%9C%881%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905572&amp;idx=1&amp;sn=b41c09054f95e8da99cafe358c5ceb0f&amp;chksm=bd1c07498a6b8e5faa3f40d14dba8bb4dc864dcbed112734d48402c8cfff35993d93c829d6de&amp;scene=27#wechat_redirect" rel="nofollow">3月1日股市前瞻</a>
+</h2>
+<p>日期：2019-2-28 17:34:0<br>
+也许每一个男子全都有过这样的两个女人，至少两个。娶了红玫瑰，久而久之，红的变了墙上的一抹蚊子血，白的还是‘床前明月光’娶了白玫瑰，白的便是衣服上沾的一粒饭黏子，红的却是心口上一颗朱砂痣。 ——张爱玲</p>
+<h2>
+<a id="user-content-2月28日股市前瞻" class="anchor" href="#2%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905561&amp;idx=1&amp;sn=f8dfdb210e26b2a4aea2b54c3e5f6744&amp;chksm=bd1c07748a6b8e62fbf70d8f819da437dfd9f47fb9ca6538bf49564f8a86fdccdcdb7462e8bb&amp;scene=27#wechat_redirect" rel="nofollow">2月28日股市前瞻</a>
+</h2>
+<p>日期：2019-2-27 19:45:31<br>
+昭王白骨萦蔓草，谁人更扫黄金台？——李白</p>
+<h2>
+<a id="user-content-2月27日股市前瞻" class="anchor" href="#2%E6%9C%8827%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905553&amp;idx=1&amp;sn=a3d95f6c5346ea10538101a9099f4552&amp;chksm=bd1c077c8a6b8e6ab6ab118946405777018816be2d2756c74fee00f890deeacf7b5fdfbb1403&amp;scene=27#wechat_redirect" rel="nofollow">2月27日股市前瞻</a>
+</h2>
+<p>日期：2019-2-26 17:45:37<br>
+造物无言却有情，每於寒尽觉春生。 —— 张维屏</p>
+<h2>
+<a id="user-content-2月26日股市前瞻" class="anchor" href="#2%E6%9C%8826%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905542&amp;idx=1&amp;sn=f5396a7d9721fbe2b13f80b2497b1c3d&amp;chksm=bd1c076b8a6b8e7d72242c1febba51778bcddac7eb25ae009a3b3f49edc121c0eebefe3e60d5&amp;scene=27#wechat_redirect" rel="nofollow">2月26日股市前瞻</a>
+</h2>
+<p>日期：2019-2-25 17:8:6<br>
+亢龙有悔，盈不可久也。——《易经·乾卦》</p>
+<h2>
+<a id="user-content-2月25日股市前瞻" class="anchor" href="#2%E6%9C%8825%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905503&amp;idx=1&amp;sn=ac5dca4f23ca568f190b33974767ee87&amp;chksm=bd1c07328a6b8e249d8ca4acc449307798406f375d55c0fe2dc899205afb269db6ad388b34d3&amp;scene=27#wechat_redirect" rel="nofollow">2月25日股市前瞻</a>
+</h2>
+<p>日期：2019-2-24 11:56:40<br>
+石室人心静，冰潭月影残。——贾岛</p>
+<h2>
+<a id="user-content-2月22日股市前瞻" class="anchor" href="#2%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905494&amp;idx=1&amp;sn=7d8711e4edf8a5984d5ced65d6107b5d&amp;chksm=bd1c073b8a6b8e2dc1ae32e1aafc1dde8e67e763f2ef1e8415d0008de682761195ced5777adc&amp;scene=27#wechat_redirect" rel="nofollow">2月22日股市前瞻</a>
+</h2>
+<p>日期：2019-2-21 18:10:49<br>
+板凳愿坐十年冷，文章不写一句空。——范文澜</p>
+<h2>
+<a id="user-content-2月21日股市前瞻" class="anchor" href="#2%E6%9C%8821%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905486&amp;idx=1&amp;sn=5f5c6a20d2c8ab63d2a5c1594897ad1a&amp;chksm=bd1c07238a6b8e351b788792ab5fde8b2828a15bf24c3d32b01291e70dd75f2caf4489e8dc27&amp;scene=27#wechat_redirect" rel="nofollow">2月21日股市前瞻</a>
+</h2>
+<p>日期：2019-2-20 20:53:22<br>
+欲说还休，却道天凉好个秋。——辛弃疾</p>
+<h2>
+<a id="user-content-2月20日股市前瞻" class="anchor" href="#2%E6%9C%8820%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905477&amp;idx=1&amp;sn=aabe4eb50975fccf649b3a29f5c5a03e&amp;chksm=bd1c07288a6b8e3e23b6c39bb6050917367667636d21bdc1ac6847e82eb48c2ab9fc6c16d4a0&amp;scene=27#wechat_redirect" rel="nofollow">2月20日股市前瞻</a>
+</h2>
+<p>日期：2019-2-19 20:32:40<br>
+月上柳梢头，人约黄昏后。——欧阳修</p>
+<h2>
+<a id="user-content-2月19日股市前瞻" class="anchor" href="#2%E6%9C%8819%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905468&amp;idx=1&amp;sn=d37afae199b636dccfd0bf3583b5ae67&amp;chksm=bd1c07d18a6b8ec7ebc191f50ecc1422aaf1eadbe320a9fbe588c6deb19d79325745aee4bc3e&amp;scene=27#wechat_redirect" rel="nofollow">2月19日股市前瞻</a>
+</h2>
+<p>日期：2019-2-18 21:8:12<br>
+观夫高祖之所以胜，而项籍之所以败者，在能忍与不能忍之间而已矣。——苏轼</p>
+<h2>
+<a id="user-content-2月18日股市前瞻" class="anchor" href="#2%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905459&amp;idx=1&amp;sn=07db7b3530022d93b750cd614b83cbb6&amp;chksm=bd1c07de8a6b8ec8284b13ed4de24f79b5892c39dfaf5a6e2ad4c9aefbdb2236ba7ba0fdde74&amp;scene=27#wechat_redirect" rel="nofollow">2月18日股市前瞻</a>
+</h2>
+<p>日期：2019-2-17 20:39:9<br>
+宠极爱怜初，憎生妒忌余。——邹亮</p>
+<h2>
+<a id="user-content-三个没想到" class="anchor" href="#%E4%B8%89%E4%B8%AA%E6%B2%A1%E6%83%B3%E5%88%B0" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905452&amp;idx=1&amp;sn=9d53fa803f1603401ff16bc511275b88&amp;chksm=bd1c07c18a6b8ed7fd98eddfeaa39fddea35348d09a38b88bffad34ab251a79e58475cfcf019&amp;scene=27#wechat_redirect" rel="nofollow">三个没想到</a>
+</h2>
+<p>日期：2019-2-16 7:57:59<br>
+花冠仙姥授神奇，拜起仓皇惊更喜。——汪克宽</p>
+<h2>
+<a id="user-content-关于预售姚尧精读资治通鉴二-兼并天下之若干事宜" class="anchor" href="#%E5%85%B3%E4%BA%8E%E9%A2%84%E5%94%AE%E5%A7%9A%E5%B0%A7%E7%B2%BE%E8%AF%BB%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E4%BA%8C-%E5%85%BC%E5%B9%B6%E5%A4%A9%E4%B8%8B%E4%B9%8B%E8%8B%A5%E5%B9%B2%E4%BA%8B%E5%AE%9C" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905445&amp;idx=1&amp;sn=4225b5541141f75633db43e17593f64b&amp;chksm=bd1c07c88a6b8ede8ad1c3e8daaf7ecd1ebfa4d610e8eee0accf6550a0e45a94ae928d7b34ea&amp;scene=27#wechat_redirect" rel="nofollow">关于预售《姚尧精读资治通鉴二 兼并天下》之若干事宜</a>
+</h2>
+<p>日期：2019-2-15 18:21:18<br>
+《通鉴二》预售</p>
+<h2>
+<a id="user-content-2月15日股市前瞻" class="anchor" href="#2%E6%9C%8815%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905431&amp;idx=1&amp;sn=311d1b1ca840965b81354e36e5461263&amp;chksm=bd1c07fa8a6b8eeca767d418881f2006809a65e09237d97b086b8ea55cf7bf0c7b8e4d4c7ee5&amp;scene=27#wechat_redirect" rel="nofollow">2月15日股市前瞻</a>
+</h2>
+<p>日期：2019-2-14 16:34:10<br>
+枕上片时春梦中，行尽江南数千里。——岑参</p>
+<h2>
+<a id="user-content-2月14日股市前瞻" class="anchor" href="#2%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905424&amp;idx=1&amp;sn=1abf23599b5aeb32b49c013558bd8e2d&amp;chksm=bd1c07fd8a6b8eebca970feda425e84e0ce6a746dcdd3e21ab962b39a6d0b32d5b54cb4f3326&amp;scene=27#wechat_redirect" rel="nofollow">2月14日股市前瞻</a>
+</h2>
+<p>日期：2019-2-13 18:9:33<br>
+春雪满空来，触处似花开。 —— 赵嘏</p>
+<h2>
+<a id="user-content-2月13日股市前瞻" class="anchor" href="#2%E6%9C%8813%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905413&amp;idx=1&amp;sn=135dcad2ee981b4d19f4e681cbba161f&amp;chksm=bd1c07e88a6b8efe54d8be6d7c398791a40ec9de4dc369f29ac1d5dc991546608fd9e7ddf549&amp;scene=27#wechat_redirect" rel="nofollow">2月13日股市前瞻</a>
+</h2>
+<p>日期：2019-2-12 18:53:10<br>
+吾家洗砚池头树，个个花开淡墨痕。 —— 王冕</p>
+<h2>
+<a id="user-content-2月12日股市前瞻" class="anchor" href="#2%E6%9C%8812%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905403&amp;idx=1&amp;sn=490933bf13cd29c7979e05adaee4cf3f&amp;chksm=bd1c07968a6b8e8099c6aa032d6432d39601b467ce6139abcebf1a6d2e4cf900a619cc0f1afc&amp;scene=27#wechat_redirect" rel="nofollow">2月12日股市前瞻</a>
+</h2>
+<p>日期：2019-2-11 16:35:8<br>
+城雪初消荠菜生，角门深巷少人行。 —— 杨载</p>
+<h2>
+<a id="user-content-2月11日股市前瞻" class="anchor" href="#2%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905396&amp;idx=1&amp;sn=ba454fa2188d541b50c06586c7a8d600&amp;chksm=bd1c07998a6b8e8ffa7fc442292f6a2a3acba26348bbcd2f93ee980bd700062ca2ac7e27437e&amp;scene=27#wechat_redirect" rel="nofollow">2月11日股市前瞻</a>
+</h2>
+<p>日期：2019-2-10 19:36:7<br>
+驿外断桥边，寂寞开无主。 —— 陆游</p>
+<h2>
+<a id="user-content-真正的历史地理学家天然爱国" class="anchor" href="#%E7%9C%9F%E6%AD%A3%E7%9A%84%E5%8E%86%E5%8F%B2%E5%9C%B0%E7%90%86%E5%AD%A6%E5%AE%B6%E5%A4%A9%E7%84%B6%E7%88%B1%E5%9B%BD" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905388&amp;idx=1&amp;sn=bffd9862e53b33282b3a956353f0a12f&amp;chksm=bd1c07818a6b8e97c04981035b489b06a6a58e29bd8090e8f323cdb1d6d2d5b0df1645f436e8&amp;scene=27#wechat_redirect" rel="nofollow">真正的历史地理学家天然爱国</a>
+</h2>
+<p>日期：2019-2-9 15:9:12<br>
+发上等愿，结中等缘，享下等福。——左宗棠</p>
+<h2>
+<a id="user-content-字字看来皆是血" class="anchor" href="#%E5%AD%97%E5%AD%97%E7%9C%8B%E6%9D%A5%E7%9A%86%E6%98%AF%E8%A1%80" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905378&amp;idx=1&amp;sn=e2e936404091eac3023f2abf4e2d22e2&amp;chksm=bd1c078f8a6b8e99d47e38f06176a03bdda1b32c240b161ae1603e295e2bf7951b4bdd96c479&amp;scene=27#wechat_redirect" rel="nofollow">字字看来皆是血</a>
+</h2>
+<p>日期：2019-2-8 22:27:22<br>
+字字看来皆是血，十年辛苦不寻常。——曹雪芹</p>
+<h2>
+<a id="user-content-卜算子观棋" class="anchor" href="#%E5%8D%9C%E7%AE%97%E5%AD%90%E8%A7%82%E6%A3%8B" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905370&amp;idx=1&amp;sn=64ce4c138036330e0547cceb189f3af9&amp;chksm=bd1c07b78a6b8ea18c1f2d74b5d913c27f4e047f71f3f749831e59b6c4165859019258fd7078&amp;scene=27#wechat_redirect" rel="nofollow">《卜算子·观棋》</a>
+</h2>
+<p>日期：2019-2-6 7:42:15<br>
+少有争雄心</p>
+<h2>
+<a id="user-content-春节在家改稿子" class="anchor" href="#%E6%98%A5%E8%8A%82%E5%9C%A8%E5%AE%B6%E6%94%B9%E7%A8%BF%E5%AD%90" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905363&amp;idx=1&amp;sn=78b20798c8b15685ef19cc78ab7aafb6&amp;chksm=bd1c07be8a6b8ea85be454ef8d4c29721948a05760139bfc76ef23ed14cf0094cd92e2d81cd2&amp;scene=27#wechat_redirect" rel="nofollow">春节在家改稿子</a>
+</h2>
+<p>日期：2019-2-5 12:41:45</p>
+<h2>
+<a id="user-content-攻书莫畏难点滴在心间" class="anchor" href="#%E6%94%BB%E4%B9%A6%E8%8E%AB%E7%95%8F%E9%9A%BE%E7%82%B9%E6%BB%B4%E5%9C%A8%E5%BF%83%E9%97%B4" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905360&amp;idx=1&amp;sn=35228f2520f10523b64a382daebcb768&amp;chksm=bd1c07bd8a6b8eabcf83efb6dc9c9b52915b24d78321376e4795610bc0e734383e18d6d692ac&amp;scene=27#wechat_redirect" rel="nofollow">攻书莫畏难，点滴在心间</a>
+</h2>
+<p>日期：2019-2-2 20:30:13</p>
+<h1>
+<a id="user-content-2019-1" class="anchor" href="#2019-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2019-1</h1>
+<h2>
+<a id="user-content-1月29日股市前瞻" class="anchor" href="#1%E6%9C%8829%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905357&amp;idx=1&amp;sn=2b882178835fd6c2d97b6eb4b9b9f277&amp;chksm=bd1c07a08a6b8eb6fe9368cb1c8da8dcd27263c910cd8b3592468001b563ed0eb8546a39b6d9&amp;scene=27#wechat_redirect" rel="nofollow">1月29日股市前瞻</a>
+</h2>
+<p>日期：2019-1-28 19:6:18<br>
+疏影横斜水清浅，暗香浮动月黄昏。——林逋</p>
+<h2>
+<a id="user-content-1月28日股市前瞻" class="anchor" href="#1%E6%9C%8828%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905350&amp;idx=1&amp;sn=44cfe022cfb920fbdbcd3d221c1ff47c&amp;chksm=bd1c07ab8a6b8ebde06a52261e3a04c0bf54e46be15688a6168f6fd5f7e10d6851ee8c3293ed&amp;scene=27#wechat_redirect" rel="nofollow">1月28日股市前瞻</a>
+</h2>
+<p>日期：2019-1-27 14:17:58<br>
+作书者固难，而看书者为尤难，岂不信哉？——张竹坡</p>
+<h2>
+<a id="user-content-省会扩张与祖国统一" class="anchor" href="#%E7%9C%81%E4%BC%9A%E6%89%A9%E5%BC%A0%E4%B8%8E%E7%A5%96%E5%9B%BD%E7%BB%9F%E4%B8%80" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905329&amp;idx=1&amp;sn=89d68a52c3263689319a6a46d15bbbcb&amp;chksm=bd1c065c8a6b8f4a9ea6fc8c4b5af7bfb452447881137b4dabb1dd96389680d696820a2423e4&amp;scene=27#wechat_redirect" rel="nofollow">省会扩张与祖国统一</a>
+</h2>
+<p>日期：2019-1-24 17:3:38<br>
+世界潮流，浩浩荡荡，顺之则昌，逆之则亡。——孙中山</p>
+<h2>
+<a id="user-content-1月24日股市前瞻" class="anchor" href="#1%E6%9C%8824%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905317&amp;idx=1&amp;sn=a3031c79de139a7429601d2535fa4e51&amp;chksm=bd1c06488a6b8f5e6e147aee4d1e7530f6b6e2801d606ce6a021847b400c14dc41571875aaeb&amp;scene=27#wechat_redirect" rel="nofollow">1月24日股市前瞻</a>
+</h2>
+<p>日期：2019-1-23 17:53:57<br>
+可奈光阴似水声。迢迢去未停。——晏殊</p>
+<h2>
+<a id="user-content-1月23日股市前瞻" class="anchor" href="#1%E6%9C%8823%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905311&amp;idx=1&amp;sn=56a2b378afb643e6512876886b0f4d29&amp;chksm=bd1c06728a6b8f64ea9936646b95b47fc39fc483eea0aed36393e1e8f880c88d9b17d6c1f4c8&amp;scene=27#wechat_redirect" rel="nofollow">1月23日股市前瞻</a>
+</h2>
+<p>日期：2019-1-22 19:59:2<br>
+故君子必慎其独也。小人闲居为不善，无所不至，见君子而后厌然，掩其不善而著其善。人之视己，如见其肺肝然，则何益矣。——《大学》</p>
+<h2>
+<a id="user-content-1月22日股市前瞻" class="anchor" href="#1%E6%9C%8822%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905302&amp;idx=1&amp;sn=eba4a50a02aca918d552a5907fce8353&amp;chksm=bd1c067b8a6b8f6d54a6a30fc97a5ea6d7900a9995496d9ddebcd2c5526bf3301ed50279793c&amp;scene=27#wechat_redirect" rel="nofollow">1月22日股市前瞻</a>
+</h2>
+<p>日期：2019-1-21 16:58:39<br>
+人类一思考，上帝就发笑——米兰·昆德拉</p>
+<h2>
+<a id="user-content-1月21日股市前瞻" class="anchor" href="#1%E6%9C%8821%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905280&amp;idx=1&amp;sn=0da9b75e93c3abd704193c7b2adc2d18&amp;chksm=bd1c066d8a6b8f7b69d0d9ea811ac5ed78600e6baf1a92944e8ae40bb09860835af5c78b2bfa&amp;scene=27#wechat_redirect" rel="nofollow">1月21日股市前瞻</a>
+</h2>
+<p>日期：2019-1-20 14:27:3<br>
+无意苦争春，一任群芳妒。 —— 陆游</p>
+<h2>
+<a id="user-content-1月18日股市前瞻" class="anchor" href="#1%E6%9C%8818%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905261&amp;idx=1&amp;sn=219fe2950a9715285c5a194d4512c9cd&amp;chksm=bd1c06008a6b8f16d5892fd0229e603b40908a20390371014c8981628956e06e17eb2c14db94&amp;scene=27#wechat_redirect" rel="nofollow">1月18日股市前瞻</a>
+</h2>
+<p>日期：2019-1-17 19:41:37<br>
+过犹不及天谁管，世事终求恰好难。—— 林希逸</p>
+<h2>
+<a id="user-content-姚尧精读商君书第5集" class="anchor" href="#%E5%A7%9A%E5%B0%A7%E7%B2%BE%E8%AF%BB%E5%95%86%E5%90%9B%E4%B9%A6%E7%AC%AC5%E9%9B%86" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905253&amp;idx=1&amp;sn=d16fd4307fd129bd546f2141a6772ba9&amp;chksm=bd1c06088a6b8f1e7c77cdeac1169ea1b62aee27a60921e85f6025d8299a0a504e5e38cfd892&amp;scene=27#wechat_redirect" rel="nofollow">姚尧精读《商君书》第5集</a>
+</h2>
+<p>日期：2019-1-16 16:3:19<br>
+圣人知治国之要，故令民归心于农。</p>
+<h2>
+<a id="user-content-1月16日股市前瞻" class="anchor" href="#1%E6%9C%8816%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905248&amp;idx=1&amp;sn=5b664f37b1ce36f1f6db9f0dafd85318&amp;chksm=bd1c060d8a6b8f1bc03685008c3c030b1f699c353e0878e2471b5bcfac33336da5fdfad43ade&amp;scene=27#wechat_redirect" rel="nofollow">1月16日股市前瞻</a>
+</h2>
+<p>日期：2019-1-15 21:36:40<br>
+夜深知雪重，时闻折竹声。 —— 白居易</p>
+<h2>
+<a id="user-content-姚尧精读商君书第4集" class="anchor" href="#%E5%A7%9A%E5%B0%A7%E7%B2%BE%E8%AF%BB%E5%95%86%E5%90%9B%E4%B9%A6%E7%AC%AC4%E9%9B%86" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905233&amp;idx=1&amp;sn=3223c375b4f50dcd87832f100e06c0a0&amp;chksm=bd1c063c8a6b8f2a9985cfb36c898cdde3c70ed73411003dea0486164bc2f94c240f7e42823a&amp;scene=27#wechat_redirect" rel="nofollow">姚尧精读《商君书》第4集</a>
+</h2>
+<p>日期：2019-1-14 14:52:0<br>
+善为国者，其教民也，皆作壹而得官爵，是故不作壹，不官无爵。</p>
+<h2>
+<a id="user-content-1月14日股市前瞻" class="anchor" href="#1%E6%9C%8814%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905226&amp;idx=1&amp;sn=19583a2788411b5d281c0c3caa02f06d&amp;chksm=bd1c06278a6b8f318ad5afbfeb5c9a831388cc173c28914e1ad3bee5df5062d26932df495648&amp;scene=27#wechat_redirect" rel="nofollow">1月14日股市前瞻</a>
+</h2>
+<p>日期：2019-1-13 17:49:24<br>
+晚来天欲雪，能饮一杯无？——白居易</p>
+<h2>
+<a id="user-content-1月11日股市前瞻" class="anchor" href="#1%E6%9C%8811%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905218&amp;idx=1&amp;sn=c2b6a72553dd26fd928f210081da42c4&amp;chksm=bd1c062f8a6b8f39fa0c0e06b9755fd06b84613424fb888d48e0d3893c1b3b39c90bf34e9e2d&amp;scene=27#wechat_redirect" rel="nofollow">1月11日股市前瞻</a>
+</h2>
+<p>日期：2019-1-10 20:22:30<br>
+明月照积雪，朔风劲且哀。 —— 谢灵运</p>
+<h2>
+<a id="user-content-姚尧精读资治通鉴第44集" class="anchor" href="#%E5%A7%9A%E5%B0%A7%E7%B2%BE%E8%AF%BB%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC44%E9%9B%86" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905207&amp;idx=1&amp;sn=241a9ef6d147357cdd84966ddcd57073&amp;chksm=bd1c06da8a6b8fcce95cded5c9d7cf4f77e5ea47c892ba6f8b6d6011b8cddcc9356de95d4eec&amp;scene=27#wechat_redirect" rel="nofollow">姚尧精读《资治通鉴》第44集</a>
+</h2>
+<p>日期：2019-1-9 14:41:0<br>
+赵高弄权</p>
+<h2>
+<a id="user-content-1月9日股市前瞻" class="anchor" href="#1%E6%9C%889%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905206&amp;idx=1&amp;sn=0ea38d2fb1e99c7fff6ef5f397c15d07&amp;chksm=bd1c06db8a6b8fcd0441cd1b43a11fc2199b8544f2f2b395e95963f72841fb2a7572936a0a33&amp;scene=27#wechat_redirect" rel="nofollow">1月9日股市前瞻</a>
+</h2>
+<p>日期：2019-1-8 21:8:39<br>
+胜兵先胜而后求战，败兵先战而后求胜。——《孙子兵法》</p>
+<h2>
+<a id="user-content-1月8日股市前瞻" class="anchor" href="#1%E6%9C%888%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905199&amp;idx=1&amp;sn=855c5197e2680fda951bb8d3b497fec6&amp;chksm=bd1c06c28a6b8fd4737182bff1cf346db1f8e1651b3bf58dd30011a48bbe7256f26542ae16ea&amp;scene=27#wechat_redirect" rel="nofollow">1月8日股市前瞻</a>
+</h2>
+<p>日期：2019-1-7 17:40:33<br>
+皮之不存，毛将安傅？——《左传·僖公十四年》</p>
+<h2>
+<a id="user-content-1月7日股市前瞻" class="anchor" href="#1%E6%9C%887%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905186&amp;idx=1&amp;sn=ce09a988bdaed45bbebc58d5ef2eab32&amp;chksm=bd1c06cf8a6b8fd905fef26c2e6e08b0a1c8177f585796690f5441442fbb0f08f645c82d8154&amp;scene=27#wechat_redirect" rel="nofollow">1月7日股市前瞻</a>
+</h2>
+<p>日期：2019-1-6 21:43:38<br>
+前村深雪里，昨夜一枝开。 —— 齐己</p>
+<h2>
+<a id="user-content-1月4日股市前瞻" class="anchor" href="#1%E6%9C%884%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905175&amp;idx=1&amp;sn=3358fd48c7a263b0b0c0691c243cbaf6&amp;chksm=bd1c06fa8a6b8fecc4b3ea2d42b858eccfc82970d01857e6b23be4dd517dab80138349452fa9&amp;scene=27#wechat_redirect" rel="nofollow">1月4日股市前瞻</a>
+</h2>
+<p>日期：2019-1-3 17:3:42<br>
+躲进小楼成一统，管他春夏与秋冬。——鲁迅</p>
+<h2>
+<a id="user-content-姚尧精读商君书第3集" class="anchor" href="#%E5%A7%9A%E5%B0%A7%E7%B2%BE%E8%AF%BB%E5%95%86%E5%90%9B%E4%B9%A6%E7%AC%AC3%E9%9B%86" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905168&amp;idx=1&amp;sn=a1c39d4729eead311b4a8d8488348130&amp;chksm=bd1c06fd8a6b8feb3f3b42e0c2e989c04403d3fb3f29ea8e66afa70e4dbf169ec29e1ad61a23&amp;scene=27#wechat_redirect" rel="nofollow">姚尧精读《商君书》第3集</a>
+</h2>
+<p>日期：2019-1-2 16:26:24<br>
+农静诛愚，乱农之民欲农，则草必垦矣。</p>
+<h2>
+<a id="user-content-1月2日股市前瞻" class="anchor" href="#1%E6%9C%882%E6%97%A5%E8%82%A1%E5%B8%82%E5%89%8D%E7%9E%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ0MTUzOA==&amp;mid=2650905167&amp;idx=1&amp;sn=3221ece735832d94cda135dd015f4b0a&amp;chksm=bd1c06e28a6b8ff48bdf5e125dec388ef4cd06a5da912c8874cf7352122e7481bdfa4eae73a7&amp;scene=27#wechat_redirect" rel="nofollow">1月2日股市前瞻</a>
+</h2>
+<p>日期：2019-1-1 20:59:28<br>
+子曰：“唯上知与下愚不移。” ——《论语·阳货》</p>
+</article></body></html>

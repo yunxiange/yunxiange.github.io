@@ -1,0 +1,1388 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>body {
+  max-width: 980px;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+
+body .markdown-body
+{
+  padding: 45px;
+}
+
+@font-face {
+  font-family: fontawesome-mini;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAYcAA0AAAAACjQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABMAAAABwAAAAca8vGTk9TLzIAAAFMAAAARAAAAFZG1VHVY21hcAAAAZAAAAA+AAABQgAP9AdjdnQgAAAB0AAAAAQAAAAEACICiGdhc3AAAAHUAAAACAAAAAj//wADZ2x5ZgAAAdwAAADRAAABEKyikaNoZWFkAAACsAAAAC0AAAA2AtXoA2hoZWEAAALgAAAAHAAAACQHngNFaG10eAAAAvwAAAAQAAAAEAwAACJsb2NhAAADDAAAAAoAAAAKALIAVG1heHAAAAMYAAAAHwAAACABEAB2bmFtZQAAAzgAAALBAAAFu3I9x/Nwb3N0AAAF/AAAAB0AAAAvaoFvbwAAAAEAAAAAzBdyYwAAAADP2IQvAAAAAM/bz7t4nGNgZGFgnMDAysDB1Ml0hoGBoR9CM75mMGLkYGBgYmBlZsAKAtJcUxgcPsR8iGF2+O/AEMPsznAYKMwIkgMA5REMOXicY2BgYGaAYBkGRgYQsAHyGMF8FgYFIM0ChED+h5j//yEk/3KoSgZGNgYYk4GRCUgwMaACRoZhDwCs7QgGAAAAIgKIAAAAAf//AAJ4nHWMMQrCQBBF/0zWrCCIKUQsTDCL2EXMohYGSSmorScInsRGL2DOYJe0Ntp7BK+gJ1BxF1stZvjz/v8DRghQzEc4kIgKwiAppcA9LtzKLSkdNhKFY3HF4lK69ExKslx7Xa+vPRVS43G98vG1DnkDMIBUgFN0MDXflU8tbaZOUkXUH0+U27RoRpOIyCKjbMCVejwypzJJG4jIwb43rfl6wbwanocrJm9XFYfskuVC5K/TPyczNU7b84CXcbxks1Un6H6tLH9vf2LRnn8Ax7A5WQAAAHicY2BkYGAA4teL1+yI57f5ysDNwgAC529f0kOmWRiYVgEpDgYmEA8AUzEKsQAAAHicY2BkYGB2+O/AEMPCAAJAkpEBFbAAADgKAe0EAAAiAAAAAAQAAAAEAAAAAAAAKgAqACoAiAAAeJxjYGRgYGBhsGFgYgABEMkFhAwM/xn0QAIAD6YBhwB4nI1Ty07cMBS9QwKlQapQW3VXySvEqDCZGbGaHULiIQ1FKgjWMxknMfLEke2A+IJu+wntrt/QbVf9gG75jK577Lg8K1qQPCfnnnt8fX1NRC/pmjrk/zprC+8D7tBy9DHgBXoWfQ44Av8t4Bj4Z8CLtBL9CniJluPXASf0Lm4CXqFX8Q84dOLnMB17N4c7tBo1AS/Qi+hTwBH4rwHHwN8DXqQ30XXAS7QaLwSc0Gn8NuAVWou/gFmnjLrEaEh9GmDdDGgL3B4JsrRPDU2hTOiMSuJUIdKQQayiAth69r6akSSFqIJuA19TrzCIaY8sIoxyrNIrL//pw7A2iMygkX5vDj+G+kuoLdX4GlGK/8Lnlz6/h9MpmoO9rafrz7ILXEHHaAx95s9lsI7AHNMBWEZHULnfAXwG9/ZqdzLI08iuwRloXE8kfhXYAvE23+23DU3t626rbs8/8adv+9DWknsHp3E17oCf+Z48rvEQNZ78paYM38qfk3v/u3l3u3GXN2Dmvmvpf1Srwk3pB/VSsp512bA/GG5i2WJ7wu430yQ5K3nFGiOqgtmSB5pJVSizwaacmUZzZhXLlZTq8qGGFY2YcSkqbth6aW1tRmlaCFs2016m5qn36SbJrqosG4uMV4aP2PHBmB3tjtmgN2izkGQyLWprekbIntJFing32a5rKWCN/SdSoga45EJykyQ7asZvHQ8PTm6cslIpwyeyjbVltNikc2HTR7YKh9LBl9DADC0U/jLcBZDKrMhUBfQBvXRzLtFtjU9eNHKin0x5InTqb8lNpfKv1s1xHzTXRqgKzek/mb7nB8RZTCDhGEX3kK/8Q75AmUM/eLkfA+0Hi908Kx4eNsMgudg5GLdRD7a84npi+YxNr5i5KIbW5izXas7cHXIMAau1OueZhfj+cOcP3P8MNIWLyYOBuxL6DRylJ4cAAAB4nGNgYoAALjDJyIAOWMCiTIxMLDmZedkABtIBygAAAA==) format('woff');
+}
+
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.markdown-body sup {
+  top: -0.5em;
+}
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body .codehilitetable {
+  border: 0;
+  border-spacing: 0;
+}
+
+.markdown-body .codehilitetable tr {
+  border: 0;
+}
+
+.markdown-body .codehilitetable pre,
+.markdown-body .codehilitetable div.codehilite {
+  margin: 0;
+}
+
+.markdown-body .linenos,
+.markdown-body .code,
+.markdown-body .codehilitetable td {
+  border: 0;
+  padding: 0;
+}
+
+.markdown-body td:not(.linenos) .linenodiv {
+  padding: 0 !important;
+}
+
+.markdown-body .code {
+  width: 100%;
+}
+
+.markdown-body .linenos div pre,
+.markdown-body .linenodiv pre,
+.markdown-body .linenodiv {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.markdown-body .code div pre,
+.markdown-body .code div {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before,
+.markdown-body hr:after {
+  display: table;
+  content: " ";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .headeranchor-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.markdown-body .headeranchor-link:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .headeranchor,
+.markdown-body h2 .headeranchor,
+.markdown-body h3 .headeranchor,
+.markdown-body h4 .headeranchor,
+.markdown-body h5 .headeranchor,
+.markdown-body h6 .headeranchor {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.markdown-body h1:hover .headeranchor-link,
+.markdown-body h2:hover .headeranchor-link,
+.markdown-body h3:hover .headeranchor-link,
+.markdown-body h4:hover .headeranchor-link,
+.markdown-body h5:hover .headeranchor-link,
+.markdown-body h6:hover .headeranchor-link {
+  height: 1em;
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .headeranchor-link .headeranchor,
+.markdown-body h2:hover .headeranchor-link .headeranchor,
+.markdown-body h3:hover .headeranchor-link .headeranchor,
+.markdown-body h4:hover .headeranchor-link .headeranchor,
+.markdown-body h5:hover .headeranchor-link .headeranchor,
+.markdown-body h6:hover .headeranchor-link .headeranchor {
+  display: inline-block;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body .admonition {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code,
+.markdown-body samp {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .codehilite {
+  margin-bottom: 16px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .codehilite pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+/* Admonition */
+.markdown-body .admonition {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #333;
+  padding: 10px 10px 10px 30px;
+}
+
+.markdown-body .admonition table {
+  color: #333;
+}
+
+.markdown-body .admonition p {
+  padding: 0;
+}
+
+.markdown-body .admonition-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.markdown-body .admonition>.admonition-title {
+  color: #333;
+}
+
+.markdown-body .attention>.admonition-title {
+  color: #a6d796;
+}
+
+.markdown-body .caution>.admonition-title {
+  color: #d7a796;
+}
+
+.markdown-body .hint>.admonition-title {
+  color: #96c6d7;
+}
+
+.markdown-body .danger>.admonition-title {
+  color: #c25f77;
+}
+
+.markdown-body .question>.admonition-title {
+  color: #96a6d7;
+}
+
+.markdown-body .note>.admonition-title {
+  color: #d7c896;
+}
+
+.markdown-body .admonition:before,
+.markdown-body .attention:before,
+.markdown-body .caution:before,
+.markdown-body .hint:before,
+.markdown-body .danger:before,
+.markdown-body .question:before,
+.markdown-body .note:before {
+  font: normal normal 16px fontawesome-mini;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.markdown-body .admonition:before {
+  content: "\f056\00a0";
+  color: 333;
+}
+
+.markdown-body .attention:before {
+  content: "\f058\00a0";
+  color: #a6d796;
+}
+
+.markdown-body .caution:before {
+  content: "\f06a\00a0";
+  color: #d7a796;
+}
+
+.markdown-body .hint:before {
+  content: "\f05a\00a0";
+  color: #96c6d7;
+}
+
+.markdown-body .danger:before {
+  content: "\f057\00a0";
+  color: #c25f77;
+}
+
+.markdown-body .question:before {
+  content: "\f059\00a0";
+  color: #96a6d7;
+}
+
+.markdown-body .note:before {
+  content: "\f040\00a0";
+  color: #d7c896;
+}
+
+.markdown-body .admonition::after {
+  content: normal;
+}
+
+.markdown-body .attention {
+  border-left: 6px solid #a6d796;
+}
+
+.markdown-body .caution {
+  border-left: 6px solid #d7a796;
+}
+
+.markdown-body .hint {
+  border-left: 6px solid #96c6d7;
+}
+
+.markdown-body .danger {
+  border-left: 6px solid #c25f77;
+}
+
+.markdown-body .question {
+  border-left: 6px solid #96a6d7;
+}
+
+.markdown-body .note {
+  border-left: 6px solid #d7c896;
+}
+
+.markdown-body .admonition>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .admonition>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* progress bar*/
+.markdown-body .progress {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ededed;
+  position: relative;
+  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.markdown-body .progress-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; margin: 0;
+  line-height: 24px;
+  color: #333;
+  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
+  -webkit-font-smoothing: antialiased !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.markdown-body .progress-bar {
+  height: 24px;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #96c6d7;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(
+    135deg, rgba(255, 255, 255, .4) 27%,
+    transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%,
+    transparent 77%, transparent
+  );
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+}
+
+.markdown-body .progress-100plus .progress-bar {
+  background-color: #a6d796;
+}
+
+.markdown-body .progress-80plus .progress-bar {
+  background-color: #c6d796;
+}
+
+.markdown-body .progress-60plus .progress-bar {
+  background-color: #d7c896;
+}
+
+.markdown-body .progress-40plus .progress-bar {
+  background-color: #d7a796;
+}
+
+.markdown-body .progress-20plus .progress-bar {
+  background-color: #d796a6;
+}
+
+.markdown-body .progress-0plus .progress-bar {
+  background-color: #c25f77;
+}
+
+.markdown-body .candystripe-animate .progress-bar{
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.markdown-body .gloss .progress-bar {
+  box-shadow:
+    inset 0 4px 12px rgba(255, 255, 255, .7),
+    inset 0 -12px 0 rgba(0, 0, 0, .05);
+}
+
+/* Multimarkdown Critic Blocks */
+.markdown-body .critic_mark {
+  background: #ff0;
+}
+
+.markdown-body .critic_delete {
+  color: #c82829;
+  text-decoration: line-through;
+}
+
+.markdown-body .critic_insert {
+  color: #718c00 ;
+  text-decoration: underline;
+}
+
+.markdown-body .critic_comment {
+  color: #8e908c;
+  font-style: italic;
+}
+
+.markdown-body .headeranchor {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headeranchor:before {
+  content: '\f05c';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+/* Media */
+@media only screen and (min-width: 480px) {
+  .markdown-body {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body {
+    font-size:16px;
+  }
+}
+
+@media print {
+  .markdown-body * {
+    background: transparent !important;
+    color: black !important;
+    filter:none !important;
+    -ms-filter: none !important;
+  }
+
+  .markdown-body {
+    font-size:12pt;
+    max-width:100%;
+    outline:none;
+    border: 0;
+  }
+
+  .markdown-body a,
+  .markdown-body a:visited {
+    text-decoration: underline;
+  }
+
+  .markdown-body .headeranchor-link {
+    display: none;
+  }
+
+  .markdown-body a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .markdown-body abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .markdown-body .ir a:after,
+  .markdown-body a[href^="javascript:"]:after,
+  .markdown-body a[href^="#"]:after {
+    content: "";
+  }
+
+  .markdown-body pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .markdown-body pre,
+  .markdown-body blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body .progress,
+  .markdown-body .progress-bar {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .markdown-body .progress {
+    border: 1px solid #ddd;
+  }
+
+  .markdown-body .progress-bar {
+    height: 22px;
+    border-right: 1px solid #ddd;
+  }
+
+  .markdown-body tr,
+  .markdown-body img {
+    page-break-inside: avoid;
+  }
+
+  .markdown-body img {
+    max-width: 100% !important;
+  }
+
+  .markdown-body p,
+  .markdown-body h2,
+  .markdown-body h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+}
+</style><title>article2019</title></head><body><article class="markdown-body"><h1 id="2019-5"><a name="user-content-2019-5" href="#2019-5" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>2019-5</h1>
+<h2 id="_1"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443917&amp;amp;idx=1&amp;amp;sn=079c9818c2591a628bcae0ae3e7f669a&amp;amp;chksm=f3c1439fc4b6ca890983f11a2cedd251658a8b005c2ba56b66c943b81c2eda9bfffbd61bcaf6&amp;amp;scene=27#wechat_redirect">股票抄底的时候有哪些特征</a></h2>
+<p>日期：2019-5-10 14:0:0<br />
+股票抄底的时候有哪些特征显现?　　1.总成交量持续萎缩或者处于历史地量区域;　　2.周K线、月K线处于低位区</p>
+<h2 id="_2"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443914&amp;amp;idx=1&amp;amp;sn=7c5ef030bd5178b42c4b97cf93aed570&amp;amp;chksm=f3c14398c4b6ca8e854873aff85d6cbbd4c59a4319bed141e456b3e7cb16b5c1c16964ded503&amp;amp;scene=27#wechat_redirect">缺口</a></h2>
+<p>日期：2019-5-9 14:0:0<br />
+缺口其实是两根K线组合出的特殊形态</p>
+<h2 id="_3"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443908&amp;amp;idx=1&amp;amp;sn=993dcaa4d01e2f3c0ba70cee680e5748&amp;amp;chksm=f3c14396c4b6ca8010330ca5a934981858e2da8d1bfdc05eacc56036a11fa952877c23a35798&amp;amp;scene=27#wechat_redirect">低位放量捕捉牛股</a></h2>
+<p>日期：2019-5-8 14:0:0<br />
+炒股必知：低位放量捕捉牛股财经</p>
+<h2 id="_4"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443905&amp;amp;idx=1&amp;amp;sn=a615770c51d05c3624a0d8c03b322af0&amp;amp;chksm=f3c14393c4b6ca8586cf9316d4379205e399b017fb0e9da951a26f5f6b693125792e87b8e790&amp;amp;scene=27#wechat_redirect">庄家洗盘手法</a></h2>
+<p>日期：2019-5-7 14:0:0<br />
+【并排阳线】：高位并排阳线，又叫升势恋人肩并肩缺口。它是由两根的阳线组成，两根以相差不大的开盘价开盘，第一根</p>
+<h2 id="macd"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443902&amp;amp;idx=1&amp;amp;sn=56a8449471d6cf39e14234327703183f&amp;amp;chksm=f3c143ecc4b6cafa4366c18ce71d7bb898b91c8b9a0b8da7c92e8c01f408a6979d5106da6f13&amp;amp;scene=27#wechat_redirect">MACD指标辨识</a></h2>
+<p>日期：2019-5-6 14:0:0<br />
+学习更多K线知识尽在微信公众号搜索：K线奥秘，并关注。</p>
+<h2 id="_5"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443899&amp;amp;idx=1&amp;amp;sn=c85f18da81d1a0ff5ac0b1e8fdda0114&amp;amp;chksm=f3c143e9c4b6caff64fc96f5036c9910d346904a1d4f2ffa8fdc9aa2072101fcac1866bdd53d&amp;amp;scene=27#wechat_redirect">为何要在尾盘选股</a></h2>
+<p>日期：2019-5-5 14:0:0<br />
+红日喷薄”的含义是当股价经过长期横盘整理后，底部已经开始构筑得十分坚实，向上突破是知识时机没到而已。要等到某一天股价突然放量拉涨，会以长阳来报收的，创出新高。在看下下面的图，是不是股价经过长</p>
+<h2 id="3"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443895&amp;amp;idx=1&amp;amp;sn=1a22f1b5c0b0bc857a51402e52f04692&amp;amp;chksm=f3c143e5c4b6caf3bf1a6bb84db229357dd51b9679047ed3314f09639a98f0f9061152234f72&amp;amp;scene=27#wechat_redirect">3步画好趋势线，成功抓到大牛股</a></h2>
+<p>日期：2019-5-4 14:0:0<br />
+3步画好趋势线，成功抓到大牛股</p>
+<h2 id="_6"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443892&amp;amp;idx=1&amp;amp;sn=4c31e4bc69066407448f3abc5c134e3a&amp;amp;chksm=f3c143e6c4b6caf01fa255f3e6a6311eb6abed7f8ea889055efc87d1f96c836c2198df545bea&amp;amp;scene=27#wechat_redirect">“青龙取水”选股法</a></h2>
+<p>日期：2019-5-3 14:0:0<br />
+史上最牛战法“青龙取水”选股法，做短线原来这么简单</p>
+<h2 id="_7"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443887&amp;amp;idx=1&amp;amp;sn=f763ad140dca7aee095b0c6a9a0dabb8&amp;amp;chksm=f3c143fdc4b6caeb28a5ee08e1d7f33d86478b198dcd83779f9e90066cedecf7f10eb00ce338&amp;amp;scene=27#wechat_redirect">短线的炒股技巧</a></h2>
+<p>日期：2019-5-2 14:0:0<br />
+短线的炒股技巧这么多，这是我见过分析得最透彻的文章！</p>
+<h2 id="21"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443884&amp;amp;idx=1&amp;amp;sn=4e12b8f378da890658f37470c442537c&amp;amp;chksm=f3c143fec4b6cae81a2d649144a8d1bf4daf6099df48cbf9169a8f4d0ad51f32ce23a486b6be&amp;amp;scene=27#wechat_redirect">筹码用法之“2打1”</a></h2>
+<p>日期：2019-5-1 14:0:0<br />
+筹码用法回顾筹码分布图有三种用法：1</p>
+<h1 id="2019-4"><a name="user-content-2019-4" href="#2019-4" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>2019-4</h1>
+<h2 id="_8"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443879&amp;amp;idx=1&amp;amp;sn=5d44710c28085b0e2cee6418d6476f05&amp;amp;chksm=f3c143f5c4b6cae3f72c84497141e96d9da7228a2da42b7548d59b377702316b1dd68775986b&amp;amp;scene=27#wechat_redirect">解缠说股基础：第二、三类卖点</a></h2>
+<p>日期：2019-4-30 14:0:0<br />
+第二、三类卖点解缠说股</p>
+<h2 id="psy"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443875&amp;amp;idx=1&amp;amp;sn=342e06671b3e6c5dcd6a1313bc68fd92&amp;amp;chksm=f3c143f1c4b6cae73cf29367aed90d203d5ada6f8b7661f20acf33b841593ffa1f83983b80ca&amp;amp;scene=27#wechat_redirect">不可不知的PSY指标</a></h2>
+<p>日期：2019-4-29 14:0:0<br />
+PSY指标又称心理线指标，是从英文Phycholoigical Line直译过来的，是一种能量类和涨跌类指标，它适用于研判股市的短期走势。心理线（PSY）指标将一定时期内投资者趋向买方或卖方的心理事实转化为数值，从而判断股价的未来趋势。</p>
+<h2 id="_9"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443872&amp;amp;idx=1&amp;amp;sn=09fa9074de5f9f28285690a1b6ab683f&amp;amp;chksm=f3c143f2c4b6cae4a50e3db17e6d4ee7aacf9d528706e15d8e6c9fa8e31b3afcb30058c8f7da&amp;amp;scene=27#wechat_redirect">多方炮的变形形态</a></h2>
+<p>日期：2019-4-28 14:0:0<br />
+老股民炒股14年从没亏钱，原来是用“多方炮”选股方法，</p>
+<h2 id="_10"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443867&amp;amp;idx=1&amp;amp;sn=2df113232a2db21ebf244f41a3ba2f09&amp;amp;chksm=f3c143c9c4b6cadf77a0269771eb3e0bfbf0a28f2b18c5d612cff8d2ece935e84a4732a7f268&amp;amp;scene=27#wechat_redirect">主力洗盘方式</a></h2>
+<p>日期：2019-4-27 14:0:0<br />
+平台破位洗盘法：一招看破主力洗盘的骗钱阴谋</p>
+<h2 id="_11"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443864&amp;amp;idx=1&amp;amp;sn=d1f44e629e3289b4028ec24c610bb12f&amp;amp;chksm=f3c143cac4b6cadcf56f9147432b04b2f7a70e1262a4c9a7c100f592ac45a172c8fd4826ab07&amp;amp;scene=27#wechat_redirect">“逆风狂鲨”技术形态特征</a></h2>
+<p>日期：2019-4-26 14:0:0<br />
+一位全国炒股比赛冠军首次公开分享：只有这样做短线才可能翻倍！</p>
+<h2 id="135"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443860&amp;amp;idx=1&amp;amp;sn=9a1ca02b09bb57853bec71a65893709a&amp;amp;chksm=f3c143c6c4b6cad0faba2a51f72be889f6a11a94579e845c438edb76d0f0645a2cf4eb441bd8&amp;amp;scene=27#wechat_redirect">使用135战法，一买就涨，原来窍门在这！</a></h2>
+<p>日期：2019-4-25 14:0:0<br />
+顶尖操盘手告诉你如何使用135战法，一买就涨，原来窍门在这</p>
+<h2 id="_12"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443855&amp;amp;idx=1&amp;amp;sn=6a30f511be6aae4dbdae3670859b591f&amp;amp;chksm=f3c143ddc4b6cacb9b7761e20a39f5db4ce36201368eca339b434f9823cb2eb5a4dc5ae5219e&amp;amp;scene=27#wechat_redirect">水下金叉买，水下死叉抛！</a></h2>
+<p>日期：2019-4-24 14:0:0<br />
+MACD技术指标图形1、MACD上穿0轴M</p>
+<h2 id="_13"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443850&amp;amp;idx=1&amp;amp;sn=641e14da1a96104d5b5a832ed853380b&amp;amp;chksm=f3c143d8c4b6cacea28baa57fef79a1d0affc13599f1f1fc5f8dbb410f20df81680ed2a1879f&amp;amp;scene=27#wechat_redirect">遇见“身怀六甲”形态赶紧跑！</a></h2>
+<p>日期：2019-4-23 14:0:0<br />
+一位亏损百万老股民良心劝诫：一旦遇见“身怀六甲”形态赶紧跑！</p>
+<h2 id="_14"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443846&amp;amp;idx=1&amp;amp;sn=6eacce6d273add1b4bb67853ecc7620d&amp;amp;chksm=f3c143d4c4b6cac24253e44d6df83282cfe56164dc3223294218bee67a28004020b27841887e&amp;amp;scene=27#wechat_redirect">“早晨之星”形态</a></h2>
+<p>日期：2019-4-22 14:0:0<br />
+一位盈利百万老股民倾心分享：一旦遇见“早晨之星”形态赶紧买入</p>
+<h2 id="_15"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443843&amp;amp;idx=1&amp;amp;sn=362c7e7755151f063536a56e21f4ba35&amp;amp;chksm=f3c143d1c4b6cac75746fe72a6c5df44c5ce1b73f02a7b536eba9941287ad98447fefe1ee979&amp;amp;scene=27#wechat_redirect">尾盘均线布局法</a></h2>
+<p>日期：2019-4-21 14:0:0<br />
+资深股民酒后良心分享“尾盘均线布局法”从未失手，</p>
+<h2 id="_16"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443840&amp;amp;idx=1&amp;amp;sn=05e24f94feb2f7419979d1e031243bb2&amp;amp;chksm=f3c143d2c4b6cac4c8b8e8126df648067b45d0cbefc6d36fa44021f300bbd18f2dc266faf78b&amp;amp;scene=27#wechat_redirect">五种卖出技巧</a></h2>
+<p>日期：2019-4-20 14:0:0<br />
+终于有人把卖出绝招说透彻了，牢记心中，</p>
+<h2 id="_17"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443836&amp;amp;idx=1&amp;amp;sn=3ece5e61dc5213a231dd770130041a49&amp;amp;chksm=f3c1432ec4b6ca386b59a3199b06cfff05a3c6999ec36ed11c7cc1f9dcde3d3f8c56e48fbfc8&amp;amp;scene=27#wechat_redirect">颈线洗盘</a></h2>
+<p>日期：2019-4-19 14:0:0<br />
+一、颈线简介在技术分析中，有其是形态分</p>
+<h2 id="_18"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443833&amp;amp;idx=1&amp;amp;sn=6764caaa80d4eb146260a77d4e1dcc44&amp;amp;chksm=f3c1432bc4b6ca3d0f608855f5fbdc86a8f2532c209d30398853df463f9209bdbc2125a28212&amp;amp;scene=27#wechat_redirect">道氏理论精髓</a></h2>
+<p>日期：2019-4-18 14:0:0<br />
+123法则相当于道氏理论对趋势发生转变的定义，注意其中第2点，有的时候价格会出现短暂的假突破（新高或者新低），但很快会回到前高以下（前低以上），因此还可以和2B法则相结合。</p>
+<h2 id="5"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443830&amp;amp;idx=1&amp;amp;sn=e90ba15b33a13c912a6e53ec195ab708&amp;amp;chksm=f3c14324c4b6ca32592972afdc7c76b187464273b2822b1adc72ae77fc9f8cc97177c2aa062d&amp;amp;scene=27#wechat_redirect">5日均线买卖法则</a></h2>
+<p>日期：2019-4-17 14:0:0<br />
+一文详解最全面的5日均线买卖法则，散户需牢记</p>
+<h2 id="_19"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443827&amp;amp;idx=1&amp;amp;sn=20ae7b06a1969f753887dea5589abee8&amp;amp;chksm=f3c14321c4b6ca375f77c95324663aaf86e0d0fbcdcabd6d788cefbb98199c3bb5d924d56f6f&amp;amp;scene=27#wechat_redirect">“乌云密布”形态股票</a></h2>
+<p>日期：2019-4-16 14:0:0<br />
+一旦遇“乌云密布”形态股票，赶紧逃命！</p>
+<h2 id="_20"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443823&amp;amp;idx=1&amp;amp;sn=c346c3a1575c814299627ba1b73dcf72&amp;amp;chksm=f3c1433dc4b6ca2b35dc5d2a6a051a2a0fac4cf547058f28a7d9f62a4f8c6cfd784384884e60&amp;amp;scene=27#wechat_redirect">布林线指标买卖技巧</a></h2>
+<p>日期：2019-4-15 14:0:0<br />
+“布林线”指标买卖技巧，准确率极高！</p>
+<h2 id="_21"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443820&amp;amp;idx=1&amp;amp;sn=f9782a765670c88104582d2ba973d4ca&amp;amp;chksm=f3c1433ec4b6ca28a5bcbafc3c2038c2eff036de33433a867b1c4d381c1084ae5fc7e4165eb0&amp;amp;scene=27#wechat_redirect">分时图上的卖点</a></h2>
+<p>日期：2019-4-14 14:0:0<br />
+学习更多K线知识尽在微信公众号搜索：K线奥秘，并关注。</p>
+<h2 id="_22"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443817&amp;amp;idx=1&amp;amp;sn=9edec6a5bf051fc94a8f69f34ff0badd&amp;amp;chksm=f3c1433bc4b6ca2dc5f13d50d976c2531a61dedf6ecda433135f3832a2f78d2f413dfdbcdc0f&amp;amp;scene=27#wechat_redirect">“几种形态”赶紧卖出，否则深套！</a></h2>
+<p>日期：2019-4-13 14:0:0<br />
+百万老股民忠告：一旦遇到“几种形态”赶紧卖出，否则深套！</p>
+<h2 id="_23"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443814&amp;amp;idx=1&amp;amp;sn=9b030bc8922984d000a9be118e27f04f&amp;amp;chksm=f3c14334c4b6ca2212255b31faa19d435145b7a9d4aebba3eba01d96f8a9340ba4bc73f5a3d8&amp;amp;scene=27#wechat_redirect">“买卖”实战技巧</a></h2>
+<p>日期：2019-4-12 14:0:0<br />
+价格窄幅整理，而成交量呈逐波递减或者温和放大、均线形成黄金交叉或者一致向上，或者均线粘合、多头排列，且周K线也出现类似的图形，可买入。</p>
+<h2 id="_24"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443811&amp;amp;idx=1&amp;amp;sn=35b9dcc45e2fceadbc249d1c0966d131&amp;amp;chksm=f3c14331c4b6ca27d20e84986211c6fa18d4c6053a05262ef4b3cde22a8d3efa9121d8f78ba1&amp;amp;scene=27#wechat_redirect">波段操作</a></h2>
+<p>日期：2019-4-11 14:0:0<br />
+牛散的波段操作秘籍首次公开解说，字字珠玑，背熟后炒股不吃亏！</p>
+<h2 id="_25"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443808&amp;amp;idx=1&amp;amp;sn=b2b1dee24f505a871e769cb5c3b723f4&amp;amp;chksm=f3c14332c4b6ca24addd4b53c8fb9b439454f09a6e6f33373807acaa5b0354256c6f3e66ebf2&amp;amp;scene=27#wechat_redirect">布林线指标止损“绝招”</a></h2>
+<p>日期：2019-4-10 14:0:0<br />
+年赚百万老股民酒后吐露：布林线指标止损“绝招”</p>
+<h2 id="_26"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443806&amp;amp;idx=1&amp;amp;sn=100b835afc595718b3ac7db02aa1b3dd&amp;amp;chksm=f3c1430cc4b6ca1a85ee6264e5bb173ff3a4ab2b9a1661e24f07f331a65a7c883b7ba2defe51&amp;amp;scene=27#wechat_redirect">个股的卖出技巧</a></h2>
+<p>日期：2019-4-9 14:0:0<br />
+亏损百万的老股民滴血讲述：一旦遇到“此”形态，需要逃命走人！</p>
+<h2 id="_27"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443794&amp;amp;idx=1&amp;amp;sn=bfeaa80ead62d5c97dada7518357fdab&amp;amp;chksm=f3c14300c4b6ca16ec4c695ebd61c73dd7cb02f2dca3305704bd208ba99c0c874ca785774a76&amp;amp;scene=27#wechat_redirect">什么是“金蜘蛛”买入法？</a></h2>
+<p>日期：2019-4-8 14:0:0<br />
+是指从高位向下移动到低位后拐头向上汇合在一起的形态。由5日、10日</p>
+<h2 id="_28"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443791&amp;amp;idx=1&amp;amp;sn=10bf55653fa84b8a7084d1362f29fde8&amp;amp;chksm=f3c1431dc4b6ca0b13b72ef24132da3c82df231df6c2314b51d057dad9c83dce1c23dd0937bf&amp;amp;scene=27#wechat_redirect">“底部”黑马形态</a></h2>
+<p>日期：2019-4-7 14:0:0<br />
+上海炒股比赛冠军首次分享：一旦遇见“底部”黑马形态，大胆买入</p>
+<h2 id="_29"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443788&amp;amp;idx=1&amp;amp;sn=affd41bce26e3d90f5d22a1f2ebd826b&amp;amp;chksm=f3c1431ec4b6ca08599582e4f0cbac0de3d186544422e0ee2dd7609c6f5e52e7f115c928e56b&amp;amp;scene=27#wechat_redirect">选短线强势股</a></h2>
+<p>日期：2019-4-6 14:0:0<br />
+短线天才教你选短线强势股，一买就涨，再忙也值得花5分钟看看！</p>
+<h2 id="_30"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443784&amp;amp;idx=1&amp;amp;sn=b8730ba32e0e0283867b7cf8dd488515&amp;amp;chksm=f3c1431ac4b6ca0c92035acfdc810dfd723170db9eb19ffd257d05ee9dee6657c8c4f4e7bacf&amp;amp;scene=27#wechat_redirect">四阴收阳买入法</a></h2>
+<p>日期：2019-4-5 14:0:0<br />
+四阴收阳买入法只适合于牛市或者牛皮市，在绵绵阴跌的熊市皆不适用。为什么必须是在60日线坚挺向上？原因是60日线坚挺向上时出现四阴以上走势，是主力洗盘行为，并非主力出货，因此买入成功率极高！</p>
+<h2 id="_31"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443777&amp;amp;idx=1&amp;amp;sn=6bf5dae9ee56deb45839ea5b821f2a6e&amp;amp;chksm=f3c14313c4b6ca050923e7b9e7b67940312a0f6b8fa9b8852986d4a31a4262b61a35fdd12f5a&amp;amp;scene=27#wechat_redirect">一旦出现“黄金缺口”形态，一买就涨</a></h2>
+<p>日期：2019-4-4 14:0:0<br />
+一位股市奇才呕心沥血之作：一旦出现“黄金缺口”形态，</p>
+<h2 id="_32"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443773&amp;amp;idx=1&amp;amp;sn=875f039f60ca724916e22a12d4086023&amp;amp;chksm=f3c1436fc4b6ca799080bbc265a87035f236965ce52c0921d21ef2dc0496574e21774d6c2f22&amp;amp;scene=27#wechat_redirect">什么是蛤蟆跳空</a></h2>
+<p>日期：2019-4-3 14:0:0<br />
+学习更多K线知识尽在微信公众号搜索：K线奥秘，并关注。</p>
+<h2 id="macd_1"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443770&amp;amp;idx=1&amp;amp;sn=7b20c3f2d9b9a31672c50d7772382fae&amp;amp;chksm=f3c14368c4b6ca7ecc41709b86193dc8b9bbd0f1ac52944e6ba3dfdfdc4bd36082f19d30682c&amp;amp;scene=27#wechat_redirect">MACD“底背离”形态</a></h2>
+<p>日期：2019-4-2 14:0:0<br />
+20年老股民首次公开分享史上最全MACD买股绝招，散户福利！</p>
+<h2 id="_33"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443767&amp;amp;idx=1&amp;amp;sn=caa6c9089eed90b54010a2a58ad6c90e&amp;amp;chksm=f3c14365c4b6ca73e25eaa4af954afc74d7969573f63873cdd69aff9cc3e4c537f1b53a59467&amp;amp;scene=27#wechat_redirect">涨停板固定规律</a></h2>
+<p>日期：2019-4-1 14:0:0<br />
+涨停板固定规律，一旦符合规律，后续股票必然涨停！</p>
+<h1 id="2019-3"><a name="user-content-2019-3" href="#2019-3" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>2019-3</h1>
+<h2 id="_34"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443764&amp;amp;idx=1&amp;amp;sn=a13d973d957288fc87a67330ee94126c&amp;amp;chksm=f3c14366c4b6ca7033f3c63bd47a9a9d8e725b5aacab11785051aaf0e9a48342f858a96a6579&amp;amp;scene=27#wechat_redirect">一个操盘手的讲述：庄家如何洗盘，值得读十遍！</a></h2>
+<p>日期：2019-3-31 20:37:43<br />
+一个操盘手的讲述：庄家如何洗盘，值得读十遍！</p>
+<h2 id="_35"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443761&amp;amp;idx=1&amp;amp;sn=c1188ff5dfc84ade0766099f03777475&amp;amp;chksm=f3c14363c4b6ca7595e0a4ff71177259d05a96c6db18e5932ae3604b48e83e386491dbd37689&amp;amp;scene=27#wechat_redirect">短线低吸战法</a></h2>
+<p>日期：2019-3-30 14:0:0<br />
+一神秘操盘手呕心沥血的绝技：要想做好短线必学的“低吸战法”！</p>
+<h2 id="_36"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443758&amp;amp;idx=1&amp;amp;sn=2ccadcde82cb08be7e23a0ef639a3103&amp;amp;chksm=f3c1437cc4b6ca6abcb4f80eb588eb9e69faa6aef9fcfd27d3999b612dc714add8ca321ef2db&amp;amp;scene=27#wechat_redirect">涨停加速猎马法则</a></h2>
+<p>日期：2019-3-29 14:0:0<br />
+涨停加速猎马法则原创</p>
+<h2 id="_37"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443754&amp;amp;idx=1&amp;amp;sn=729f99d9a4bc2963704aafb6bd916af2&amp;amp;chksm=f3c14378c4b6ca6e7d96df85a5558fa1f4dee791b60cf17ee5c847dbe7471d4178fc5448041d&amp;amp;scene=27#wechat_redirect">见顶信号</a></h2>
+<p>日期：2019-3-28 14:0:0<br />
+亏损百万老股民总结的史上最全的见顶信号，千万不能碰，赶紧跑</p>
+<h2 id="_38"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443751&amp;amp;idx=1&amp;amp;sn=7a5d58a67664f2f2013684e3e8ebc29f&amp;amp;chksm=f3c14375c4b6ca63d0d244724bf6a78b03d77c20ce2ec9caae20b3313ae839b2e7b5cb753667&amp;amp;scene=27#wechat_redirect">筹码派发</a></h2>
+<p>日期：2019-3-27 14:0:0<br />
+退役操盘手良心劝诫：一旦遇见“筹码派发”股票，清仓是唯一选择</p>
+<h2 id="k"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443748&amp;amp;idx=1&amp;amp;sn=7f69cfb313514c3335037f4836cd918e&amp;amp;chksm=f3c14376c4b6ca60e7dfdb98ffbbb3fd2344f41b24418e01adb3ede45186f808ca8160bb2610&amp;amp;scene=27#wechat_redirect">周K线选股技巧三要素</a></h2>
+<p>日期：2019-3-26 14:0:0<br />
+炒股天才坚持用的选股方法，轻松买在最低点，掌握就是收益</p>
+<h2 id="_39"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443745&amp;amp;idx=1&amp;amp;sn=27552c0895a43dbc993c1afb5cd85546&amp;amp;chksm=f3c14373c4b6ca65698a4e1a96bf5895a4f5f6185f897ef21eae23c24634394448cc4293d366&amp;amp;scene=27#wechat_redirect">“梅开二度”选股战法</a></h2>
+<p>日期：2019-3-25 14:0:0<br />
+一位老股民良心分享：用此法轻松捕捉涨停，</p>
+<h2 id="_40"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443742&amp;amp;idx=1&amp;amp;sn=d919e9a19d3b82acbac1cd9e0d83f34e&amp;amp;chksm=f3c1434cc4b6ca5a7855662964f479914b8dbc47cf1e3d087da7c13d9270e3e985e2682e81c0&amp;amp;scene=27#wechat_redirect">三种横盘建仓</a></h2>
+<p>日期：2019-3-24 14:0:0<br />
+一旦碰见这些形态，赶紧建仓跟上！</p>
+<h2 id="k_1"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443739&amp;amp;idx=1&amp;amp;sn=164efa89519ff3528f5b68bfdf393f7a&amp;amp;chksm=f3c14349c4b6ca5f109f94ceaa05bee945a77d9d200058baf464c8bf96476ed9078356ac6b4a&amp;amp;scene=27#wechat_redirect">K线与振幅解密</a></h2>
+<p>日期：2019-3-23 14:0:0<br />
+盘中每天都有个股会拉出长阳线，但是每根阳线的意义都不大相同，有的是没有持续性的一天行情，有的会连续拉升。是什么原因导致这样的情形呢？原因在于个股主力运作的级别不同。</p>
+<h2 id="_41"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443736&amp;amp;idx=1&amp;amp;sn=ee4f2fa69fc6353e35b38d0ab60aafab&amp;amp;chksm=f3c1434ac4b6ca5ced0ddd8edda017305199cb8edc8a303b6c71528f83c16665b3d14f8bf45b&amp;amp;scene=27#wechat_redirect">一旦底部出现“蛟龙出海”形态，立马抄底</a></h2>
+<p>日期：2019-3-22 14:0:0<br />
+一位股市天才的自白：一旦底部出现“蛟龙出海”形态，立马抄底</p>
+<h2 id="_42"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443732&amp;amp;idx=1&amp;amp;sn=493e6f76e977bab5268477ae590b95d8&amp;amp;chksm=f3c14346c4b6ca50701e1c23bdb7f74cfb149319563cf4b28194c980c7f6b175c57ed3383b42&amp;amp;scene=27#wechat_redirect">三大“地狱级别”股票形态</a></h2>
+<p>日期：2019-3-21 14:0:0<br />
+曾亏损百万老股民良心规劝，以下形态千万不能买</p>
+<h2 id="_43"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443727&amp;amp;idx=1&amp;amp;sn=ed0f8ea7490bf0db85135d2128e39d52&amp;amp;chksm=f3c1435dc4b6ca4b939f5f97c67d51d75a7c1591cef5c6e25b2313531d6328ca0d01ba6f08e7&amp;amp;scene=27#wechat_redirect">出现“断头铡刀”形态，清仓是最佳选择</a></h2>
+<p>日期：2019-3-20 14:0:0<br />
+一旦出现“断头铡刀”形态，清仓是最佳选择，否则恐被深套！</p>
+<h2 id="_44"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443724&amp;amp;idx=1&amp;amp;sn=aeb89b94336e94676714742b070a0452&amp;amp;chksm=f3c1435ec4b6ca484081716fb2c863107210877669f20a3ac48d798c1fc39e2b30f39a8dc727&amp;amp;scene=27#wechat_redirect">如何通过缺口能“预知涨跌”，</a></h2>
+<p>日期：2019-3-19 14:0:0<br />
+一位常胜炒股冠军自述：如何通过缺口能“预知涨跌”</p>
+<h2 id="_45"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443721&amp;amp;idx=1&amp;amp;sn=d406ce54e55c345a8dd6a5567aa69a5c&amp;amp;chksm=f3c1435bc4b6ca4db403dc8b0bd1dce0c44c84e8dd1a5d6735dd93adde916749377ce8bd792a&amp;amp;scene=27#wechat_redirect">运用“出水芙蓉”捕抓涨停板</a></h2>
+<p>日期：2019-3-18 14:0:0<br />
+年赚百万股民分享运用“出水芙蓉”捕抓涨停板，这招简直太绝了！</p>
+<h2 id="_46"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443718&amp;amp;idx=1&amp;amp;sn=96e0aecb42a71c43c2a3c973a8e86e70&amp;amp;chksm=f3c14354c4b6ca42553d651a345b9a1a9b7dc1da98f3fe5d7c6e3bcde59c5e2277f3ec3d603e&amp;amp;scene=27#wechat_redirect">画线的方法</a></h2>
+<p>日期：2019-3-17 14:0:0<br />
+画画线就能抓住买卖点，一学就会！</p>
+<h2 id="_47"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443714&amp;amp;idx=1&amp;amp;sn=3a0af56ff151fbc6380b327f6f02f8c6&amp;amp;chksm=f3c14350c4b6ca46cede3def06c106ffdaa4b416229176ffc10ca3fa3749da9eae48244b9f60&amp;amp;scene=27#wechat_redirect">三足鼎立</a></h2>
+<p>日期：2019-3-16 14:0:0<br />
+下面看三足鼎立的定义。1)三个底部的低点数值非常接近；2)最后一个底部的低点数值高于前两个低点；3)每两个低</p>
+<h2 id="_48"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443710&amp;amp;idx=1&amp;amp;sn=acb24fcde8cb183659d02ecf84999fe4&amp;amp;chksm=f3c142acc4b6cbba9b014f90032f4582ef31008c706adb79d78d73274c6ac2bbe048a3b651a3&amp;amp;scene=27#wechat_redirect">如何判断主力是否在洗盘？</a></h2>
+<p>日期：2019-3-15 14:0:0<br />
+.缩量下跌创地量图一用成交量来判断主力意图是最直接也是很有效的方式！如果股价的破位下行伴随的是成交量越跌越</p>
+<h2 id="k_2"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443707&amp;amp;idx=1&amp;amp;sn=c6c36243d7339b0fe22def80e7b0b4db&amp;amp;chksm=f3c142a9c4b6cbbfc59fc302a65ff837eb8b5f4f2b084613b773b3b6aca05ef29bd7f94ad7ad&amp;amp;scene=27#wechat_redirect">炉架底K线形态:</a></h2>
+<p>日期：2019-3-14 14:0:0<br />
+炉架底K线形态:个股经过一段时候震荡下跌后,突然有一天收出长阴线,然后股价围绕这根长阴线附近震荡整理,收小阴</p>
+<h2 id="_49"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443703&amp;amp;idx=1&amp;amp;sn=9cd47e671f0c9e10a6d5ab331e9f972f&amp;amp;chksm=f3c142a5c4b6cbb3d07931051e16646a809a9b202901257d6d1779ff79ab94e3d6b6f5a7f02a&amp;amp;scene=27#wechat_redirect">放量过顶买入法</a></h2>
+<p>日期：2019-3-13 14:0:0<br />
+放量过顶”买入法一旦熟记，实现获利不是问题！</p>
+<h2 id="_50"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443694&amp;amp;idx=1&amp;amp;sn=5fd03d8e6176b95e0d2a53113aac167c&amp;amp;chksm=f3c142bcc4b6cbaa5d0774e97077091171beb7578201fb1ac2fdb18695cfb895e25ce4d261e8&amp;amp;scene=27#wechat_redirect">超简单的短线选股技巧</a></h2>
+<p>日期：2019-3-12 14:0:0<br />
+退役操盘手的肺腑之言</p>
+<h2 id="_51"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443689&amp;amp;idx=1&amp;amp;sn=8401eac5fd267f160d95ee4b30df3f1b&amp;amp;chksm=f3c142bbc4b6cbad0ca7c69b975cf25abf813071f8705b2f7dd64e1e9c89c26085bb98347f7f&amp;amp;scene=27#wechat_redirect">尾盘买入法的优势</a></h2>
+<p>日期：2019-3-11 14:0:0<br />
+一位老股民曾耗费巨资：苦心钻研最全面万能尾盘买入绝技，不会选股的福音</p>
+<h2 id="_52"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443683&amp;amp;idx=1&amp;amp;sn=286dddc8b78c21c4e9dbf8cbbf5672ff&amp;amp;chksm=f3c142b1c4b6cba7ad50447a770e25dd6c6d30529645fc704c72a88f5a47f2fba330438771bf&amp;amp;scene=27#wechat_redirect">射击之星</a></h2>
+<p>日期：2019-3-10 14:0:0<br />
+初级K线实战讲解</p>
+<h2 id="_53"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443678&amp;amp;idx=1&amp;amp;sn=b2e00eb27c763dc0de7e7a1c09c86f30&amp;amp;chksm=f3c1428cc4b6cb9a42fd5a8f4d96f40d1c80fb71f5a81f238333af7d3c3cfb038deba20140d9&amp;amp;scene=27#wechat_redirect">碰到“钓鱼线”形态，赶紧清仓</a></h2>
+<p>日期：2019-3-9 14:0:0<br />
+一、“钓鱼线”出货手法：开盘后的股价根据出货阶段、庄家出货程度的不同而处在不同位置，庄家利用对敲不断的稳步推</p>
+<h2 id="_54"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443675&amp;amp;idx=1&amp;amp;sn=d76f5913feca7a29342678f9a0fd564e&amp;amp;chksm=f3c14289c4b6cb9fb9938dde1cf135bb7f36f877c2a74c9015d8861cadbfb981295be594fca2&amp;amp;scene=27#wechat_redirect">七大买入绝技</a></h2>
+<p>日期：2019-3-8 14:0:0<br />
+买入时机：1、股价向上突破，短期下降趋线是短线买入时机。2、股价向上突破中期下降趋势线是中线买入时机。3、股</p>
+<h2 id="_55"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443672&amp;amp;idx=1&amp;amp;sn=851e1974c285ccfa4e302026ea1aae42&amp;amp;chksm=f3c1428ac4b6cb9c0cf677f27f9a3ab5f9b3a94b2c561a2f303039d37340460ecdde5c3b8238&amp;amp;scene=27#wechat_redirect">抄底铁律</a></h2>
+<p>日期：2019-3-7 14:0:0<br />
+20年老股民一直坚持的抄底铁律，成功率极高，抓住股价将翻倍！</p>
+<h2 id="2"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443665&amp;amp;idx=1&amp;amp;sn=208bfacbf6629c1c66f2849d887b6b5b&amp;amp;chksm=f3c14283c4b6cb951cbea7e9a437e3841386486f91a85c32f8f65b714a972796158ce33ec947&amp;amp;scene=27#wechat_redirect">牛股形态2种</a></h2>
+<p>日期：2019-3-6 14:0:0<br />
+“突出重围”K线</p>
+<h2 id="_56"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443662&amp;amp;idx=1&amp;amp;sn=de6dd925e946d80a71d526cabef83069&amp;amp;chksm=f3c1429cc4b6cb8aaac25b66b9ee0f2d4586c779e405a959748a47fb944c237e3d7262e533df&amp;amp;scene=27#wechat_redirect">阻力支撑位技术讲解</a></h2>
+<p>日期：2019-3-5 14:29:57<br />
+如何准确找到阻力位和支撑位的五种方法</p>
+<h2 id="_57"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443657&amp;amp;idx=1&amp;amp;sn=e5edc273edc73a706e86f6d8094ccdd4&amp;amp;chksm=f3c1429bc4b6cb8d697078d52d1aa9d4bcdc83cc480c76049a82632d26e5a5fa2996d28618e1&amp;amp;scene=27#wechat_redirect">“蛟龙出海”形态要点</a></h2>
+<p>日期：2019-3-4 14:0:0<br />
+学习更多K线知识尽在微信公众号搜索：K线奥秘，并关注。</p>
+<h2 id="macd4"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443654&amp;amp;idx=1&amp;amp;sn=f2b5ff39241241f4f3b9e7cba2781e24&amp;amp;chksm=f3c14294c4b6cb82436e15e65d935fd3fcff75c9bfe7ef2ebb3500110b9cdcbe8d80a8c8c559&amp;amp;scene=27#wechat_redirect">MACD的4个买入信号</a></h2>
+<p>日期：2019-3-3 14:0:0<br />
+民苦心钻研良心分享：仅凭它便能买在低点，卖在高点，熟练掌握运用少走十年弯路！</p>
+<h2 id="1355"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443649&amp;amp;idx=1&amp;amp;sn=4dc396e55863a2b62288dfe265c40edb&amp;amp;chksm=f3c14293c4b6cb85636c1c566eab4f565ca951f7ec5c98c0b2a750ab46607d9d5fdc8991b1c6&amp;amp;scene=27#wechat_redirect">135战法的5大底部形态</a></h2>
+<p>日期：2019-3-2 14:0:0<br />
+民间高手闭关多年研究“135战法”，一旦遇见“底部启动”形态，将是翻倍良机！</p>
+<h2 id="_58"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443646&amp;amp;idx=1&amp;amp;sn=452ed2f09e947a6031f192f8213714e5&amp;amp;chksm=f3c142ecc4b6cbfa5e0633498ceba636cca1a349ac04729c689f7e637ec313cf6aa6a4338c25&amp;amp;scene=27#wechat_redirect">看趋势，追踪均线信号</a></h2>
+<p>日期：2019-3-1 14:0:0<br />
+喜欢这篇文章的可以关注微信公众号：K线奥秘了解更多。</p>
+<h1 id="2019-2"><a name="user-content-2019-2" href="#2019-2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>2019-2</h1>
+<h2 id="macd_2"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443643&amp;amp;idx=1&amp;amp;sn=946e01271f12bc8307e032bfbc7ceaf6&amp;amp;chksm=f3c142e9c4b6cbffef1aeaaa851eeb8da5e07116d625618bfa595d4a830647c014344403e0d7&amp;amp;scene=27#wechat_redirect">MACD精准逃顶</a></h2>
+<p>日期：2019-2-28 14:0:0<br />
+MACD通过微小变化判断后市，如果出现隔山背离现象应该减仓观望。</p>
+<h2 id="5k"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443636&amp;amp;idx=1&amp;amp;sn=5e6c11b469f371a172a41c92dd99c82e&amp;amp;chksm=f3c142e6c4b6cbf0634bfdf96dc342bc47a67efb95157cb483d71d7538b2e33508a387081dee&amp;amp;scene=27#wechat_redirect">上涨趋势中的5种K线买点</a></h2>
+<p>日期：2019-2-27 14:0:0<br />
+股价上涨趋势中，股民往往会有</p>
+<h2 id="_59"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443633&amp;amp;idx=1&amp;amp;sn=ed838092ccf690402f47552b68ab32f8&amp;amp;chksm=f3c142e3c4b6cbf5dc2ba514a5ff5aa5a3944e41855fe9b5ce93eae81ef94236bfb8ad704302&amp;amp;scene=27#wechat_redirect">均线三线开花</a></h2>
+<p>日期：2019-2-26 14:0:0<br />
+均线三线开花均线的60、120、240通常是先后</p>
+<h2 id="_60"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443630&amp;amp;idx=1&amp;amp;sn=78c98dc3c1fd7fd922cb3b1ae0d37beb&amp;amp;chksm=f3c142fcc4b6cbeab6f50f3af9f47cddbb77184251f4cc6edd94ce41b3d6783f99e16d1d69d8&amp;amp;scene=27#wechat_redirect">涨停回马枪</a></h2>
+<p>日期：2019-2-25 14:0:0<br />
+有了涨停之后，我们抓住回调之后再次上涨的那一波，股价已经上涨且以涨停明示（注意直线上升），</p>
+<h2 id="_61"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443626&amp;amp;idx=1&amp;amp;sn=619ba418e20f45d58520d3d741ba85a1&amp;amp;chksm=f3c142f8c4b6cbee6663f89a1aeb2f065f390e7a6ea6c8a0ca120105449985c773fea74e0219&amp;amp;scene=27#wechat_redirect">九阴白骨爪</a></h2>
+<p>日期：2019-2-24 14:0:0<br />
+当出现九阴白骨或多阴白骨时，就应该引起警惕，一定要减仓，否则容易高位站岗。</p>
+<h2 id="_62"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443620&amp;amp;idx=1&amp;amp;sn=a7a102297dd0bd142cc25f4eef34f98b&amp;amp;chksm=f3c142f6c4b6cbe0c85026b42085aa4530e5d6eeaafd46e80e2eeb042e319a80252dff2df61b&amp;amp;scene=27#wechat_redirect">集合竞价抓涨停</a></h2>
+<p>日期：2019-2-23 14:0:0<br />
+在股市，研究股票走势图，从走势里发现庄家的动态，研究K线的密码。方法只有一 个，那就是学习技术，总结方法。技术不是神器是度量工具，希望技术在你的手里能发挥应有的作用。来，我们一起探索K线的奥秘吧！</p>
+<h2 id="macd_3"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443614&amp;amp;idx=1&amp;amp;sn=fd0ac38b8d4b40d388214ddc6b6a8bf7&amp;amp;chksm=f3c142ccc4b6cbdac93de5e9650c31dd1aea619e5e4e23f7365f8777d0df0f70c7b9a6c67188&amp;amp;scene=27#wechat_redirect">MACD的危险信号</a></h2>
+<p>日期：2019-2-22 14:0:0<br />
+喜欢这篇文章的可以关注微信公众号：K线奥秘了解更多。</p>
+<h2 id="_63"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443611&amp;amp;idx=1&amp;amp;sn=8661d2066432e868f795dc615da1962f&amp;amp;chksm=f3c142c9c4b6cbdf289e038a6b1abcefd3c9052b0d020a4625c09f6cd3aaac3d373475e1dba8&amp;amp;scene=27#wechat_redirect">一旦遇见“断头铡”股票，毫不犹豫清仓</a></h2>
+<p>日期：2019-2-21 14:0:0<br />
+在股市，研究股票走势图，从走势里发现庄家的动态，研究K线的密码。方法只有一 个，那就是学习技术，总结方法。技术不是神器是度量工具，希望技术在你的手里能发挥应有的作用。来，我们一起探索K线的奥秘吧！</p>
+<h2 id="_64"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443608&amp;amp;idx=1&amp;amp;sn=f854c1cf6c6c59d7be3a57b0adc506f8&amp;amp;chksm=f3c142cac4b6cbdce13fae9e931d566158b01b9bf2cfd8dd7ef2c4643034834098bf2a5589c9&amp;amp;scene=27#wechat_redirect">金蛤蟆建仓手法</a></h2>
+<p>日期：2019-2-20 14:0:0<br />
+金蛤蟆”和很多底部形态的股票差不多，从上面两个案例就可以看出来。庄家控盘了蛤蟆右爪子悬空，只有成交量萎缩成芝麻点了才说明洗盘基本完成了，拉升不远了，一</p>
+<h2 id="5_1"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443603&amp;amp;idx=1&amp;amp;sn=ffe72f91e289ff8742ef2ad84457ac59&amp;amp;chksm=f3c142c1c4b6cbd74efc2533385051d332369a7b669bbd0105de6af26989a97576dbac874e54&amp;amp;scene=27#wechat_redirect">5大底部启动形态</a></h2>
+<p>日期：2019-2-19 14:0:0<br />
+孤翁独钓：低档盘整过程中，某一日股价被大幅打低，但收盘仍回到开盘价附近，收出一根极长下影线的K线，K线组合中长下影往往得主力有意所为，且常常都创出历史新低，暗示此股已经有人暗中收集，通过大幅打低，既暗中吸筹，又探明了底部。</p>
+<h2 id="5_2"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443596&amp;amp;idx=1&amp;amp;sn=a05cd13d9ed16adc92934c296a693e0d&amp;amp;chksm=f3c142dec4b6cbc8b3161e9a1c024a855ec6ae86583c9c9ddc73ea58dbff2fca66d21492502b&amp;amp;scene=27#wechat_redirect">5大主升浪</a></h2>
+<p>日期：2019-2-18 14:0:0<br />
+选股是咱们炒股的第一步，如果选了一只好股，那么你就赢在了起跑线上，但是很多股票都是有强弱之分，如果买了弱势的</p>
+<h2 id="_65"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443592&amp;amp;idx=1&amp;amp;sn=300bc0854df45af474a9e3484ba8e333&amp;amp;chksm=f3c142dac4b6cbcc18b814c6339a7c6c4a157090d23ff28e79b7c277d92bd5835bd3e0a6fad3&amp;amp;scene=27#wechat_redirect">炒股三字经</a></h2>
+<p>日期：2019-2-17 14:0:0<br />
+一、老股民总结的5句炒股三字经：长短线， 信号同， 握先机， 能从容。大行情， 气如虹， 价量升， 莫言峰。</p>
+<h2 id="_66"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443587&amp;amp;idx=1&amp;amp;sn=659cef3aec3dd9f1fc97f3212b1035fb&amp;amp;chksm=f3c142d1c4b6cbc784959465ed0b09685d9332f5211e2c5f3e33fbfcfd649891cc47d170b4b3&amp;amp;scene=27#wechat_redirect">黑马形态</a></h2>
+<p>日期：2019-2-16 14:6:28<br />
+在股市中咱们会经常听到这只股票我要是拿着就好了，当时我也买了，但是后面被主力洗出去了，最后成为了放牛娃，如果</p>
+<h2 id="k_3"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443584&amp;amp;idx=1&amp;amp;sn=95d8838eb981e5cc2348f9959ea3a580&amp;amp;chksm=f3c142d2c4b6cbc49e139c60acdb1ee5b8e433a9c1fa9b7eaa94ce8de4e5f22e9ec70df13b77&amp;amp;scene=27#wechat_redirect">“炉架底”K线形态买入法</a></h2>
+<p>日期：2019-2-15 14:0:0<br />
+股价经一段时间下跌后，某日在低位收出一根长阴线（开盘价与收盘价之间的跌幅一般不小于3％），随后股价便在长阴线</p>
+<h2 id="5_3"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443581&amp;amp;idx=1&amp;amp;sn=74a01825fbda61e631ca42213ca4e67f&amp;amp;chksm=f3c1422fc4b6cb39185af11e7ece00413437688f9e8c6dbfd64d945633e5ad3206fdf8844dcd&amp;amp;scene=27#wechat_redirect">5日均线的作用：</a></h2>
+<p>日期：2019-2-14 14:0:0<br />
+5日均线的作用：1、攻击线拐头向上表示其有助涨左右。2、攻击线走平意味着股票正在做平台整理。3、拐头向下代表</p>
+<h2 id="_67"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443569&amp;amp;idx=1&amp;amp;sn=f6dea62e9223f95dd4ff5ff661840888&amp;amp;chksm=f3c14223c4b6cb3514d14714e6936070852197bfb9614614355a96ab7187d3c001a488a61cad&amp;amp;scene=27#wechat_redirect">放量打拐一旦有效形成，短期涨幅惊人</a></h2>
+<p>日期：2019-2-13 14:0:0<br />
+放量，指单位时间内的成交量比以前明显放大。打拐，打击股价由匀速运行到加速运行的拐点部位。放量打拐的瞬间就是捕</p>
+<h2 id="_68"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443566&amp;amp;idx=1&amp;amp;sn=425b448e969685cf456770ca7c12e48b&amp;amp;chksm=f3c1423cc4b6cb2a703d636c73b7f34702083a7f5b02321d2ceda136b082ab3b27c532a2216a&amp;amp;scene=27#wechat_redirect">仙人指路寻股</a></h2>
+<p>日期：2019-2-12 14:0:0<br />
+仙人指路定义：股价长期下跌后主力资金开始建仓介入,随着成交量的逐步放大,股价上穿均线系统,构筑价托、出水芙蓉</p>
+<h2 id="_69"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443563&amp;amp;idx=1&amp;amp;sn=1f142afc0f4b396110a71bdf7cbc131c&amp;amp;chksm=f3c14239c4b6cb2fab7dd69035b754b8053b0635f43c983d84a98946204b40da9af554b1911d&amp;amp;scene=27#wechat_redirect">分辨洗盘还是见顶</a></h2>
+<p>日期：2019-2-11 14:5:10<br />
+在判断庄家是在洗盘还是出货时，股价的重心是否下移是最为显著的标志。庄家洗盘时，会将图像做得非常难看，使股民放弃介入的念头，所以K线会经常出现一些消极技术形态，比如十字星、大阴线等，但是股价的重心却不下移，平均价格始</p>
+<h2 id="_70"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443554&amp;amp;idx=1&amp;amp;sn=49f40cdcaa879a01eaea74294a7b8262&amp;amp;chksm=f3c14230c4b6cb26c9e311d7baabe032b83cc499fcf6e4bcaf1ae9047814459c638a6a28c657&amp;amp;scene=27#wechat_redirect">主力洗盘和出货的辨别</a></h2>
+<p>日期：2019-2-10 21:45:32<br />
+洗盘的待征：1、股价在庄家打压下快速走低，但在下方获得支撑，缓慢盘上;2、下跌时成交量无法放大，上升时成交量</p>
+<h2 id="_71"><a href=""></a></h2>
+<p>日期：2019-2-4 14:0:0  </p>
+<h2 id="_72"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443541&amp;amp;idx=1&amp;amp;sn=3f1fbe5a58177bc0eb336fea97251369&amp;amp;chksm=f3c14207c4b6cb11db3573734f6842eebc8b34372f8b60ac98c2e87aba357f0f192630752647&amp;amp;scene=27#wechat_redirect">向下钓鱼线</a></h2>
+<p>日期：2019-2-3 14:0:0<br />
+股市高手自曝庄家出货形态，一旦出现“向下钓鱼线”，抓紧时机跑！股海老徐 2017-06-28 17:58钓鱼</p>
+<h2 id="_73"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443537&amp;amp;idx=1&amp;amp;sn=69779262665417abf9319e46e7f8dc59&amp;amp;chksm=f3c14203c4b6cb1540b67266d6af8059d20660e0f677427a73eeb6749a22793d1717192cd9e2&amp;amp;scene=27#wechat_redirect">抄底七招</a></h2>
+<p>日期：2019-2-2 14:0:0<br />
+众所周知，股票大幅上扬都是从底部开始的，所谓底部当有一个筑底过程，筑底的目的是调整均线或者叫清洗筹码，只有市</p>
+<h2 id="_74"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443533&amp;amp;idx=1&amp;amp;sn=321cd8a9dfdb33adbe735e2ace499a43&amp;amp;chksm=f3c1421fc4b6cb097531f8d9f45e857b73c730d1fc8d20a0fdfc88fb539c78a0426faf8d28cc&amp;amp;scene=27#wechat_redirect">狮子大张口</a></h2>
+<p>日期：2019-2-1 14:0:0<br />
+一、K线买卖口诀口诀一：高空见到头肩顶，头肩离场脑清醒，向下突破全清仓，抱着幻想是陷阱。口诀二：圆底图形细观</p>
+<h1 id="2019-1"><a name="user-content-2019-1" href="#2019-1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>2019-1</h1>
+<h2 id="_75"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443528&amp;amp;idx=1&amp;amp;sn=715ce3a357af6c30ca5197dd81128ad2&amp;amp;chksm=f3c1421ac4b6cb0c176cf62861614c45f88b413ad432964f428c79f91d0394f72043dd54e379&amp;amp;scene=27#wechat_redirect">量减价升，继续持有</a></h2>
+<p>日期：2019-1-31 14:0:0<br />
+一、成交量买卖技巧1、量减价升，继续持有成交量减少，股价仍在继续上升，适宜继续持股，即使如果锁筹现象较好，也</p>
+<h2 id="_76"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443522&amp;amp;idx=1&amp;amp;sn=6a39df2e305ce12ea5f502a3f178e928&amp;amp;chksm=f3c14210c4b6cb06a3eef67ebadd893a33407e74ccfbf4202e6f968ba5046ece0b157d45627f&amp;amp;scene=27#wechat_redirect">主力建仓的两个阶段</a></h2>
+<p>日期：2019-1-30 12:0:0<br />
+主力建仓有两个阶段：1、建仓前的准备。建仓前的准备我们不能在k线中看到我们就在这里略过简单地说就是对市场的调</p>
+<h2 id="_77"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443516&amp;amp;idx=1&amp;amp;sn=2b8e548f5661657167114e572bfc2dee&amp;amp;chksm=f3c1426ec4b6cb78a50545106dcbe1d5a79a9b156b687fec2e293e12a66d324ba8875135b137&amp;amp;scene=27#wechat_redirect">顶背离卖出法</a></h2>
+<p>日期：2019-1-29 14:0:0<br />
+“V”字型底部当空方连续将股价打低做空能量耗竭时，多方立即发起反攻，不非空方喘息的机会，在成交量的配合下，将</p>
+<h2 id="_78"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443511&amp;amp;idx=1&amp;amp;sn=aee7c959cba79dbf4cc9c1c6cf712ac9&amp;amp;chksm=f3c14265c4b6cb73e1b7bb0a95c9836c0335ead9429dcd31353dbe497e4344f9a5397620a818&amp;amp;scene=27#wechat_redirect">上升尽头线</a></h2>
+<p>日期：2019-1-28 14:0:0<br />
+1、上升尽头线：价格持续上涨，但是上涨动力减弱，波动幅度缩小，收市的小阳线未超过前一天高点，表面上涨乏力，价</p>
+<h2 id="macd_4"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443508&amp;amp;idx=1&amp;amp;sn=9d7d8ec4226ca509ea5e4f23ba1b5435&amp;amp;chksm=f3c14266c4b6cb70a81e1da9f7b93323db7d4341547a498c421f870ec4247a38ea06adedf3d6&amp;amp;scene=27#wechat_redirect">MACD金叉买入战法</a></h2>
+<p>日期：2019-1-27 14:0:0<br />
+一、三军会师三军会师，指的是5日、10日、20日三条移动平均线，从高位向下移动到低位后，抬头向上，而且汇合在</p>
+<h2 id="rsi"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443504&amp;amp;idx=1&amp;amp;sn=5aabbb1a7cf171b1c0fdc9bd9557bde3&amp;amp;chksm=f3c14262c4b6cb749b3251ec19b2ba2269845673f6ff57122afa88c4a80705170945f871cbf5&amp;amp;scene=27#wechat_redirect">RSI指标的买卖点确定与强弱趋势判断</a></h2>
+<p>日期：2019-1-25 14:0:0<br />
+RSI指标属于相对强弱指标，参考前一天的收盘价，对比当天上涨与下跌的幅度得到的。由两部分构成：代表短期的线与</p>
+<h2 id="macd_5"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443497&amp;amp;idx=1&amp;amp;sn=ef5b69094a884a41a5b15cca5869312b&amp;amp;chksm=f3c1427bc4b6cb6da78f1bb12bdb29564cda65cce040c263975d918a2f805480cd28504da796&amp;amp;scene=27#wechat_redirect">妙用MACD</a></h2>
+<p>日期：2019-1-24 14:17:46<br />
+今天给大家分享MACD的基本用法，巧用MACD选股方法具体有多少种，相信没有人统计过, 就光选股指标不下千种</p>
+<h2 id="_79"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443491&amp;amp;idx=1&amp;amp;sn=c0c2a457cd832c7364f391d318826683&amp;amp;chksm=f3c14271c4b6cb67a7d852cb534ef157051e05118e36f92760cf5d88b333fa2cd62b3943eb3d&amp;amp;scene=27#wechat_redirect">布林破底，短线可取</a></h2>
+<p>日期：2019-1-23 14:0:0<br />
+布林破底，短线可取：布林线属于路径类指标，由三条线构成：上轨，中轨，下轨。其操作有三个买点，一是跌破下轨的机</p>
+<h2 id="macd_6"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443488&amp;amp;idx=1&amp;amp;sn=f9389f7f0ebd94d2d8feba9474b638aa&amp;amp;chksm=f3c14272c4b6cb6463fb2d3de7b1bdf6e1e40d543d88df9f92f107b4a1459979afd5dc2f9ace&amp;amp;scene=27#wechat_redirect">Macd指标背离用法大全</a></h2>
+<p>日期：2019-1-22 14:0:0<br />
+一、什么是背离背离是指当股价或指数在下跌或上涨过程中不断创新低(高)，而一些技术指标不跟随股价或指数创新低(</p>
+<h2 id="_80"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443485&amp;amp;idx=1&amp;amp;sn=6bdb6c8b88718c6453a84058a878daad&amp;amp;chksm=f3c1424fc4b6cb5900b9173ec35670f9ef20793e689e4c61f5937cd0f654bd14f54f5b8b36fb&amp;amp;scene=27#wechat_redirect">“价格通道”选股法 一买就涨</a></h2>
+<p>日期：2019-1-20 14:0:0<br />
+概念：价格通道是由两条同时向上或者向下的平行线组成分别称为上轨和下轨，其中一条为主趋势线，表示目前价格的运行</p>
+<h2 id="macd_7"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443477&amp;amp;idx=1&amp;amp;sn=a54bfea7cd08ee763bc6347039df567a&amp;amp;chksm=f3c14247c4b6cb514d881dcc3a2b0dcb5c8dcb7b4ac5dcf5351da7f7dd0b37779ceb195b5aac&amp;amp;scene=27#wechat_redirect">运用MACD寻找底部</a></h2>
+<p>日期：2019-1-19 14:0:0<br />
+一、先来看看MACD组成MACD指标由diff线、dea线、MACD红绿柱线和零轴这三线一轴组成。交易者主要</p>
+<h2 id="_81"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443466&amp;amp;idx=1&amp;amp;sn=3c94a19e1cac43a8bebad20eb297bb53&amp;amp;chksm=f3c14258c4b6cb4e78dd5e49732db954cdf8ed54df8eba912e6ea98d0b7f4cd4704dfc7004ac&amp;amp;scene=27#wechat_redirect">股票卖出技巧</a></h2>
+<p>日期：2019-1-18 14:0:0<br />
+一、股票卖出四原则：1、主动杀跌卖出原则。当然这个原则的前提就是在个股连续阴跌，如果主力蓄意做空，说明下跌空</p>
+<h2 id="kdj5"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443463&amp;amp;idx=1&amp;amp;sn=887ccfd8fab54678cd770166ce445aaf&amp;amp;chksm=f3c14255c4b6cb43100e3ee73040d8d01b50e805f37b3cea064ec0088eef25fa67cdb19e8c81&amp;amp;scene=27#wechat_redirect">KDJ5大基本判断原则</a></h2>
+<p>日期：2019-1-17 14:0:0<br />
+【KDJ5大基本判断原则】1、KD都在0～100的区间内波动,50为多空均衡线。如果处在多方市场,50是回档</p>
+<h2 id="_82"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443458&amp;amp;idx=1&amp;amp;sn=fe866feaf1de8216d41afaa5f8fa812d&amp;amp;chksm=f3c14250c4b6cb46fa845b80bef779e63430bf3dd6507e5c555e62d2492142080371a646f50b&amp;amp;scene=27#wechat_redirect">四个阶段：吸筹、洗盘、拉升、出货</a></h2>
+<p>日期：2019-1-16 14:0:0<br />
+1、价升量增在上涨初期，成交量明显放大，表明涨势已定，应及时买进。（比如大资金吸筹完毕，准备拉升股票，当股价</p>
+<h2 id="_83"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443455&amp;amp;idx=1&amp;amp;sn=c2fac5ba86bb359f2832e34358fb29d2&amp;amp;chksm=f3c141adc4b6c8bb8a4e01415b4ab7efec6bf817e5c91de791ae8c7e2484ad1615895f1aa3aa&amp;amp;scene=27#wechat_redirect">对于空头陷阱的识别与判断</a></h2>
+<p>日期：2019-1-15 14:0:0<br />
+对于空头陷阱的识别与判断，主要可以从消息面、资金面、宏观基本面、技术分析和市场人气等五方面进行综合分析和研判</p>
+<h2 id="macd_8"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443452&amp;amp;idx=1&amp;amp;sn=18771e762f2f27001460dee298369efe&amp;amp;chksm=f3c141aec4b6c8b8fb6b6b78435fcb6f030c93b6418b5251e3dc99611c0d6a19e8ef9f9281db&amp;amp;scene=27#wechat_redirect">MACD的红绿柱用法</a></h2>
+<p>日期：2019-1-14 14:0:0<br />
+在股市中先知先觉者大口吃肉，后知后觉者啃点骨头，不知不觉者则必须最后掏钱割肉，这是投资市场中永远颠簸不变的铁</p>
+<h2 id="_84"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443449&amp;amp;idx=1&amp;amp;sn=4deeb78831f813b3f5aae6c86d0cb53e&amp;amp;chksm=f3c141abc4b6c8bdf9e12b3f505a6a321c992f85a0e580d253fd7e722514c72f9eb4d4a74a2c&amp;amp;scene=27#wechat_redirect">运用“天眼地量”战法</a></h2>
+<p>日期：2019-1-13 14:0:0<br />
+周线地量买入法波峰与低谷是一个尖角区域，不要认为是尖角的顶点。地量之后的杀跌和上涨动能取决前坡度的大小和长度</p>
+<h2 id="_85"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443446&amp;amp;idx=1&amp;amp;sn=1efa52eadb7588c150d3fa1a73ae80ff&amp;amp;chksm=f3c141a4c4b6c8b295cb5e6b7b148f8c7a1389fd7bb1b8f79ea47503329dc050387a87769ab5&amp;amp;scene=27#wechat_redirect">从筹码分布识别主力坐庄过程</a></h2>
+<p>日期：2019-1-12 14:13:4  </p>
+<h2 id="bollrsi"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443439&amp;amp;idx=1&amp;amp;sn=44bed08fe5eef89d86f9c3df09fb5b01&amp;amp;chksm=f3c141bdc4b6c8ab24e027bb8bc241803d9358c3fcb5accd03236e4ee8e0847e790f0165b070&amp;amp;scene=27#wechat_redirect">当BOLL遇到RSI会擦出什么火花？</a></h2>
+<p>日期：2019-1-11 14:0:0<br />
+BOLL的用法很简单，当口子变窄时，有大概率迎来变盘；当股价穿越上轨线或下轨线时大概率回调。此时是我们的卖出</p>
+<h2 id="_86"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443428&amp;amp;idx=1&amp;amp;sn=adac363a1aa5a9610deb6662af48a9ea&amp;amp;chksm=f3c141b6c4b6c8a08b9c24c5b13886e920df5bf6b429f088fbb7c92d865764b6f4e09fdd1d5b&amp;amp;scene=27#wechat_redirect">庄家坐庄的过程</a></h2>
+<p>日期：2019-1-10 14:0:0<br />
+华尔街一直有个不成文的说法：“你如果能在股市熬十年，你应能不断赚到钱；你如果熬二十年，你的经验将极有借鉴的价</p>
+<h2 id="_87"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443424&amp;amp;idx=1&amp;amp;sn=d14f29c0b6cef97c882292efabf3891e&amp;amp;chksm=f3c141b2c4b6c8a4d7247d60ee368265e476b87bf00bbc42c9d8683cb31baeb45dbd47ed8825&amp;amp;scene=27#wechat_redirect">分时图量能持续性的问题</a></h2>
+<p>日期：2019-1-9 14:0:0<br />
+1.分时线上股价线运行的波长的问题。正常是上涨时一波比一波长，容易继续涨，下跌时一波比一波短，容易止跌企稳。</p>
+<h2 id="_88"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443420&amp;amp;idx=1&amp;amp;sn=14794fbc3c78fe1ae8f356ae6d9b1c57&amp;amp;chksm=f3c1418ec4b6c898b7fb57eb91c8a1a13a0e22e5172ab475c54b68e2404ab0d51882873b4295&amp;amp;scene=27#wechat_redirect">“横刀立马”回档支撑，阴线买入</a></h2>
+<p>日期：2019-1-8 14:0:0<br />
+首先看流通盘。流通盘千万别太大，一般在5000万股左右比较好，如果是在2000万股左右那就更好了。小盘股有着</p>
+<h2 id="_89"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443417&amp;amp;idx=1&amp;amp;sn=7537d79d4d85924a43b4fd9974e76b6a&amp;amp;chksm=f3c1418bc4b6c89d3d027a34ace752435e6d3991bbeee21bf5afae39f7b40dcec2a9ac50f6d6&amp;amp;scene=27#wechat_redirect">成交量的操盘技巧</a></h2>
+<p>日期：2019-1-7 14:17:28<br />
+今天给大家讲一个可以稳定的获利技术干货——趋势线战法。趋势线，相信大家并不陌生，但是越是简单的东西，大家往往</p>
+<h2 id="_90"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443414&amp;amp;idx=1&amp;amp;sn=4ef76444762b3a9dfb816c9f08681104&amp;amp;chksm=f3c14184c4b6c892fbb412c1e9f5faec5380ca4aec9104b65c22f5b44e22de2a3fd8d1d50840&amp;amp;scene=27#wechat_redirect">庄家如何偷偷吸筹</a></h2>
+<p>日期：2019-1-6 14:0:0<br />
+庄家吸筹的目的就是为了能够低位吸纳足够的廉价筹码，从而达到控盘的目的，为后期启动拉升使筹码不断升值做准备。庄</p>
+<h2 id="_91"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443410&amp;amp;idx=1&amp;amp;sn=edab266165dd49d117d3171a1c654094&amp;amp;chksm=f3c14180c4b6c896744bda2e58692b4025eaff031701303a3e2be845ccde666e7db2dfff3cdc&amp;amp;scene=27#wechat_redirect">成交量选股技巧</a></h2>
+<p>日期：2019-1-5 14:0:0<br />
+“量为价先导”,量是价的先行者,股价的上涨,一定要有量的配合。成交量的放大,意味着换手率的提高,平均持仓成本</p>
+<h2 id="_92"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443404&amp;amp;idx=1&amp;amp;sn=f3adfb0f92fa32c29bc4e3d81f5db063&amp;amp;chksm=f3c1419ec4b6c88833ab993299015fa0aebcbf5edbfe5873687fb6c097ba0dfe7bab57359aba&amp;amp;scene=27#wechat_redirect">骗盘手段</a></h2>
+<p>日期：2019-1-4 14:0:0<br />
+骗盘手段一：向上假突破假突破可谓是市场中出现频率最高的骗盘手段，没有之一。假突破也被称作骗线，通常出现在突破</p>
+<h2 id="_93"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443401&amp;amp;idx=1&amp;amp;sn=a4dc69c8f6513b4a43713546cc850f6f&amp;amp;chksm=f3c1419bc4b6c88d5429fdebf7a790b4d45c358db9d1b2ed4d958523a911dd088cdf4dc0b7d7&amp;amp;scene=27#wechat_redirect">“落日残阳”见顶</a></h2>
+<p>日期：2019-1-3 14:0:0<br />
+1、由一根长阳k线和一根小阳k线，15日均线（黄线）组成。2、长阳k线和小阳k线上影出现最高价（两者其一出现</p>
+<h2 id="_94"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443394&amp;amp;idx=1&amp;amp;sn=a2c7fb13fd1db6aa4d3996ef927d8ee6&amp;amp;chksm=f3c14190c4b6c886fe5526cafe1bbca429ff71b5cca6847e05c61f66d3a65ed5a2c93866b9ab&amp;amp;scene=27#wechat_redirect">凤还巢买入法</a></h2>
+<p>日期：2019-1-2 14:0:0<br />
+选股确实是股市里最头疼的事情，但是也是最重要的事情。炒股有几个重要因素—量、价、时，时即为介入的时间，这是最</p>
+<h2 id="abc"><a href="http://mp.weixin.qq.com/s?__biz=MzIyNjI1OTI2MQ==&amp;amp;mid=2655443383&amp;amp;idx=1&amp;amp;sn=08f88e84a23271e023d27a6d30f25ccb&amp;amp;chksm=f3c141e5c4b6c8f329e9b157a212d5952b2c2044a7ac8bf02e5401832aa753c9dc885a7b2b2c&amp;amp;scene=27#wechat_redirect">低位ABC法则</a></h2>
+<p>日期：2019-1-1 14:0:0<br />
+一、低位ABC法则通过低位ABC法则来把握个股趋势的拐点，再结合其他的技术指标可以判断个股由下跌趋势转向上涨</p></article></body></html>

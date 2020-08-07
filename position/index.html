@@ -136,7 +136,7 @@
                     list.push(number);
                 }
                 const data = computeBook(list);
-                document.getElementById('result').innerHTML = `<p>${data}</p>`;
+                document.getElementById('summary').innerHTML = `<p>${data}</p>`;
                 setHistoryRecord(data);
                 document.getElementById('popover').style.display = 'block';
             });

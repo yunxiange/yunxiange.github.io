@@ -122,9 +122,7 @@
     <div class="popover" id="popover">
         <div class="popover-layer"></div>
         <div class="popover-title">投票仓位统计结果</div>
-        <div class="popover-content" id="summary">
-            <span id="result">0</span>
-        </div>
+        <div class="popover-content" id="summary"></div>
         <div class="popover-foot">
             <button id="popoverBtn" type="button" class="btn btn-default btn-sm">确认</button>
         </div>
@@ -138,7 +136,7 @@
                     list.push(number);
                 }
                 const data = computeBook(list);
-                document.getElementById('result').innerText = data;
+                document.getElementById('result').innerHTML = `<p>${data}</p>`;
                 setHistoryRecord(data);
                 document.getElementById('popover').style.display = 'block';
             });
@@ -151,9 +149,9 @@
             });
             function computeBook(list) {
                 let sum = 0;
-                for (let i = 0; i < list.length; i++) {
-                    sum += list[i];
-                }
+                list.forEach(function(item) {
+                    sum += item;
+                });
                 const weight = [0, 5, 15, 25, 35, 45, 55, 65, 75, 85, 95, 100, 100];
                 let result = 0;
                 list.forEach(function(item, index) {

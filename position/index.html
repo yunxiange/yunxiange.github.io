@@ -150,14 +150,14 @@
                 document.getElementById('popover').style.display = 'block';
             });
             function computeBook(list) {
-                let summary = 0;
-                for (let i = 1; i < list.length; i++) {
-                    summary += list[i];
+                let sum = 0;
+                for (let i = 0; i < list.length; i++) {
+                    sum += list[i];
                 }
                 const weight = [0, 5, 15, 25, 35, 45, 55, 65, 75, 85, 95, 100, 100];
                 let result = 0;
                 list.forEach(function(item, index) {
-                    result += item / summary * weight[index];
+                    result += item / sum * weight[index];
                 });
                 return result.toFixed(2) + '%';
             }

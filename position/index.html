@@ -136,6 +136,9 @@
                     list.push(number);
                 }
                 const data = computeBook(list);
+                if (!data) {
+                    return;
+                }
                 setHistoryRecord(data);
                 displayRecordContent(`<p>${data}</p>`);
                 document.getElementById('popover').style.display = 'block';

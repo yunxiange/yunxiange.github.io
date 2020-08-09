@@ -186,7 +186,7 @@
                 for (let i = len - 1; i >= max; i--) {
                     const key = localStorage.key(i);
                     content += `
-                        <p ondbclick="removeRecode('${key}')">${key}: ${localStorage.getItem(key)}</p>
+                        <p onclick="removeRecode('${key}')">${key}: ${localStorage.getItem(key)}</p>
                     `;
                 }
                 displayRecordContent(content);

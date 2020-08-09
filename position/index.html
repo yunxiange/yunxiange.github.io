@@ -136,15 +136,15 @@
                     list.push(number);
                 }
                 const data = computeBook(list);
-                document.getElementById('summary').innerHTML = `<p>${data}</p>`;
                 setHistoryRecord(data);
+                displayRecordContent(`<p>${data}</p>`);
                 document.getElementById('popover').style.display = 'block';
             });
             document.getElementById('popoverBtn').addEventListener('click', function() {
                 document.getElementById('popover').style.display = 'none';
             });
             document.getElementById('historyBtn').addEventListener('click', function() {
-                document.getElementById('summary').innerHTML = getHistoryRecord();
+                getHistoryRecord();
                 document.getElementById('popover').style.display = 'block';
             });
             function computeBook(list) {
@@ -152,6 +152,10 @@
                 list.forEach(function(item) {
                     sum += item;
                 });
+                if (sum === 0) {
+                    alert('请完善数据再统计');
+                    return;
+                }
                 const weight = [0, 5, 15, 25, 35, 45, 55, 65, 75, 85, 95, 100, 100];
                 let result = 0;
                 list.forEach(function(item, index) {
@@ -170,19 +174,31 @@
             }
             function getHistoryRecord() {
                 const len = localStorage.length;
+                let content = '';
+                if (len === 0) {
+                    displayRecordContent('<p>暂无统计数据～</p>');
+                    return;
+                }
                 let max = len - 5;
                 if (max < 0) {
                     max = 0;
                 }
-                let content = '';
                 for (let i = len - 1; i >= max; i--) {
                     const key = localStorage.key(i);
                     content += `
-                        <p>${key}: ${localStorage.getItem(key)}</p>
+                        <p ondbclick="removeRecode('${key}')">${key}: ${localStorage.getItem(key)}</p>
                     `;
                 }
-                return content;
+                displayRecordContent(content);
             }
+            function displayRecordContent(data) {
+                document.getElementById('summary').innerHTML = data;
+            }
+            function removeRecode(key) {
+                localStorage.removeItem(key);
+                getHistoryRecord();
+            }
+            window.removeRecode = removeRecode;
         })();
     </script>
 </body>

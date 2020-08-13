@@ -6,13 +6,6 @@
     <title>仓位统计</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <style>
-        .popover {
-            position: fixed;
-            width: 200px;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-        }
         .popover-layer {
             position: fixed;
             content: '';
@@ -22,6 +15,13 @@
             bottom: 0;
             background-color: rgba(0, 0, 0, .5);
             z-index: -1;
+        }
+        .popover-wrap {
+            position: fixed;
+            width: 200px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
         .popover-content, .popover-foot {
             background-color: #fff;
@@ -122,10 +122,12 @@
     </form>
     <div class="popover" id="popover">
         <div class="popover-layer"></div>
-        <div class="popover-title">投票仓位统计结果</div>
-        <div class="popover-content" id="summary"></div>
-        <div class="popover-foot">
-            <button id="popoverBtn" type="button" class="btn btn-default btn-sm">确认</button>
+        <div class="popover-wrap">
+            <div class="popover-title">投票仓位统计结果</div>
+            <div class="popover-content" id="summary"></div>
+            <div class="popover-foot">
+                <button id="popoverBtn" type="button" class="btn btn-default btn-sm">确认</button>
+            </div>
         </div>
     </div>
     <script>

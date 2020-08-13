@@ -184,7 +184,9 @@
                     list.push(ret[1]);
                 }
                 list.forEach(function(item, index) {
-                    document.getElementById('input' + (index + 1)).value = item;
+                    if (index < 13) {
+                        document.getElementById('input' + (index + 1)).value = item;
+                    }
                 });
                 document.getElementById('popover2').style.display = 'none';
                 originDataEle.value = '';

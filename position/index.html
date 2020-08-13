@@ -29,6 +29,15 @@
         .popover-foot {
             padding: 10px 0 10px 70px;
         }
+        .paste-area {
+            width: 100%;
+            height: 218px;
+            margin: 0 0 -10px 0;
+            padding: 8px;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #ddd;
+        }
     </style>
 </head>
 <body class="container-fluid">
@@ -126,7 +135,17 @@
             <div class="popover-title">投票仓位统计结果</div>
             <div class="popover-content" id="summary"></div>
             <div class="popover-foot">
-                <button id="popoverBtn" type="button" class="btn btn-default btn-sm">确认</button>
+                <button id="closeBtn" type="button" class="btn btn-default btn-sm">确认</button>
+            </div>
+        </div>
+    </div>
+    <div class="popover" id="popover2">
+        <div class="popover-layer"></div>
+        <div class="popover-wrap">
+            <div class="popover-title">快捷录入数据(粘贴)</div>
+            <textarea class="paste-area" id="originData"></textarea>
+            <div class="popover-foot">
+                <button id="addDataBtn" type="button" class="btn btn-default btn-sm">批量录入</button>
             </div>
         </div>
     </div>
@@ -146,12 +165,29 @@
                 displayRecordContent(`<p>${data}</p>`);
                 document.getElementById('popover').style.display = 'block';
             });
-            document.getElementById('popoverBtn').addEventListener('click', function() {
+            document.getElementById('closeBtn').addEventListener('click', function() {
                 document.getElementById('popover').style.display = 'none';
             });
             document.getElementById('historyBtn').addEventListener('click', function() {
                 getHistoryRecord();
                 document.getElementById('popover').style.display = 'block';
+            });
+            document.getElementById('shortcut').addEventListener('click', function() {
+                document.getElementById('popover2').style.display = 'block';
+            });
+            document.getElementById('addDataBtn').addEventListener('click', function() {
+                const originDataEle = document.getElementById('originData');
+                const regExp = /\b(\d+)票/gm;
+                let list = [];
+                let ret;
+                while(ret = regExp.exec(originDataEle.value)){
+                    list.push(ret[1]);
+                }
+                list.forEach(function(item, index) {
+                    document.getElementById('input' + (index + 1)).value = item;
+                });
+                document.getElementById('popover2').style.display = 'none';
+                originDataEle.value = '';
             });
             function computeBook(list) {
                 let sum = 0;

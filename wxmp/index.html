@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="no-referrer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <title>公众号文章归档</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title-group">
+                <h1>文章列表</h1>
+                <div class="stats" id="stats"></div>
+            </div>
+            <div class="filter-container">
+                <!-- 第一行：搜索 -->
+                <div class="filter-row search-row">
+                    <input type="text" id="searchInput" placeholder="搜索标题...">
+                    <input type="text" id="excludeInput" placeholder="排除关键词(空格分隔)...">
+                </div>
+
+                <!-- 第二行：筛选与视图 -->
+                <div class="filter-row controls-row">
+                    <select id="accountFilter">
+                        <option value="">所有公众号</option>
+                    </select>
+                    
+                    <div class="date-range-group">
+                        <input type="date" id="startDateInput" placeholder="开始日期" title="开始日期">
+                        <span>至</span>
+                        <input type="date" id="endDateInput" placeholder="结束日期" title="结束日期">
+                    </div>
+
+                    <select id="sortFilter">
+                        <option value="desc">时间倒序</option>
+                        <option value="asc">时间正序</option>
+                    </select>
+
+                    <select id="viewModeFilter">
+                        <option value="pages">分页浏览</option>
+                        <option value="scroll">滚动加载</option>
+                    </select>
+                    
+                    <select id="pageSizeFilter">
+                        <option value="20">20 条/页</option>
+                        <option value="50">50 条/页</option>
+                        <option value="100">100 条/页</option>
+                        <option value="200">200 条/页</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div id="articleList" class="article-list">
+            <!-- Articles will be injected here -->
+        </div>
+
+        <div id="loadingIndicator" class="loading-indicator">正在加载第 1 页...</div>
+        <div id="noMoreData" class="no-more-data">没有更多数据了</div>
+        
+        <div id="paginationControls" class="pagination-controls">
+            <button id="btnPrev">上一页</button>
+            <span class="page-info" id="pageInfo">第 1 / 1 页</span>
+            <button id="btnNext">下一页</button>
+        </div>
+    </div>
+
+    <script src="data.js?v=202512311850"></script>
+    <script src="app.js"></script>
+</body>
+</html>
